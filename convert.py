@@ -197,7 +197,8 @@ class DropArea(Gtk.Label):
         if info == TARGET_ENTRY_TEXT:
             text = data.get_text()
             print "Got: %s" % text
-            self.app.convert(re.findall(r'file://(.*)$', text)[0])
+            print data.get_text().split('\r\n')
+            self.app.convert(GLib.filename_from_uri (text)[0])
 
         elif info == TARGET_ENTRY_PIXBUF:
             pixbuf = data.get_pixbuf()
