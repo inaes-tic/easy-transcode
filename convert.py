@@ -26,6 +26,7 @@ class DragDropWindow(Gtk.Window):
         label = Gtk.Label()
         label.set_markup ("<b>Destination: </b>")
         self.filechooser = Gtk.FileChooserButton ()
+        self.filechooser.set_uri ('file://' + os.environ['PWD'])
         self.filechooser.set_title ('Destination Folder')
         self.filechooser.set_action (Gtk.FileChooserAction.SELECT_FOLDER)
 
