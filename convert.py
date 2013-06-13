@@ -127,7 +127,7 @@ class DragDropWindow(Gtk.Window):
         self.dropvbox.set_sensitive(True)
 
     def add_text_targets(self, button=None):
-        self.drop_area.drag_dest_set_target_list(None)
+        self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
         self.drop_area.drag_dest_add_text_targets()
 
     def run(self, command):
