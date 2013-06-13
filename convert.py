@@ -13,7 +13,7 @@ DRAG_ACTION = Gdk.DragAction.COPY
 
 class DragDropWindow(Gtk.Window):
     def __init__(self):
-        Gtk.Window.__init__(self, title="Drag and Drop Demo")
+        Gtk.Window.__init__(self, title="Easy Transcode Tool")
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
