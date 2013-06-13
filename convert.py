@@ -189,6 +189,7 @@ class DragDropWindow(Gtk.Window):
 class DropArea(Gtk.Label):
     def __init__(self, app):
         Gtk.Label.__init__(self, "Drop something on me!")
+        self.set_size_request (300, 200)
         self.app = app
         self.drag_dest_set(Gtk.DestDefaults.ALL, [], DRAG_ACTION)
 
