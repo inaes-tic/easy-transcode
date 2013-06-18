@@ -45,10 +45,12 @@ class DragDropWindow(Gtk.Window):
         self.dropvbox.pack_start(hbox, False, False, 0)
 
         self.soxvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        self.soxvbox.set_no_show_all(True)
         self.soxprogress  = Gtk.ProgressBar()
         self.soxprogress.set_show_text (True)
 
         self.convvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        self.convvbox.set_no_show_all(True)
         self.convprogress = Gtk.ProgressBar()
         self.convprogress.set_show_text (True)
 
@@ -80,6 +82,10 @@ class DragDropWindow(Gtk.Window):
         self.dest_label = Gtk.Label()
         vbox3.pack_start(self.dest_label, False, True, 0)
 
+        self.infobar = Gtk.InfoBar()
+        self.infobar.set_no_show_all(True)
+
+        vbox.pack_start(self.infobar, True, True, 0)
         vbox.pack_start(self.dropvbox, True, True, 0)
         vbox.pack_start(vbox3, False, True, 0)
 
@@ -87,8 +93,6 @@ class DragDropWindow(Gtk.Window):
 
         self.connect("delete-event", Gtk.main_quit)
         self.show_all()
-        self.soxvbox.hide()
-        self.convvbox.hide()
 
     def on_file_set (self, chooser, data=None):
         print 'file ' + chooser.get_filename()
