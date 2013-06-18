@@ -32,6 +32,7 @@ class DragDropWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
 
+        self.set_icon_name ("gtk-sort-ascending")
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
 
