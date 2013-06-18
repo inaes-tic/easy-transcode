@@ -14,7 +14,19 @@ gettext.bindtextdomain("easy-transcode")
 (TARGET_ENTRY_TEXT, TARGET_ENTRY_PIXBUF) = range(2)
 (COLUMN_TEXT, COLUMN_PIXBUF) = range(2)
 
+try:
+    print "got melt from environ: " + os.environ['MELT_BINARY']
+except:
+    os.environ['MELT_BINARY'] = 'melt'
+
 DRAG_ACTION = Gdk.DragAction.COPY
+
+def which(file):
+    for path in os.environ["PATH"].split(":"):
+        if os.path.exists(path + "/" + file):
+                return path + "/" + file
+
+    raise ("ENOENT")
 
 class DragDropWindow(Gtk.Window):
     def __init__(self):
@@ -84,6 +96,13 @@ class DragDropWindow(Gtk.Window):
 
         self.infobar = Gtk.InfoBar()
         self.infobar.set_no_show_all(True)
+        self.infolabel = Gtk.Label()
+        self.infolabel.show()
+        content_area = self.infobar.get_content_area ()
+
+        content_area.add (self.infolabel)
+        self.infobar.add_button (Gtk.STOCK_OK, Gtk.ResponseType.OK)
+        self.infobar.connect ("response", lambda x,y: self.infobar.hide());
 
         vbox.pack_start(self.infobar, True, True, 0)
         vbox.pack_start(self.dropvbox, True, True, 0)
@@ -93,6 +112,18 @@ class DragDropWindow(Gtk.Window):
 
         self.connect("delete-event", Gtk.main_quit)
         self.show_all()
+        self.check_bin()
+
+    def check_bin (self):
+        try:
+            which (os.environ['MELT_BINARY'])
+        except:
+            self.error ("could not find the melt binary")
+
+    def error (self, msg):
+        self.infobar.set_message_type(Gtk.MessageType.ERROR)
+        self.infolabel.set_text(msg)
+        self.infobar.show()
 
     def on_file_set (self, chooser, data=None):
         print 'file ' + chooser.get_filename()
