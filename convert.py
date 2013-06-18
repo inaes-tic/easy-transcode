@@ -1,10 +1,15 @@
 #!/usr/bin/env python
 
-from gi.repository import Gtk, Gdk, GdkPixbuf, GLib
+from gi.repository import Gtk, Gdk, GdkPixbuf, GLib, Pango
 
+import gettext
 import subprocess
 import re
 import os
+
+_ = gettext.gettext
+
+gettext.bindtextdomain("easy-transcode")
 
 (TARGET_ENTRY_TEXT, TARGET_ENTRY_PIXBUF) = range(2)
 (COLUMN_TEXT, COLUMN_PIXBUF) = range(2)
@@ -13,7 +18,7 @@ DRAG_ACTION = Gdk.DragAction.COPY
 
 class DragDropWindow(Gtk.Window):
     def __init__(self):
-        Gtk.Window.__init__(self, title="Easy Transcode Tool")
+        Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
 
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
@@ -24,10 +29,10 @@ class DragDropWindow(Gtk.Window):
 
         hbox  = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=6)
         label = Gtk.Label()
-        label.set_markup ("<b>Destination: </b>")
+        label.set_markup ("<b>" + _("Destination") + ": </b>")
         self.filechooser = Gtk.FileChooserButton ()
         self.filechooser.set_uri ('file://' + os.environ['PWD'])
-        self.filechooser.set_title ('Destination Folder')
+        self.filechooser.set_title (_("Destination Folder"))
         self.filechooser.set_action (Gtk.FileChooserAction.SELECT_FOLDER)
 
         self.filechooser.connect("file-set", self.on_file_set)
@@ -39,13 +44,18 @@ class DragDropWindow(Gtk.Window):
         self.dropvbox.pack_start(self.drop_area, True, True, 0)
         self.dropvbox.pack_start(hbox, False, False, 0)
 
+        self.soxvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.soxprogress  = Gtk.ProgressBar()
         self.soxprogress.set_show_text (True)
+
+        self.convvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.convprogress = Gtk.ProgressBar()
         self.convprogress.set_show_text (True)
 
         self.sox_cmd_label  = Gtk.Label()
+        self.sox_cmd_label.set_property ('ellipsize', Pango.EllipsizeMode.END)
         self.conv_cmd_label = Gtk.Label()
+        self.conv_cmd_label.set_property ('ellipsize', Pango.EllipsizeMode.END)
 
         label = Gtk.Label()
         label.set_markup ('<b>Audio Normalization</b>')
@@ -71,6 +81,11 @@ class DragDropWindow(Gtk.Window):
 
         self.add_text_targets()
 
+        self.connect("delete-event", Gtk.main_quit)
+        self.show_all()
+        self.soxvbox.hide()
+        self.convvbox.hide()
+
     def on_file_set (self, chooser, data=None):
         print 'file ' + chooser.get_filename()
 
@@ -78,6 +93,7 @@ class DragDropWindow(Gtk.Window):
         return self.filechooser.get_filename()
 
     def convert (self, src, dst=None):
+        self.drop_area.start()
         destdir = self.get_dest_dir()
 
         if (dst == None):
@@ -86,12 +102,13 @@ class DragDropWindow(Gtk.Window):
             else:
                 dst = src.strip() + '.m4v'
 
-        self.dropvbox.set_sensitive(False)
+#        self.dropvbox.set_sensitive(False)
         self.dest_label.set_text (dst)
 
         self.src = src
         self.dst = dst
         self.mlt = dst + '.mlt'
+
         proc = self.do_pass1()
         self.then(proc, self.do_pass2)
 
@@ -100,23 +117,33 @@ class DragDropWindow(Gtk.Window):
                 '-filter', 'sox:analysis',
                 '-consumer', 'xml:' + self.mlt.strip(),
                 'video_off=1', 'all=1']
+
         self.convprogress.set_fraction(0);
         self.soxprogress.set_fraction (0);
 
         self.sox_cmd_label.set_text (' ')
         self.sox_cmd_label.set_text (' '.join (prog))
         self.progress = self.soxprogress
+
+        self.soxvbox.show()
+        self.convvbox.hide()
+
         return self.run(prog)
 
     def do_pass2 (self):
         prog = ['melt','-progress', self.mlt.strip(),
                 '-consumer', 'avformat:' + self.dst.strip(),
                 'properties=H.264', 'strict=experimental', 'progressive=1']
+
         self.soxprogress.set_fraction(1);
         self.convprogress.set_fraction(0);
 
         self.conv_cmd_label.set_text (' '.join (prog))
         self.progress = self.convprogress
+
+        self.soxvbox.show()
+        self.convvbox.show()
+
         proc = self.run(prog)
         self.then(proc, self.alldone)
 
@@ -125,6 +152,8 @@ class DragDropWindow(Gtk.Window):
         self.conv_cmd_label.set_text (' ')
         self.convprogress.set_fraction(1);
         self.dropvbox.set_sensitive(True)
+
+        self.drop_area.stop()
 
     def add_text_targets(self, button=None):
         self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
@@ -186,9 +215,17 @@ class DragDropWindow(Gtk.Window):
         if (perc):
             self.progress.set_fraction(perc/100)
 
-class DropArea(Gtk.Label):
+class DropArea(Gtk.Box):
     def __init__(self, app):
-        Gtk.Label.__init__(self, "Drop something on me!")
+        Gtk.Box.__init__(self, orientation=Gtk.Orientation.VERTICAL)
+        self.button = Gtk.Button.new_with_label ("")
+        self.label = self.button.get_child()
+        self.label.set_markup('<b>' + _("Drop something on me!") + '</b>')
+
+        self.spinner = Gtk.Spinner()
+
+        self.pack_start (self.button, True, True, 0)
+
         self.set_size_request (300, 200)
         self.app = app
         self.drag_dest_set(Gtk.DestDefaults.ALL, [], DRAG_ACTION)
@@ -199,18 +236,29 @@ class DropArea(Gtk.Label):
         if info == TARGET_ENTRY_TEXT:
             text = data.get_text()
             print "Got: %s" % text
-            print data.get_text().split('\r\n')
             self.app.convert(GLib.filename_from_uri (text)[0])
+        else:
+            print _("Received something I can't handle")
 
-        elif info == TARGET_ENTRY_PIXBUF:
-            pixbuf = data.get_pixbuf()
-            width = pixbuf.get_width()
-            height = pixbuf.get_height()
+    def start (self):
+        try:
+            self.remove (self.label)
+            self.pack_start (self.spinner, True, True, 0)
+            self.spinner.start()
+            self.spinner.set_visible (True)
+        except:
+            pass
 
-            print "Received pixbuf with width %spx and height %spx" % (width, height)
+    def stop (self):
+        try:
+            self.remove (self.spinner)
+            self.spinner.stop()
+            self.pack_start (self.label, True, True, 0)
+            self.label.set_visible (True)
+        except:
+            pass
+
 
 win = DragDropWindow()
-win.connect("delete-event", Gtk.main_quit)
-win.show_all()
 #win.convert('/home/xaiki/10000.mp4')
 Gtk.main()
