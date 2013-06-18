@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MBC Transcode
+Comment=Little Transcoding Tool
+Exec=mbc-transcode
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=gtk-sort-ascending
+Categories=GNOME;GTK;Utility;Core;

@@ -11,3 +11,6 @@
 
 %:
 	dh $@ 
+
+install:
+	make 

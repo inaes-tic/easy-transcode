@@ -1,10 +1,10 @@
 Source: mbc-transcode
-Section: media
+Section: x11
 Priority: extra
 Maintainer: Niv Sardi <xaiki@debian.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
-Homepage: mbc-playout.com.ar
+Homepage: http://mbc-playout.com.ar
 Vcs-Git: git://github.com/inaes-tic/easytranscode
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/mbc-transcode.git;a=summary
 
