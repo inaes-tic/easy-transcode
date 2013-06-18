@@ -7,9 +7,9 @@ import subprocess
 import re
 import os
 
+gettext.bindtextdomain('easy-transcode')
+gettext.textdomain ('easy-transcode')
 _ = gettext.gettext
-
-gettext.bindtextdomain("easy-transcode")
 
 (TARGET_ENTRY_TEXT, TARGET_ENTRY_PIXBUF) = range(2)
 (COLUMN_TEXT, COLUMN_PIXBUF) = range(2)
