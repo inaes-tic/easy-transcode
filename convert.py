@@ -58,20 +58,24 @@ class DragDropWindow(Gtk.Window):
         self.conv_cmd_label.set_property ('ellipsize', Pango.EllipsizeMode.END)
 
         label = Gtk.Label()
-        label.set_markup ('<b>Audio Normalization</b>')
-        vbox3.pack_start(label, False, True, 0)
-        vbox3.pack_start(self.sox_cmd_label,  False, True, 0)
-        vbox3.pack_start(self.soxprogress,  False, True, 0)
+        label.set_markup ('<b>' + _("Audio Normalization") + '</b>')
+        self.soxvbox.pack_start(label, False, True, 0)
+        self.soxvbox.pack_start(self.sox_cmd_label,  False, True, 0)
+        self.soxvbox.pack_start(self.soxprogress,  False, True, 0)
+
+        vbox3.pack_start(self.soxvbox, False, True, 0)
 
         label = Gtk.Label()
-        label.set_markup ('<b>Transcode</b>')
-        vbox3.pack_start(label, False, True, 0)
-        vbox3.pack_start(self.conv_cmd_label,  False, True, 0)
-        vbox3.pack_start(self.convprogress, False, True, 0)
+        label.set_markup ('<b>' + _("Transcode") + '</b>')
+        self.convvbox.pack_start(label, False, True, 0)
+        self.convvbox.pack_start(self.conv_cmd_label,  False, True, 0)
+        self.convvbox.pack_start(self.convprogress, False, True, 0)
 
-        label = Gtk.Label()
-        label.set_markup ('<b>Destination</b>')
-        vbox3.pack_start(label, False, True, 0)
+        vbox3.pack_start(self.convvbox, False, True, 0)
+
+#        label = Gtk.Label()
+#        label.set_markup ('<b>' + _("Destination") + '</b>')
+#        vbox3.pack_start(label, False, True, 0)
 
         self.dest_label = Gtk.Label()
         vbox3.pack_start(self.dest_label, False, True, 0)
@@ -162,7 +166,7 @@ class DragDropWindow(Gtk.Window):
     def run(self, command):
         import fcntl
 
-        print 'Running: ' + ' '.join (command)
+        print _("Running: ") + ' '.join (command)
         process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
         self.process = process
 
