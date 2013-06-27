@@ -218,6 +218,7 @@ class DragDropWindow(Gtk.Window):
             return True
         if (perc):
             self.drop_area.fraction = perc
+        return True
 
 class DropArea(Gtk.Box):
     def __init__(self, app):
