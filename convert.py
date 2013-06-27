@@ -16,7 +16,7 @@ _ = gettext.gettext
 (TARGET_ENTRY_TEXT, TARGET_ENTRY_PIXBUF) = range(2)
 (COLUMN_TEXT, COLUMN_PIXBUF) = range(2)
 
-active_color = (0.6, 0.6, 1)
+active_color = (0.6, 0.6, 1, 1)
 
 try:
     print "got melt from environ: " + os.environ['MELT_BINARY']
@@ -264,16 +264,18 @@ class DropArea(Gtk.Box):
         selected_color = style.get_color (Gtk.StateFlags.SELECTED)
         insensitive_color = style.get_color (Gtk.StateFlags.BACKDROP)
 
+        current_color = None
         if self.motion:
 #            cr.set_source_rgb (*ps_to_floats(fg_color))
-            cr.set_source_rgb (*active_color)
+            current_color = active_color
         elif self.active:
-            cr.set_source_rgba (*insensitive_color)
+            current_color = insensitive_color
         elif widget.get_state_flags () & Gtk.StateFlags.BACKDROP:
-            cr.set_source_rgba (*text_color)
+            current_color = text_color
         else:
-            cr.set_source_rgba (*selected_color)
+            current_color = selected_color
 
+        cr.set_source_rgba (*current_color)
         cr.save()
         self.draw_dashed_drop(cr)
         cr.restore()
