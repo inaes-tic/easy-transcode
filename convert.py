@@ -40,6 +40,8 @@ class DragDropWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
 
+        self.fail = False
+
         self.set_icon_name ("gtk-sort-ascending")
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
@@ -98,6 +100,7 @@ class DragDropWindow(Gtk.Window):
         self.infobar.set_message_type(Gtk.MessageType.ERROR)
         self.infolabel.set_text(msg)
         self.infobar.show()
+        self.fail = True
 
     def on_file_set (self, chooser, data=None):
         print 'file ' + chooser.get_filename()
@@ -170,6 +173,11 @@ class DragDropWindow(Gtk.Window):
         (handler, proc) = args
 
         if (proc.poll() != None):
+            line = self.process.stderr.read()
+            if re.findall(r'Failed to load', line):
+                print "error"
+                self.error (_("Error: ") + line)
+
             return False
 
         line=''
@@ -189,6 +197,11 @@ class DragDropWindow(Gtk.Window):
         (proc, nextcmd, arg) = args
 
         if (proc.poll() != None):
+            if self.fail:
+                self.fail = False
+                self.drop_area.stop()
+                return False
+
             if (arg):
                 nextcmd(arg)
             else:
