@@ -326,15 +326,15 @@ class DropArea(Gtk.Box):
         radius = corner_radius / aspect;
         degrees = math.pi / 180.0;
 
-        cr.set_line_width (radius*2)
+        cr.set_line_width (6)
         cr.new_sub_path ()
 
-        cr.arc (x + width/2, y + height/2 + radius, radius*2, 0, degrees*360)
+        cr.arc (x + width/2, y + height/2, radius*2, 0, degrees*360)
 
         cr.stroke()
 
-        cr.set_source_rgb (*active_color)
-        cr.arc (x + width/2, y + height/2 + radius, radius*2, 0, self.fraction*degrees*360/100.0)
+        cr.set_source_rgba (*active_color)
+        cr.arc (x + width/2, y + height/2, radius*2, 0, self.fraction*degrees*360/100.0)
 
         cr.stroke()
 
