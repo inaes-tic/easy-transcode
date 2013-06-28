@@ -322,18 +322,25 @@ class DropArea(Gtk.Box):
         radius = corner_radius / aspect;
         degrees = math.pi / 180.0;
 
-        cr.set_line_width (6)
+        start = -math.floor(time.time()*25)
+
+        cr.save()
+        cr.set_line_width (10)
+        cr.set_dash ([10, 10], start)
         cr.new_sub_path ()
 
         cr.arc (x + width/2, y + height/2, radius*2, 0, degrees*360)
 
         cr.stroke()
+        cr.restore()
 
+        cr.save()
+        cr.set_line_width (10)
         cr.set_source_rgba (*active_color)
         cr.arc (x + width/2, y + height/2, radius*2, 0, self.fraction*degrees*360/100.0)
 
         cr.stroke()
-
+        cr.restore()
 
     def on_drag_data_received(self, widget, drag_context, x, y, data, info, time):
         if info == TARGET_ENTRY_TEXT:
