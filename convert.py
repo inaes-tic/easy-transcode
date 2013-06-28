@@ -34,7 +34,7 @@ def which(file):
 
 class XAInfoBar (Gtk.InfoBar):
     def __init__ (self, msgtype = Gtk.MessageType.INFO,
-                  responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, lambda x,y: self.hide()]}):
+                  responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, None]}):
         Gtk.InfoBar.__init__ (self)
 
         self.responses = responses
@@ -47,13 +47,20 @@ class XAInfoBar (Gtk.InfoBar):
         content_area.add (self.label)
         for r in responses.keys():
             self.add_button (responses[r][0], r)
-        self.connect ("response", lambda x,y: self.hide());
+        self.connect ("response", self.response_cb);
 
     def add_response (self, rid, rob):
+        if not self.responses.has_key(rid):
+            self.add_button (rob[0], rid)
         self.responses[rid] = rob
 
-    def response_cb (self, rid):
-        self.responses[rid][2] (rid)
+    def response_cb (self, wid, rid):
+        print "called", self.responses, wid
+        print self.responses[rid]
+        fn = self.responses[rid][1]
+        if fn:
+            fn(rid)
+        self.hide()
 
     def notify (self, msg):
         self.set_message_type(self.msgtype)
@@ -71,13 +78,10 @@ class DragDropWindow(Gtk.Window):
         self.add(vbox)
 
         self.errorbar = XAInfoBar (msgtype = Gtk.MessageType.ERROR)
-        self.infobar = XAInfoBar (msgtype = Gtk.MessageType.INFO,
-                                  responses = {Gtk.ResponseType.OK :[Gtk.STOCK_OPEN,
-                                                                     lambda x,y: self.hide()]})
+        self.infobar = XAInfoBar (msgtype = Gtk.MessageType.INFO)
 
         vbox.pack_start(self.errorbar, True, True, 0)
         vbox.pack_start(self.infobar, True, True, 0)
-
 
         self.drop_area    = DropArea(self)
         self.dropvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
@@ -164,8 +168,13 @@ class DragDropWindow(Gtk.Window):
         self.then(proc, self.alldone)
 
     def alldone (self, arg=None):
+        dst = self.dst
         self.drop_area.stop()
-        self.infobar.notify(_("Transcode complete"))
+        self.infobar.notify(_("Transcode complete: ") + dst)
+        self.infobar.add_response (0,
+                                   [Gtk.STOCK_OPEN,
+                                    lambda x: xdg_open(os.path.dirname(dst))])
+
 
     def add_text_targets(self, button=None):
         self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
