@@ -211,10 +211,12 @@ class DragDropWindow(Gtk.Window):
 
         if (proc.poll() != None):
             line = self.process.stderr.read()
-            if re.findall(r'Failed to load', line):
-                print "error"
-                self.errorbar.notify (_("Error: ") + line)
-                self.fail = True
+            try:
+                if re.findall(r'Failed to load', line):
+                    self.errorbar.notify (_("Error: ") + line)
+                    self.fail = True
+            except:
+                pass
 
             return False
 
