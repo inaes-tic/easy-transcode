@@ -1,1 +1,19 @@
 Probably the Dumbest and Easiest Transcode Tool out-there
+
+* description
+ Easy transcode utility, all formats in, one format out
+
+ this is a small utility used to transcode to a h264/aac stream to ingest
+ into a television playout system. it will call the melt binary on the
+ archive, filter it's audio level and re-encode using the x264 encoding
+ library
+
+* history
+This little tool was written to ease ingest process in the wallkintun
+television channel for the @mbcplayout project
+
+* usage
+./convert.py
+
+* debian package
+git-buildpackage
