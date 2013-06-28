@@ -32,6 +32,34 @@ def which(file):
 
     raise ("ENOENT")
 
+class XAInfoBar (Gtk.InfoBar):
+    def __init__ (self, msgtype = Gtk.MessageType.INFO,
+                  responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, lambda x,y: self.hide()]}):
+        Gtk.InfoBar.__init__ (self)
+
+        self.responses = responses
+        self.msgtype = msgtype
+        self.set_no_show_all(True)
+        self.label = Gtk.Label()
+        self.label.show()
+        content_area = self.get_content_area ()
+
+        content_area.add (self.label)
+        for r in responses.keys():
+            self.add_button (responses[r][0], r)
+        self.connect ("response", lambda x,y: self.hide());
+
+    def add_response (self, rid, rob):
+        self.responses[rid] = rob
+
+    def response_cb (self, rid):
+        self.responses[rid][2] (rid)
+
+    def notify (self, msg):
+        self.set_message_type(self.msgtype)
+        self.label.set_text(msg)
+        self.show()
+
 class DragDropWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
@@ -41,6 +69,15 @@ class DragDropWindow(Gtk.Window):
         self.set_icon_name ("gtk-sort-ascending")
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
+
+        self.errorbar = XAInfoBar (msgtype = Gtk.MessageType.ERROR)
+        self.infobar = XAInfoBar (msgtype = Gtk.MessageType.INFO,
+                                  responses = {Gtk.ResponseType.OK :[Gtk.STOCK_OPEN,
+                                                                     lambda x,y: self.hide()]})
+
+        vbox.pack_start(self.errorbar, True, True, 0)
+        vbox.pack_start(self.infobar, True, True, 0)
+
 
         self.drop_area    = DropArea(self)
         self.dropvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
@@ -66,17 +103,6 @@ class DragDropWindow(Gtk.Window):
         self.dest_label = Gtk.Label()
         vbox3.pack_start(self.dest_label, False, True, 0)
 
-        self.infobar = Gtk.InfoBar()
-        self.infobar.set_no_show_all(True)
-        self.infolabel = Gtk.Label()
-        self.infolabel.show()
-        content_area = self.infobar.get_content_area ()
-
-        content_area.add (self.infolabel)
-        self.infobar.add_button (Gtk.STOCK_OK, Gtk.ResponseType.OK)
-        self.infobar.connect ("response", lambda x,y: self.infobar.hide());
-
-        vbox.pack_start(self.infobar, True, True, 0)
         vbox.pack_start(self.dropvbox, True, True, 0)
         vbox.pack_start(vbox3, False, True, 0)
 
@@ -90,13 +116,8 @@ class DragDropWindow(Gtk.Window):
         try:
             which (os.environ['MELT_BINARY'])
         except:
-            self.error ("could not find the melt binary")
-
-    def error (self, msg):
-        self.infobar.set_message_type(Gtk.MessageType.ERROR)
-        self.infolabel.set_text(msg)
-        self.infobar.show()
-        self.fail = True
+            self.errorbar.notify ("could not find the melt binary")
+            self.fail = True
 
     def on_file_set (self, chooser, data=None):
         print 'file ' + chooser.get_filename()
@@ -144,6 +165,7 @@ class DragDropWindow(Gtk.Window):
 
     def alldone (self, arg=None):
         self.drop_area.stop()
+        self.infobar.notify(_("Transcode complete"))
 
     def add_text_targets(self, button=None):
         self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
@@ -172,7 +194,8 @@ class DragDropWindow(Gtk.Window):
             line = self.process.stderr.read()
             if re.findall(r'Failed to load', line):
                 print "error"
-                self.error (_("Error: ") + line)
+                self.errorbar.notify (_("Error: ") + line)
+                self.fail = True
 
             return False
 
