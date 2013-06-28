@@ -25,10 +25,6 @@ except:
 
 DRAG_ACTION = Gdk.DragAction.COPY
 
-
-def ps_to_floats (c):
-    return (c.red, c.green, c.blue)
-
 def which(file):
     for path in os.environ["PATH"].split(":"):
         if os.path.exists(path + "/" + file):
