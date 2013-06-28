@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from gi.repository import Gtk, Gdk, GdkPixbuf, GLib, Pango
+from gi.repository import Gtk, Gdk, GLib
 
 import gettext
 import subprocess
