@@ -32,6 +32,16 @@ def which(file):
 
     raise ("ENOENT")
 
+def animate (a, b, p):
+    if p <= 0:
+        return a
+    if p >= 1:
+        return b
+    return a - (a - b)*p
+
+def xdg_open (f):
+    return subprocess.Popen(['xdg-open', f])
+
 class XAInfoBar (Gtk.InfoBar):
     def __init__ (self, msgtype = Gtk.MessageType.INFO,
                   responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, None]}):
@@ -256,6 +266,7 @@ class DropArea(Gtk.Box):
         self.motion = False
         self.active = False
         self.fraction = 0
+        self.start_time = 0
 
         self.label = Gtk.Label()
         self.pack_start (self.label, True, True, 0)
@@ -294,7 +305,6 @@ class DropArea(Gtk.Box):
 
         current_color = None
         if self.motion:
-#            cr.set_source_rgb (*ps_to_floats(fg_color))
             current_color = active_color
         elif self.active:
             current_color = insensitive_color
@@ -318,12 +328,25 @@ class DropArea(Gtk.Box):
     def draw_dashed_drop (self, cr):
         x         = 25.6        # parameters like cairo_rectangle 
         y         = 25.6
-        width         = self.get_allocated_width() - 2*x
-        height        = self.get_allocated_height() - 2*y
-        aspect        = 1.0     # aspect ratio 
-        corner_radius = height / 10.0 #   and corner curvature radius
+        w         = self.get_allocated_width()
+        h         = self.get_allocated_height()
 
+        lw        = 6
+
+        aspect        = 1.0     # aspect ratio
+        corner_radius = h / 10.0 #   and corner curvature radius
         radius = corner_radius / aspect;
+
+        now = time.time()
+        drift = now - self.start_time
+#        if self.active:
+#            x  = animate (x, w/2 - radius, drift)
+#            y  = animate (y, h/2 - radius, drift)
+#            lw = animate (lw, 10, drift)
+
+        width     = w - 2*x
+        height    = h - 2*y
+
         degrees = math.pi / 180.0;
 
         dashlen = (height + width)/30.0
@@ -332,7 +355,7 @@ class DropArea(Gtk.Box):
             start = -math.floor(time.time()*25)
 
         cr.set_dash ([dashlen, dashlen], start)
-        cr.set_line_width (6)
+        cr.set_line_width (lw)
 
         cr.new_sub_path ()
         cr.arc (x + width - radius, y + radius, radius, -90 * degrees, 0 * degrees)
@@ -391,6 +414,7 @@ class DropArea(Gtk.Box):
 
     def start (self):
         self.active = True
+        self.start_time = time.time()
         GLib.timeout_add((1/30.)*1000, self.animate)
         self.set_text( _("Processing..."))
         self.set_sensitive (False)
