@@ -52,6 +52,7 @@ class XAInfoBar (Gtk.InfoBar):
         self.msgtype = msgtype
         self.set_no_show_all(True)
         self.label = Gtk.Label()
+        self.label.set_line_warp(True)
         self.label.show()
         content_area = self.get_content_area ()
 
