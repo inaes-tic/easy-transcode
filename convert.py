@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from gi.repository import Gtk, Gdk, GLib
+from gi.repository import Gtk, Gdk, GLib, Pango
 
 import gettext
 import subprocess
@@ -116,6 +116,8 @@ class DragDropWindow(Gtk.Window):
         self.dropvbox.pack_start(hbox, False, False, 0)
 
         self.dest_label = Gtk.Label()
+        self.dest_label.set_property ('ellipsize', Pango.EllipsizeMode.START)
+
         vbox3.pack_start(self.dest_label, False, True, 0)
 
         vbox.pack_start(self.dropvbox, True, True, 0)
