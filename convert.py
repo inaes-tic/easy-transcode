@@ -8,6 +8,7 @@ import re
 import os
 import math
 import time
+import tempfile
 
 gettext.bindtextdomain('easy-transcode')
 gettext.textdomain ('easy-transcode')
@@ -157,7 +158,8 @@ class DragDropWindow(Gtk.Window):
 
         self.src = src
         self.dst = dst
-        self.mlt = dst + '.mlt'
+        (fd, self.mlt) = tempfile.mkstemp('.mlt')
+        fd.close()
 
         proc = self.do_pass1()
         self.then(proc, self.do_pass2)
@@ -182,6 +184,7 @@ class DragDropWindow(Gtk.Window):
 
     def alldone (self, arg=None):
         dst = self.dst
+        os.remove (self.mlt)
         self.drop_area.stop()
         self.infobar.notify(_("Transcode complete: ") + dst)
         self.infobar.add_response (0,
