@@ -73,7 +73,7 @@ class XAInfoBar (Gtk.InfoBar):
         self.msgtype = msgtype
         self.set_no_show_all(True)
         self.label = Gtk.Label()
-        self.label.set_line_warp(True)
+        self.label.set_line_wrap(True)
         self.label.show()
         content_area = self.get_content_area ()
 
@@ -100,7 +100,7 @@ class XAInfoBar (Gtk.InfoBar):
         self.label.set_text(msg)
         self.show()
 
-class DragDropWindow(Gtk.Window):
+class DragDropWindow(Gtk.Window, XAAnimatable):
     def __init__(self):
         Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
         XAAnimatable.__init__(self)
