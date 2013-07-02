@@ -103,6 +103,7 @@ class XAInfoBar (Gtk.InfoBar):
 class DragDropWindow(Gtk.Window):
     def __init__(self):
         Gtk.Window.__init__(self, title=_("Easy Transcode Tool"))
+        XAAnimatable.__init__(self)
 
         self.fail = False
 
@@ -289,15 +290,15 @@ class DragDropWindow(Gtk.Window):
             self.drop_area.fraction = perc
         return True
 
-class DropArea(Gtk.Box):
+class DropArea(XAAnimatable, Gtk.Box):
     def __init__(self, app):
         Gtk.Box.__init__(self, orientation=Gtk.Orientation.VERTICAL)
+        XAAnimatable.__init__(self)
+
 #        self.button = Gtk.Button.new_with_label ("")
 #        self.label = self.button.get_child()
         self.motion = False
-        self.active = False
         self.fraction = 0
-        self.start_time = 0
 
         self.label = Gtk.Label()
         self.pack_start (self.label, True, True, 0)
@@ -311,7 +312,6 @@ class DropArea(Gtk.Box):
         self.connect("drag-data-received", self.on_drag_data_received)
         self.connect("drag-motion", self.drag_begin_cb)
         self.connect("drag-leave", self.drag_leave_cb)
-        self.connect("draw", self.draw_cb)
 
         self.stop()
 
@@ -368,12 +368,10 @@ class DropArea(Gtk.Box):
         corner_radius = h / 10.0 #   and corner curvature radius
         radius = corner_radius / aspect;
 
-        now = time.time()
-        drift = now - self.start_time
 #        if self.active:
-#            x  = animate (x, w/2 - radius, drift)
-#            y  = animate (y, h/2 - radius, drift)
-#            lw = animate (lw, 10, drift)
+#            x  = animate (x, w/2 - radius, self.drift())
+#            y  = animate (y, h/2 - radius, self.drift())
+#            lw = animate (lw, 10, self.drift())
 
         width     = w - 2*x
         height    = h - 2*y
@@ -428,25 +426,11 @@ class DropArea(Gtk.Box):
         cr.stroke()
         cr.restore()
 
-    def on_drag_data_received(self, widget, drag_context, x, y, data, info, time):
-        if info == TARGET_ENTRY_TEXT:
-            text = data.get_text()
-            print "Got: %s" % text
-            self.app.convert(GLib.filename_from_uri (text)[0])
-        else:
-            print _("Received something I can't handle")
-
-    def animate (self):
-        self.queue_draw()
-        return self.active
-
     def set_text (self, text):
         self.label.set_markup('<b><big>' + text + '</big></b>')
 
     def start (self):
-        self.active = True
-        self.start_time = time.time()
-        GLib.timeout_add((1/30.)*1000, self.animate)
+        self.animation_start()
         self.set_text( _("Processing..."))
         self.set_sensitive (False)
 
