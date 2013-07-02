@@ -118,6 +118,14 @@ class DragDropWindow(Gtk.Window):
         vbox.pack_start(self.infobar, True, True, 0)
 
         self.drop_area    = DropArea(self)
+        self.drop_area.store.connect ("row-inserted", self.row_added_cb)
+        self.tree = Gtk.TreeView(self.drop_area.store)
+        self.tree.set_size_request (-1, 400)
+#        self.tree.set_headers_visible (False)
+        renderer = Gtk.CellRendererText()
+        column = Gtk.TreeViewColumn(_("Queue"), renderer, text=0)
+        self.tree.append_column(column)
+
         self.dropvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         vbox3 = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
 
@@ -136,7 +144,17 @@ class DragDropWindow(Gtk.Window):
         hbox.pack_start(label, False, False, 0)
         hbox.pack_start(self.filechooser, True, True, 0)
 
-        self.dropvbox.pack_start(self.drop_area, True, True, 0)
+        scroll = Gtk.ScrolledWindow()
+        scroll.add (self.tree)
+        self.paned = Gtk.Paned(orientation=Gtk.Orientation.VERTICAL)
+        pos = self.drop_area.get_size_request()[0]
+        print "pos", pos
+        self.paned.set_position (pos + 100) # XXX: hack
+        print "pos", self.paned.get_position()
+        self.paned.pack1 (self.drop_area, True, True)
+        self.paned.pack2 (scroll, False, True)
+
+        self.dropvbox.pack_start(self.paned, True, True, 0)
         self.dropvbox.pack_start(hbox, False, False, 0)
 
         self.dest_label = Gtk.Label()
@@ -167,6 +185,7 @@ class DragDropWindow(Gtk.Window):
         return self.filechooser.get_filename()
 
     def convert (self, src, dst=None):
+        src = GLib.filename_from_uri (src)[0]
         self.drop_area.start()
         destdir = self.get_dest_dir()
 
@@ -182,7 +201,8 @@ class DragDropWindow(Gtk.Window):
         self.src = src
         self.dst = dst
         (fd, self.mlt) = tempfile.mkstemp('.mlt')
-        fd.close()
+        print fd, self.mlt
+        os.close(fd)
 
         proc = self.do_pass1()
         self.then(proc, self.do_pass2)
@@ -207,13 +227,26 @@ class DragDropWindow(Gtk.Window):
 
     def alldone (self, arg=None):
         dst = self.dst
-        os.remove (self.mlt)
+        if self.mlt:
+            os.remove (self.mlt)
+            self.mlt = None
+
         self.drop_area.stop()
         self.infobar.notify(_("Transcode complete: ") + dst)
         self.infobar.add_response (0,
                                    [Gtk.STOCK_OPEN,
                                     lambda x: xdg_open(os.path.dirname(dst))])
 
+        GLib.timeout_add (10, self.check_drop_store)
+
+    def check_drop_store (self):
+        store = self.drop_area.store
+        it = store.get_iter_first()
+        v = store.get_value (it, 0)
+        store.remove (it)
+
+        self.convert (v)
+        return False
 
     def add_text_targets(self, button=None):
         self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
@@ -290,6 +323,26 @@ class DragDropWindow(Gtk.Window):
             self.drop_area.fraction = perc
         return True
 
+    def row_added_cb (self, store, pos, ite):
+        print "got:", pos.to_string()
+        if (pos.to_string() == '0'):
+            self.pos = self.paned.get_position()
+            print "pos --- > ", self.pos
+            self.animation_start()
+
+    def draw_cb (self, widget, cr, data=None):
+        if not self.active:
+            return False
+
+        drift = self.drift()*2
+        if drift > 1:
+            self.active = False
+
+        d = animate (self.pos, 200, drift)
+        self.paned.set_position (d)
+
+        return False
+
 class DropArea(XAAnimatable, Gtk.Box):
     def __init__(self, app):
         Gtk.Box.__init__(self, orientation=Gtk.Orientation.VERTICAL)
@@ -303,6 +356,8 @@ class DropArea(XAAnimatable, Gtk.Box):
         self.label = Gtk.Label()
         self.pack_start (self.label, True, True, 0)
 
+        self.store = Gtk.ListStore(str)
+
         self.set_size_request (300, 200)
         self.app = app
         self.drag_dest_set(Gtk.DestDefaults.ALL ^ Gtk.DestDefaults.HIGHLIGHT, [], DRAG_ACTION)
@@ -314,6 +369,17 @@ class DropArea(XAAnimatable, Gtk.Box):
         self.connect("drag-leave", self.drag_leave_cb)
 
         self.stop()
+
+    def on_drag_data_received(self, widget, drag_context, x, y, data, info, time):
+        print "drag received", drag_context, data, info
+        if info == TARGET_ENTRY_TEXT:
+            text = data.get_text().split('\n')
+            self.app.convert(text[0])
+            for u in text[1:]:
+                self.store.append([u])
+        else:
+            print _("Received something I can't handle")
+
 
     def drag_begin_cb (self, widget, context, x, y, time, data=None):
         if (self.motion):
