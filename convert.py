@@ -43,6 +43,27 @@ def animate (a, b, p):
 def xdg_open (f):
     return subprocess.Popen(['xdg-open', f])
 
+class XAAnimatable ():
+    def __init__ (self):
+        self.active = False
+        self.start_time = 0
+        self.connect("draw", self.draw_cb)
+
+    def animate (self):
+        self.queue_draw()
+        return self.active
+
+    def animation_start (self):
+        self.active = True
+        self.start_time = time.time()
+        GLib.timeout_add((1/30.)*1000, self.animate)
+
+    def drift (self):
+        return (time.time() - self.start_time)
+
+    def draw_cb (self, widget, cr, data=None):
+        print "DEFAULT DRAW HANDLER"
+
 class XAInfoBar (Gtk.InfoBar):
     def __init__ (self, msgtype = Gtk.MessageType.INFO,
                   responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, None]}):
