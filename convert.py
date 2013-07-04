@@ -1,14 +1,16 @@
 #!/usr/bin/env python
 
-from gi.repository import Gtk, Gdk, GLib, Pango
+from gi.repository import Gtk, Gdk, GLib, Pango, GObject
 
 import gettext
-import subprocess
-import re
+
 import os
 import math
 import time
-import tempfile
+import subprocess
+
+import Process
+import Melt
 
 gettext.bindtextdomain('easy-transcode')
 gettext.textdomain ('easy-transcode')
@@ -33,13 +35,6 @@ def which(file):
 
     raise ("ENOENT")
 
-def animate (a, b, p):
-    if p <= 0:
-        return a
-    if p >= 1:
-        return b
-    return a - (a - b)*p
-
 def xdg_open (f):
     return subprocess.Popen(['xdg-open', f])
 
@@ -53,23 +48,37 @@ class XAAnimatable ():
         self.queue_draw()
         return self.active
 
-    def animation_start (self):
+    def animate_prop (self, fr, to):
+        drift = self.drift()
+        if (drift > 1):
+            self.active = False
+        if drift <= 0:
+            return fr
+        if drift >= 1:
+            return to
+        return fr - (fr - to)*drift
+
+    def animation_start (self, duration=1):
+        self.duration = duration
         self.active = True
         self.start_time = time.time()
         GLib.timeout_add((1/30.)*1000, self.animate)
 
-    def drift (self):
-        return (time.time() - self.start_time)
+    def drift(self):
+        return (time.time() - self.start_time)/self.duration
 
     def draw_cb (self, widget, cr, data=None):
         print "DEFAULT DRAW HANDLER"
 
 class XAInfoBar (Gtk.InfoBar):
     def __init__ (self, msgtype = Gtk.MessageType.INFO,
-                  responses = {Gtk.ResponseType.OK : [Gtk.STOCK_OK, None]}):
+                  responses = {}):
         Gtk.InfoBar.__init__ (self)
 
-        self.responses = responses
+        self.responses = {0 : [Gtk.STOCK_OK, None]}
+        self.responses.update(responses)
+
+        print self.responses
         self.msgtype = msgtype
         self.set_no_show_all(True)
         self.label = Gtk.Label()
@@ -78,8 +87,8 @@ class XAInfoBar (Gtk.InfoBar):
         content_area = self.get_content_area ()
 
         content_area.add (self.label)
-        for r in responses.keys():
-            self.add_button (responses[r][0], r)
+        for r in self.responses.keys():
+            self.add_button (self.responses[r][0], r)
         self.connect ("response", self.response_cb);
 
     def add_response (self, rid, rob):
@@ -111,20 +120,22 @@ class DragDropWindow(Gtk.Window, XAAnimatable):
         vbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         self.add(vbox)
 
-        self.errorbar = XAInfoBar (msgtype = Gtk.MessageType.ERROR)
-        self.infobar = XAInfoBar (msgtype = Gtk.MessageType.INFO)
-
-        vbox.pack_start(self.errorbar, True, True, 0)
-        vbox.pack_start(self.infobar, True, True, 0)
+        self.infobox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        vbox.pack_start (self.infobox, False, False, 0)
 
         self.drop_area    = DropArea(self)
-        self.drop_area.store.connect ("row-inserted", self.row_added_cb)
-        self.tree = Gtk.TreeView(self.drop_area.store)
-        self.tree.set_size_request (-1, 400)
-#        self.tree.set_headers_visible (False)
-        renderer = Gtk.CellRendererText()
-        column = Gtk.TreeViewColumn(_("Queue"), renderer, text=0)
-        self.tree.append_column(column)
+        self.drop_area.store.connect ("row-inserted", self.row_changed_cb)
+        self.drop_area.store.connect ("row-deleted", self.row_changed_cb)
+        self.queuetree = self.make_tree (_("Queue"), self.drop_area.store)
+
+        self.errorstore = Gtk.ListStore (str)
+        self.errortree  = self.make_tree (_("Errors"), self.errorstore)
+
+        self.successtore = Gtk.ListStore (str)
+        self.successtree = self.make_tree (_("Success"), self.successtore)
+
+        self.procstore = Gtk.ListStore (str)
+        self.proctree = self.make_tree (_("Processing"), self.procstore, rem=False)
 
         self.dropvbox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
         vbox3 = Gtk.Box(orientation=Gtk.Orientation.VERTICAL, spacing=6)
@@ -144,23 +155,34 @@ class DragDropWindow(Gtk.Window, XAAnimatable):
         hbox.pack_start(label, False, False, 0)
         hbox.pack_start(self.filechooser, True, True, 0)
 
-        scroll = Gtk.ScrolledWindow()
-        scroll.add (self.tree)
+        treebox = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        treebox.pack_start (self.proctree, False, True, 0)
+        treebox.pack_start (self.queuetree, False, True, 0)
+        treebox.pack_start (self.successtree, False, True, 0)
+        treebox.pack_start (self.errortree, False, True, 0)
+
+        self.proctree.set_no_show_all (True)
+        self.queuetree.set_no_show_all (True)
+        self.successtree.set_no_show_all (True)
+        self.errortree.set_no_show_all (True)
+
+        treebox.set_size_request (-1, 0)
+#        scroll = Gtk.ScrolledWindow()
+
+#        scroll.add(treebox)
+
         self.paned = Gtk.Paned(orientation=Gtk.Orientation.VERTICAL)
         pos = self.drop_area.get_size_request()[0]
         print "pos", pos
         self.paned.set_position (pos + 100) # XXX: hack
         print "pos", self.paned.get_position()
-        self.paned.pack1 (self.drop_area, True, True)
-        self.paned.pack2 (scroll, False, True)
+#        self.paned.pack1 (self.drop_area, True, False)
+#        self.paned.pack2 (scroll, True, False)
 
-        self.dropvbox.pack_start(self.paned, True, True, 0)
+#        self.dropvbox.pack_start(self.paned, True, True, 0)
+	self.dropvbox.pack_start(self.drop_area, True, True, 0)
+        self.dropvbox.pack_start(treebox, False, True, 0)
         self.dropvbox.pack_start(hbox, False, False, 0)
-
-        self.dest_label = Gtk.Label()
-        self.dest_label.set_property ('ellipsize', Pango.EllipsizeMode.START)
-
-        vbox3.pack_start(self.dest_label, False, True, 0)
 
         vbox.pack_start(self.dropvbox, True, True, 0)
         vbox.pack_start(vbox3, False, True, 0)
@@ -170,6 +192,68 @@ class DragDropWindow(Gtk.Window, XAAnimatable):
         self.connect("delete-event", Gtk.main_quit)
         self.show_all()
         self.check_bin()
+
+
+    def notify (self, msg, t=Gtk.MessageType.INFO, r={0 : [Gtk.STOCK_OK, None]}):
+        infobar = XAInfoBar (msgtype = t, responses = r)
+        self.infobox.pack_end (infobar, True, False, 0)
+        infobar.notify(msg)
+    def convert (self, s):
+        destdir = self.get_dest_dir()
+        self.melt = Melt.Transcode (s, destdir=destdir)
+
+        self.melt.connect ('start',  self.convert_start_cb)
+        self.melt.connect ('finished', self.convert_finished_cb)
+        self.melt.connect ('error',    self.convert_error_cb)
+        self.melt.connect ('success',  self.convert_success_cb)
+        self.melt.connect ('start-audio', lambda o:
+                           self.drop_area.set_text (_("Audio Normalization")))
+        self.melt.connect ('start-video', lambda o:
+                           self.drop_area.set_text (_("Video Transcoding")))
+        self.melt.connect ('progress', lambda o, p: self.drop_area.set_fraction(p))
+
+        self.melt.start()
+
+    def convert_start_cb (self, o, s, d):
+        self.drop_area.start()
+        self.procstore.append ([s])
+        self.proctree.show()
+
+    def convert_finished_cb (self, o, s, d):
+        self.drop_area.stop()
+        self.check_drop_store()
+        self.procstore.remove(self.procstore.get_iter_first())
+
+    def convert_success_cb (self, o, d):
+        self.successtore.append ([d])
+        self.successtree.show()
+
+    def convert_error_cb (self, o, d):
+        self.errorstore.append ([d])
+        self.errortree.show()
+
+    def _convert_success_cb (self, o, d):
+        self.notify (_("Success: ") + d,
+                     r={1: [Gtk.STOCK_OPEN,
+                                 lambda x: xdg_open(os.path.dirname(d))]})
+
+    def _convert_error_cb (self, o, d):
+        self.notify (_("Error: ") + d,
+                     t=Gtk.MessageType.ERROR,
+                     r={2: [Gtk.STOCK_OPEN,
+                          lambda x: self.show_err()]})
+
+    def show_err (self):
+        w = Gtk.Window(title = _("Error Log"))
+        l = Gtk.Label()
+        l.set_line_wrap (True)
+        try:
+            l.set_text (self.melt.errstr)
+        except:
+            return False
+
+        w.add(l)
+        w.show_all()
 
     def check_bin (self):
         try:
@@ -184,161 +268,62 @@ class DragDropWindow(Gtk.Window, XAAnimatable):
     def get_dest_dir (self):
         return self.filechooser.get_filename()
 
-    def convert (self, src, dst=None):
-        src = GLib.filename_from_uri (src)[0]
-        self.drop_area.start()
-        destdir = self.get_dest_dir()
-
-        if (dst == None):
-            if (destdir):
-                dst = destdir + '/' + src.split('/')[-1].strip() + '.m4v'
-            else:
-                dst = src.strip() + '.m4v'
-
-#        self.dropvbox.set_sensitive(False)
-        self.dest_label.set_text (dst)
-
-        self.src = src
-        self.dst = dst
-        (fd, self.mlt) = tempfile.mkstemp('.mlt')
-        print fd, self.mlt
-        os.close(fd)
-
-        proc = self.do_pass1()
-        self.then(proc, self.do_pass2)
-
-    def do_pass1 (self):
-        prog = ['melt','-progress', self.src.strip(),
-                '-filter', 'sox:analysis',
-                '-consumer', 'xml:' + self.mlt.strip(),
-                'video_off=1', 'all=1']
-
-        self.drop_area.set_text (_("Audio Normalization"))
-        return self.run(prog)
-
-    def do_pass2 (self):
-        prog = ['melt','-progress', self.mlt.strip(),
-                '-consumer', 'avformat:' + self.dst.strip(),
-                'properties=H.264', 'strict=experimental', 'progressive=1']
-
-        self.drop_area.set_text (_("Video Transcoding"))
-        proc = self.run(prog)
-        self.then(proc, self.alldone)
-
-    def alldone (self, arg=None):
-        dst = self.dst
-        if self.mlt:
-            os.remove (self.mlt)
-            self.mlt = None
-
+    def next (self):
         self.drop_area.stop()
-        self.infobar.notify(_("Transcode complete: ") + dst)
-        self.infobar.add_response (0,
-                                   [Gtk.STOCK_OPEN,
-                                    lambda x: xdg_open(os.path.dirname(dst))])
-
-        GLib.timeout_add (10, self.check_drop_store)
+        GLib.timeout_add (100, self.check_drop_store)
 
     def check_drop_store (self):
         store = self.drop_area.store
+        if not len(store):
+            return False
+
         it = store.get_iter_first()
         v = store.get_value (it, 0)
         store.remove (it)
 
         self.convert (v)
-        return False
+        return True
 
     def add_text_targets(self, button=None):
         self.drop_area.drag_dest_set_target_list(Gtk.TargetList.new([]))
         self.drop_area.drag_dest_add_text_targets()
 
-    def run(self, command):
-        import fcntl
+    def make_tree (self, name, store, rem=True):
+        tree = Gtk.TreeView (store)
+        renderer = Gtk.CellRendererText()
+        column = Gtk.TreeViewColumn(name, renderer, text=0)
+        tree.append_column(column)
+        store.connect ('row-deleted', self.check_hide, tree)
+        if rem:
+            tree.connect ('row-activated', self.delete_row)
+        return tree
 
-        print _("Running: ") + ' '.join (command)
-        process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        self.process = process
+    def check_hide (self, model, path, tree):
+        if not len(model):
+            tree.hide()
 
-        # make stderr a non-blocking file
-        fd = self.process.stderr.fileno()
-        fl = fcntl.fcntl(fd, fcntl.F_GETFL)
-        fcntl.fcntl(fd, fcntl.F_SETFL, fl | os.O_NONBLOCK)
+    def delete_row (self, tree, path, column):
+        model = tree.get_model()
+        model.remove (model.get_iter(path))
 
-        GLib.timeout_add (200, self.status, [self.update_progress, process])
-
-        return process
-
-    def status (self, args):
-        (handler, proc) = args
-
-        if (proc.poll() != None):
-            try:
-                line = self.process.stderr.read()
-
-                if re.findall(r'Failed to load', line):
-                    self.errorbar.notify (_("Error: ") + line)
-                    self.fail = True
-            except:
-                pass
-
-            return False
-
-        line=''
-        try:
-            line = self.process.stderr.read()
-        except IOError as e:
-            print "I/O error({0}): {1}".format(e.errno, e.strerror)
-        if (line and handler):
-            handler(line)
-
-        return True
-
-    def then (self, proc, command, arg=None):
-        GLib.timeout_add (500, self.check_runing, [proc, command, arg])
-
-    def check_runing (self, args=None):
-        (proc, nextcmd, arg) = args
-
-        if (proc.poll() != None):
-            if self.fail:
-                self.fail = False
-                self.drop_area.stop()
-                return False
-
-            if (arg):
-                nextcmd(arg)
-            else:
-                nextcmd()
-            return False
-
-        return True
-
-    def update_progress (self, line):
-        perc = 0
-        try:
-            perc = float(re.findall(r'percentage:\s+(\d+).$', line)[0])
-        except:
-            return True
-        if (perc):
-            self.drop_area.fraction = perc
-        return True
-
-    def row_added_cb (self, store, pos, ite):
-        print "got:", pos.to_string()
-        if (pos.to_string() == '0'):
+    def row_changed_cb (self, store, pos, ite=None):
+        length = len(store)
+        print "row added", length
+        if length <= 1:
+            self.queuetree.show()
             self.pos = self.paned.get_position()
-            print "pos --- > ", self.pos
+            self.length = length
             self.animation_start()
 
     def draw_cb (self, widget, cr, data=None):
         if not self.active:
             return False
 
-        drift = self.drift()*2
-        if drift > 1:
-            self.active = False
+        dest = 300
+        if self.length:
+            dest = 200
 
-        d = animate (self.pos, 200, drift)
+        d = self.animate_prop (self.pos, dest)
         self.paned.set_position (d)
 
         return False
@@ -370,12 +355,19 @@ class DropArea(XAAnimatable, Gtk.Box):
 
         self.stop()
 
+    def set_fraction (self, f):
+        self.fraction = f
+        self.queue_draw()
+
     def on_drag_data_received(self, widget, drag_context, x, y, data, info, time):
         print "drag received", drag_context, data, info
         if info == TARGET_ENTRY_TEXT:
-            text = data.get_text().split('\n')
-            self.app.convert(text[0])
-            for u in text[1:]:
+            text = data.get_text().splitlines()
+            print "text", text
+            if not len(self.store):
+                self.app.convert(text.pop())
+            for u in text:
+                print "adding:", u
                 self.store.append([u])
         else:
             print _("Received something I can't handle")
@@ -435,9 +427,9 @@ class DropArea(XAAnimatable, Gtk.Box):
         radius = corner_radius / aspect;
 
 #        if self.active:
-#            x  = animate (x, w/2 - radius, self.drift())
-#            y  = animate (y, h/2 - radius, self.drift())
-#            lw = animate (lw, 10, self.drift())
+#            x  = self.animate_prop (x, w/2 - radius)
+#            y  = self.animate_prop (y, h/2 - radius)
+#            lw = self.animate_prop (lw, 10)
 
         width     = w - 2*x
         height    = h - 2*y
@@ -496,14 +488,16 @@ class DropArea(XAAnimatable, Gtk.Box):
         self.label.set_markup('<b><big>' + text + '</big></b>')
 
     def start (self):
+        print "start"
         self.animation_start()
         self.set_text( _("Processing..."))
-        self.set_sensitive (False)
+#        self.set_sensitive (False)
 
     def stop (self):
+        print "stop"
         self.active = False
         self.set_text(_("Drop something on me !"))
-        self.set_sensitive (True)
+ #       self.set_sensitive (True)
 
 win = DragDropWindow()
 #win.convert('/home/xaiki/10000.mp4')
