@@ -1,23 +1,15 @@
 AUTOMAKE_OPTIONS = dist-bzip2
 
-SUBDIRS	= bin pitivi common po tests data help
+SUBDIRS	= bin lib data po
 
-mimedir = $(datadir)/mime/packages
-mime_DATA = pitivi.xml
-
-man_MANS = docs/pitivi.1
-
-EXTRA_DIST = \
+EXTRA_DIST = config.rpath  config.rpath m4/ChangeLog  config.rpath m4/ChangeLog  \
 	ChangeLog \
 	NEWS \
 	AUTHORS \
 	RELEASE \
-	gnome-doc-utils.make \
-    pitivi.xml
-
+	$(NULL)
 
 DISTCLEANFILES =                \
-        gnome-doc-utils.make    \
         intltool-extract        \
         intltool-merge          \
         intltool-update
@@ -43,3 +35,5 @@ clean-local: locale-uninstalled-clean
 
 check-integration:
 	cd tests; make check-integration
+
+ACLOCAL_AMFLAGS = -I m4

@@ -4,6 +4,8 @@ import math
 import time
 import XA
 
+import configure
+
 (TARGET_ENTRY_TEXT, TARGET_ENTRY_PIXBUF) = range(2)
 (COLUMN_TEXT, COLUMN_PIXBUF) = range(2)
 
@@ -20,7 +22,7 @@ class Widget (XA.Animatable, Gtk.Box):
         self.motion = False
         self.fraction = 0
 
-        self.builder.add_from_file ('dropwidget.ui')
+        self.builder.add_from_file (configure.get_ui_dir() + '/dropwidget.ui')
 
         self.label = self.builder.get_object('label')
         self.default_text = self.label.get_text()
@@ -156,7 +158,7 @@ class Window (Gtk.Box, XA.Animatable):
         self.builder = Gtk.Builder()
         self.motion = False
 
-        self.builder.add_from_file ('dropwindow.ui')
+        self.builder.add_from_file (configure.get_ui_dir() + '/dropwindow.ui')
         paned = Gtk.Paned(orientation=Gtk.Orientation.VERTICAL) # self.builder.get_object('paned')
         box = self.builder.get_object('box2')
         paned.unparent ()

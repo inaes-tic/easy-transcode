@@ -4,13 +4,14 @@ sys.path.append('lib')
 
 CONFIGURED_PYTHONPATH = '@CONFIGURED_PYTHONPATH@'
 CONFIGURED_LD_LIBRARY_PATH = '@CONFIGURED_LD_LIBRARY_PATH@'
-CONFIGURED_GST_PLUGIN_PATH = '@CONFIGURED_GST_PLUGIN_PATH@'
 LIBDIR = '@LIBDIR@'
 localedir = ""
 
 from gi.repository import Gtk
 import MBC
 
+import configure
+
 if __name__ == '__main__':
-    mbc = MBC.Transcoder('simple.ui')
+    mbc = MBC.Transcoder(configure.get_ui_dir() + '/simple.ui')
     Gtk.main()

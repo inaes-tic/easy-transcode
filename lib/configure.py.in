@@ -25,7 +25,7 @@ Enables identical use for installed and uninstalled versions.
 
 import os.path
 
-# Again, mostly the same thing as in bin/pitivi.in and pitivi/utils/misc.py:
+# Again, mostly the same thing as in bin/zumo.in and zumo/utils/misc.py:
 def _get_root_dir():
     return '/'.join(os.path.dirname(os.path.abspath(__file__)).split('/')[:-1])
 
@@ -36,7 +36,7 @@ def _in_devel():
 
 LIBDIR = '@LIBDIR@'
 PKGDATADIR = '@DATADIR@/@PACKAGE@'
-pitivi_version = '@VERSION@'
+zumo_version = '@VERSION@'
 APPNAME = '@PACKAGE_NAME@'
 APPURL = 'http://tic.inaes.gob.ar/'
 RELEASES_URL = ''
@@ -47,8 +47,8 @@ APPMANUALURL_ONLINE = 'http://tic.inaes.gob.ar/'
 def get_data_dir():
     if _in_devel():
         datadir = os.path.join(_get_root_dir(), "data")
-    elif os.getenv("PITIVI_TOP_LEVEL_DIR"):
-        top_level = os.getenv("PITIVI_TOP_LEVEL_DIR")
+    elif os.getenv("ZUMO_TOP_LEVEL_DIR"):
+        top_level = os.getenv("ZUMO_TOP_LEVEL_DIR")
         datadir = os.path.join(top_level, "data")
     else:
         datadir = PKGDATADIR

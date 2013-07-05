@@ -5,7 +5,7 @@ data/mbc-zumo.desktop.in.in
 [type: gettext/glade]data/ui/dropwidget.ui
 [type: gettext/glade]data/ui/dropwindow.ui
 [type: gettext/glade]data/ui/simple.ui
-bin/zumo.py
+bin/mbc-zumo
 lib/Melt.py
 lib/Process.py
 lib/MBC.py

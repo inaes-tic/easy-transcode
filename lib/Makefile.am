@@ -1,6 +1,6 @@
-zumodir = $(libdir)/mbc-zumo/python/mbc-zumo
+mbc_zumodir = $(libdir)/mbc-zumo/python/mbc-zumo
 
-mbc-zumo_PYTHON = \
+mbc_zumo_PYTHON = \
 	Drop.py \
 	i18n.py \
 	Melt.py \
