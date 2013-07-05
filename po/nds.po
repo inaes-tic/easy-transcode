@@ -1,0 +1,429 @@
+# Low German translation for pitivi.
+# Copyright (C) 2010 pitivi's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+# Nils-Christoph Fiedler <ncfiedler@gnome.org>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2010-06-15 20:04+0100\n"
+"Last-Translator: Nils-Christoph Fiedler <ncfiedler@gnome.org>\n"
+"Language-Team: Low German <nds-lowgerman@lists.sourceforge.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n !=1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Bislang nix</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Beschrieven:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Fehlerlist"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Fehlerlist"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Erstell un bewark dien eegen Filme"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Pitivi Filmbewarker"
+
+#~ msgid "%s is already running!"
+#~ msgstr "%s lööpt all!"
+
+#~ msgid "PyGTK doesn't have cairo support!"
+#~ msgstr "PyGTK het keene cairo Unnerstütten!"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fehlende plugins:\n"
+#~ "%s"
+
+#~ msgid "No URI specified."
+#~ msgstr "Keene URI ingeven."
+
+#~ msgid "New Project"
+#~ msgstr "Nejes Projekt"
+
+#~ msgid "Video: "
+#~ msgstr "Film:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Ton: "
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d Stunn"
+#~ msgstr[1] "%d Stunnen\t"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d Minuut"
+#~ msgstr[1] "%d Minuuten"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d Sekunn"
+#~ msgstr[1] "%d Sekunnen"
+
+#~ msgid "Playlist format"
+#~ msgstr "Speellistutsehn"
+
+#~ msgid "Name"
+#~ msgstr "Naam"
+
+#~ msgid "Description"
+#~ msgstr "Beschrieven"
+
+#~ msgid "No device available"
+#~ msgstr "Keen Lööpwark verfögbar"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Text:</b> %s"
+
+#~ msgid "No properties..."
+#~ msgstr "Keene Eegenschapten..."
+
+#~ msgid "Choose..."
+#~ msgstr "Wählen..."
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Urhever:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Pluginnaam</b>"
+
+#~ msgid "<b>Properties</b>"
+#~ msgstr "<b>Egenschapten</b>"
+
+#~ msgid "Author"
+#~ msgstr "Urhever"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Ton:</b>"
+
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Instellen</b>"
+
+#~ msgid "<b>Video:</b>"
+#~ msgstr "<b>Film:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Datei wählen"
+
+#~ msgid "Modify"
+#~ msgstr "Ännern"
+
+#~ msgid "Output file:"
+#~ msgstr "Utgavdatei:"
+
+#~ msgid "About %s left"
+#~ msgstr "Över %s över"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Tonutgav</b>"
+
+#~ msgid "<b>Export to</b>"
+#~ msgstr "<b>Utgeven nah</b>"
+
+#~ msgid "Audio Codec"
+#~ msgstr "Ton Codec"
+
+#~ msgid "Audio Codec:"
+#~ msgstr "Ton Codec:"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanäle:"
+
+#~ msgid "Container:"
+#~ msgstr "Container:"
+
+#~ msgid "Depth:"
+#~ msgstr "Deepe:"
+
+#~ msgid "Height:"
+#~ msgstr "Höhe:"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+
+#~ msgid "Settings"
+#~ msgstr "Instellen"
+
+#~ msgid "Width:"
+#~ msgstr "Brede:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Custom"
+#~ msgstr "Eegen"
+
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "Properties for %s"
+#~ msgstr "Eegenschapten för %s"
+
+#~ msgid "Unlink"
+#~ msgstr "Verknüppen löschen"
+
+#~ msgid "Link"
+#~ msgstr "Verknüppen"
+
+#~ msgid "Ungroup"
+#~ msgstr "Grupp oplösen"
+
+#~ msgid "Group"
+#~ msgstr "Grupp"
+
+#~ msgid "_Redo"
+#~ msgstr "_Wedderholen"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Plugins..."
+
+#~ msgid "_Preferences"
+#~ msgstr "_Instellen"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informatschoon över %s"
+
+#~ msgid "_File"
+#~ msgstr "_Datei"
+
+#~ msgid "_Edit"
+#~ msgstr "_Bewarken"
+
+#~ msgid "_View"
+#~ msgstr "_Ansicht"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekt"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Tiedreeg"
+
+#~ msgid "Previe_w"
+#~ msgstr "Ut_blick"
+
+#~ msgid "Loop"
+#~ msgstr "Schliepe"
+
+#~ msgid "_Help"
+#~ msgstr "_Hölp"
+
+#~ msgid "Open File..."
+#~ msgstr "Datei opmaken..."
+
+#~ msgid "Save As..."
+#~ msgstr "Spiekern as..."
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Vun alleen rutfinnen"
+
+#~ msgid "Address"
+#~ msgstr "Anskrivt"
+
+#~ msgid "Close"
+#~ msgstr "Sluten"
+
+#~ msgid "Customize:"
+#~ msgstr "Anpassen:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Preview"
+#~ msgstr "Utblick"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokoll"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Search:"
+#~ msgstr "Sök:"
+
+#~ msgid "Show:"
+#~ msgstr "Schau:"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Category"
+#~ msgstr "Rebeet"
+
+#~ msgid "Preferences"
+#~ msgstr "Instellen"
+
+#~ msgid "Section"
+#~ msgstr "Rebeet"
+
+#~ msgid "Reset"
+#~ msgstr "Torüggsetten"
+
+#~ msgid "Appearance"
+#~ msgstr "Utsehn"
+
+#~ msgid "Description:"
+#~ msgstr "Beschrieven:"
+
+#~ msgid "Name:"
+#~ msgstr "Naam:"
+
+#~ msgid "Screencast"
+#~ msgstr "Billschirmopnahm"
+
+#~ msgid "Information"
+#~ msgstr "Informatschoon"
+
+#~ msgid "Duration"
+#~ msgstr "Düür"
+
+#~ msgid "Import a folder"
+#~ msgstr "Verteknis infögen"
+
+#~ msgid "Zoom In"
+#~ msgstr "Gröter maken"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Lütter maken"
+
+#~ msgid "Behavior"
+#~ msgstr "Verhollen"
+
+#~ msgid "Selection Color"
+#~ msgstr "Utwahlklöör"

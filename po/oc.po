@@ -1,0 +1,310 @@
+# Translation of oc.po to Occitan
+# Occitan translation of pitivi.
+# Copyright (C) 2006-2007 THE pitivi'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+#
+# Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008
+msgid ""
+msgstr ""
+"Project-Id-Version: oc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2007-12-29 15:35+0100\n"
+"Last-Translator: Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>\n"
+"Language-Team: Occitan <ubuntu-l10n-oci@lists.ubuntu.com>\n"
+"Language: oc\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Propietats</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Description :</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+msgid "Error: "
+msgstr ""
+
+#: ../lib/MBC.py:100
+msgid "Error Log"
+msgstr ""
+
+#~ msgid "<b>%s</b><small>"
+#~ msgstr "<b>%s</b><small>"
+
+#~ msgid "<b>%s</b> (%s)"
+#~ msgstr "<b>%s</b> (%s)"
+
+#~ msgid "<b>%s</b>"
+#~ msgstr "<b>%s</b>"
+
+#~ msgid "<small><b>File:</b> %s"
+#~ msgstr "<small><b>Fichièr :</b> %s"
+
+#~ msgid "New Project"
+#~ msgstr "Projècte novèl"
+
+#~ msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgstr "<b>Imatge :</b> %d x %d <i>pixels</i>"
+
+#~ msgid " <i>(%s)</i>"
+#~ msgstr " <i>(%s)</i>"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Tèxt :</b> %s"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Description"
+#~ msgstr "Descripcion"
+
+#~ msgid "gtk-close"
+#~ msgstr "gtk-close"
+
+#, fuzzy
+#~ msgid "Properties For: %d objects"
+#~ msgstr "Propietats de "
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Autor :</b>"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Paramètres</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Causissètz un fichièr"
+
+#~ msgid "Modify"
+#~ msgstr "Modificar"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Export to</b>"
+#~ msgstr "<b>Exportar dins</b>"
+
+#~ msgid "Channels:"
+#~ msgstr "Canals :"
+
+#~ msgid "Depth:"
+#~ msgstr "Prigondor :"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Encastre"
+
+#~ msgid "Height:"
+#~ msgstr "Nautor :"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mòno (1)\n"
+#~ "Esterèo (2)"
+
+#~ msgid "Settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Width:"
+#~ msgstr "Largor :"
+
+#~ msgid "Export settings"
+#~ msgstr "Paramètres"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Rason desconeguda"
+
+#~ msgid "URI : "
+#~ msgstr "URI : "
+
+#~ msgid "Problem : "
+#~ msgstr "Problèma : "
+
+#~ msgid "Properties for "
+#~ msgstr "Propietats de "
+
+#~ msgid "Create a new project"
+#~ msgstr "Crear un projècte novèl"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Dobrir un projècte existent"
+
+#~ msgid "Project settings"
+#~ msgstr "Paramètres de projècte"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Modificar los paramètres del projècte"
+
+#~ msgid "Information about %s"
+#~ msgstr "Entresenhas a prepaus de %s"
+
+#~ msgid "_File"
+#~ msgstr "_Fichièr"
+
+#~ msgid "_Edit"
+#~ msgstr "_Edicion"
+
+#~ msgid "_View"
+#~ msgstr "_Visualizacion"
+
+#~ msgid "_Help"
+#~ msgstr "_Ajuda"
+
+#~ msgid "Open File ..."
+#~ msgstr "Dobrir un fichièr..."
+
+#~ msgid "Save As..."
+#~ msgstr "Enregistrar coma..."
+
+#~ msgid "Close"
+#~ msgstr "Tampar"
+
+#~ msgid "All categories"
+#~ msgstr "Totas las categorias"
+
+#~ msgid "Enabled"
+#~ msgstr "Activat"
+
+#~ msgid "Plugin"
+#~ msgstr "Ajuston"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Impossible de suprimir %s"
+
+#~ msgid "Cannot install %s\n"
+#~ msgstr "Impossible d'installar %s\n"
+
+#~ msgid "A short description of your project."
+#~ msgstr "Una descripcion corta de vòstre projècte."
+
+#~ msgid "Description:"
+#~ msgstr "Descripcion :"
+
+#~ msgid "Name:"
+#~ msgstr "Nom :"
+
+#~ msgid "Project Settings"
+#~ msgstr "Paramètres de projècte"
+
+#~ msgid "The name of your project."
+#~ msgstr "Lo nom de vòstre projècte."
+
+#~ msgid "Icon"
+#~ msgstr "Icòna"
+
+#~ msgid "Information"
+#~ msgstr "Entresenhas"
+
+#~ msgid "Duration"
+#~ msgstr "Durada"
+
+#~ msgid "Import a folder"
+#~ msgstr "Importar un repertòri"
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "Propietats de "
+
+#~ msgid "Empty"
+#~ msgstr "Void"
+
+#~ msgid "Advanced vie_w"
+#~ msgstr "Visuali_zacion avançada"
+
+#~ msgid "Done"
+#~ msgstr "Terminat"
+
+#~ msgid "Cancel"
+#~ msgstr "Anullar"
+
+#~ msgid "Start"
+#~ msgstr "Aviar"
+
+#~ msgid "End"
+#~ msgstr "Fin"
+
+#~ msgid "Remove"
+#~ msgstr "Suprimir"
+
+#~ msgid "Edit"
+#~ msgstr "Edicion"
+
+#~ msgid "Effect"
+#~ msgstr "Efièch"
+
+#~ msgid "Sound"
+#~ msgstr "Son"
+
+#~ msgid "Cut"
+#~ msgstr "Talhar"
+
+#~ msgid "gtk-about"
+#~ msgstr "gtk-about"
+
+#~ msgid "gtk-delete"
+#~ msgstr "gtk-delete"
+
+#~ msgid "gtk-preferences"
+#~ msgstr "gtk-preferences"

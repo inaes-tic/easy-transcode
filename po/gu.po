@@ -1,0 +1,78 @@
+# translation of gu.po to Gujarati
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ankit Patel <ankit@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2009-04-07 14:02+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+msgid "<b>Destination:</b>"
+msgstr ""
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+msgid "Error: "
+msgstr ""
+
+#: ../lib/MBC.py:100
+msgid "Error Log"
+msgstr ""
+
+#~ msgid "%s is already running!"
+#~ msgstr "%s એ પહેલાથી જ ચાલી રહ્યું છે!"
+
+#~ msgid "PyGTK doesn't have Cairo support!"
+#~ msgstr "PyGTK ને Cairo નો આધાર નથી!"

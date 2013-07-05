@@ -1,0 +1,2019 @@
+# Greek translation of PiTiVi.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PiTiVi package.
+#
+# Simos Xenitellis <simos@gnome.org>, 2006.
+# Dimitris Tsiolis <dimits7@gmail.com>, 2010.
+# Panagiotis Papadopoulos <panpapadopoulos01@gmail.com>, 2011.
+# Giannis Konstantinidis <giankonstantinidis@gmail.com>, 2011.
+# Efstathios Iosifidis <diamond_gr@freemail.gr>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-06-14 01:04+0200\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: Ελληνικά, Σύγχρονα <opensuse-translation-el@opensuse.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Τίποτε ακόμα</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Διάρκεια</b>: %s"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+#, fuzzy
+msgid "Video Transcoding"
+msgstr "Κόντεκ βίντεο"
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Λίστα σφαλμάτων"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Λίστα σφαλμάτων"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Επεξεργαστής βίντεο Pitivi"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Δημιουργήστε και επεξεργαστείτε τις δικές σας ταινίες"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Εκκίνηση αυτόματης-ευθυγράμμισης"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>Εκτέλεση αυτόματης-ευθυγράμμισης</big></b>"
+
+#~ msgid "Estimating..."
+#~ msgstr "Εκτίμιση..."
+
+#~ msgid "Clip Properties"
+#~ msgstr "Ιδιότητες του κλιπ"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Ακύρωση"
+
+#~| msgid "<b>Size (Pixels)</b>"
+#~ msgid "Size (pixels):"
+#~ msgstr "Μέγεθος (εικονοστοιχεία)"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Ρυθμός καρέ:"
+
+#, fuzzy
+#~| msgid "Pixel Aspect Ratio"
+#~ msgid "Pixel aspect ratio:"
+#~ msgstr "Λόγος Αναλογίας Εικονοστοιχείων"
+
+#~ msgid "Video:"
+#~ msgstr "Βίντεο:"
+
+#~ msgid "Channels:"
+#~ msgstr "Κανάλια:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Ρυθμός δειγματοληψίας:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Βάθος δείγματος:"
+
+#~ msgid "Audio:"
+#~ msgstr "Ήχος: "
+
+#, fuzzy
+#~| msgid "<b>Viewer Zoom</b>"
+#~ msgid "Viewer Zoom"
+#~ msgstr "<b>Εστίαση Προβολής</b>"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#~| msgid "<b>Position</b>"
+#~ msgid "Position"
+#~ msgstr "Τοποθεσία"
+
+#~ msgid "Width:"
+#~ msgstr "Πλάτος:"
+
+#~ msgid "Height:"
+#~ msgstr "Ύψος:"
+
+#~ msgid "Size"
+#~ msgstr "Μέγεθος"
+
+#~| msgid "Group"
+#~ msgid "Crop"
+#~ msgstr "Περικοπή"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Ελλειπείς Εξαρτήσεις"
+
+#~ msgid "Install"
+#~ msgstr "Εγκατάσταση"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Για να ενεργοποιήσετε επιπλέον χαρακτηριστικά, παρακαλούμε εγκαταστήστε "
+#~ "τα παρακάτω πακέτα και επανεκκινήστε το PiTiVi:"
+
+#~ msgid "label"
+#~ msgstr "ετικέτα"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Ιδιότητες για το <element>"
+
+#~ msgid "Preferences"
+#~ msgstr "Προτιμήσεις"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Section"
+#~ msgstr "Ενότητα"
+
+#~| msgid "<b>Some changes will not take effect until you restart PiTiVi</b>"
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr ""
+#~ "Μερικές αλλαγές δεν θα εφαρμοστούν έως ότου επανεκκινήσετε το PiTiVi"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Επαναφορά στις Εργοστασιακές Ρυθμίσεις"
+
+#~ msgid "Revert"
+#~ msgstr "Αναστροφή"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Πρότυπο (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "PAL Πρότυπο"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 FPS"
+
+#~ msgid "Project Settings"
+#~ msgstr "Ρυθμίσεις έργου"
+
+#~| msgid "<b>Video Preset</b>"
+#~ msgid "Video Preset"
+#~ msgstr "Προεπιλογή Βίντεο"
+
+#~| msgid "Pixel Aspect Ratio"
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Λόγος αναλογίας:"
+
+#~| msgid "Display Aspect Ratio"
+#~ msgid "Display aspect ratio"
+#~ msgstr "Λόγος Αναλογίας Προβολής"
+
+#, fuzzy
+#~| msgid "Pixel Aspect Ratio"
+#~ msgid "Pixel aspect ratio"
+#~ msgstr "Λόγος Αναλογίας Εικονοστοιχείων"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Σύνδεση"
+
+#~| msgid "Frame rate:"
+#~ msgid "Frame Rate:"
+#~ msgstr "Ρυθμός καρέ:"
+
+#~ msgid "Video"
+#~ msgstr "Βίντεο"
+
+#~| msgid "<b>Audio Preset</b>"
+#~ msgid "Audio Preset"
+#~ msgstr "Προεπιλογή ήχου"
+
+#~| msgid "Framerate"
+#~ msgid "Format"
+#~ msgstr "Μορφή"
+
+#~ msgid "Audio"
+#~ msgstr "Ήχος"
+
+#~ msgid "Author:"
+#~ msgstr "Δημιουργός:"
+
+#~ msgid "Year:"
+#~ msgstr "Έτος:"
+
+#~ msgid "Project title:"
+#~ msgstr "Τίτλος έργου:"
+
+#~ msgid "Info"
+#~ msgstr "Πληροφορίες"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 fps"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 κανάλια (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Αποτύπωση"
+
+#, fuzzy
+#~| msgid "<b>Render Preset</b>"
+#~ msgid "Render Preset"
+#~ msgstr "<b>Προεπιλογή Αποτύπωσης</b>"
+
+#~ msgid "Folder"
+#~ msgstr "Φάκελος"
+
+#~ msgid "Container format"
+#~ msgstr "Μορφή περιεχομένου"
+
+#~ msgid "Container format:"
+#~ msgstr "Μορφή περιεχομένου:"
+
+#~ msgid "Folder:"
+#~ msgstr "Φάκελος:"
+
+#~ msgid "File name:"
+#~ msgstr "Όνομα αρχείου:"
+
+#~ msgid "File name"
+#~ msgstr "Όνομα αρχείου"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Αποτυπώστε μόνο τα επιλεγμένα κλιπ"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Σχέδιο (χωρίς ειδικά εφέ, απλό πέρασμα)"
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Advanced..."
+#~ msgstr "Προχωρημένα..."
+
+#~ msgid "Codec:"
+#~ msgstr "Codec:"
+
+#~ msgid "Framerate"
+#~ msgstr "Ρυθμός καρέ:"
+
+#~ msgid "Scale"
+#~ msgstr "Κλίμακα"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Ύψος"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Επεξεργασία ρυθμίσεων έργου..."
+
+#~ msgid "Scale:"
+#~ msgstr "Κλίμακα:"
+
+#~| msgid "Enabled"
+#~ msgid "Enable video"
+#~ msgstr "Ενεργοποίηση βίντεο"
+
+#~| msgid "Enabled"
+#~ msgid "Enable audio"
+#~ msgstr "Ενεργοποίηση ήχου"
+
+#~ msgid "Rendering"
+#~ msgstr "Αποτύπωση"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>Αποτύπωση ταινίας</big></b>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Άγνωστα Mib"
+
+#~ msgid "Unknown"
+#~ msgstr "Άγνωστο"
+
+#, fuzzy
+#~| msgid "Encoding first pass"
+#~ msgid "Rendering first pass"
+#~ msgstr "Κωδικοποίηση του πρώτου περάσματος"
+
+#~| msgid "<b>Estimated filesize:</b>"
+#~ msgid "Estimated filesize:"
+#~ msgstr "Εκτιμώμενο μέγεθος αρχείου:"
+
+#~| msgid "<b>Frames per second:</b>"
+#~ msgid "Frames per second:"
+#~ msgstr "Καρέ ανά δευτερόλεπτο:"
+
+#~| msgid "Pause"
+#~ msgid "Phase:"
+#~ msgstr "Φάση:"
+
+#~| msgid "Estimating..."
+#~ msgid "Initializing..."
+#~ msgstr "Αρχικοποίηση..."
+
+#~ msgid "Welcome"
+#~ msgstr "Καλωσορίσατε"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Διπλό-κλικ σε ένα έργο για να το φορτώσετε:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Αναζήτηση έργων..."
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Ελλειπείς εξαρτήσεις..."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Υπάρχει ήδη ένα στιγμιότυπο του %s, παρακαλούμε ενημερώστε τους "
+#~ "προγραμματιστές υποβάλοντας μια αναφορά σφάλματος στο http://bugzilla."
+#~ "gnome.org/enter_bug.cgi?product=pitivi"
+
+#~| msgid ""
+#~| "\n"
+#~| "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~| "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~| "project.\n"
+#~| "    %prog PROJECT_FILE -r OUTPUT_FILE  # Render a project.\n"
+#~| "    %prog PROJECT_FILE -p              # Preview a project."
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Ξεκινήστε το πρόγραμμα "
+#~ "επεξεργασίας βίντεο.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Ξεκινήστε το πρόγραμμα "
+#~ "επεξεργασίας βίντεο και δημιουργήστε ένα έργο."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Εισαγωγή κάθε MEDIA_FILE στο έργο."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr "Προσθήκη κάθε MEDIA_FILE στη γραμμή χρόνου μετά την εισαγωγή."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Εκτέλεση του pitivi στον Python Debugger."
+
+#~ msgid "-a requires -i"
+#~ msgstr "το -a απαιτεί το -i"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Αδυναμία ανοίγματος περισσότερων από ένα PROJECT_FILE"
+
+#~ msgid "%s is already running"
+#~ msgstr "Το %s εκτελείται ήδη"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Ένα στιγμιότυπο του %s εκτελείται ήδη σε αυτό το script."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "Αδυναμία εύρεσης των προσθέτων του GNonLin"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Σιγουρευτείτε ότι τα πρόσθετα εγκαταστάθηκαν και είναι διαθέσιμα στη "
+#~ "διαδρομή πρόσθετων του GStreamer."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Δεν ήταν δυνατό να βρεθούν τα πρόσθετα αυτόματου εντοπισμού"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Σιγουρευτείτε ότι έχετε εγκαταστήσει το πακέτο gst-plugins-good και οτι "
+#~ "είναι διαθέσιμο στη διαδρομή πρόσθετων του GStreamer."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "Το PyGTK δεν υποστηρίζει το cairo"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Παρακαλούμε χρησιμοποιήστε μια έκδοση των δεσμών GTK+ Python με "
+#~ "υποστήριξη cairo."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Δεν ήταν δυνατή η έναρξη των πρόσθετων εξόδου βίντεο και ήχου"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "Σιγουρευτείτε ότι έχετε διαθέσιμο τουλάχιστον έναν έγκυρο δέκτη βίντεο "
+#~ "(xvimagesink ή ximagesink)"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Δεν ήταν δυνατή η έναρξη των πρόσθετων εξόδου ήχου"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "Σιγουρευτείτε ότι έχετε διαθέσιμο τουλάχιστον έναν έγκυρο δέκτη ήχου "
+#~ "(alsasink ή osssink)"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή των δεσμών cairo Python"
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr "Σιγουρευτείτε ότι έχετε εγκαταστήσει τους δεσμούς cairo Python"
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή των δεσμών goocanvas Python"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr "Σιγουρευτείτε ότι έχετε εγκαταστήσει τους δεσμούς goocanvas Python"
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή της βιβλιοθήκης xdg Python"
+
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr "Σιγουρευτείτε ότι έχετε εγκαταστήσει τη βιβλιοθήκη xdg Python."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε μια αρκετά πρόσφατη έκδοση των δεσμών GTK+ Python (η έκδοσή σας "
+#~ "είναι %s)"
+
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr ""
+#~ "Εγκαταστήστε μια έκδοση των δεσμών GTK+ Python μεγαλύτερη ή ίση της %s"
+
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε μια αρκετά πρόσφατη έκδοση του GTK+ (η έκδοση σας είναι η %s)"
+
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr "Εγκαταστήστε μια έκδοση του GTK+ μεγαλύτερη ή ίση με %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε μια αρκετά πρόσφατη έκδοση των δεσμών GStreamer Python (η "
+#~ "έκδοση σας είναι η %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Εγκαταστήστε μια έκδοση των δεσμών GStreamer Python μεγαλύτερη ή ίση της "
+#~ "%s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε αρκετά πρόσφατη έκδοση του Gstreamer (η έκδοση σας είναι η %s)"
+
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr "Εγκαταστήστε μια έκδοση του GStreamer μεγαλύτερη ή ίση με την %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε μια αρκετά πρόσφατη έκδοση των δεσμών cairo Python (η έκδοση "
+#~ "σας είναι η %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr ""
+#~ "Εγκαταστήστε μια έκδοση των δεσμών cairo Python μεγαλύτερη ή ίση της %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Δεν έχετε μια αρκετά πρόσφατη έκδοση του πρόσθετου GNonLin GStreamer (η "
+#~ "έκδοση σας είναι η %s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Εγκαταστήστε μια έκδοση του πρόσθετου GNonLin GStreamer μεγαλύτερη ή ίση "
+#~ "της %s"
+
+#, fuzzy
+#~| msgid "Could not import the distutils modules"
+#~ msgid "Could not import GStreamer Editing Services "
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή των αρθρωμάτων distutils"
+
+#, fuzzy
+#~| msgid "Make sure you have the cairo Python bindings installed."
+#~ msgid "Make sure you have GStreamer Editing Services installed."
+#~ msgstr "Σιγουρευτείτε ότι έχετε εγκαταστήσει τους δεσμούς cairo Python"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή του αρθρώματος διεπαφής Zope"
+
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Σιγουρευτείτε οτι έχετε εγκαταστήσει το άρθρωμα zope.interface"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή των αρθρωμάτων distutils"
+
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr "Σιγουρευτείτε ότι έχετε εγκαταστήσει το άρθρωμα distutils python"
+
+#~ msgid "Enables the autoalign feature"
+#~ msgstr "Ενεργοποιεί το χαρακτηριστικό αυτόματης ευθυγράμμισης"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Επιπλέον βίντεο εφέ"
+
+#~ msgid "Additional multimedia codecs through the FFmpeg library"
+#~ msgstr "Επιπλέον κώδικες πολυμέσων μέσω της βιβλιοθήκης FFmpeg"
+
+#~ msgid "Remove effect"
+#~ msgstr "Αφαίρεση εφέ"
+
+#~ msgid "Activated"
+#~ msgstr "Ενεργοποιημένο"
+
+#~ msgid "Type"
+#~ msgstr "Τύπος"
+
+#~ msgid "Effect name"
+#~ msgstr "Όνομα εφέ"
+
+#~ msgid "Effects"
+#~ msgstr "Εφέ"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Επιλέξτε ένα κλιπ στη λωρίδα χρόνου για να ρυθμίσετε τις σχετικές "
+#~ "επιπτώσεις της"
+
+#~ msgid "Transformation"
+#~ msgstr "Μεταμόρφωση"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Χωρίς Κατηγορία"
+
+#~ msgid "All effects"
+#~ msgstr "Όλα τα εφέ"
+
+#~ msgid "Colors"
+#~ msgstr "Χρώματα"
+
+#~ msgid "Noise"
+#~ msgstr "Θόρυβος"
+
+#~ msgid "Analysis"
+#~ msgstr "Ανάλυση"
+
+#~ msgid "Blur"
+#~ msgstr "Θόλωμα"
+
+#~ msgid "Geometry"
+#~ msgstr "Γεωμετρία"
+
+#~ msgid "Fancy"
+#~ msgstr "Φαντασία"
+
+#~ msgid "Time"
+#~ msgstr "Χρόνος"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Ήχος |ήχος"
+
+#~ msgid "effect"
+#~ msgstr "εφέ"
+
+#~ msgid "Video effects"
+#~ msgstr "Εφέ Βίντεο"
+
+#~ msgid "Audio effects"
+#~ msgstr "Εφέ Ήχου"
+
+#~ msgid "Search:"
+#~ msgstr "Αναζήτηση:"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+# #-#-#-#-#  ekiga.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+# #-#-#-#-#  gnome-system-tools.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Name"
+#~ msgstr "Όνομα"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Description"
+#~ msgstr "Περιγραφή"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Εμφάνιση των Βίντεο Εφέ ως μια Λίστα"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Εμφάνιση των Βίντεο Εφέ ως Εικονίδια"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "Αρχικό PiTiVi (XML)"
+
+#~ msgid "Split"
+#~ msgstr "Διαχωρισμός"
+
+#~ msgid "Keyframe"
+#~ msgstr "Keyframe"
+
+#~ msgid "Unlink"
+#~ msgstr "Αποσύνδεση"
+
+#~ msgid "Ungroup"
+#~ msgstr "Κατάργηση ομαδοποίησης"
+
+#~ msgid "Group"
+#~ msgstr "Ομαδοποίηση"
+
+#~ msgid "Align"
+#~ msgstr "Ευθυγράμμιση"
+
+#~ msgid "Create a new project"
+#~ msgstr "Δημιουργία ενός νέου έργου"
+
+#~ msgid "_Open..."
+#~ msgstr "_Άνοιγμα..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Άνοιγμα ενός υπάρχοντος έργου"
+
+#~ msgid "Save the current project"
+#~ msgstr "Αποθήκευση του τρέχοντος έργου"
+
+#~ msgid "Save _As..."
+#~ msgstr "Αποθήκευση _ως..."
+
+#~ msgid "Reload the current project"
+#~ msgstr "Επαναφόρτωση του τρέχοντος έργου"
+
+#~| msgid "Reload the current project"
+#~ msgid "Export the current project"
+#~ msgstr "Εξαγωγή του τρέχοντος έργου"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Επεξεργασία των ρυθμίσεων έργου"
+
+#~ msgid "_Render..."
+#~ msgstr "_Απόδοση..."
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Εξάγετε το έργο σας ως μια τελειωμένη ταινία"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Αναίρεση της τελευταίας ενέργειας"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Επανάληψη της τελευταίας ενέργειας που αναιρέθηκε"
+
+#~ msgid "Information about %s"
+#~ msgstr "Πληροφορίες για το %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Εχγειρίδιο χρήστη"
+
+#~ msgid "_Project"
+#~ msgstr "_Έργο"
+
+#~ msgid "_Edit"
+#~ msgstr "_Επεξεργασία"
+
+#~ msgid "_View"
+#~ msgstr "_Προβολή"
+
+#~ msgid "_Library"
+#~ msgstr "_Βιβλιοθήκη"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Γραμμή χρόνου"
+
+#~ msgid "Previe_w"
+#~ msgstr "Προεπισκόπη_ση"
+
+#~ msgid "_Help"
+#~ msgstr "_Βοήθεια"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Προβολή του κύριου παράθυρου σε όλη την οθόνη"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Κύρια εργαλειοθήκη"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Εργαλειοθήκη γραμμής χρόνου"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Αποδέσμευση θεατή"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Τοποθέτηση του θεατή σε ένα διαφορετικό παράθυρο"
+
+#~ msgid "Media Library"
+#~ msgstr "Βιβλιοθήκη πολυμέσων"
+
+#~ msgid "Effect Library"
+#~ msgstr "Βιβλιοθήκη εφέ"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Διαμόρφωση Κλιπ"
+
+#~| msgid "Transformation"
+#~ msgid "Transitions"
+#~ msgstr "Μεταβάσεις"
+
+#~ msgid "PiTiVi %s is available."
+#~ msgstr "Το PiTiVi %s είναι διαθέσιμο."
+
+#~ msgid "Contributors:"
+#~ msgstr "Συντελεστές:"
+
+#~ msgid "translator-credits"
+#~ msgstr "Παναγιώτης Παπαδόπουλος, <panpapadopoulos01@gmail.com>, 2011."
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Δείτε το http://www.gnu.org/copyleft/lesser.html για περισσότερες "
+#~ "λεπτομέρειες"
+
+#~ msgid "Open File..."
+#~ msgstr "Άνοιγμα αρχείου..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Όλες οι υποστηριζόμενες μορφές"
+
+#~ msgid "Close without saving"
+#~ msgstr "Κλείσιμο χωρίς αποθήκευση"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Αποθήκευση αλλαγών στο τρέχον έργο πριν το κλείσιμο;"
+
+#~| msgid "If you don't save some of your changes will be lost"
+#~ msgid "If you don't save, the changes from the last %s will be lost."
+#~ msgstr "Αν δεν κάνετε αποθήκευση, οι αλλαγές του προηγούμενου %s θα χαθούν."
+
+#~| msgid "If you don't save some of your changes will be lost"
+#~ msgid "If you don't save, your changes will be lost."
+#~ msgstr "Αν δεν κάνετε αποθήκευση, οι αλλαγές σας θα χαθούν."
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Θέλετε να επαναφορτώσετε το τρέχον έργο;"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Αναστροφή στο αποθηκευμένο έργο"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Όλες οι μη αποθηκευμένες αλλαγές θα χαθούν."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Το PiTiVi δεν μπορεί να φορτώσει το αρχείο \"%s\""
+
+#~ msgid "Error Loading Project"
+#~ msgstr "Σφάλμα φόρτωσης του έργου"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Εντοπισμός αρχείου που λείπει..."
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Το ακόλουθο αρχείο μετακινήθηκε: \"<b>%s</b>\"\n"
+#~ "Παρακαλούμε καθορίστε την καινούργια του τοποθεσία:"
+
+#~| msgid "Import _Folders..."
+#~ msgid "Export To..."
+#~ msgstr "Εξαξωγή σε..."
+
+#~| msgid "Untitled.xptv"
+#~ msgid "Untitled"
+#~ msgstr "Χωρίς τίτλο"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Αυτόματος εντοπισμός"
+
+#~ msgid "Save As..."
+#~ msgstr "Αποθήκευση ως..."
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "Το PiTiVi δε μπορεί να προεπισκοπήσει αυτό το αρχείο."
+
+#~ msgid "More info"
+#~ msgstr "Περισσότερες πληροφορίες"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Ανάλυση</b>: %d×%d"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Σφάλμα κατά την ανάλυση ενός αρχείου"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "_Αφαίρεση από το έργο"
+
+#~| msgid "Preview"
+#~ msgid "_Preview Clip"
+#~ msgstr "_Προεπισκόπηση του κλιπ"
+
+#~| msgid "No properties..."
+#~ msgid "_Clip Properties..."
+#~ msgstr "ΙΙδιότητες του κλιπ..."
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Εισαγωγή στο _τέλος της γραμμής χρόνου"
+
+#~ msgid "Icon"
+#~ msgstr "Εικονίδιο"
+
+#~ msgid "Information"
+#~ msgstr "Πληροφορίες"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Duration"
+#~ msgstr "Διάρκεια"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Προσθέστε μέσα στο έργο σας σύροντας τα αρχεία και τους φακέλους εδώ ή με "
+#~ "την χρήση του κουμπιού \"Εισαγωγή Αρχείων...\""
+
+#~ msgid "Hide"
+#~ msgstr "Απόκρυψη"
+
+#~ msgid "_Import Files..."
+#~ msgstr "_Εισαγωγή αρχείων..."
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Προσθέστε αρχεία πολυμέσων στο έργο σας"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "Εισαγωγή _φακέλων"
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Προσθέστε τα περιεχόμενα του φακέλου όπως στα κλιπ στο έργο σας."
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Επιλέξτε αχρησιμοποίητα πολυμέσα"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Επιλέξτε κλιπ που δεν έχουν χρησιμοποιηθεί στο έργο"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Εμφάνιση κλιπ σε μια λίστα"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Εμφάνιση κλιπ ως εικονίδια"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Επιλέξτε έναν ή περισσότερους φακέλους"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Επιλέξτε ένα ή περισσότερα αρχεία"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Κλείσιμο μετά την εισαγωγή αρχείων"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Εισαγωγή κλιπ %(current_clip)d από %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Προέκυψαν σφάλματα κατά την εισαγωγή."
+
+#~ msgid "View errors"
+#~ msgstr "Εμφάνιση σφαλμάτων"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "Προέκυψε ένα σφάλμα κατά την εισαγωγή."
+
+#~ msgid "View error"
+#~ msgstr "Εμφάνιση σφάλματος"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Σφάλμα κατά την ανάλυση των αρχείων"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Τα παρακάτω αρχεία δε μπορούν να χρησιμοποιηθούν με το PiTiVi."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Το παρακάτω αρχείο δε μπορεί να χρησιμοποιηθεί με το PiTiVi."
+
+#~ msgid "No preset"
+#~ msgstr "Καμία προεπιλογή"
+
+#~ msgid "Ignore backup"
+#~ msgstr "Αγνόηση αντίγραφου ασφαλείας"
+
+#~ msgid "Restore from backup"
+#~ msgstr "Επαναφορά από το αντίγραφο ασφαλείας"
+
+#~ msgid "New Project"
+#~ msgstr "Νέο έργο"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "Το \"%s\" υπάρχει ήδη."
+
+#~ msgid "New preset"
+#~ msgstr "Νέα προεπιλογή"
+
+#~ msgid "New preset %d"
+#~ msgstr "Νέα προεπιλογή %d"
+
+#, fuzzy
+#~| msgid "Render"
+#~ msgid "%d%% Rendered"
+#~ msgstr "Αποτύπωση"
+
+#~ msgid "About %s left"
+#~ msgstr "Απομένουν περίπου %s"
+
+#~ msgid "A file name is required."
+#~ msgstr "Απαιτείται ένα όνομα αρχείου."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Το αρχείο υπάρχει ήδη.\n"
+#~ "Εάν δεν θέλετε να το αντικαταστήσετε, επιλέξτε ένα διαφορετικό όνομα "
+#~ "αρχείου ή φακέλου."
+
+#~ msgid "Normal"
+#~ msgstr "Κανονικό"
+
+#~ msgid "Loop"
+#~ msgstr "Κυκλική επανάληψη"
+
+#, fuzzy
+#~| msgid "Revert to saved project"
+#~ msgid "Reverse direction"
+#~ msgstr "Αναστροφή στο αποθηκευμένο έργο"
+
+#~| msgid "Show:"
+#~ msgid "Slow"
+#~ msgstr "Αργά"
+
+#~ msgid "Fast"
+#~ msgstr "Γρήγορο"
+
+#~ msgid "Epileptic"
+#~ msgstr "Επιληπτικό"
+
+#~ msgid "Smooth"
+#~ msgstr "Ομαλό"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Πήγαινε στην αρχή της γραμμής χρόνου"
+
+#~ msgid "Go back one second"
+#~ msgstr "Πήγαινε πίσω ένα δευτερόλεπτο"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Πήγαινε εμπρός ένα δευτερόλεπτο"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Πήγαινε στο τέλος της γραμμής χρόνου"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Προβολή Dock"
+
+#~ msgid "Play"
+#~ msgstr "Αναπαραγωγή"
+
+#~ msgid "Pause"
+#~ msgstr "Παύση"
+
+#~| msgid "Frame rate:"
+#~ msgid "Frame #%d"
+#~ msgstr "Καρέ #%d"
+
+#~ msgid "Appearance"
+#~ msgstr "Εμφάνιση"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Απόσταση Μικρογραφιών (εικονοστοιχεία)"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Η απόσταση μεταξύ των μικρογραφιών, σε εικονοστοιχεία"
+
+#~ msgid "Performance"
+#~ msgstr "Επίδοση"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Μικρογραφία κάθε"
+
+#~| msgid "%s second"
+#~ msgid "1/100 second"
+#~ msgstr "1/100 δευτερόλεπτο"
+
+#~| msgid "%s second"
+#~ msgid "1/10 second"
+#~ msgstr "1/10 δευτερόλεπτο"
+
+#~| msgid "%s second"
+#~ msgid "1/4 second"
+#~ msgstr "1/4 δευτερόλεπτο"
+
+#~| msgid "%s second"
+#~ msgid "1/2 second"
+#~ msgstr "1/2 δευτερόλεπτο"
+
+#~| msgid "%s second"
+#~ msgid "1 second"
+#~ msgstr "1 δευτερόλεπτο"
+
+#~| msgid "%s seconds"
+#~ msgid "5 seconds"
+#~ msgstr "5 δευτερόλεπτα"
+
+#~| msgid "%s seconds"
+#~ msgid "10 seconds"
+#~ msgstr "10 δευτερόλεπτα"
+
+#~ msgid "minute"
+#~ msgstr "λεπτό"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Το διάστημα, σε δευτερόλεπτα, μεταξύ των μικρογραφιών."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Ενεργοποίηση μικρογραφιών βίντεο"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Προβολή μικρογραφιών στα βίντεο κλιπ"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Ενεργοποίηση των κυματομορφών ήχου"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Προβολή κυματομορφών στα κλιπ ήχου"
+
+#~ msgid "Behavior"
+#~ msgstr "Συμπεριφορά"
+
+#~ msgid "Snap distance"
+#~ msgstr "Απόσταση θραύσης"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Κατώτατο όριο (σε εικονοστοιχεία) στο οποίο δυο κλιπ θα σπάσουνε μαζί "
+#~ "όταν τα σύρετε ή τα αποκόπτετε."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Διαγραφή επιλεγμένων"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Διαχωρισμός κλιπ στη θέση της κεφαλής αναπαραγωγής"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Προσθέστε ένα keyframe"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Μετακίνηση στο προηγούμενο keyframe"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Μετακίνηση στο επόμενο keyframe"
+
+#~ msgid "Zoom In"
+#~ msgstr "Μεγέθυνση"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Σμίκρυνση"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Τέλεια εστίαση"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Κατάργηση δεσμών μεταξύ των κλιπ"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Σύνδεση μεταξύ τυχαίων κλιπ"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Κατάργηση ομαδοποίησης των κλιπ"
+
+#~ msgid "Group clips"
+#~ msgstr "Ομαδοποίηση των κλιπ"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Ευθυγραμμίστε τα κλιπ βασισμένα στα δικά τους soundtrack"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "Προέκυψε ένα ή περισσότερα σφάλματα στο GStreamer!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Αναφέρθηκαν τα παρακάτω σφάλματα:"
+
+#~ msgid "Zoom"
+#~ msgstr "Σκμίκρυνση/Μεγέθυνση"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Σκμίκρυνση/Μεγέθυνση γραμμής χρόνου"
+
+#~ msgid "Export current frame..."
+#~ msgstr "Εξαξγωγή τρέχοντος καρέ..."
+
+#~ msgid "Start Playback"
+#~ msgstr "Έναρξη αναπαραγωγής"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Προσθήκη ενός keyframe"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "_Προηγούμενο keyframe"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "_Επόμενο keyframe"
+
+#~ msgid "PNG image"
+#~ msgstr "Εικόνα PNG"
+
+#~ msgid "JPEG image"
+#~ msgstr "Εικόνα JPEG"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Χρώμα για βίντεο κλιπ"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Το χρώμα παρασκηνίου για κλιπ σε κομμάτια βίντεο"
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Χρώμα για τα κλιπ ήχου"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Το χρώμα του φόντου για κλιπ σε κομμάτια ήχου"
+
+#~ msgid "Selection color"
+#~ msgstr "Χρώμα επιλογής"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Τα επιλεγμένα κλιπ θα εμφανίζονται με αυτό το χρώμα."
+
+#~ msgid "Clip font"
+#~ msgstr "Γραμματοσειρά κλιπ"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Η γραμματοσειρά που θα χρησιμοποιηθεί στους τίτλους των κλιπ"
+
+#~ msgid "Text:"
+#~ msgstr "Κείμενο:"
+
+#~ msgid "Image:"
+#~ msgstr "Εικόνα"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Άγνωστος λόγος"
+
+#~ msgid "Problem:"
+#~ msgstr "Πρόβλημα:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Επιπλέον πληροφορίες:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Επαναφορά στην προεπιλεγμένη τιμή"
+
+#~| msgid "_Project"
+#~ msgid "Projects"
+#~ msgstr "Έργα"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "Το %s δεν χειρίζεται ακόμα μη-τοπικά έργα"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Ήχος:</b> %d κανάλι στα %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[1] "<b>Ήχος:</b> %d κανάλια στα %d <i>Hz</i> (%d <i>bits</i>)"
+
+#~| msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.3f <i>fps</i>"
+#~ msgstr "<b>Βίντεο:</b> %d×%d <i>εικονοστοιχεία</i> στα %.3f <i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Εικόνα:</b> %dx%d <i>εικονοστοιχεία</i>"
+
+#~ msgid "Subtitles"
+#~ msgstr "Υπότιτλοι"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d ώρα"
+#~ msgstr[1] "%d ώρες"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d λεπτό"
+#~ msgstr[1] "%d λεπτά"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d δευτερόλεπτο"
+#~ msgstr[1] "%d δευτερόλεπτα"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d μέρα"
+#~ msgstr[1] "%d μέρες"
+
+#~ msgid "%d fps"
+#~ msgstr "%d fps"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f fps"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f fps"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bit"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 Κανάλια (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 Κανάλια (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Στερεοφωνικό"
+
+#~ msgid "Mono"
+#~ msgstr "Μονοφωνικό"
+
+#~ msgid "Square"
+#~ msgstr "Τετράγωνο"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p Wide"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i Wide"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p Wide"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i Wide"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV Widescreen (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Cinema (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Cinema (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Cinema (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorphic (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorphic (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorphic (2.4)"
+
+#~ msgid "Implement Me"
+#~ msgstr "Εφάρμοσε Με"
+
+#~ msgid "Custom"
+#~ msgstr "Προσαρμοσμένο"
+
+#~ msgid "Save Preset"
+#~ msgstr "Αποθήκευση Προεπιλογής"
+
+#~ msgid "Choose..."
+#~ msgstr "Επιλέξτε..."
+
+#~| msgid "No properties..."
+#~ msgid "No properties."
+#~ msgstr "Χωρίς ιδιότητες."
+
+#~ msgid "Properties for %s"
+#~ msgstr "Ιδιότητες για το %s"
+
+#~| msgid "<b>Properties</b>"
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Περικοπή</b>"
+
+#~| msgid "<b>Video:</b>"
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Μέγεθος</b>"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Αριθμός καναλιών:"
+
+#~| msgid "Depth:"
+#~ msgid "Sample Depth:"
+#~ msgstr "Δείγμα Βάθους:"
+
+#~| msgid "Frame rate:"
+#~ msgid "Sample Rate:"
+#~ msgstr "Ρυθμός δειγματοληψίας:"
+
+#~ msgid "<b>Phase:</b>"
+#~ msgstr "<b>Φάση:</b>"
+
+#~| msgid "<b>Export to</b>"
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Λόγος Αναλογίας</b>"
+
+#~| msgid "<b>Export to</b>"
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>Τύπος</b>"
+
+#~| msgid "<b>Properties</b>"
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Ρυθμός καρέ</b>"
+
+#~ msgid "Loading project..."
+#~ msgstr "Φόρτωση έργου..."
+
+#~| msgid "_Project"
+#~ msgid "Project loaded."
+#~ msgstr "Φορτώθηκε το έργο."
+
+#~| msgid "Rendering"
+#~ msgid "Rendering..."
+#~ msgstr "Αποτύπωση..."
+
+#~ msgid "Render the specified project to OUTPUT_FILE with no GUI."
+#~ msgstr "Αποτυπώστε το επιλεγμένο έργο στο OUTPUT_FILE χωρίς GUI."
+
+#~ msgid "Preview the specified project file without the full UI."
+#~ msgstr ""
+#~ "Προεπισκόπηση του επιλεγμένου αρχείου έργου χωρίς ολόκληρο το ΠΕ "
+#~ "(Περιβάλλον Εργασίας)."
+
+#~ msgid "-p and -r cannot be used simultaneously"
+#~ msgstr "τα -p και -r δεν μπορούν να χρησιμοποιηθούν ταυτόχρονα"
+
+#~ msgid "-r or -p and -i are incompatible"
+#~ msgstr "τα -r ή -p και -i δεν είναι συμβατά"
+
+#~ msgid "-r requires exactly one PROJECT_FILE"
+#~ msgstr "το -r απαιτεί ακριβώς ένα PROJECT_FILE"
+
+#~ msgid "-p requires exactly one PROJECT_FILE"
+#~ msgstr "το -p απαιτεί ακριβώς ένα PROJECT_FILE"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Πρόσθετα που λείπουν:\n"
+#~ "%s"
+
+#~| msgid "Can not decode file."
+#~ msgid "Cannot decode file."
+#~ msgstr "Αδυναμία αποκωδικοποίησης του αρχείου."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Το συγκεκριμένο αρχείο δεν περιέχει ροές ήχου, βίντεο ή εικόνων."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Δεν μπόρεσε να εξακριβωθεί η διάρκεια του αρχείου."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Αυτό το κλιπ φαίνεται να είναι σε μορφή που δεν μπορεί να προσπελαστεί "
+#~ "τυχαία."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Λήξη χρονικού ορίου κατά την ανάλυση του αρχείου."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Η ανάλυση του αρχείου πήρε πολύ χρόνο."
+
+#~ msgid "No available source handler."
+#~ msgstr "Κανένας διαθέσιμος διαχειριστής πηγής."
+
+#~| msgid "You do not have a GStreamer source element to handle protocol '%s'"
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr ""
+#~ "Δεν έχετε ένα πηγαίο στοιχείο του GStreamer για τη διαχείριση του "
+#~ "πρωτοκόλλου \"%s\""
+
+#~ msgid "File does not exist"
+#~ msgstr "Το αρχείο δεν υπάρχει"
+
+#~ msgid "File not readable by current user"
+#~ msgstr "Το αρχείο δεν μπορεί να αναγνωστεί από τον παρών χρήστη"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Η διασωλήνωση δεν θέλησε να κάνει ΠΑΥΣΗ."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Ένα εσωτερικό σφάλμα συνέβη κατά την ανάλυση αυτού του αρχείου: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Το αρχείο περιέχει μια ανακατεύθυνση σε άλλο κλιπ."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "Προς το παρόν το PiTiVi δεν χειρίζεται αρχεία ανακατευθύνσης."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Η διασωλήνωση δεν θέλησε να μεταβεί σε κατάσταση ΑΝΑΠΑΡΑΓΩΓΗΣ."
+
+#~ msgid "Playlist format"
+#~ msgstr "Μορφή λίστας αναπαραγωγής"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr "Το έργο πειέχει εφέ που δεν είναι διαθέσιμα στο σύστημα."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "Αποτυχία φόρτωσης του %(uri)s."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Μη έγκυρο αρχείο έργου."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Αδυναμία τερματισμού του τρέχοντος έργου"
+
+#~ msgid "No URI specified."
+#~ msgstr "Δεν καθορίστηκε URI."
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Εξαγωγή ρυθμίσεων\n"
+
+#~ msgid "Video: "
+#~ msgstr "Βίντεο: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Ήχος: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muxer: "
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Άγνωστη μορφή ήχου:</b> %s"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Άγνωστη μορφή βίντεο:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Κείμενο:</b> %s"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Κυκλική επανάληψη της επιλεγμένης περιοχής"
+
+#~ msgid "_Undo"
+#~ msgstr "_Αναίρεση"
+
+#~ msgid "_Redo"
+#~ msgstr "_Επανάληψη"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Προτιμήσεις"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Το ακόλουθο αρχείο έχει μετακινηθεί: \"<b>%s</b>\" (διάρκεια: %s)\n"
+#~ "Παρακαλώ καθορίστε τη νέα του τοποθεσία:"
+
+#~| msgid "Untitled.xptv"
+#~ msgid "Untitled project"
+#~ msgstr "Έργο Χωρίς Τίτλο"
+
+#~| msgid "Import clips..."
+#~ msgid "Import Files..."
+#~ msgstr "Εισαγωγή Αρχείων..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Αφαίρεση Κλιπ"
+
+#~ msgid "Play Clip"
+#~ msgstr "Αναπαραγωγή Κλιπ"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Δεν ήταν δυνατή η εισαγωγή των δεσμών libglade της Python"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr ""
+#~ "Σιγουρευτείτε ότι έχετε εγκαταστήσει τους δεσμούς libglade της Python"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [ΑΡΧΕΙΟ_ΕΡΓΟΥ]\n"
+#~ "      %prog -i [-a] [ΑΡΧΕΙΟ_ΠΟΛΥΜΕΣΩΝ]..."
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "    no project is given, %prog creates a new project.\n"
+#~ "    Alternatively, when -i is specified, arguments are treated as clips "
+#~ "to be\n"
+#~ "    imported into the project. If -a is specified, these clips will also "
+#~ "be added to\n"
+#~ "    the end of the project timeline."
+#~ msgstr ""
+#~ "Εκκινεί τον επεξεργαστή βίντεο, φορτώνοντας προαιρετικά το  ΑΡΧΕΙΟ_ΕΡΓΟΥ. "
+#~ "Αν\n"
+#~ "    δεν δίνεται έργο, το %prog δημιουργεί ένα νέο έργο.\n"
+#~ "    Εναλλακτικά, όταν επιλέγεται το -i, τα ορίσματα αντιμετωπίζονται ως "
+#~ "κλιπ που θα\n"
+#~ "    εισαχθούν στο έργο. Αν επιλέγεται το -a, αυτά τα κλιπ θα προστεθούν "
+#~ "και στο\n"
+#~ "    τέλος της χρονογραμμής του έργου."
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Εκτέλεση του pitivi χωρίς γραφικό περιβάλλον εργασίας"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Συσκευή Σύλληψης Ήχου:"
+
+#~ msgid "No device available"
+#~ msgstr "Δεν υπάρχει διαθέσιμη συσκευή"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Συσκευή Σύλληψης Βίντεο:"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Ιδιότητες για: %d αντικείμενο"
+#~ msgstr[1] "Ιδιότητες για:  %d αντικείμενα"
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Δημιουργός:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Όνομα Πρόσθετου</b>"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Ήχος:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Επιλογή Αρχείου"
+
+#~ msgid "Modify"
+#~ msgstr "Τροποποίηση"
+
+#~ msgid "Output file:"
+#~ msgstr "Αρχείο εξόδου:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Παρακαλούμε επιλέξτε ένα αρχείου εξόδου"
+
+#~ msgid "Render project"
+#~ msgstr "Απότύπωση έργου"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Επιλέξτε το αρχείο για να γίνει αποτύπωση"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Η Αποτύπωση Ολοκληρώθηκε"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23,97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29,97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Έξοδος Ήχου</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Έξοδος Βίντεο</b>"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Μόνο (1)\n"
+#~ "Στέρεο (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Muxer"
+
+#~ msgid "Rate:"
+#~ msgstr "Ρυθμός:"
+
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "Video Codec"
+#~ msgstr "Codec βίντεο"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Codec Βίντεο:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Ακατέργαστο Βίντεο"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Ακατέργαστος Ήχος"
+
+#~ msgid "Export settings"
+#~ msgstr "Εξαγωγή ρυθμίσεων"
+
+#~ msgid "URI:"
+#~ msgstr "URI: "
+
+#~ msgid "Stop Playback"
+#~ msgstr "Τέλος Αναπαραγωγής"
+
+#~ msgid "_Render project"
+#~ msgstr "_Απότύπωση έργου"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Πρόσθετα..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Διαχείριση πρόσθετων"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Εισαγωγή από _Webcam..."
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Εισαγωγή ροής από Φωτογραφική Μηχανή"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Δημιουργία βίντεο στιγμιότυπου..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Σύλληψη της επιφάνειας εργασίας"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Σύλληψη ροής δικτύου..."
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Σύλληψη ροής Δικτύου"
+
+#~ msgid "_File"
+#~ msgstr "_Αρχείο"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Duration:"
+#~ msgstr "Διάρκεια:"
+
+#~ msgid "Address"
+#~ msgstr "Διεύθυνση"
+
+#~ msgid "Capture"
+#~ msgstr "Σύλληψη"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Σύλληψη ροής από URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Σύλληψη ροής δικτύου"
+
+#~ msgid "Customize:"
+#~ msgstr "Προσαρμογή:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Βίντεο ροής δικτύου"
+
+#~ msgid "Other protocol"
+#~ msgstr "Άλλο πρωτόκολλο"
+
+#~ msgid "Port"
+#~ msgstr "Θύρα"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Προεπισκόπηση ροής από URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Πρωτόκολλο"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Διαχείριση πρόσθετων"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Μπορείτε να σύρετε αρχεία πρόσθετων στη λίστα για να τα εγκαταστήσετε,\n"
+#~ "ή να εισάγετε κείμενο για να ψάξετε για συγκεκριμένο πρόσθετο"
+
+#~ msgid "Plugin"
+#~ msgstr "Πρόσθετο"
+
+#~ msgid "Category"
+#~ msgstr "Κατηγορία"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Είστε σίγουροι ότι θέλετε να αφαιρέσετε τα επιλεγμένα πρόσθετα;"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Επιβεβαίωση αφαίρεσης"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Δεν είναι δυνατό να αφαιρεθεί το %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Ενημέρωση υπάρχοντος πρόσθετου;"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Αυτό το πρόσθετο είναι ήδη εγκατεστημένο στο σύστημά σας.\n"
+#~ "Αν συμφωνείτε, η έκδοση %(v1)s θα αντικατασταθεί με την έκδοση %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Βρέθηκε διπλότυπο πρόσθετο"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Δεν είναι δυνατό να εγκατασταθεί το %s\n"
+#~ "Το αρχείο δεν είναι έγκυρο πρόσθετο"
+
+#~ msgid "Reset"
+#~ msgstr "Επαναφορά"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Προβολή Μικρογραφιών (Βίντεο)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Προβολή κυματομορφών (Ήχος)"
+
+#~ msgid "Description:"
+#~ msgstr "Περιγραφή:"
+
+# #-#-#-#-#  bug-buddy.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+# #-#-#-#-#  ekiga.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+# #-#-#-#-#  gnome-system-tools.gnome-2-14.el.po (el)  #-#-#-#-#
+#
+#~ msgid "Name:"
+#~ msgstr "Όνομα:"
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Δεν επιλέχτηκαν αντικείμενα"
+
+#~ msgid "Screencast"
+#~ msgstr "Βίντεο στιγμιότυπου οθόνης"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Βίντεο στιγμιότυπου επιφάνειας εργασίας"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Έναρξη του Istanbul"
+
+#~ msgid ""
+#~ "<span size='x-large'>Import your clips by dragging them here or by using "
+#~ "the buttons above.</span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Εισάγετε τα κλιπ σας σύροντάς τα εδώ ή "
+#~ "χρησιμοποιώντας τα πιο πάνω κουμπιά.</span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Εισαγωγή κλιπ για χρήση"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Εισαγωγή φακέλου με κλιπ που θα χρησιμοποιηθούν"
+
+#~ msgid "Import a folder"
+#~ msgstr "Εισάγετε ένα φάκελο"
+
+#~ msgid "Import a clip"
+#~ msgstr "Εισαγωγή ενός κλιπ"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Γίνεται εισαγωγή κλιπ…"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr ""
+#~ "Η απόσταση κατωφλιού (σε εικονοστοιχεία) για όλες τις ενέργειες αρπαγής"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Κείμενο:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Φόντο Κλιπ (Βίντεο)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Φόντο Κλιπ (Ήχος)"
+
+#~ msgid "Add Clips..."
+#~ msgstr "Προσθήκη κλιπ..."
+
+#, fuzzy
+#~ msgid "Video output is busy"
+#~ msgstr "<b>Έξοδος Βίντεο</b>"
+
+#, fuzzy
+#~ msgid "Video output problem"
+#~ msgstr "<b>Έξοδος Βίντεο</b>"
+
+#, fuzzy
+#~ msgid "Audio output problem"
+#~ msgstr "<b>Έξοδος Ήχου</b>"
+
+#~ msgid "Project settings"
+#~ msgstr "Ρυθμίσεις έργου"
+
+#, fuzzy
+#~ msgid "Audio Track"
+#~ msgstr "Κόντεκ ήχου"
+
+#~ msgid "The following files weren't discovered properly."
+#~ msgstr "Τα επόμενα αρχεία δεν εντοπίστηκαν σωστά."
+
+#, fuzzy
+#~ msgid "Settings:"
+#~ msgstr "Ρυθμίσεις:"

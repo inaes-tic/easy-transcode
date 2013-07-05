@@ -1,0 +1,1325 @@
+# Serbian translation for pitivi
+# This file is distributed under the same license as the pitivi package.
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2010, 2011,, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2013-05-16 04:34+0200\n"
+"Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Trajanje</b>: %s"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+msgid "Error: "
+msgstr ""
+
+#: ../lib/MBC.py:100
+msgid "Error Log"
+msgstr ""
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Video urednik Pitivi"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Stvarajte i uređujte vaše lične video zapise"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Samoporavnanje je započeto"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<big><b>Izvršavam samoporavnanje</b></big>"
+
+#~ msgid "Estimating..."
+#~ msgstr "Približno..."
+
+#~ msgid "Clip Properties"
+#~ msgstr "Svojstva snimka"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Otkaži"
+
+#~ msgid "_Apply to project"
+#~ msgstr "_Primeni na projekat"
+
+#~ msgid "Size (pixels):"
+#~ msgstr "Veličina (piksela):"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Protok kadrova:"
+
+#~ msgid "Pixel aspect ratio:"
+#~ msgstr "Odnos razmere piksela:"
+
+#~ msgid "Video:"
+#~ msgstr "Video:"
+
+#~ msgid "Channels:"
+#~ msgstr "Broj kanala:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Protok uzorka:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Dubina uzorka:"
+
+#~ msgid "Audio:"
+#~ msgstr "Audio:"
+
+#~ msgid "Viewer Zoom"
+#~ msgstr "Zum pregledača"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Position"
+#~ msgstr "Položaj"
+
+#~ msgid "Width:"
+#~ msgstr "Širina:"
+
+#~ msgid "Height:"
+#~ msgstr "Visina:"
+
+#~ msgid "Size"
+#~ msgstr "Veličina"
+
+#~ msgid "Crop"
+#~ msgstr "Opseci"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Nedostajuće zavisnosti"
+
+#~ msgid "Install"
+#~ msgstr "Instaliraj"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Da omogućite dodatne funkcije, instalirajte sledeće pakete i ponovo "
+#~ "pokrenite Pitivi:"
+
+#~ msgid "Show video effects"
+#~ msgstr "Prikaži video efekte"
+
+#~ msgid "Show audio effects"
+#~ msgstr "Prikaži audio efekte"
+
+#~ msgid "Clear the current search"
+#~ msgstr "Očisti tekuću pretragu"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Svojstva za <element>"
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Dodajte datoteke snimaka vašem projektu"
+
+#~ msgid "Import"
+#~ msgstr "Uvezi"
+
+#~ msgid "Remove selected clips from the project"
+#~ msgstr "Uklonite izabrane snimke iz projekta"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "_Ukloni iz projekta"
+
+#~ msgid "Clip Properties..."
+#~ msgstr "Svojstva snimka..."
+
+#~ msgid "Insert the selected clips at the end of the timeline"
+#~ msgstr "Umetnite izabrane snimke na kraj vremenske linije"
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Ubaci na _kraj vremenske linije"
+
+#~ msgid "Show clips as a detailed list"
+#~ msgstr "Prikaži snimke kao detaljan spisak"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Izaberite snimke koji nisu korišćeni u projektu"
+
+#~ msgid "Show all clips"
+#~ msgstr "Prikaži sve snimke"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import\" button."
+#~ msgstr ""
+#~ "Dodajte medije vašem projektu tako što ćete ovde prevući datoteke i "
+#~ "fascikle ili koristite dugme „Uvezi“."
+
+#~ msgid "Preferences"
+#~ msgstr "Postavke"
+
+#~ msgid "Section"
+#~ msgstr "Odeljak"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "Neke promene neće biti dostupne sve dok ponovo ne pokrenete Pitivi"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Vrati na fabrička podešavanja"
+
+#~ msgid "Reset all settings to their default values"
+#~ msgstr "Vratite sva podešavanja na osnovne vrednosti"
+
+#~ msgid "Revert"
+#~ msgstr "Vrati"
+
+#~ msgid ""
+#~ "Revert all settings to the previous values (before you opened the "
+#~ "preferences dialog)"
+#~ msgstr ""
+#~ "Vratite sva podešavanja na prethodne vrednosti (pre nego li ste otvorili "
+#~ "prozorče postavki)"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Standardni (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "Standardni PAL"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 K/S"
+
+#~ msgid "Project Settings"
+#~ msgstr "Podešavanja projekta"
+
+#~ msgid "Video Preset"
+#~ msgstr "Video predizbor"
+
+#~ msgid "Create a new preset"
+#~ msgstr "Napravite novo pretpodešavanje"
+
+#~ msgid "Remove the selected preset"
+#~ msgstr "Uklonite izabrana pretpodešavanja"
+
+#~ msgid "Save changes to the currently selected preset"
+#~ msgstr "Sačuvajte izmene u trenutno izabrano pretpodešavanje"
+
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Odnos razmere:"
+
+#~ msgid "Display aspect ratio"
+#~ msgstr "Odnos razmere ekrana"
+
+#~ msgid "Pixel aspect ratio"
+#~ msgstr "Odnos razmere piksela"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Sastavi"
+
+#~ msgid "Frame Rate:"
+#~ msgstr "Protok kadrova:"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Audio predizbor"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Year:"
+#~ msgstr "Godina:"
+
+#~ msgid "Project title:"
+#~ msgstr "Naziv projekta:"
+
+#~ msgid "Info"
+#~ msgstr "Informacije"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 k/s"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 kanala (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Generisanje"
+
+#~ msgid "Render Preset"
+#~ msgstr "Podešenost iscrtavanja"
+
+#~ msgid "Folder"
+#~ msgstr "Fascikla"
+
+#~ msgid "Container format:"
+#~ msgstr "Format sadržaoca:"
+
+#~ msgid "Folder:"
+#~ msgstr "Fascikla:"
+
+#~ msgid "File name:"
+#~ msgstr "Naziv datoteke:"
+
+#~ msgid "File name"
+#~ msgstr "Naziv datoteke"
+
+#~ msgid "Container format"
+#~ msgstr "Format sadržaoca"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Iscrtaj samo izabrane snimke"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Jednostavno (bez specijalnih efekata, jedan prolaz)"
+
+#~ msgid "General"
+#~ msgstr "Opšte"
+
+#~ msgid "Advanced..."
+#~ msgstr "Napredno..."
+
+#~ msgid "Codec:"
+#~ msgstr "Kodek:"
+
+#~ msgid "Framerate"
+#~ msgstr "Protok kadrova"
+
+#~ msgid "Scale"
+#~ msgstr "Skaliraj"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Visina"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Izmeni podešavanja projekta..."
+
+#~ msgid "Scale:"
+#~ msgstr "Razmera:"
+
+#~ msgid "Enable video"
+#~ msgstr "Uključite video"
+
+#~ msgid "Enable audio"
+#~ msgstr "Uključite audio"
+
+#~ msgid "Rendering"
+#~ msgstr "Generiši"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<big><b>Iscrtavanje filma</b></big>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Nepoznat Mib"
+
+#~ msgid "Unknown"
+#~ msgstr "Nepoznato"
+
+#~ msgid "Rendering first pass"
+#~ msgstr "Generisanje prvog prolaza"
+
+#~ msgid "Estimated filesize:"
+#~ msgstr "Procenjena veličina datoteke:"
+
+#~ msgid "Frames per second:"
+#~ msgstr "Kadrova u sekundi:"
+
+#~ msgid "Phase:"
+#~ msgstr "Faza:"
+
+#~ msgid "Initializing..."
+#~ msgstr "Pokrećem..."
+
+#~ msgid "Welcome"
+#~ msgstr "Dobrodošli"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Dvaput kliknite na projekat ispod da ga učitate:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Pretraži projekte..."
+
+#~ msgid "Keyboard shortcuts"
+#~ msgstr "Prečice tastature"
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Nedostajuće zavisnosti..."
+
+#~ msgid "No title clip selected. Select a clip to edit or create a new one."
+#~ msgstr ""
+#~ "Nije izabran snimak prevoda. Izaberite snimak da uredite ili da napravite "
+#~ "novi."
+
+#~ msgid "Create and insert"
+#~ msgstr "Napravi i umetni"
+
+#~ msgid "Bold"
+#~ msgstr "Podebljano"
+
+#~ msgid "Italic"
+#~ msgstr "Iskošeno"
+
+#~ msgid "Choose a font"
+#~ msgstr "Izaberite font"
+
+#~ msgid "Font color"
+#~ msgstr "Boja slovnog lika"
+
+#~ msgid "Pick a font color"
+#~ msgstr "Izaberite boju slovnog lika"
+
+#~ msgid "Background color"
+#~ msgstr "Boja pozadine"
+
+#~ msgid "Pick a background color"
+#~ msgstr "Izaberite boju pozadine"
+
+#~ msgid "Convert to markup"
+#~ msgstr "Pretvori u označavanje"
+
+#~ msgid "Horizontal alignment:"
+#~ msgstr "Vodoravno poravnanje:"
+
+#~ msgid "Vertical alignment:"
+#~ msgstr "Uspravno poravnanje:"
+
+#~ msgid "Advanced positioning"
+#~ msgstr "Napredno postavljanje"
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Već postoji %s proces, molim obavestite programere podnošenjem greške na: "
+#~ "„http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi“"
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [DATOTEKA_PROJEKTA]                    # Pokreće video "
+#~ "uređivač.\n"
+#~ "    %prog -i [-a] [MEDIJSKA_DATOTEKA1 ...]       # Pokreće uređivač i "
+#~ "stvara projekat."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Uvozi svaku MEDIJSKU_DATOTEKU u novi projekat."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr "Dodaje svaku uveženu MEDIJSKU_DATOTEKU na vremensku liniju."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Pokreće Pitivi u Pitonovom ispravljaču grešaka."
+
+#~ msgid "-a requires -i"
+#~ msgstr "„-a“ zahteva „-i“"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Ne mogu da otvorim više od jedne DATOTEKE_PROJEKTA"
+
+#~ msgid "enables the autoalign feature"
+#~ msgstr "uključuje funkciju samoporavnanja"
+
+#~ msgid "enables sound notifications when rendering is complete"
+#~ msgstr "uključuje zvučna obaveštenja kada se završi iscrtavanje"
+
+#~ msgid "enables visual notifications when rendering is complete"
+#~ msgstr "uključuje vidna obaveštenja kada se završi iscrtavanje"
+
+#~ msgid "additional multimedia codecs through the Libav library"
+#~ msgstr "dodatni multimedijski kodeci kroz Libav biblioteku"
+
+#~ msgid "additional video effects, clip transformation feature"
+#~ msgstr "dodatni efekti snimka, odseca funkciju preobražaja"
+
+#~ msgid "Effects"
+#~ msgstr "Efekti"
+
+#~ msgid "Remove effect"
+#~ msgstr "Ukloni efekat"
+
+#~ msgid "Active"
+#~ msgstr "Aktiviran"
+
+#~ msgid "Type"
+#~ msgstr "Vrsta"
+
+#~ msgid "Effect name"
+#~ msgstr "Naziv efekta"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Izaberite snimak na vremenskoj liniji da podesite njegove pridružene "
+#~ "efekte"
+
+#~ msgid "Transformation"
+#~ msgstr "Preobražaj"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Nekategorisano"
+
+#~ msgid "All effects"
+#~ msgstr "Svi efekti"
+
+#~ msgid "Colors"
+#~ msgstr "Boje"
+
+#~ msgid "Compositing"
+#~ msgstr "Slaganje"
+
+#~ msgid "Noise & blur"
+#~ msgstr "Šum i zamućenje"
+
+#~ msgid "Analysis"
+#~ msgstr "Analiza"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometrija"
+
+#~ msgid "Fancy"
+#~ msgstr "Kičeraj"
+
+#~ msgid "Time"
+#~ msgstr "Vreme"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Audio |audio"
+
+#~ msgid "effect"
+#~ msgstr "efekat"
+
+#~ msgid "Split"
+#~ msgstr "Podeli"
+
+#~ msgid "Keyframe"
+#~ msgstr "Ključni kadar"
+
+#~ msgid "Ungroup"
+#~ msgstr "Razgrupiši"
+
+#~ msgid "Group"
+#~ msgstr "Grupiši"
+
+#~ msgid "Align"
+#~ msgstr "Poravnaj"
+
+#~ msgid "Gapless mode"
+#~ msgstr "Režim bez razmaka"
+
+#~ msgid "Create a new project"
+#~ msgstr "Napravite novi projekat"
+
+#~ msgid "_Open..."
+#~ msgstr "_Otvori..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Otvorite već postojeći projekat"
+
+#~ msgid "Save the current project"
+#~ msgstr "Sačuvajte tekući projekat"
+
+#~ msgid "Save _As..."
+#~ msgstr "Sačuvaj _kao..."
+
+#~ msgid "Reload the current project"
+#~ msgstr "Ponovo učitajte trenutni projekat"
+
+#~ msgid "Export as Archive..."
+#~ msgstr "Izvezi kao arhivu..."
+
+#~ msgid "Export the current project"
+#~ msgstr "Izvezite trenutni projekat"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Uredite podešavanja projekta"
+
+#~ msgid "_Render..."
+#~ msgstr "_Iscrtaj..."
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Izvezite vaš projekat kao završen film"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Poništite poslednju operaciju"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Ponovite poslednju poništenu operaciju"
+
+#~ msgid "Remove layer"
+#~ msgstr "Ukloni sloj"
+
+#~ msgid "Remove the selected layer from the project"
+#~ msgstr "Uklonite izabrani sloj iz projekta"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informacije o „%s“"
+
+#~ msgid "User Manual"
+#~ msgstr "Uputstvo korisnika"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekat"
+
+#~ msgid "_Edit"
+#~ msgstr "_Uređivanje"
+
+#~ msgid "_View"
+#~ msgstr "P_regled"
+
+#~ msgid "_Library"
+#~ msgstr "Bib_lioteka"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Vremenska linija"
+
+#~ msgid "Previe_w"
+#~ msgstr "P_retpregled"
+
+#~ msgid "_Help"
+#~ msgstr "Pomo_ć"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Prikažite glavni prozor preko celog ekrana"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Odsidri pregledač"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Postavite pregledač u zasebnom prozoru"
+
+#~ msgid "Media Library"
+#~ msgstr "Biblioteka medija"
+
+#~ msgid "Effect Library"
+#~ msgstr "Biblioteka efekta"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Podešavanja snimka"
+
+#~ msgid "Transitions"
+#~ msgstr "Prelazi"
+
+#~ msgid "Title editor"
+#~ msgstr "Uređivač naslova"
+
+#~ msgid ""
+#~ "Toggle gapless mode\n"
+#~ "When enabled, adjacent clips automatically move to fill gaps."
+#~ msgstr ""
+#~ "Prebacuje režim bez razmaka\n"
+#~ "Kada je uključeno, susedni snimci se samostalno premeštaju da popune "
+#~ "razmake."
+
+#~ msgid "Development version"
+#~ msgstr "Razvojno izdanje"
+
+#~ msgid "PiTiVi %s is available."
+#~ msgstr "Pitivi %s je dostupan."
+
+#~ msgid "Current maintainers:"
+#~ msgstr "Trenutni održavaoci:"
+
+#~ msgid "Past maintainers:"
+#~ msgstr "Bivši održavaoci:"
+
+#~ msgid "Contributors:\n"
+#~ msgstr "Doprinosioci:\n"
+
+#~ msgid "The list of contributors on Ohloh %s\n"
+#~ msgstr "Spisak doprinosioca na Ohlohu %s\n"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
+#~ "\n"
+#~ "http://prevod.org — prevod na srpski jezik"
+
+#~ msgid "Open File..."
+#~ msgstr "Otvori datoteku..."
+
+#~ msgid "All supported formats"
+#~ msgstr "Svi podržani zapisi"
+
+#~ msgid "Unable to save project \"%s\""
+#~ msgstr "Ne mogu da sačuvam projekat „%s“"
+
+#~ msgid "Close without saving"
+#~ msgstr "Zatvori bez čuvanja"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Da sačuvam izmene u tekućem projektu pre zatvaranja?"
+
+#~ msgid "If you don't save, the changes from the last %s will be lost."
+#~ msgstr ""
+#~ "Ako ne sačuvate, izmene koje ste načinili u poslednjih %s će biti "
+#~ "izgubljene."
+
+#~ msgid "If you don't save, your changes will be lost."
+#~ msgstr "Ako ne sačuvate, vaše izmene će biti izgubljene."
+
+#~| msgid "Revert to saved project"
+#~ msgid "Revert to saved project version?"
+#~ msgstr "Da vratim na izdanje sačuvanog projekta?"
+
+#~| msgid "All unsaved changes will be lost."
+#~ msgid ""
+#~ "This will reload the current project. All unsaved changes will be lost."
+#~ msgstr ""
+#~ "Ovo će ponovo učitati tekući projekat. Sve nesačuvane izmene će biti "
+#~ "izgubljene."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Ne mogu da učitam projekat „%s“"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Pronađite datoteku koja nedostaje..."
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Sledeća datoteka je premeštena: „<b>%s</b>“\n"
+#~ "Molim navedite njeno novo mesto:"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Sledeća datoteka je premeštena: „<b>%s</b>“ (trajanje: %s)\n"
+#~ "Molim navedite njeno novo mesto:"
+
+#~ msgid "%s files"
+#~ msgstr "%s datoteke"
+
+#~ msgid "All files"
+#~ msgstr "Sve datoteke"
+
+#~ msgid ""
+#~ "No replacement file was provided for \"<i>%s</i>\".\n"
+#~ "\n"
+#~ "PiTiVi does not currently support partial projects."
+#~ msgstr ""
+#~ "Nije obezbeđena zamenska datoteka za „<i>%s</i>“.\n"
+#~ "\n"
+#~ "Pitivi trenutno ne podržava delimične projekte."
+
+#~ msgid "Export To..."
+#~ msgstr "Izvezi u..."
+
+#~ msgid "Untitled"
+#~ msgstr "Neimenovano"
+
+#~ msgid "Tar archive"
+#~ msgstr "Tar arhiva"
+
+#~ msgid "Detect automatically"
+#~ msgstr "Sam otkrij"
+
+#~ msgid "Save As..."
+#~ msgstr "Sačuvaj kao..."
+
+#~ msgid "Preview - click outside to close"
+#~ msgstr "Pregled — kliknite izvan da zatvorite"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "Pitivi ne može da prikaže pregled ove datoteke."
+
+#~ msgid "More info"
+#~ msgstr "Još podataka"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Rezolucija</b>: %d×%d"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Greška prilikom analiziranja datoteke"
+
+#~ msgid "Icon"
+#~ msgstr "Ikonica"
+
+#~ msgid "Information"
+#~ msgstr "Informacije"
+
+#~ msgid "Duration"
+#~ msgstr "Trajanje"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Izaberi jednu ili više datoteka"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Zatvori nakon uvoženja datoteka"
+
+#~ msgid "Supported file formats"
+#~ msgstr "Podržani oblici datoteke"
+
+#~ msgid "All known file formats"
+#~ msgstr "Svi poznati oblici datoteke"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Uvozim snimak br. %(current_clip)d od %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Došlo je do grešaka prilikom uvoženja."
+
+#~ msgid "View errors"
+#~ msgstr "Pregledajte greške"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "Došlo je do greške prilikom uvoženja."
+
+#~ msgid "View error"
+#~ msgstr "Pregledajte grešku"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Greška prilikom analiziranja datoteka"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Sledeće datoteke ne mogu biti korišćene u Pitiviju."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Sledeća datoteka ne može biti korišćena u Pitiviju."
+
+#~ msgid "No preset"
+#~ msgstr "Bez podešenosti"
+
+#~ msgid ""
+#~ "This might be due to a bug or an unsupported project file format. If you "
+#~ "were trying to add a media file to your project, use the \"Import\" "
+#~ "button instead."
+#~ msgstr ""
+#~ "Ovo može biti posledica greške ili nepodržanog oblika datoteke projekta. "
+#~ "Ako ste pokušali da dodate medijsku datoteku vašem projektu, umesto toga "
+#~ "koristite dugme „Uvezi“."
+
+#~ msgid "Ignore backup"
+#~ msgstr "Zanemari rezervu"
+
+#~ msgid "Restore from backup"
+#~ msgstr "Vrati iz rezerve"
+
+#~ msgid ""
+#~ "An autosaved version of your project file was found. It is %s newer than "
+#~ "the saved project.\n"
+#~ "\n"
+#~ "Would you like to load it instead?"
+#~ msgstr ""
+#~ "Jedno samosačuvano izdanje vašeg projekta je pronađeno. Novije je od "
+#~ "sačuvanog projekta za %s.\n"
+#~ "\n"
+#~ "Da li biste želeli da ga učitate?"
+
+#~ msgid "You do not have permissions to write to this folder."
+#~ msgstr "Nemate ovlašćenja da pišete u ovu fasiklu."
+
+#~ msgid "Cannot save with this file format."
+#~ msgstr "Ne mogu da sačuvam u ovom zapisu datoteke."
+
+#~ msgid "Cannot save with this file format. %s"
+#~ msgstr "Ne mogu da sačuvam u ovom zapisu datoteke. %s"
+
+#~ msgid "Cannot save with this file format"
+#~ msgstr "Ne mogu da sačuvam u ovom zapisu datoteke"
+
+#~ msgid "project"
+#~ msgstr "projekat"
+
+#~ msgid "New Project"
+#~ msgstr "Novi projekat"
+
+#~ msgid "Pitivi encoding profile"
+#~ msgstr "Profil kodiranja Pitivija"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "„%s“ već postoji."
+
+#~ msgid "New preset"
+#~ msgstr "Nova podešenost"
+
+#~ msgid "New preset %d"
+#~ msgstr "Nova podešenost %d"
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "Generisano je %d%%"
+
+#~ msgid "About %s left"
+#~ msgstr "Preostaje oko %s"
+
+#~ msgid "Currently rendering"
+#~ msgstr "Trenutno iscrtavam"
+
+#~ msgid "A file name is required."
+#~ msgstr "Potreban je naziv datoteke."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Ova datoteka već postoji.\n"
+#~ "Ako ne želite da je prepišete, izaberite neki drugi naziv datoteke ili "
+#~ "fascikle."
+
+#~ msgid "Render complete"
+#~ msgstr "Generisanje je završeno"
+
+#~ msgid "\"%s\" has finished rendering."
+#~ msgstr "„%s“ je završio sa iscrtavanjem."
+
+#~ msgid "Custom"
+#~ msgstr "Proizvoljno"
+
+#~ msgid "Top"
+#~ msgstr "Gore"
+
+#~ msgid "Center"
+#~ msgstr "Po sredini"
+
+#~ msgid "Bottom"
+#~ msgstr "Dole"
+
+#~ msgid "Baseline"
+#~ msgstr "Podnožje"
+
+#~ msgid "Left"
+#~ msgstr "Levo"
+
+#~ msgid "Right"
+#~ msgstr "Desno"
+
+#~ msgid "Search..."
+#~ msgstr "Potraži..."
+
+#~ msgid "Normal"
+#~ msgstr "Obično"
+
+#~ msgid "Loop"
+#~ msgstr "Ponavljanje"
+
+#~ msgid "Reverse direction"
+#~ msgstr "Suprotan smer"
+
+#~ msgid ""
+#~ "Create a transition by overlapping two adjacent clips on the same layer. "
+#~ "Click the transition on the timeline to change the transition type."
+#~ msgstr ""
+#~ "Napravite prelaz preklapajući dva susedna snimka na istom sloju. Kliknite "
+#~ "prelaz na vremenskoj liniji da izmenite vrstu prelaza."
+
+#~ msgid "Slow"
+#~ msgstr "Sporo"
+
+#~ msgid "Fast"
+#~ msgstr "Brzo"
+
+#~ msgid "Epileptic"
+#~ msgstr "Padavičarski"
+
+#~ msgid "Sharp"
+#~ msgstr "Oštro"
+
+#~ msgid "Smooth"
+#~ msgstr "Meko"
+
+#~ msgid "Currently playing"
+#~ msgstr "Trenutno puštam"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Idite na početak vremenske linije"
+
+#~ msgid "Go back one second"
+#~ msgstr "Idite nazad jednu sekundu"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Idite napred jednu sekundu"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Idite na kraj vremenske linije"
+
+#~ msgid ""
+#~ "Enter a timecode or frame number\n"
+#~ "and press \"Enter\" to go to that position"
+#~ msgstr ""
+#~ "Unesite vremenski kod ili broj kadra\n"
+#~ "i pritisnite „Unesi“ da pređete na taj položaj"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Usidri pregledač"
+
+#~ msgid "Show this window in fullscreen"
+#~ msgstr "Prikažite ovaj prozor preko celog ekrana"
+
+#~ msgid "Exit fullscreen mode"
+#~ msgstr "Napustite režim celog ekrana"
+
+#~ msgid "Play"
+#~ msgstr "Pusti"
+
+#~ msgid "Pause"
+#~ msgstr "Pauziraj"
+
+#~ msgid "Set a personalized name for this layer"
+#~ msgstr "Podesite personalizovani naziv za ovaj sloj"
+
+#~ msgid ""
+#~ "<b>Solo mode</b>\n"
+#~ "Other non-soloed layers will be disabled as long as this is enabled."
+#~ msgstr ""
+#~ "<b>Solo režim</b>\n"
+#~ "Ostali ne-soloizovani slojevi će biti prikazani čim ovo bude bilo "
+#~ "uključeno."
+
+#~ msgid ""
+#~ "<b>Enable or disable this layer</b>\n"
+#~ "Disabled layers will not play nor render."
+#~ msgstr ""
+#~ "<b>Uključi ili isključi ovaj sloj</b>\n"
+#~ "Usključeni slojevi neće biti puštani niti iscrtavani."
+
+#~ msgid "_Delete layer"
+#~ msgstr "_Obriši sloj"
+
+#~ msgid "Move layer up"
+#~ msgstr "Pomeri sloj gore"
+
+#~ msgid "Move layer down"
+#~ msgstr "Pomeri sloj dole"
+
+#~ msgid "Move layer to top"
+#~ msgstr "Pomeri sloj na vrh"
+
+#~ msgid "Move layer to bottom"
+#~ msgstr "Pomeri sloj na dno"
+
+#~ msgid "Make layer invisible"
+#~ msgstr "Učini sloj nevidljivim"
+
+#~ msgid "Make layer visible"
+#~ msgstr "Učini sloj vidljivim"
+
+#~ msgid "Opacity:"
+#~ msgstr "Neprovidnost:"
+
+#~ msgid "Change video opacity"
+#~ msgstr "Izmeni neprovidnost sloja"
+
+#~ msgid "Vol:"
+#~ msgstr "Vol:"
+
+#~ msgid "Pan:"
+#~ msgstr "Pan:"
+
+#~ msgid "Change audio panning"
+#~ msgstr "Izmenite kanalisanje zvuka"
+
+#~ msgid "Frame #%d"
+#~ msgstr "Kadar #%d"
+
+#~ msgid "Behavior"
+#~ msgstr "Ponašanje"
+
+#~ msgid "Snap distance"
+#~ msgstr "Rastojanje prijanjanja"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Prag (u pikselima) pri kome će dva snimka prijanjati zajedno prilikom "
+#~ "prevlačenja ili doterivanja."
+
+#~ msgid "Image clip duration"
+#~ msgstr "Trajanje snimka slike"
+
+#~ msgid ""
+#~ "Default clip length (in miliseconds) of images when inserting on the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Osnovno trajanje snimka slike (u milisekundama) prilikom umetanja na "
+#~ "vremensku liniju."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Uklonite izabrano"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Podelite snimak na prvu poziciju"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Dodaj ključni kadar"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Prebacite na prethodni ključni kadar"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Prebacite na sledeći ključni kadar"
+
+#~ msgid "Zoom In"
+#~ msgstr "Uvećaj"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Umanji"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Ispunite uvećanje"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Razgrupišite snimke"
+
+#~ msgid "Group clips"
+#~ msgstr "Grupišite snimke"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Poravnajte snimke na osnovu njihovih zvučnih numera"
+
+#~ msgid "Export current frame..."
+#~ msgstr "Izvezi tekući kadar..."
+
+#~ msgid "Export the frame at the current playhead position as an image file."
+#~ msgstr ""
+#~ "Izvezite kadar na trenutni položaj skale puštanja kao datoteku slike."
+
+#~ msgid "Start Playback"
+#~ msgstr "Pokrenite reprodukciju"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Dodaj ključni kadar"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "Pre_thodni ključni kadar"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "Sle_deći ključni kadar"
+
+#~ msgid "Image:"
+#~ msgstr "Slika:"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Nepoznat razlog"
+
+#~ msgid "Problem:"
+#~ msgstr "Problem:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Dodatne informacije:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Vratite na osnovne vrednosti"
+
+#~ msgid "Projects"
+#~ msgstr "Projekti"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s još uvek ne rukuje nelokalnim projektima"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Audio:</b> %d kanal pri %d <i>Hz</i> (%d <i>bita</i>)"
+#~ msgstr[1] "<b>Audio:</b> %d kanala pri %d <i>Hz</i> (%d <i>bita</i>)"
+#~ msgstr[2] "<b>Audio:</b> %d kanala pri %d <i>Hz</i> (%d <i>bita</i>)"
+#~ msgstr[3] "<b>Audio:</b> %d kanal pri %d <i>Hz</i> (%d <i>bita</i>)"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.3f <i>fps</i>"
+#~ msgstr "<b>Video:</b> %dx%d <i>piksela</i> pri %.3f<i>k/s</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Slika:</b> %dx%d <i>piksela</i>"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d sat"
+#~ msgstr[1] "%d sata"
+#~ msgstr[2] "%d sati"
+#~ msgstr[3] "%d sat"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minut"
+#~ msgstr[1] "%d minuta"
+#~ msgstr[2] "%d minuta"
+#~ msgstr[3] "%d minut"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d sekunda"
+#~ msgstr[1] "%d sekunde"
+#~ msgstr[2] "%d sekundi"
+#~ msgstr[3] "%d sekunda"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d dan"
+#~ msgstr[1] "%d dana"
+#~ msgstr[2] "%d dana"
+#~ msgstr[3] "%d dan"
+
+#~ msgid "%d fps"
+#~ msgstr "%d k/s"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f k/s"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f k/s"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bita"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 kanala (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 kanala (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Square"
+#~ msgstr "Kvadrat"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p široki"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i široki"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p široki"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i široki"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV široki ekran (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Bioskop (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Bioskop (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Bioskop (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorfni (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorfni (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorfni (2.4)"
+
+#~ msgid "Implement Me"
+#~ msgstr "Realizuj me"
+
+#~ msgid "Save Preset"
+#~ msgstr "Sačuvaj predizbor"
+
+#~ msgid "No properties."
+#~ msgstr "Bez podataka."
+
+#~ msgid "Properties for %s"
+#~ msgstr "Svojstva za %s"
+
+#~ msgid "Zoom"
+#~ msgstr "Zumiraj"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Zumirajte vremensku liniju"

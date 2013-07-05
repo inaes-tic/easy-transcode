@@ -1,0 +1,1126 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# translation of pitivi to Asturian
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Astur <malditoastur@gmail.org>, 2009.
+# Xandru Armesto <xandru@softastur.org>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi.HEAD.ast\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2010-03-21 13:20+0200\n"
+"Last-Translator: Xandru Armesto <xandru@softastur.org>\n"
+"Language-Team: Asturian Team alministradores@softastur.org\n"
+"Language: ast\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Virtaal 0.5.2\n"
+"X-Poedit-Language: asturian\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Entá res</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Descripción:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Llista de fallos"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Llista de fallos"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Crea y edita les tos películes"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Editor de vídeu Pitivi"
+
+#~ msgid "%s is already running!"
+#~ msgstr "%s yá ta executándose!"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Yá ta executándose una instancia de %s nesti script."
+
+#~ msgid "Could not find the GNonLin plugins!"
+#~ msgstr "Nun pudieron atopase los complementos GNOnLin"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Asegúrate de que los complementos instaláronse y tán disponibles nel "
+#~ "camín de complementos de GStreamer."
+
+#~ msgid "Could not find the autodetect plugins!"
+#~ msgstr "Nun pudieron atopase los complementos d'autodeteición."
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and is available in the "
+#~ "GStreamer plugin path."
+#~ msgstr ""
+#~ "Asegúrate de qu'instalaste los complementos gst-plugins-good y que tán "
+#~ "disponibles nel camín de complementos de GStreamer."
+
+#~ msgid "PyGTK doesn't have cairo support!"
+#~ msgstr "PyGTK nun tien sofitu pa Cairo"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Usa una versión de los bindings de Python pa GTK+ compilaos con sofitu pa "
+#~ "Cairo."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Nun pudieron aniciase los complementos de salida de vídeu"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)"
+#~ msgstr ""
+#~ "Asegúrate de que hai polo menos un sumideru válidu de salida de vídeu "
+#~ "disponible (xvimagesink o ximagesink)"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Nun pudieron aniciase los complementos de salida de soníu"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)"
+#~ msgstr ""
+#~ "Asegúrate de que tienes polo menos un sumideru de salida d'audio "
+#~ "disponible (alsasink o osssink)"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Nun pudieron importase los bindings de Python pa Cairo"
+
+#~ msgid "Make sure you have the cairo Python bindings installed"
+#~ msgstr "Asegúrate de que tienes los bindings de Python pa Cairo instalaos"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Nun pudieron importase los bindings de Python pa libglade"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr ""
+#~ "Asegúrate de que tienes instalaos los bindings de Python pa libglade"
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Nun pudieron importase los bindings de Python pa goocanvas"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed"
+#~ msgstr ""
+#~ "Asegúrate de que tienes instalaos los bindings de Python pa goocanvas."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Nun tienes una versión reciente de los bindings de Python pa GTK+ (actual "
+#~ "%s)"
+
+#~ msgid "Install a version of the GTK+ Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Instala una versión de los bindings de Python pa GTK+ mayor o igual a %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GStreamer Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Nun tienes una versión reciente de los bindings de Python pa GStreamer "
+#~ "(actual %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Instala una versión de los bindings de Python pa GStreamer mayor o igual "
+#~ "a %s"
+
+#~ msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgstr "Nun tienes una versión reciente de GStreamer (actual %s)"
+
+#~ msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgstr "Instala una versión de GStreamer mayor o igual a %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Nun tienes una versión reciente de los bindings de Python pa Cairo "
+#~ "(actual %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Instala una versión de los bindings de Python pa Cairo mayor o igual a %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Nun tienes una versión reciente del complementu de GStreamer GNonLin "
+#~ "(actual %s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater or equal to %s"
+#~ msgstr ""
+#~ "Instala una versión del complementu GNonLin pa GStreamer mayor o igual a "
+#~ "%s"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Nun pudo importase'l módulu d'interface de Zope"
+
+#~ msgid "Make sure you have the zope.interface module installed"
+#~ msgstr "Asegúrate de que tienes el módulu zope.interface instaláu"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Nun pudieron importase los módulos distutils"
+
+#~ msgid "Make sure you have the distutils python module installed"
+#~ msgstr "Asegúrate de que tienes instaláu el módulu de pyton distutils"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Falten los complementos:\n"
+#~ "%s"
+
+#~ msgid "Can not decode file."
+#~ msgstr "Nun puede descodificase'l ficheru."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr ""
+#~ "El ficheru proporcionáu nun caltién fluxu de datos de soníu, vídeu o "
+#~ "semeya."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Nun pudo afitase la duración del ficheru."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Esti vídeu paez tar nún formatu que nun puede accedese d'un mou aleatoriu."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Perpasóse'l llímite de tiempu al analizar el ficheru."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Llevó tiempu demasiáu analizar el ficheru."
+
+#~ msgid "No available source handler."
+#~ msgstr "Nun hai disponible un remanador de la fonte."
+
+#~ msgid "You do not have a GStreamer source element to handle protocol '%s'"
+#~ msgstr ""
+#~ "Nun tienes un elementu fonte de GStreamer pa remanar el protocolu «%s»"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "La tubería nun quiso POSAR."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Hebo un fallu internu al analizar esti ficheru: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "El ficheru caltién una redireición a otru vídeu."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "Anguaño, PiTiVi nun puede remanar ficheros de redireición."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "La tubería nun quiso REPRODUCISE."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Yá hai una instancia de %s, informe a los desendolcadores rellenando un "
+#~ "informe de fallu en http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [-p FICHERU_DE_PROYEUTU]\n"
+#~ "      %prog -i [-a] [FICHERU_MULTIMEDIA]..."
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "    no project is given, %prog creates a new project.\n"
+#~ "    Alternatively, when -i is specified, arguments are treated as clips "
+#~ "to be\n"
+#~ "    imported into the project. If -a is specified, these clips will also "
+#~ "be added to\n"
+#~ "    the end of the project timeline."
+#~ msgstr ""
+#~ "Anicia l'editor de vídeu, cargando opcionalmente FICHERU_DE_PROYEUTU.  Si "
+#~ "nun se proporciona dengún proyeutu, %prog cria un nuevu proyeutu. Los "
+#~ "argumentos faltantes trátense como vídeos pa importase dientro del "
+#~ "proyeutu. Si s'especifica -a, estos vídeos amestaránse al final de la "
+#~ "cronoloxía."
+
+#~ msgid "Import each MEDIA_FILE into the project."
+#~ msgstr ""
+#~ "Amiesta cada FICHERU_MULTIMEDIA a la cronoloxía dempués d'importala."
+
+#~ msgid "Add each MEDIA_FILE to timeline after importing."
+#~ msgstr ""
+#~ "Amiesta cada FICHERU_MULTIMEDIA a la cronoloxía dempués d'importala."
+
+#~ msgid "Run pitivi in the Python Debugger"
+#~ msgstr "Executar Pitivi nel depurador de Python"
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Executar Pitivi ensin IGU"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Nun ye un ficheru de proyeutu válidu."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Nun pudo zarrase'l proyeutu actual"
+
+#~ msgid "No URI specified."
+#~ msgstr "Nun s'especificó el URI."
+
+#~ msgid "New Project"
+#~ msgstr "Proyeutu nuevu"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Esportar axustes\n"
+
+#~ msgid "Video: "
+#~ msgstr "Vídeo:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Audio:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Entemecedor:"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d hora"
+#~ msgstr[1] "%d hores"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minutu"
+#~ msgstr[1] "%d minutos"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d segundu"
+#~ msgstr[1] "%d segundos"
+
+#~ msgid "%s doesn't yet handle non local projects"
+#~ msgstr "%s entá nun puede remanar proyeutos non llocales"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi nativu (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Formatu de la llista de reproducción"
+
+#~ msgid "Name"
+#~ msgstr "Nome"
+
+#~ msgid "Description"
+#~ msgstr "Descripción"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Preseos d'entrada de soníu:"
+
+#~ msgid "No device available"
+#~ msgstr "Nun hai dengún preséu disponible"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "El preséu d'entrada de vídeu:"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Audio:</b> %d canal a %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[1] "<b>Audio:</b> %d canales a %d <i>Hz</i> (%d <i>bits</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Formatu d'audiu desconocíu:</b> %s"
+
+#~ msgid "<b>Video:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Vídeu:</b> %d x %d <i>pixeles</i> at %.2f<i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgstr "<b>Imaxe:</b> %d x %d <i>píxeles</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Formatu de vídeu desconocíu:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Testu:</b> %s"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Propiedaes pa: %d oxetu"
+#~ msgstr[1] "Propiedaes pa: %d oxetos"
+
+#~ msgid "No properties..."
+#~ msgstr "Nun hai propiedaes…"
+
+#~ msgid "Implement Me"
+#~ msgstr "Impleméntame"
+
+#~ msgid "Choose..."
+#~ msgstr "Esbilla..."
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Autor:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Nome del complementu</b>"
+
+#~ msgid "<b>Properties</b>"
+#~ msgstr "<b>Propiedaes</b>"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Propiedaes pa <element>"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Audio:</b>"
+
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Axustes</b>"
+
+#~ msgid "<b>Video:</b>"
+#~ msgstr "<b>Vídeo:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Escoyer un ficheru"
+
+#~ msgid "Modify"
+#~ msgstr "Camudar"
+
+#~ msgid "Output file:"
+#~ msgstr "Ficheru de salida:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Escoyer un ficheru de salida"
+
+#~ msgid "Render project"
+#~ msgstr "Renderizar proyeutu"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Escoyer un ficheru que renderizar"
+
+#~ msgid "About %s left"
+#~ msgstr "Queden al rodiu de %s"
+
+#~ msgid "Rendering"
+#~ msgstr "Renderizando"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Renderizáu completu"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23,97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29,97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Salida de soníu</b>"
+
+#~ msgid "<b>Export to</b>"
+#~ msgstr "<b>Esportar a</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Salida de vídeu</b>"
+
+#~ msgid "Audio Codec"
+#~ msgstr "Códec de soníu"
+
+#~ msgid "Audio Codec:"
+#~ msgstr "Códec de soníu:"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Preset d'audiu"
+
+#~ msgid "Channels:"
+#~ msgstr "Canales:"
+
+#~ msgid "Container:"
+#~ msgstr "Contenedor:"
+
+#~ msgid "Depth:"
+#~ msgstr "Profundidá:"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Tasa de fotogrames:"
+
+#~ msgid "Height:"
+#~ msgstr "Altor:"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Estéreo (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Entemecedor"
+
+#~ msgid "Rate:"
+#~ msgstr "Tasa:"
+
+#~ msgid "Settings"
+#~ msgstr "Axustes"
+
+#~ msgid "Video Codec"
+#~ msgstr "Códec de vídeu"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Códec de vídeu:"
+
+#~ msgid "Video Preset"
+#~ msgstr "Configuración del vídeu"
+
+#~ msgid "Width:"
+#~ msgstr "Anchu:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Custom"
+#~ msgstr "Personalizáu"
+
+#~ msgid "Raw Video"
+#~ msgstr "Vídeo RAW"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Soníu RAW"
+
+#~ msgid "Export settings"
+#~ msgstr "Axustes d'esportación"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Razón desconocía"
+
+#~ msgid "URI:"
+#~ msgstr "URI: "
+
+#~ msgid "Problem:"
+#~ msgstr "Problema: "
+
+#~ msgid "Extra information:"
+#~ msgstr "Información estra: "
+
+#~ msgid "Properties for %s"
+#~ msgstr "Propiedaes pa %s"
+
+#~ msgid "Render"
+#~ msgstr "Renderizando"
+
+#~ msgid "Split"
+#~ msgstr "Dividir"
+
+#~ msgid "Unlink"
+#~ msgstr "Desenllazar"
+
+#~ msgid "Link"
+#~ msgstr "Enllazar"
+
+#~ msgid "Ungroup"
+#~ msgstr "Desagrupar"
+
+#~ msgid "Group"
+#~ msgstr "Agrupar"
+
+#~ msgid "Start Playback"
+#~ msgstr "Aniciar reproducción"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Parar reproducción"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Circular sobro la estaya esbillada"
+
+#~ msgid "Create a new project"
+#~ msgstr "Cria un proyeutu nuevu"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Abre un proyeutu esistente"
+
+#~ msgid "Save the current project"
+#~ msgstr "Guarda'l proyeutu actual"
+
+#~ msgid "Project Settings"
+#~ msgstr "Axustes del proyeutu"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Edita los axustes del proyeutu"
+
+#~ msgid "_Render project"
+#~ msgstr "_Renderizar proyeutu"
+
+#~ msgid "_Undo"
+#~ msgstr "_Desfacer"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Desfacer la cabera operación"
+
+#~ msgid "_Redo"
+#~ msgstr "_Refacer"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Refacer la cabera operación desfecha"
+
+#~ msgid "_Plugins..."
+#~ msgstr "Co_mplementos…"
+
+#~ msgid "Manage plugins"
+#~ msgstr "Xestionar los complementos"
+
+#~ msgid "_Preferences"
+#~ msgstr "Prefere_ncies"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Importar de la cámara _web…"
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Importar fluxu de datos de la cámara"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "Criar un _screencast…"
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Capturar l'escritoriu"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Capturar fluxu de datos de la rede…"
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Capturar fluxu de datos de la rede…"
+
+#~ msgid "Information about %s"
+#~ msgstr "Información tocante a %s"
+
+#~ msgid "_File"
+#~ msgstr "_Ficheru"
+
+#~ msgid "_Edit"
+#~ msgstr "_Editar"
+
+#~ msgid "_View"
+#~ msgstr "_Ver"
+
+#~ msgid "_Project"
+#~ msgstr "_Proyeutu"
+
+#~ msgid "_Timeline"
+#~ msgstr "Crono_loxía"
+
+#~ msgid "Previe_w"
+#~ msgstr "Revisa_r"
+
+#~ msgid "Loop"
+#~ msgstr "Circular"
+
+#~ msgid "_Help"
+#~ msgstr "Ai_da"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Ver la ventana principal na pantalla completa"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Barra de ferramientes principal"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Barra de ferramientes de la cronoloxía"
+
+#~ msgid "Clip Library"
+#~ msgstr "Videoteca"
+
+#~ msgid "Open File..."
+#~ msgstr "Abrir ficheru…"
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Tolos formatos soportaos"
+
+#~ msgid "Contributors:"
+#~ msgstr "Contribuidores:"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Vea http://www.gnu.org/copyleft/lesser.html pa más detalles"
+
+#~ msgid "Close without saving"
+#~ msgstr "Zarrar ensin guardar"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "¿Guardar el proyeutu actual enantes de zarrar?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Si nun guardes perderánse dellos cambeos"
+
+#~ msgid "PiTiVi is unable to load file \"%s\""
+#~ msgstr "PiTiVi nun puede cargar el ficheru «%s»"
+
+#~ msgid "Error Loading File"
+#~ msgstr "Error al cargar el ficheru"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Atopar ficheru perdíu..."
+
+#~ msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgstr "Movióse'l siguiente ficheru, di-y a PiTiVi aú atopalu."
+
+#~ msgid "Duration:"
+#~ msgstr "Duración:"
+
+#~ msgid "Save As..."
+#~ msgstr "Guardar como…"
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "Ensin títulu.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Deteutar automáticamente"
+
+#~ msgid "Address"
+#~ msgstr "Direición"
+
+#~ msgid "Capture"
+#~ msgstr "Capturar"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Capturar fluxu de datos d'un URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Capturar fluxu de datos de la rede"
+
+#~ msgid "Close"
+#~ msgstr "Zarrar"
+
+#~ msgid "Customize:"
+#~ msgstr "Personalizar:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Vídeu de fluxu de la rede"
+
+#~ msgid "Other protocol"
+#~ msgstr "Otru protocolu"
+
+#~ msgid "Port"
+#~ msgstr "Puertu"
+
+#~ msgid "Preview"
+#~ msgstr "Revisar"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Revisar fluxu de datos del URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Protocolu"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "Toles categoríes"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Xestor de complementos"
+
+#~ msgid "Search:"
+#~ msgstr "Guetar:"
+
+#~ msgid "Show:"
+#~ msgstr "Amosar:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Puedes arrastrar los ficheros de los complementos a la llista pa "
+#~ "instalalos\n"
+#~ "o introducir testu pa guetar un complementu específicu."
+
+#~ msgid "Enabled"
+#~ msgstr "Activáu"
+
+#~ msgid "Plugin"
+#~ msgstr "Complementu"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "¿Daveres que quies quitar los complementos seleicionaos?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Confirmar la operación de desaniciu"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Nun puede desaniciase %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "¿Anovar el complementu esistente?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Esti complementu yá ta instaláu nel sistema.\n"
+#~ "Si tas d'alcuerdu, la versión %(v1)s trocaráse pola versión %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Atopóse un complementu duplicáu"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Nun pudo instalase %s.\n"
+#~ "El ficheru nun ye un complementu válidu."
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencies"
+
+#~ msgid "Section"
+#~ msgstr "Seición"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Restaurar a los axustes de fábrica"
+
+#~ msgid "Revert"
+#~ msgstr "Revertir"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "Dellos cambeos nun tendrán efeutu fasta que reanicies PiTiVi"
+
+#~ msgid "Reset"
+#~ msgstr "Reaniciar"
+
+#~ msgid "Appearance"
+#~ msgstr "Apariencia"
+
+#~ msgid "Thumbnail Gap (pixels)"
+#~ msgstr "Apertura de miniatures (píxeles)"
+
+#~ msgid "The gap between thumbnails"
+#~ msgstr "El espaciu ente les miniatures"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Amosar miniatures (vídeu)"
+
+#~ msgid "Show Thumbnails on Video Clips"
+#~ msgstr "Amosar miniatures nos vídeos"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Amosar formes d'onda (soníu)"
+
+#~ msgid "Show Waveforms on Audio Clips"
+#~ msgstr "Amosar formes d'onda nos audio clips"
+
+#~ msgid "A short description of your project."
+#~ msgstr "Una descripción curtia del proyeutu."
+
+#~ msgid "Description:"
+#~ msgstr "Descripción:"
+
+#~ msgid "Name:"
+#~ msgstr "Nome:"
+
+#~ msgid "The name of your project."
+#~ msgstr "El nome del proyeutu."
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Nun hai oxetos seleicionaos"
+
+#~ msgid "Screencast"
+#~ msgstr "Screencast"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Screencast al escritoriu"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Aniciar Istanbul"
+
+#~ msgid "Import clips..."
+#~ msgstr "Importar vídeos..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Quitar vídeu"
+
+#~ msgid "Play Clip"
+#~ msgstr "Reproducir vídeu"
+
+#~ msgid "Icon"
+#~ msgstr "Iconu"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Duration"
+#~ msgstr "Duración"
+
+#~ msgid ""
+#~ "<span size='x-large'>Import your clips by dragging them here or by using "
+#~ "the buttons above.</span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Importa los vídeos arrastrándolos equí o usando los "
+#~ "botones d'abaxo.</span>"
+
+#~ msgid "_Import clips..."
+#~ msgstr "_Importar vídeos…"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Importar vídeos a usar"
+
+#~ msgid "Import _folder of clips..."
+#~ msgstr "_Importar carpeta de vídeos…"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Importar carpeta de vídeos a usar"
+
+#~ msgid "_Remove from project"
+#~ msgstr "_Quitar del proyeutu"
+
+#~ msgid "Insert at _end of timeline"
+#~ msgstr "Inxertar al _final de la cronoloxía"
+
+#~ msgid "Import a folder"
+#~ msgstr "Importa una carpeta"
+
+#~ msgid "Import a clip"
+#~ msgstr "Importar un vídeu"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Zarrar dempués d'importar los ficheros"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Importando vídeos…"
+
+#~ msgid "Error(s) occurred while importing"
+#~ msgstr "Hebo dalgún fallu al importar"
+
+#~ msgid "An error occurred while importing"
+#~ msgstr "Ocurrió un fallu al importar"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Fallu al analizar los ficheros"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Los siguientes ficheros nun pueden usase con PiTiVi."
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Fallu al analizar un ficheru"
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "El siguiente ficheru nun puede usase con PiTiVi."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Desaniciar los seleicionaos"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Cortar vídeu na posición actual"
+
+#~ msgid "Zoom In"
+#~ msgstr "Acercar"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Alloxar"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Frañar enllaces ente los vídeos"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Enllazar vídeos arbitrariamente"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Desagrupar vídeos"
+
+#~ msgid "Group clips"
+#~ msgstr "Agrupar vídeos"
+
+#~ msgid "One or more GStreamer errors has occured!"
+#~ msgstr "Ocurrieron ún o más fallos de GStreamer"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Alcontráronse los siguientes fallos:"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Cronoloxía de l'ampliación"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportamientu"
+
+#~ msgid "Snap Distance (pixels)"
+#~ msgstr "Distancia d'axuste a la rexella (píxeles)"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr ""
+#~ "Umbral de distancia (en píxeles) usáu pa toles operaciones d'axuste a la "
+#~ "rexella"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Testu:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Fondu del vídeu (vídeu)"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "El color de fondu pa vídeos nes pistes de vídeu."
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Fondu del vídeu (soníu)"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "El color de fondu pa vídeos nes pistes de soníu."
+
+#~ msgid "Selection Color"
+#~ msgstr "Escoyeta de color"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Los vídeos seleicionaos colorearánse con esti color."
+
+#~ msgid "Clip Font"
+#~ msgstr "Fonte de testu del vídeu"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "La fonte pa usar nos títulos del vídeu"
+
+#~ msgid "Analyzing the file took tolong."
+#~ msgstr "Llevó enforma tiempu analizar el ficheru."
+
+#~ msgid "Add Clips..."
+#~ msgstr "Amestar vídeos…"

@@ -1,0 +1,1135 @@
+# Norwegian bokmål translation of pitivi.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+# Kjartan Maraas <kmaraas@gnome.org>, 2008-2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi 0.13.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2011-08-18 10:41+0200\n"
+"Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
+"Language-Team: Norwegian bokmål <i18n-nb@lister.ping.uio.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Posisjon</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Feilliste"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Feilliste"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Lag og rediger dine egne videoer"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Pitivi videoredigering"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>Utfører automatisk justering</big></b>"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Automatisk justering starter"
+
+#~ msgid "Estimating..."
+#~ msgstr "Estimerer …"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Beskjær</b>"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Størrelse</b>"
+
+#~ msgid "<b>Viewer Zoom</b>"
+#~ msgstr "<b>Zoom for visning</b>"
+
+#~ msgid "Height:"
+#~ msgstr "Høyde:"
+
+#~ msgid "Width:"
+#~ msgstr "Bredde:"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Install"
+#~ msgstr "Installer"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Mangler avhengigheter"
+
+#~ msgid "label"
+#~ msgstr "etikett"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Egenskaper for <element>"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 bps"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 kanaler (5.1)"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "Advanced..."
+#~ msgstr "Avansert …"
+
+#~ msgid "Audio"
+#~ msgstr "Lyd"
+
+#~ msgid "Codec:"
+#~ msgstr "Kodek:"
+
+#~ msgid "Container format"
+#~ msgstr "Kontainerformat"
+
+#~ msgid "Container format:"
+#~ msgstr "Kontainerformat:"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Skisse (ingen spesielle effekter, en gjennomgang)"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Rediger innstillinger for prosjekt …"
+
+#~ msgid "File name"
+#~ msgstr "Filnavn"
+
+#~ msgid "File name:"
+#~ msgstr "Filnavn:"
+
+#~ msgid "Folder"
+#~ msgstr "Mappe"
+
+#~ msgid "Folder:"
+#~ msgstr "Mappe:"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Bilderate:"
+
+#~ msgid "Framerate"
+#~ msgstr "Bilderate"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "Height"
+#~ msgstr "Høyde"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Antall kanaler:"
+
+#~ msgid "Render"
+#~ msgstr "Tegn"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Tegne kun valgte klipp"
+
+#~ msgid "Scale"
+#~ msgstr "Skalering"
+
+#~ msgid "Scale:"
+#~ msgstr "Skalering:"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>Tegner film</big></b>"
+
+#~ msgid "<b>Estimated filesize:</b>"
+#~ msgstr "<b>Estimert filstørrelse</b>"
+
+#~ msgid "<b>Frames per second:</b>"
+#~ msgstr "<b>Bilder per sekund:</b>"
+
+#~ msgid "<b>Phase:</b>"
+#~ msgstr "<b>Fase:</b>"
+
+#~ msgid "Rendering"
+#~ msgstr "Tegning"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukjent"
+
+#, fuzzy
+#~ msgid "Unknown Mib"
+#~ msgstr "Ukjent Mib"
+
+#~ msgid "<b>Some changes will not take effect until you restart PiTiVi</b>"
+#~ msgstr "<b>Noen endringer vil ikke gjelde før du starter PiTiVi på nytt</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Brukervalg"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Gå tilbake til fabrikkinnstillinger"
+
+#~ msgid "Revert"
+#~ msgstr "Forkast"
+
+#~ msgid "Section"
+#~ msgstr "Del"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 BPS"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Høyde-/breddeforhold</b>"
+
+#~ msgid "<b>Audio Preset</b>"
+#~ msgstr "<b>Forhåndssatt lyd</b>"
+
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>Format</b>"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Bilderate</b>"
+
+#~ msgid "<b>Size (Pixels)</b>"
+#~ msgstr "<b>Størrelse (piksler)</b>"
+
+#~ msgid "<b>Video Preset</b>"
+#~ msgstr "<b>Forhåndssatt video</b>"
+
+#~ msgid "Author:"
+#~ msgstr "Forfatter:"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanaler:"
+
+#~ msgid "Display Aspect Ratio"
+#~ msgstr "Vis høyde-/breddeforhold"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Link"
+#~ msgstr "Lag lenke"
+
+#~ msgid "Project Settings"
+#~ msgstr "Innstillinger for prosjekt"
+
+#~ msgid "Project title:"
+#~ msgstr "Tittel på prosjekt:"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Standard (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "Standard PAL"
+
+#~ msgid "Year:"
+#~ msgstr "År:"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Bla gjennom prosjekter …"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Dobbeltklikk på et prosjekt under for å laste det:"
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Mangler avhengigheter …"
+
+#~ msgid "Welcome"
+#~ msgstr "Velkommen"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Kan ikke åpne mer enn en PROSJEKT_FIL"
+
+#~ msgid "%s is already running"
+#~ msgstr "%s kjører allerede"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "En instans av %s kjører allerede i dette skriptet."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "Fant ikke tillegg for GNonLin"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Sjekk at tilleggene er installert og tilgjengelige i tilleggstien for "
+#~ "GStreamer."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Fant ikke autogjenkjenningstillegg"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Sjekk at gst-plugins-good er installert og tilgjengelig i tilleggstien "
+#~ "for GStreamer."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "PyGTK har ikke støtte for cairo"
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Kunne ikke initiere tillegg for videoutdata"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Kunne ikke initiere tillegg for lydutdata"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Kunne ikke importere Python-bindinger for Cairo"
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr "Sjekk at du har Python-bindinger for Cairo installert."
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Kunne ikke importere Python-bindinger for goocanvas"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr "Sjekk at du har Python-bindinger for goocanvas installert."
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Kunne ikke importere Python-biblioteket xdg"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Kunne ikke importere grensesnittmodul for Zope"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Ekstra videoeffekter"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Manglende tillegg:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "Kan ikke dekode fil."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Tidsavbrudd under analyse av fil."
+
+#~ msgid "File does not exist"
+#~ msgstr "Filen eksisterer ikke"
+
+#~ msgid "File not readable by current user"
+#~ msgstr "Filen er ikke lesbar av aktiv bruker"
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Det oppsto en intern feil under analyse av denne filen: %s"
+
+#~ msgid "All effects"
+#~ msgstr "Alle effekter"
+
+#~ msgid "Colors"
+#~ msgstr "Farger"
+
+#~ msgid "Noise"
+#~ msgstr "Støy"
+
+#~ msgid "Analysis"
+#~ msgstr "Analyse"
+
+#~ msgid "Blur"
+#~ msgstr "Uskarp"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometri"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Ikke kategorisert"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Lyd |audio"
+
+#~ msgid "effect"
+#~ msgstr "effekt"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr ""
+#~ "Prosjektet inneholder effekter som ikke er tilgjengelig på systemet."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "Klarte ikke å laste %(uri)s."
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi-format (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Spillelisteformat"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Ikke en gyldig prosjektfil."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Kunne ikke lukke aktivt prosjekt"
+
+#~ msgid "No URI specified."
+#~ msgstr "Ingen URI oppgitt."
+
+#~ msgid "New Project"
+#~ msgstr "Nytt prosjekt"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Eksporter innstillinger\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Lyd: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muxer: "
+
+#~ msgid "Remove effect"
+#~ msgstr "Fjern effekt"
+
+#~ msgid "Activated"
+#~ msgstr "Aktivert"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "Effect name"
+#~ msgstr "Navn på effekt"
+
+#~ msgid "Effects"
+#~ msgstr "Effekter"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr "Velg et klipp på tidslinjen for å konfigurere assosierte effekter"
+
+#~ msgid "Transformation"
+#~ msgstr "Transformering"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Lyd:</b> %d kanal ved %d <i>Hz</i> (%d </i>bits</i>)"
+#~ msgstr[1] "<b>Lyd:</b> %d kanaler ved %d <i>Hz</i> med (%d </i>bits</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Ukjent lydformat:</b> %s"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Video:</b> %dx%d <i>piksler</i> med %.2f</i>bps</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Bilde:</b> %dx%d <i>piksler</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Ukjent videoformat:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Tekst:</b> %s"
+
+#~ msgid "%d fps"
+#~ msgstr "%d bps"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f bps"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f bps"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bit"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 kanaler (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 kanaler (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Implement Me"
+#~ msgstr "Implementer meg"
+
+#~ msgid "Custom"
+#~ msgstr "Tilpasset"
+
+#~ msgid "Save Preset"
+#~ msgstr "Lagre forhåndsverdi"
+
+#~ msgid "Choose..."
+#~ msgstr "Velg …"
+
+#~ msgid "Video effects"
+#~ msgstr "Videoeffekter"
+
+#~ msgid "Audio effects"
+#~ msgstr "Lydeffekter"
+
+#~ msgid "Search:"
+#~ msgstr "Søk:"
+
+#~ msgid "Name"
+#~ msgstr "Navn"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivelse"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Vis videoeffekter som en liste"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Vis videoeffekter som ikoner"
+
+#~ msgid "A file name is required."
+#~ msgstr "Et filnavn kreves."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Filen eksisterer allerede.\n"
+#~ "Velg et annet filnavn eller en annen mappe hvis du ikke vil overskrive "
+#~ "den."
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "PiTiVi kan ikke forhåndsvise denne filen."
+
+#~ msgid "More info"
+#~ msgstr "Mer informasjon"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Oppløsning</b>: %dx%d"
+
+#~ msgid "<b>Duration</b>: %s"
+#~ msgstr "<b>Varighet</b>: %s"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Feil under analyse av en fil"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Ukjent årsak"
+
+#~ msgid "Problem:"
+#~ msgstr "Problem:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Ekstra informasjon:"
+
+#~ msgid "No properties..."
+#~ msgstr "Ingen egenskaper …"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Sett til utgangsverdi"
+
+#~ msgid "Properties for %s"
+#~ msgstr "Egenskaper for %s"
+
+#~ msgid "Split"
+#~ msgstr "Del opp"
+
+#~ msgid "Keyframe"
+#~ msgstr "Nøkkelbilde"
+
+#~ msgid "Unlink"
+#~ msgstr "Fjern lenke"
+
+#~ msgid "Ungroup"
+#~ msgstr "Fjern gruppering"
+
+#~ msgid "Group"
+#~ msgstr "Grupper"
+
+#~ msgid "Align"
+#~ msgstr "Juster"
+
+#~ msgid "Start Playback"
+#~ msgstr "Start avspilling"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Stopp avspilling"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Kjør i løkke over valgt område"
+
+#~ msgid "Create a new project"
+#~ msgstr "Opprett et nytt prosjekt"
+
+#~ msgid "_Open..."
+#~ msgstr "_Åpne …"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Åpne et eksisterende prosjekt"
+
+#~ msgid "Save the current project"
+#~ msgstr "Lagre aktivt prosjekt"
+
+#~ msgid "Save _As..."
+#~ msgstr "L_agre som …"
+
+#~ msgid "Reload the current project"
+#~ msgstr "Last aktivt prosjekt på nytt"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Rediger innstillinger for prosjektet"
+
+#~ msgid "_Render Project..."
+#~ msgstr "_Lag prosjekt …"
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Eksporter ditt prosjekt som en ferdig film"
+
+#~ msgid "_Undo"
+#~ msgstr "_Angre"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Angre siste operasjon"
+
+#~ msgid "_Redo"
+#~ msgstr "Gjenopp_rett"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Gjenopprett siste operasjon som ble angret"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Brukervalg"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informasjon om %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Brukerhåndbok"
+
+#~ msgid "_Project"
+#~ msgstr "_Prosjekt"
+
+#~ msgid "_Edit"
+#~ msgstr "R_ediger"
+
+#~ msgid "_View"
+#~ msgstr "_Vis"
+
+#~ msgid "_Library"
+#~ msgstr "Bib_liotek"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Tidslinje"
+
+#~ msgid "Previe_w"
+#~ msgstr "Forhånds_vis"
+
+#~ msgid "Loop"
+#~ msgstr "Løkke"
+
+#~ msgid "_Help"
+#~ msgstr "_Hjelp"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Vis hovedvinduet på hele skjermen"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Hovedverktøylinje"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Verktøylinje for tidslinje"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Fjern visning fra dokk"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Plasser visning i et eget vindu"
+
+#~ msgid "Media Library"
+#~ msgstr "Mediebibliotek"
+
+#~ msgid "Effect Library"
+#~ msgstr "Effektbibliotek"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Konfigurasjon av klipp"
+
+#~ msgid "Contributors:"
+#~ msgstr "Bidragsytere:"
+
+#~ msgid "translator-credits"
+#~ msgstr "Kjartan Maraas <kmaraas@gnome.org>"
+
+#~ msgid "Open File..."
+#~ msgstr "Åpne fil …"
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Alle støttede formater"
+
+#~ msgid "Close without saving"
+#~ msgstr "Lukk uten å lagre"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Lagre endringer i aktivt prosjekt før du lukker det?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Hvis du ikke lagrer vil noen av dine endringer gå tapt"
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Vil du laste dette prosjektet på nytt?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Gå tilbake til lagret prosjekt"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Alle ikke-lagrede endringer vil gå tapt."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Kan ikke laste prosjekt «%s»"
+
+#~ msgid "Error Loading Project"
+#~ msgstr "Feil ved lasting av prosjekt"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Finn manglende fil …"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Følgende fil er flyttet: «<b>%s</b>»\n"
+#~ "Vennligst oppgi den nye lokasjonen:"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Følgende fil er flyttet: «<b>%s</b>» (varighet: %s\n"
+#~ "Vennligst oppgi den nye lokasjonen:"
+
+#~ msgid "Save As..."
+#~ msgstr "Lagre som …"
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "Uten navn.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Gjenkjenn automatisk"
+
+#~ msgid "Untitled project"
+#~ msgstr "Prosjekt uten navn"
+
+#~ msgid "Appearance"
+#~ msgstr "Utseende"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Mellomrom mellom miniatyrer"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Mellomrom mellom miniatyrer i piksler"
+
+#~ msgid "Performance"
+#~ msgstr "Ytelse"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Intervall for å lage miniatyrer"
+
+#~ msgid "%s second"
+#~ msgstr "%s sekund"
+
+#~ msgid "%s seconds"
+#~ msgstr "%s sekunder"
+
+#~ msgid "minute"
+#~ msgstr "minutt"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Intervall mellom miniatyrer i sekunder."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Slå på miniatyrer for videoer"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Vis miniatyrer på videoklipp"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Slå på bølgeformer for lyd"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Vis bølgeformer på lydklipp"
+
+#~ msgid "Square"
+#~ msgstr "Firkant"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p bred"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i bred"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p bred"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i bred"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV bredt format (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Kino (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Kino (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Kino (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorfisk (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorfisk (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorfisk (2.4)"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "«%s» eksisterer allerede."
+
+#~ msgid "New Preset"
+#~ msgstr "Ny forhåndsinnstilling"
+
+#~ msgid "New Preset %d"
+#~ msgstr "Ny forhåndsinnstilling %d"
+
+#~ msgid "Import Files..."
+#~ msgstr "Importer filer …"
+
+#~ msgid "Remove Clip"
+#~ msgstr "Fjern klipp"
+
+#~ msgid "Play Clip"
+#~ msgstr "Spill av klipp"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Information"
+#~ msgstr "Informasjon"
+
+#~ msgid "Duration"
+#~ msgstr "Varighet"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Legg til medier i prosjektet ved å dra filer og mapper hit eller ved å "
+#~ "bruke knappen «Importer filer …»."
+
+#~ msgid "Hide"
+#~ msgstr "Skjul"
+
+#~ msgid "_Import Files..."
+#~ msgstr "_Importer filer …"
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Legg til mediefiler i ditt prosjekt"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "Importer _mapper …"
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Legg til innhold av en mappe som klipp i prosjektet"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Velg ubrukte medier"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Velg klipp som ikke har vært brukt i prosjektet"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "Fje_rn fra prosjekt"
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Sett inn ved slutt_en av tidslinjen"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Vis klipp som en liste"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Vis klipp som ikoner"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Velg en eller flere mapper"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Velg en eller flere filer"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Lukk etter import av filer"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Importerer klipp %(current_clip)d av %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Det oppsto en feil under import."
+
+#~ msgid "View errors"
+#~ msgstr "Vis feil"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "En feil oppsto under import."
+
+#~ msgid "View error"
+#~ msgstr "Vis feil"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Feil under analyse av filer"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Følgende filer kan ikke brukes med PiTiVi."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Følgende fil kan ikke brukes med PiTiVi."
+
+#~ msgid "Behavior"
+#~ msgstr "Oppførsel"
+
+#~ msgid "Snap distance"
+#~ msgstr "Festeavstand"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Terskel i piksler hvor to klipp vil feste seg sammen ved draoperasjoner "
+#~ "eller trimming."
+
+#~ msgid "Audio:"
+#~ msgstr "Lyd:"
+
+#~ msgid "Video:"
+#~ msgstr "Video:"
+
+#~ msgid "Text:"
+#~ msgstr "Tekst:"
+
+#~ msgid "Delete Selected"
+#~ msgstr "Slett valgte"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Del klipp ved avspilt posisjon"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Legg til nøkkelbilde"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Flytt til forrige nøkkelbilde"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Flytt til neste nøkkelbilde"
+
+#~ msgid "Zoom In"
+#~ msgstr "Zoom inn"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Zoom ut"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Zoom tilpasset"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Bryt lenker mellom klipp"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Lenk sammen tilfeldige klipp"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Fjern gruppering av klipp"
+
+#~ msgid "Group clips"
+#~ msgstr "Grupper klipp"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Juster klipp basert på lydspor"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "En eller flere GStreamer-feil oppsto"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Følgende feil har blitt rapportert:"
+
+#~ msgid "Zoom"
+#~ msgstr "Zoom"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Zoom i tidslinjen"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Legg til et nøkkelbilde"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "_Forrige nøkkelbilde"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "_Neste nøkkelbilde"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Farge for videoklipp"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Bakgrunnsfarge for klipp i videospor."
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Farge for lydklipp"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Bakgrunnsfarge for klipp i lydspor."
+
+#~ msgid "Selection color"
+#~ msgstr "Utvalgsfarge"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Valgte klipp vil få et innslag av denne fargen."
+
+#~ msgid "Clip font"
+#~ msgstr "Skrift for klipp"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Skrift til bruk for titler på klipp"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Gå til starten av tidslinjen"
+
+#~ msgid "Go back one second"
+#~ msgstr "Gå tilbake ett sekund"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Gå fremover ett sekund"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Gå til slutten av tidslinjen"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Dokkvisning"
+
+#~ msgid "Play"
+#~ msgstr "Spill av"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d time"
+#~ msgstr[1] "%d timer"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minutt"
+#~ msgstr[1] "%d minutter"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d sekund"
+#~ msgstr[1] "%d sekunder"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s håndterer ikke eksterne prosjekter ennå"

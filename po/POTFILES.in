@@ -1,0 +1,13 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+# [encoding: UTF-8]
+data/mbc-zumo.desktop.in.in
+[type: gettext/glade]data/ui/dropwidget.ui
+[type: gettext/glade]data/ui/dropwindow.ui
+[type: gettext/glade]data/ui/simple.ui
+bin/zumo.py
+lib/Melt.py
+lib/Process.py
+lib/MBC.py
+lib/Drop.py
+lib/XA.py

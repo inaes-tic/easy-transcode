@@ -1,0 +1,2119 @@
+# translation of lv.po to Latvian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Raivis Dejus <orvils@gmail.com>, 2007.
+# Rūdofls Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012.
+# Pēteris Krišjānis <pecisk@gmail.com>, 2011.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: lv\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-06-20 22:00+0300\n"
+"Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latviešu <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.2\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Pagaidām nekas</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Garums</b>: %s"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+#, fuzzy
+msgid "Video Transcoding"
+msgstr "Video celiņš"
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Kļūdu saraksts"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Kļūdu saraksts"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Pitivi video redaktors"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Izveido un rediģē savas filmas"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Automātiskā līdzināšana sākas"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>Veic automātisko līdzināšanu</big></b>"
+
+#~ msgid "Estimating..."
+#~ msgstr "Novērtē..."
+
+#~ msgid "Clip Properties"
+#~ msgstr "Klipa īpašības"
+
+#~ msgid "_Cancel"
+#~ msgstr "At_celt"
+
+#~ msgid "_Apply to project"
+#~ msgstr "Pielietot projekt_am"
+
+#~ msgid "Size (pixels):"
+#~ msgstr "Izmērs (pikseļi):"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Kadru nomaiņas ātrums:"
+
+#~ msgid "Pixel aspect ratio:"
+#~ msgstr "Pikseļu izmēru attiecība:"
+
+#~ msgid "Video:"
+#~ msgstr "Video: "
+
+#~ msgid "Channels:"
+#~ msgstr "Kanāli:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Nolases biežums:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Nolases dziļums:"
+
+#~ msgid "Audio:"
+#~ msgstr "Audio:"
+
+#~ msgid "Viewer Zoom"
+#~ msgstr "Skatītāja tālummaiņa"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Position"
+#~ msgstr "Pozīcija"
+
+#~ msgid "Width:"
+#~ msgstr "Platums:"
+
+#~ msgid "Height:"
+#~ msgstr "Augstums:"
+
+#~ msgid "Size"
+#~ msgstr "Izmērs"
+
+#~ msgid "Crop"
+#~ msgstr "Apcirst"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Trūkstošas atkarības"
+
+#~ msgid "Install"
+#~ msgstr "Instalēt"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Lai aktivētu papildu iespējas, lūdzu, instalējiet sekojošas pakotnes un "
+#~ "pārstartējiet PitiVi:"
+
+#~ msgid "label"
+#~ msgstr "etiķete"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "<element> īpašības"
+
+#~ msgid "Preferences"
+#~ msgstr "Iestatījumi"
+
+#~ msgid "Section"
+#~ msgstr "Nodaļa"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "Dažas izmaiņas nestāsies spēkā, kamēr nebūsiet pārstartējis PiTiVi"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Atstatīt uz noklusētajiem iestatījumiem"
+
+#~ msgid "Revert"
+#~ msgstr "Atgriezt"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Standarta (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "Standarta PAL"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 kadri/sek"
+
+#~ msgid "Project Settings"
+#~ msgstr "Projekta iestatījumi"
+
+#~ msgid "Video Preset"
+#~ msgstr "Video priekšstatījumi"
+
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Izmēru attiecība:"
+
+#~ msgid "Display aspect ratio"
+#~ msgstr "Displeja izmēru attiecība"
+
+#~ msgid "Pixel aspect ratio"
+#~ msgstr "Pikseļu izmēru attiecība"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Saistīt"
+
+#~ msgid "Frame Rate:"
+#~ msgstr "Kadru nomaiņas ātrums:"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Audio priekšstatījumi"
+
+#~ msgid "Format"
+#~ msgstr "Formāts"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Author:"
+#~ msgstr "Autors:"
+
+#~ msgid "Year:"
+#~ msgstr "Gads:"
+
+#~ msgid "Project title:"
+#~ msgstr "Projekta nosaukums:"
+
+#~ msgid "Info"
+#~ msgstr "Informācija"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 kadri/sek"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 kanāli (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Renderēt"
+
+#~ msgid "Render Preset"
+#~ msgstr "Renderētāja priekšstatījumi"
+
+#~ msgid "Folder"
+#~ msgstr "Mape"
+
+#~ msgid "Container format"
+#~ msgstr "Konteinera formāts"
+
+#~ msgid "Container format:"
+#~ msgstr "Konteinera formāts:"
+
+#~ msgid "Folder:"
+#~ msgstr "Mape:"
+
+#~ msgid "File name:"
+#~ msgstr "Faila nosaukums:"
+
+#~ msgid "File name"
+#~ msgstr "Faila nosaukums"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Renderēt tikai izvēlētos klipus"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Uzmetums (bez specefektiem, vienreizēja apstrāde)"
+
+#~ msgid "General"
+#~ msgstr "Vispārīgi"
+
+#~ msgid "Advanced..."
+#~ msgstr "Paplašināti..."
+
+#~ msgid "Codec:"
+#~ msgstr "Kodeks:"
+
+#~ msgid "Framerate"
+#~ msgstr "Kadru nomaiņas ātrums"
+
+#~ msgid "Scale"
+#~ msgstr "Mērogs"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Augstums"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Rediģēt projekta iestatījumus..."
+
+#~ msgid "Scale:"
+#~ msgstr "Mērogs:"
+
+#~ msgid "Enable video"
+#~ msgstr "Aktivēt video"
+
+#~ msgid "Enable audio"
+#~ msgstr "Aktivēt audio"
+
+#~ msgid "Rendering"
+#~ msgstr "Renderē"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>Renderē filmu</big></b>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Nezināmi Mib"
+
+#~ msgid "Unknown"
+#~ msgstr "Nezināms"
+
+#~ msgid "Rendering first pass"
+#~ msgstr "Renderēšanas pirmā apstrāde"
+
+#~ msgid "Estimated filesize:"
+#~ msgstr "Iespējamais faila izmērs:"
+
+#~ msgid "Frames per second:"
+#~ msgstr "Kadri sekundē:"
+
+#~ msgid "Phase:"
+#~ msgstr "Fāze:"
+
+#~ msgid "Initializing..."
+#~ msgstr "Inicializē..."
+
+#~ msgid "Welcome"
+#~ msgstr "Laipni lūdzam"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Dubultklikšķiniet uz projekta, lai to atvērtu:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Pārlūkot projektus..."
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Trūkstošas atkarības..."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Šeit jau ir instance %s. Lūdzu, informējiet izstrādātājus, aizpildot "
+#~ "kļūdu ziņojumu izmantojot http://bugzilla.gnome.org/enter_bug.cgi?"
+#~ "product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [PROJEKTA_FAILS]               # Palaist video redaktoru.\n"
+#~ "    %prog -i [-a] [MEDIJU_FAILS1 ...]    # Palaist redaktoru un izveidot "
+#~ "projektu."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Ielādēt katru MEDIJU_FAILS jaunā projektā."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr "Pēc importēšanas pievienot katru MEDIJU_FAILS laika skalas beigās."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Palaist Pitivi ar Python atkļūdotāju."
+
+#~ msgid "-a requires -i"
+#~ msgstr "-a pieprasa -i"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Nevar atvērt ne vairāk kā vienu PROJEKTA_FAILS"
+
+#~ msgid "%s is already running"
+#~ msgstr "%s jau ir palaists"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "%s instance šajā skriptā jau ir palaista."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "Neizdevās atrast GNonLin spraudņus"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Pārliecinieties, ka spraudņi ir uzinstalēti, un ka tie ir pieejami "
+#~ "GStreamer spraudņu ceļā."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Neizdevās atrast automātiskās noteikšanas spraudņus"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Pārliecinieties, ka gst-plugins-good spraudņi ir uzinstalēti, un ka tie "
+#~ "ir pieejami GStreamer spraudņu ceļā."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "PyGTK nav cairo atbalsta"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr "Lūdzu, lietojiet GTK+ Python piesaistes ar iebūvētu cairo atbalstu."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Neizdevās inicializēt video izvades spraudņus"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "Pārliecinieties, ka jums ir pieejams vismaz viens derīgs video izvades "
+#~ "saņēmējs (xvimagesink vai ximagesink)."
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Neizdevās inicializēt audio izvades spraudņus"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "Pārliecinieties, ka jums ir pieejams vismaz viens derīgs audio izvades "
+#~ "saņēmējs (alsasink vai osssink)."
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Neizdevās importēt cairo Python piesaistes"
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr "Pārliecinieties, ka jums ir uzinstalētas cairo Python piesaistes."
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Neizdevās importēt goocanvas Python piesaistes"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr ""
+#~ "Pārliecinieties, ka jums ir uzinstalētas goocanvas Python piesaistes."
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Neizdevās importēt xdg Python bibliotēku"
+
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr "Pārliecinieties, ka jums ir uzinstalēta xdg Python bibliotēka."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "Jums nav pietiekami jauna GTK+ Python piesaistu versija (šobrīd versija "
+#~ "ir %s)"
+
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr "Uzinstalējiet Gtk+ Python piesaistu versiju %s vai jaunāku."
+
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr "Jums nav pietiekami jauna Gtk+ versija (šobrīd %s)"
+
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr "Uzinstalējiet GStreamer versiju %s vai jaunāku."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Jums nav pietiekami jauna GStreamer Python piesaistu versija (šobrīd %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr "Uzinstalējiet GStreamer Python piesaistu versiju %s vai jaunāku."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr "Jums nav pietiekami jauna GStreamer versija (šobrīd %s)"
+
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr "Uzinstalējiet GStreamer versiju %s vai jaunāku."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Jums nav pietiekami jauna Cairo Python piesaistu versija (šobrīd %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr "Uzinstalējiet Cairo Python piesaistu versiju %s vai jaunāku."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Jums nav pietiekami jauna GNonLin Gstreamer spraudņa versija (šobrīd %s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr "Uzinstalējiet GNonLin Gstreamer spraudņa versiju %s vai jaunāku."
+
+#~ msgid "Could not import GStreamer Editing Services "
+#~ msgstr "Neizdevās importēt GStreamer rediģēšanas servisus"
+
+#~ msgid "Make sure you have GStreamer Editing Services installed."
+#~ msgstr "Pārliecinieties, ka ir uzinstalēti GStreamer rediģēšanas servisi."
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Neizdevās importēt Zope saskarnes moduli"
+
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Pārliecinieties, ka jums ir uzinstalēts zope.interface modulis."
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Neizdevās importēt distutils moduļus"
+
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr "Pārliecinieties, ka jums ir uzinstalēts distutils Python modulis."
+
+#~ msgid "Enables the autoalign feature"
+#~ msgstr "Aktivē automātiskās līdzināšanas iespēju"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Papildu video efekti"
+
+#~ msgid "Additional multimedia codecs through the FFmpeg library"
+#~ msgstr "Papildu multimediju kodeki, izmantojot FFmpeg bibliotēku"
+
+#~ msgid "Remove effect"
+#~ msgstr "Izņemt efektu"
+
+#~ msgid "Activated"
+#~ msgstr "Aktivizēts"
+
+#~ msgid "Type"
+#~ msgstr "Tips"
+
+#~ msgid "Effect name"
+#~ msgstr "Efekta nosaukums"
+
+#~ msgid "Effects"
+#~ msgstr "Efekti"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Izvēlieties klipu uz laika skalas, lai konfigurētu ar to saistītos efektus"
+
+#~ msgid "Transformation"
+#~ msgstr "Pārveidošana"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Bez kategorijas"
+
+#~ msgid "All effects"
+#~ msgstr "Visi efekti"
+
+#~ msgid "Colors"
+#~ msgstr "Krāsas"
+
+#~ msgid "Noise"
+#~ msgstr "Trokšņi"
+
+#~ msgid "Analysis"
+#~ msgstr "Analīze"
+
+#~ msgid "Blur"
+#~ msgstr "Izpludināšana"
+
+#~ msgid "Geometry"
+#~ msgstr "Ģeometrija"
+
+#~ msgid "Fancy"
+#~ msgstr "Šiks"
+
+#~ msgid "Time"
+#~ msgstr "Laiks"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Audio"
+
+#~ msgid "effect"
+#~ msgstr "efekts"
+
+#~ msgid "Video effects"
+#~ msgstr "Video efekti"
+
+#~ msgid "Audio effects"
+#~ msgstr "Audio efekti"
+
+#~ msgid "Search:"
+#~ msgstr "Meklēt:"
+
+#~ msgid "Name"
+#~ msgstr "Nosaukums"
+
+#~ msgid "Description"
+#~ msgstr "Apraksts"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Rādīt video efektus kā sarakstu"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Rādīt video efektus kā ikonas"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi vietējais (XML)"
+
+#~ msgid "Split"
+#~ msgstr "Sadalīt"
+
+#~ msgid "Keyframe"
+#~ msgstr "Atslēgkadrs"
+
+#~ msgid "Unlink"
+#~ msgstr "Atsaistīt"
+
+#~ msgid "Ungroup"
+#~ msgstr "Atgrupēt"
+
+#~ msgid "Group"
+#~ msgstr "Sagrupēt"
+
+#~ msgid "Align"
+#~ msgstr "Līdzināt"
+
+#~ msgid "Create a new project"
+#~ msgstr "Izveidot jaunu projektu"
+
+#~ msgid "_Open..."
+#~ msgstr "_Atvērt..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Atvērt esošu projektu"
+
+#~ msgid "Save the current project"
+#~ msgstr "Saglabāt pašreizējo projektu"
+
+#~ msgid "Save _As..."
+#~ msgstr "S_aglabāt kā..."
+
+#~ msgid "Reload the current project"
+#~ msgstr "Pārlādēt pašreizējo projektu"
+
+#~ msgid "Export as Archive..."
+#~ msgstr "Eksportēt kā arhīvu..."
+
+#~ msgid "Export the current project"
+#~ msgstr "Eksportēt pašreizējo projektu"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Rediģēt projekta iestatījumus"
+
+#~ msgid "_Render..."
+#~ msgstr "_Renderēt..."
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Eksportēt projektu kā pabeigtu filmu"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Atsaukt iepriekšējo darbību"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Atkārtot pēdējo darbību, kura tika atsaukta"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informācija par %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Lietotāja rokasgrāmata"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekts"
+
+#~ msgid "_Edit"
+#~ msgstr "R_ediģēt"
+
+#~ msgid "_View"
+#~ msgstr "_Skats"
+
+#~ msgid "_Library"
+#~ msgstr "_Klipu videotēka"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Laika skala"
+
+#~ msgid "Previe_w"
+#~ msgstr "Priekš_skatījums"
+
+#~ msgid "_Help"
+#~ msgstr "_Palīdzība"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Skatīt galveno logu uz visa ekrāna"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Galvenā rīkjosla"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Laika skalas rīkjosla"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Atdokot skatītāju"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Novietot skatītāju atsevišķā logā"
+
+#~ msgid "Media Library"
+#~ msgstr "Klipu videotēka"
+
+#~ msgid "Effect Library"
+#~ msgstr "Efektu videotēka"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Klipa konfigurācija"
+
+#~ msgid "Transitions"
+#~ msgstr "Pārejas"
+
+#~ msgid "PiTiVi %s is available."
+#~ msgstr "PiTiVi %s ir pieejams."
+
+#~ msgid "Contributors:"
+#~ msgstr "Atbalstītāji:"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Rudolfs Mazurs <rudolfs.mazurs@gmail.com> Peteris Krisjanis <pecisk@gmail."
+#~ "com>"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Apskatiet http://www.gnu.org/copyleft/lesser.html , lai uzzinātu vairāk"
+
+#~ msgid "Open File..."
+#~ msgstr "Atvērt failu..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Visi atbalstītie formāti"
+
+#~ msgid "Close without saving"
+#~ msgstr "Aizvērt nesaglabājot"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Saglabāt izmaiņas šajā projektā pirms aizvēršanas?"
+
+#~ msgid "If you don't save, the changes from the last %s will be lost."
+#~ msgstr "Ja nesaglabāsiet, izmaiņas no pēdējām %s pazudīs."
+
+#~ msgid "If you don't save, your changes will be lost."
+#~ msgstr "Ja nesaglabāsiet, izmaiņas pazudīs."
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Vai vēlaties pārlādēt pašreizējo projektu?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Atgriezt uz pēdējo saglabāto projektu"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Visas nesaglabātās izmaiņas pazudīs."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Neizdevās ielādēt projektu \"%s\""
+
+#~ msgid "Error Loading Project"
+#~ msgstr "Kļūda, ielādējot projektu"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Atrast trūkstošo failu..."
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Sekojošs fails ir pārvietots: \"<b>%s</b>\"\n"
+#~ "Lūdzu, norādiet tā jauno atrašanās vietu:"
+
+#~ msgid "Export To..."
+#~ msgstr "Eksportēt uz..."
+
+#~ msgid "Untitled"
+#~ msgstr "Bez nosaukuma"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Noteikt automātiski"
+
+#~ msgid "Save As..."
+#~ msgstr "Saglabāt kā..."
+
+#~ msgid "Preview - click outside to close"
+#~ msgstr "Priekšskatījums — spiediet ārpusē, lai aizvērtu"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "PiTiVi nespēj priekšspēlēt šo failu."
+
+#~ msgid "More info"
+#~ msgstr "Vairāk informācijas"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Izšķirtspēja</b>: %d×%d"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Faila analizēšanas laikā gadījās kļūda"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "Izņemt no p_rojekta"
+
+#~ msgid "_Preview Clip"
+#~ msgstr "_Priekšskatīt klipu"
+
+#~ msgid "_Clip Properties..."
+#~ msgstr "_Klipa īpašības..."
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "I_evietot laika skalas beigās"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Information"
+#~ msgstr "Informācija"
+
+#~ msgid "Duration"
+#~ msgstr "Ilgums"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Pievienot medijus jūsu projektam, ievelkot failus un mapes šeit vai arī "
+#~ "izmantojot \"Importēt failus...\" pogu."
+
+#~ msgid "Hide"
+#~ msgstr "Slēpt"
+
+#~ msgid "_Import Files..."
+#~ msgstr "_Importēt failus..."
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Pievienot mediju failus projektam"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "_Importēt mapes..."
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Pievienot mapes saturu kā klipus projektam"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Izvēlēties neizmantoto mediju"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Izvēlēties klipus, kas netiek izmantoti projektā"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Rādīt klipus kā sarakstu"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Rādīt klipus kā ikonas"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Izvēlieties vienu vai vairākas mapes"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Izvēlieties vienu vai vairākus failus"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Aizvērt pēc failu importēšanas"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Importē klipu %(current_clip)d no %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Importējot gadījās kļūdas."
+
+#~ msgid "View errors"
+#~ msgstr "Skatīt kļūdas"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "Importējot gadījās kļūda."
+
+#~ msgid "View error"
+#~ msgstr "Skatīt kļūdu"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Failu analizēšanas laikā notika kļūda"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Sekojošos failus nevar lietot ar PiTiVi."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Sekojošo failu nevar lietot ar PiTiVi."
+
+#~ msgid "No preset"
+#~ msgstr "Nav regulējuma"
+
+#~ msgid "Ignore backup"
+#~ msgstr "Ignorēt dublējumu"
+
+#~ msgid "Restore from backup"
+#~ msgstr "Atjaunot no dublējuma"
+
+#~ msgid ""
+#~ "An autosaved version of your project file was found. It is %s newer than "
+#~ "the saved project.\n"
+#~ "\n"
+#~ "Would you like to load it instead?"
+#~ msgstr ""
+#~ "Netika atrasta automātiski saglabāta jūsu projekta versija. Tas ir %s "
+#~ "jaunāks kā saglabātais projekts\n"
+#~ "\n"
+#~ "Vai vēlaties tā vietā ielādēt to?"
+
+#~ msgid "New Project"
+#~ msgstr "Jauns projekts"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "\"%s\" jau eksistē."
+
+#~ msgid "New preset"
+#~ msgstr "Jauns regulējums"
+
+#~ msgid "New preset %d"
+#~ msgstr "Jauns regulējums %d"
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "%d%% renderēts"
+
+#~ msgid "About %s left"
+#~ msgstr "Apmēram atlicis: %s"
+
+#~ msgid "Currently rendering"
+#~ msgstr "Pašlaik renderē"
+
+#~ msgid "A file name is required."
+#~ msgstr "Nepieciešams faila nosaukums."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Šis fails jau eksistē.\n"
+#~ "Ja nevēlaties to pārrakstīt, izvēlieties citu faila nosaukumu vai mapi."
+
+#~ msgid "Normal"
+#~ msgstr "Normāls"
+
+#~ msgid "Loop"
+#~ msgstr "Cilpa"
+
+#~ msgid "Reverse direction"
+#~ msgstr "Pretējs virziens"
+
+#~ msgid ""
+#~ "Create a transition by overlapping two adjacent clips on the same layer. "
+#~ "Click the transition on the timeline to change the transition type."
+#~ msgstr ""
+#~ "Izveidot pāreju, pārklājot divus blakus esošus klipus uz tā paša slāņa. "
+#~ "Spiediet uz pārejas uz laika skalas, lai mainītu pārejas veidu."
+
+#~ msgid "Slow"
+#~ msgstr "Lēna"
+
+#~ msgid "Fast"
+#~ msgstr "Ātra"
+
+#~ msgid "Epileptic"
+#~ msgstr "Epileptiska"
+
+#~ msgid "Sharp"
+#~ msgstr "Asa"
+
+#~ msgid "Smooth"
+#~ msgstr "Gluda"
+
+#~ msgid "Currently playing"
+#~ msgstr "Pašlaik atskaņo"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Iet uz laika skalas sākumu"
+
+#~ msgid "Go back one second"
+#~ msgstr "Iet atpakaļ par vienu sekundi"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Iet uz priekšu par vienu sekundi"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Iet uz laika skalas beigām"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Dokot skatītāju"
+
+#~ msgid "Play"
+#~ msgstr "Atskaņot"
+
+#~ msgid "Pause"
+#~ msgstr "Pauzēt"
+
+#~ msgid "Frame #%d"
+#~ msgstr "Kadrs #%d"
+
+#~ msgid "Appearance"
+#~ msgstr "Izskats"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Atstarpe starp sīktēliem"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Atstatums starp sīktēliem pikseļos"
+
+#~ msgid "Performance"
+#~ msgstr "Veiktspēja"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Veidot sīktēlu katras"
+
+#~ msgid "1/100 second"
+#~ msgstr "1/100 sekundes"
+
+#~ msgid "1/10 second"
+#~ msgstr "1/10 sekundes"
+
+#~ msgid "1/4 second"
+#~ msgstr "1/4 sekundes"
+
+#~ msgid "1/2 second"
+#~ msgstr "1/2 sekundes"
+
+#~ msgid "1 second"
+#~ msgstr "1 sekunde"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 sekundes"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 sekundes"
+
+#~ msgid "minute"
+#~ msgstr "minūte"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Intervāls sekundēs starp sīktēliem."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Aktivēt video sīktēlus"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Rādīt sīktēlus video klipos"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Aktivēt skaņu viļņus"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Rādīt skaņu viļņus audio klipos"
+
+#~ msgid "Behavior"
+#~ msgstr "Uzvedība"
+
+#~ msgid "Snap distance"
+#~ msgstr "Lipšanas attālums"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Atstarpe pikseļos, pie kuras divi klipi salips kopā vilkšanas vai "
+#~ "griešanas gadījumā."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Dzēst izvēlēto"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Sadalīt klipu pie atskaņošanas galviņas pozīcijas"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Pievienot atslēgkadru"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Iet uz iepriekšējo atslēgkadru"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Iet uz nākamo atslēgkadru"
+
+#~ msgid "Zoom In"
+#~ msgstr "Tuvināt"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Tālināt"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Mērogs, lai iekļautos"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Salauzt saites starp klipiem"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Savienot kopā patvaļīgus klipus"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Atgrupēt klipus"
+
+#~ msgid "Group clips"
+#~ msgstr "Grupēt klipus"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Līdzināt klipus, balstoties uz to skaņu celiņiem"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "Gadījās viena vai vairākas GStreamer kļūdas!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Tika ziņotas sekojošās kļūdas:"
+
+#~ msgid "Zoom"
+#~ msgstr "Mērogs"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Mainīt laika skalas mērogu"
+
+#~ msgid "Export current frame..."
+#~ msgstr "Eksportēt pašreizējo kadru..."
+
+#~ msgid "Export the frame at the current playhead position as an image file."
+#~ msgstr ""
+#~ "Eksportēt ietvaru uz attēla failu no pašreizējās atskaņošanas galviņas "
+#~ "pozīcijas."
+
+#~ msgid "Start Playback"
+#~ msgstr "Sākt atskaņošanu"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Pievienot atslēgkadru"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "Ie_priekšējais atslēgkadrs"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "_Nākamais atslēgkadrs"
+
+#~ msgid "PNG image"
+#~ msgstr "PNG attēls"
+
+#~ msgid "JPEG image"
+#~ msgstr "JPEG attēls"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Krāsa video klipiem"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Fona krāsa klipiem video celiņos."
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Krāsa audio klipiem"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Fona krāsa klipiem audio celiņos."
+
+#~ msgid "Selection color"
+#~ msgstr "Izvēles krāsa"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Izvēlētie klipi tiks iekrāsoti ar šo krāsu"
+
+#~ msgid "Clip font"
+#~ msgstr "Klipa fonts"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Fonts, kuru izmantot klipu virsrakstiem"
+
+#~ msgid "Text:"
+#~ msgstr "Teksts:"
+
+#~ msgid "Image:"
+#~ msgstr "Attēls:"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Nezināms iemesls"
+
+#~ msgid "Problem:"
+#~ msgstr "Problēma:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Papildu informācija:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Atstatīt uz noklusētajām vērtībām"
+
+#~ msgid "Projects"
+#~ msgstr "Projekti"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s vēl neapstrādā attālinātus projektus"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Audio:</b> %d kanāls ar %d <i>Hz</i> (%d <i>biti</i>)"
+#~ msgstr[1] "<b>Audio:</b> %d kanāli ar %d <i>Hz</i> (%d <i>biti</i>)"
+#~ msgstr[2] "<b>Audio:</b> %d kanālu ar %d <i>Hz</i> (%d <i>biti</i>)"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.3f <i>fps</i>"
+#~ msgstr "<b>Video:</b> %d x %d <i>pikseļi</i> ar %.3f<i>kadri/sek</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Attēls:</b> %d x %d <i>pikseļi</i>"
+
+#~ msgid "Subtitles"
+#~ msgstr "Subtitri"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d stunda"
+#~ msgstr[1] "%d stundas"
+#~ msgstr[2] "%d stundu"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minūte"
+#~ msgstr[1] "%d minūtes"
+#~ msgstr[2] "%d minūšu"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d sekunde"
+#~ msgstr[1] "%d sekundes"
+#~ msgstr[2] "%d sekunžu"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d diena"
+#~ msgstr[1] "%d dienas"
+#~ msgstr[2] "%d dienu"
+
+#~ msgid "%d fps"
+#~ msgstr "%d kadri/sek"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f kadri/sek"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f kadri/sek"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d biti"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 kanāli (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 kanāli (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Square"
+#~ msgstr "Kvadrāts"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p plats"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i plats"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p plats"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i plats"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV platekrāna (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Kinoteātra (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Kinoteātra (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Kinoteātra (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorfisks (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorfisks (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorfisks (2.4)"
+
+#~ msgid "Implement Me"
+#~ msgstr "Īsteno mani"
+
+#~ msgid "Custom"
+#~ msgstr "Pielāgots"
+
+#~ msgid "Save Preset"
+#~ msgstr "Saglabāt regulējums"
+
+#~ msgid "Choose..."
+#~ msgstr "Izvēlēties..."
+
+#~ msgid "No properties."
+#~ msgstr "Nav īpašību."
+
+#~ msgid "Properties for %s"
+#~ msgstr "%s īpašības"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Izmērs</b>"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Apgriezums</b>"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Kanālu skaits:"
+
+#~ msgid "Sample Rate:"
+#~ msgstr "Nolases biežums:"
+
+#~ msgid "Sample Depth:"
+#~ msgstr "Nolases dziļums:"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Izmēru attiecība</b>"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Kadru ātrums</b>"
+
+#~| msgid "Error Loading Project"
+#~ msgid "Loading project..."
+#~ msgstr "Ielādē projektu..."
+
+#~| msgid "Project title:"
+#~ msgid "Project loaded."
+#~ msgstr "Projekts ielādēts."
+
+#~| msgid "Rendering"
+#~ msgid "Rendering..."
+#~ msgstr "Renderē..."
+
+#~ msgid "Render the specified project to OUTPUT_FILE with no GUI."
+#~ msgstr ""
+#~ "Renderēt norādīto projektu uz IZVADES_FAILS, bez lietotāja saskarnes."
+
+#~ msgid "Preview the specified project file without the full UI."
+#~ msgstr ""
+#~ "Priekšskatīt norādīto projekta failu bez pilnas lietotāja saskarnes."
+
+#~ msgid "-p and -r cannot be used simultaneously"
+#~ msgstr "-p un -r nevar tikt izmantoti vienlaicīgi"
+
+#~ msgid "-r or -p and -i are incompatible"
+#~ msgstr "-r vai -p un -i nav savstarpēji savietojami"
+
+#~ msgid "-r requires exactly one PROJECT_FILE"
+#~ msgstr "-r pieprasa tieši vienu PROJEKTA_FAILS"
+
+#~ msgid "-p requires exactly one PROJECT_FILE"
+#~ msgstr "-p pieprasa tieši vienu PROJEKTA_FAILS"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Trūkstošie spraudņi:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "Nevar atkodēt failu."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Dotie faili nesatur audio, video vai attēlu plūsmas."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Neizdevās noteikt faila ilgumu."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Izskatās, ka klips ir tādā formātā, ko nevar apstrādāt ar brīvpieejas "
+#~ "metodi."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Iestājās noildze, analizējot failu."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Faila analīze aizņēma pārāk daudz laika."
+
+#~ msgid "No available source handler."
+#~ msgstr "Nav pieejams avota apdarinātājs."
+
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr "Jums nav GStreamer avota elementu, lai apstrādātu protokolu '%s'"
+
+#~ msgid "File does not exist"
+#~ msgstr "Fails neeksistē"
+
+#~ msgid "File not readable by current user"
+#~ msgstr "Pašreizējais lietotājs failu nevar nolasīt"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Konveijers negribēja pāriet uz stāvokli PAUSED."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Faila analizēšanas laikā radusies iekšējā kļūda: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Fails satur pāradresāciju uz citu klipu."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "PiTiVi šobrīd nespēj apstrādāt pārsūtīšanas failus."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Konveijers negribēja pāriet uz stāvokli ATSKAŅO."
+
+#~ msgid "Playlist format"
+#~ msgstr "Repertuāra formāts"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr "Projekts satur efektus, kas nav pieejami sistēmā."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "Neizdevās ielādēt %(uri)s."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Nav derīgs projekta fails."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Neizdevās aizvērt esošo projektu"
+
+#~ msgid "No URI specified."
+#~ msgstr "URI nav norādīts."
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Eksportēt iestatījumus\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Audio: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muksers: "
+
+#~ msgid "%d%% Analyzed"
+#~ msgstr "%d%% izanalizēti"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Nezināms audio formāts:</b> %s"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Nezināms video formāts:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Teksts:</b> %s"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Atkārtot izvēlēto apgabalu"
+
+#~ msgid "_Undo"
+#~ msgstr "_Atsaukt"
+
+#~ msgid "_Redo"
+#~ msgstr "Atkā_rtot"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Iestatījumi"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Sekojošs fails ir pārvietots: \"<b>%s</b>\" (garums: %s)\n"
+#~ "Lūdzu norādiet tā jauno atrašanās vietu:"
+
+#~ msgid "Untitled project"
+#~ msgstr "Nenosaukts projekts"
+
+#~ msgid "Import Files..."
+#~ msgstr "Importēt failus..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Izņemt klipus"
+
+#~ msgid "Play Clip"
+#~ msgstr "Atskaņot klipu"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Neizdevās importēt Python piesaistes priekš libglade"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr "Pārliecinieties, ka jums ir uzinstalētas libglade Python piesaistes"
+
+#~ msgid "%(width)d x %(height)d pixels at %(framerate).2f fps"
+#~ msgstr "%(width)d x %(height)d pikseļi ar %(framerate).2f kadriem sekundē"
+
+#~ msgid "%(channels)d channels at %(frequency)d Hz (%(depth)d bits)"
+#~ msgstr "%(channels)d kanāli ar %(frequency)d Hz (%(depth)d biti)"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Audio tveršanas ierīce:"
+
+#~ msgid "No device available"
+#~ msgstr "Neviena ierīce nav pieejama"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Video tveršanas ierīce:"
+
+#~ msgid "15 fps"
+#~ msgstr "15 fps"
+
+#~ msgid "20 fps"
+#~ msgstr "20 fps"
+
+#~ msgid "23,976 fps"
+#~ msgstr "23,976 fps"
+
+#~ msgid "24 fps"
+#~ msgstr "24 fps"
+
+#~ msgid "25 fps"
+#~ msgstr "25 fps"
+
+#~ msgid "29,97 fps"
+#~ msgstr "29,97 fps"
+
+#~ msgid "59,94 fps"
+#~ msgstr "59,94 fps"
+
+#~ msgid "60 fps"
+#~ msgstr "60 fps"
+
+#~ msgid "120 fps"
+#~ msgstr "120 fps"
+
+#~ msgid "11 kHz"
+#~ msgstr "11 kHz"
+
+#~ msgid "22 kHz"
+#~ msgstr "22 kHz"
+
+#~ msgid "48 kHz"
+#~ msgstr "48 kHz"
+
+#~ msgid "96 kHz"
+#~ msgstr "96 kHz"
+
+#~ msgid "16 bit"
+#~ msgstr "16 biti"
+
+#~ msgid "24 bit"
+#~ msgstr "24 biti"
+
+#~ msgid "32 bit"
+#~ msgstr "32 biti"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Īpašības %d objektam"
+#~ msgstr[1] "Īpašības %d objektiem"
+#~ msgstr[2] "Īpašības %d objektiem"
+
+#~| msgid "<b>Properties</b>"
+#~ msgid "<b>Properties For Plugin</b>"
+#~ msgstr "<b>Spraudņa īpašības</b>"
+
+#~| msgid "Frame rate:"
+#~ msgid "Sample rate"
+#~ msgstr "Nolases kvalitāte"
+
+#~ msgid "Summary"
+#~ msgstr "Kopsavilkums"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Apturēt atskaņošanu"
+
+#~ msgid "_Render project"
+#~ msgstr "_Renderēt projektu"
+
+#~| msgid "Render project"
+#~ msgid "Render project..."
+#~ msgstr "Renderēt projektu..."
+
+#~ msgid "_Plugins..."
+#~ msgstr "S_praudņi..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Pārvaldīt spraudņus"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Importēt no _tīmekļa kameras..."
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Importēt kameras plūsmu"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Izveidot ekrānraidi..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Tvert darbvirsmu"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Tvert tīkla plūsmu..."
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Tvert tīkla plūsmu"
+
+#~ msgid "_File"
+#~ msgstr "_Fails"
+
+#~ msgid "Duration:"
+#~ msgstr "Ilgums:"
+
+#~ msgid "Address"
+#~ msgstr "Adrese"
+
+#~ msgid "Capture"
+#~ msgstr "Uzņemt"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Uzņemt plūsmu no URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Uzņemt tīkla plūsmu"
+
+#~ msgid "Close"
+#~ msgstr "Aizvērt"
+
+#~ msgid "Customize:"
+#~ msgstr "Pielāgot:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Tīkla plūsmas video"
+
+#~ msgid "Other protocol"
+#~ msgstr "Citi protokoli"
+
+#~ msgid "Port"
+#~ msgstr "Ports"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Priekšskatīt plūsmu no URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokols"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "Visas kategorijas"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Spraudņu pārvaldnieks"
+
+#~ msgid "Show:"
+#~ msgstr "Rādīt:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Jūs varat vilkt spraudņu failus sarakstā, lai tos instalētu,\n"
+#~ "vai arī rakstiet, lai meklētu noteiktu spraudni."
+
+#~ msgid "Plugin"
+#~ msgstr "Spraudnis"
+
+#~ msgid "Category"
+#~ msgstr "Kategorija"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Esat droši, ka vēlaties izņemt izvēlētos spraudņus?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Apstiprināt izņemšanas darbību"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Nevar izņemt %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Atjaunināt esošo spraudni?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Šis spraudnis jau ir uzinstalēts sistēmā.\n"
+#~ "Ja piekrītat, versija %(v1)s tiks aizvietota ar versiju %(v2)s."
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Dubultot atrasto spraudni"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Nevar uzinstalēt %s\n"
+#~ "Fails nav derīgs spraudnis"
+
+#~ msgid "Reset"
+#~ msgstr "Atstatīt"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Rādīt sīkattēlus (video)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Rādīt viļņus (audio)"
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Nav izvēlētu objektu"
+
+#~ msgid "Screencast"
+#~ msgstr "Ekrānraide"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Ekrānraidīt darbvirsmu"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Palaist Istanbul"
+
+#~| msgid ""
+#~| "<span size='x-large'>Import your clips by dragging them here or by using "
+#~| "the buttons above.</span>"
+#~ msgid ""
+#~ "<span>Import your clips by dragging them here or by using the buttons "
+#~ "above.</span>"
+#~ msgstr ""
+#~ "<span>Importējiet klipus, ievelkot tos šeit vai lietojot pogas augšā.</"
+#~ "span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Importēt izmantojamos klipus"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Importēt izmantojamo klipu mapi"
+
+#~ msgid "Import a folder"
+#~ msgstr "Importēt mapi"
+
+#~ msgid "Import a clip"
+#~ msgstr "Importēt klipu"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr "Sliekšņa attālums (pikseļos), kuru izmantot visām lipšanas darbībām"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Audio:</b>"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Teksts:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Klipa fons (video)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Klipa fons (audio)"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [PROJEKTA_FAILS]\n"
+#~ "      %prog -i [-a] [MEDIJU_FAILS]..."
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "    no project is given, %prog creates a new project.\n"
+#~ "    Alternatively, when -i is specified, arguments are treated as clips "
+#~ "to be\n"
+#~ "    imported into the project. If -a is specified, these clips will also "
+#~ "be added to\n"
+#~ "    the end of the project timeline."
+#~ msgstr ""
+#~ "Palaiž video redaktoru, ielādējot PROJEKTA_FAILS (ja norādīts). Ja\n"
+#~ "   projekta fails nav norādīts, %prog izveidos jaunu projektu.\n"
+#~ "   Ja ir norādīts -i, argumenti tiek saprasti kā projektā ielādējami "
+#~ "klipi.\n"
+#~ "   Ja ir norādīts -a, šie klipi tiks pievienoti projekta laika skalas "
+#~ "beigās."
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Palaist pitivi bez gui"
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Autors:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Spraudņa nosaukums</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Izvēlēties failu"
+
+#~ msgid "Modify"
+#~ msgstr "Modificēt"
+
+#~ msgid "Output file:"
+#~ msgstr "Izvada fails:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Lūdzu, izvēlieties izvada faili"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Izvēlēties failu, uz kuru renderēt"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Renderēšana pabeigta"
+
+#~| msgid ""
+#~| "12 fps\n"
+#~| "23,97 fps\n"
+#~| "24 fps\n"
+#~| "25 fps\n"
+#~| "29,97 fps\n"
+#~| "30 fps\n"
+#~| "60 fps"
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 kadri/sec\n"
+#~ "23,97 kadri/sec\n"
+#~ "24 kadri/sec\n"
+#~ "25 kadri/sec\n"
+#~ "29,97 kadri/sec\n"
+#~ "30 kadri/sec\n"
+#~ "60 kadri/sec"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 biti\n"
+#~ "16 biti\n"
+#~ "24 biti\n"
+#~ "32 biti"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Audio izeja</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Video izeja</b>"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Muksers"
+
+#~ msgid "Rate:"
+#~ msgstr "Ātrums:"
+
+#~ msgid "Settings"
+#~ msgstr "Iestatījumi"
+
+#~ msgid "Video Codec"
+#~ msgstr "Video kodeks"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Video kodeks:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p pilns HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~| msgid "Video :"
+#~ msgid "Raw Video"
+#~ msgstr "Jēls video"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Jēls audio"
+
+#~ msgid "Export settings"
+#~ msgstr "Eksportēt iestatījumus"
+
+#~| msgid "URI : "
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "Description:"
+#~ msgstr "Apraksts:"
+
+#~ msgid "Name:"
+#~ msgstr "Nosaukums:"
+
+#~ msgid "Add Clips..."
+#~ msgstr "Pievienot klipus..."
+
+#~ msgid "Importing clips..."
+#~ msgstr "Importē klipus..."
+
+#~ msgid "Could not import the Python bindings for libglade"
+#~ msgstr "Nav iespējams importēt Python piesaistes priekš libglade"
+
+#~ msgid "Make sure you have the Python bindings for libglade installed"
+#~ msgstr ""
+#~ "Pārliecinieties, ka jums ir ieinstatlētas Python piesaistes priekš "
+#~ "libglade"
+
+#, fuzzy
+#~ msgid "Could not import the Python bindings for goocanvas"
+#~ msgstr "Nav iespējams importēt Python piesaistes priekš cairo"
+
+#, fuzzy
+#~ msgid "Make sure you have the Python bindings for goocanvas installed"
+#~ msgstr ""
+#~ "Pārliecinieties, ka jums ir ieinstatlētas Python piesaistes priekš cairo"
+
+#~ msgid "Couldn't construct pipeline."
+#~ msgstr "Nevarēja izveidot cauruļvadu."
+
+#~ msgid ""
+#~ "GStreamer does not have an element to handle files coming from this type "
+#~ "of file system."
+#~ msgstr ""
+#~ "GStreamer nav elementu, lai apstrādātu failus, kas nāk no šī tipa "
+#~ "failsistēmas."
+
+#~ msgid "Got unknown stream type : %s"
+#~ msgstr "Saņemta nezināma tipa plūsmas : %s"
+
+#~ msgid "You are missing an element to handle this media type."
+#~ msgstr "Jums nav elementu, lai apstrādātu šī tipa mēdiju failus."
+
+#~ msgid "<b>%s</b><small>"
+#~ msgstr "<b>%s</b><small>"
+
+#~ msgid "<b>%s</b> (%s)"
+#~ msgstr "<b>%s</b> (%s)"
+
+#~ msgid "<small><b>File:</b> %s"
+#~ msgstr "<small><b>Fails:</b> %s"
+
+#~ msgid "There is already a %s instance, inform developers"
+#~ msgstr "Jau ir %s instance, informējiet attīstītājus"
+
+#~ msgid "Video output is busy"
+#~ msgstr "Video izvads ir aizņemts"
+
+#~ msgid ""
+#~ "Please check that your video output device isn't already used by another "
+#~ "application"
+#~ msgstr ""
+#~ "Lūdzu pārbaudiet vai jūsu video izvades ierīce nav jau aizņemta ar citu "
+#~ "aplikāciju"
+
+#~ msgid "Video output problem"
+#~ msgstr "Video izvades problēma"
+
+#~ msgid "There is a problem with your video output device"
+#~ msgstr "Ir problēma ar jūsu video izvades ierīci"
+
+#~ msgid "Audio output device is busy"
+#~ msgstr "Audio izvads ir aizņemts"
+
+#~ msgid ""
+#~ "Please check that your audio output device isn't already used by another "
+#~ "application."
+#~ msgstr ""
+#~ "Lūdzu pārbaudiet vai jūsu audio izvades ierīce nav jau aizņemta ar citu "
+#~ "aplikāciju."
+
+#~ msgid "Audio output problem"
+#~ msgstr "Audio izvades problēma"
+
+#~ msgid "There is a problem with your audio output device"
+#~ msgstr "Ir problēma ar jūsu audio izvades ierīci"
+
+#~ msgid " <i>(%s)</i>"
+#~ msgstr " <i>(%s)</i>"
+
+#~ msgid "Project settings"
+#~ msgstr "Projekta uzstādījumi"
+
+#~ msgid "Finished in %dm%ds"
+#~ msgstr "Pabeidza %dm%ds"
+
+#~ msgid "Audio Track"
+#~ msgstr "Audio celiņš"
+
+#~ msgid "Empty"
+#~ msgstr "Tukšs"
+
+#~ msgid "Switch to advanced view"
+#~ msgstr "Pārslēgt uz uzlaboto skatu"
+
+#~ msgid "Clips"
+#~ msgstr "Klipi"
+
+#~ msgid "Edit"
+#~ msgstr "Rediģēt"
+
+#~ msgid ""
+#~ "<span size='x-large'>Add clips to the timeline by dragging them here.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Pievienot klipus laika līnijai velkot tos šeit.</"
+#~ "span>"

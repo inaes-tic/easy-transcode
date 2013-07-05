@@ -1,0 +1,1256 @@
+# Bulgarian translation of pitivi po-file.
+# Copyright (C) 2009, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the pitivi package.
+# Ivaylo Valkov <ivaylo@e-valkov.org>, 2009, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2010-09-26 16:01+0300\n"
+"Last-Translator: Ivaylo Valkov <ivaylo@e-valkov.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Все още няма информация</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Описание:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Списък на грешките"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Списък на грешките"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Създаване и редактиране на собствени филми"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Редактор на видео клипове (Pitivi)"
+
+#~ msgid "%s is already running!"
+#~ msgstr "Програмата „%s“ вече е стартирана!"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Този скрипт вече е стартирал копие на „%s“."
+
+#~ msgid "Could not find the GNonLin plugins!"
+#~ msgstr "Приставките GNonLin не могат да бъдат открити!"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Проверете дали приставките са инсталирани и достъпни в местоположението "
+#~ "за приставки на GStreamer."
+
+#~ msgid "Could not find the autodetect plugins!"
+#~ msgstr "Автоматично разпознаваните приставки не могат да бъдат намерени!"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and is available in the "
+#~ "GStreamer plugin path."
+#~ msgstr ""
+#~ "Проверете дали приставките „gst-plugins-good“ са инсталирани и достъпни в "
+#~ "местоположението за приставки на GStreamer."
+
+#~ msgid "PyGTK doesn't have cairo support!"
+#~ msgstr "PyGTK няма поддръжка за cairo!"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Използвайте версия на модула на Питон за връзка с GTK+ компилиран с "
+#~ "поддръжка за cairo."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Неуспех при инициализация на приставките за видео изход"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)"
+#~ msgstr ""
+#~ "Уверете се, че има поне един подходящ елемент-приемник за видео изход "
+#~ "(xvimagesink или ximagesink)"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Неуспех при инициализация на приставките за аудио изход"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)"
+#~ msgstr ""
+#~ "Уверете се, че има поне един подходящ елемент-приемник за аудио изход "
+#~ "(alsasink или osssink)"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Неуспех при внасяне на модула на Питон за връзка към cairo"
+
+#~ msgid "Make sure you have the cairo Python bindings installed"
+#~ msgstr "Проверете дали е инсталиран модула на Питон за връзка към cairo"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Неуспех при внасяне на модула на Питон за libglade"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr "Проверете дали е инсталиран модула на Питон за връзка към libglade"
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Неуспех при внасяне на модула на Питон за връзка към goocanvas"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed"
+#~ msgstr "Проверете дали е инсталиран модула на Питон за връзка към goocanvas"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Нямате съвременна версия на модула на Питон за връзка към GTK+ (в момента "
+#~ "е %s)"
+
+#~ msgid "Install a version of the GTK+ Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Инсталирайте модула на Питон за връзка към GTK+ с версия „%s“ или по-нова"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GStreamer Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Нямате съвременна версия на модула на Питон за връзка към GStreamer (в "
+#~ "момента е %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Инсталирайте модула на Питон за връзка към GStreamer с версия „%s“ или по-"
+#~ "нова"
+
+#~ msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgstr "Нямате съвременна версия на GStreamer (в момента е %s)"
+
+#~ msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgstr "Инсталирайте GStreamer с версия „%s“ или по-нова"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Нямате съвременна версия на модула на Питон за връзка към cairo (в "
+#~ "момента е %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater or equal to %s"
+#~ msgstr ""
+#~ "Инсталирайте модула на Питон за връзка към cairo с версия „%s“ или по-нова"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Нямате съвременна версия на приставката GNonLin на GStreamer (в момента е "
+#~ "%s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater or equal to %s"
+#~ msgstr ""
+#~ "Инсталирайте версия на приставката GNonLin на GStreamer с версия „%s“ или "
+#~ "по-нова"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Неуспех при внасяне на модула за връзка със Zope"
+
+#~ msgid "Make sure you have the zope.interface module installed"
+#~ msgstr "Проверете дали е инсталиран модула zope.interface"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Неуспех при внасяне на модулите distutils"
+
+#~ msgid "Make sure you have the distutils python module installed"
+#~ msgstr "Проверете дали е инсталиран модула distutils на Питон"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Липсващи приставки:\n"
+#~ "%s"
+
+#~ msgid "Can not decode file."
+#~ msgstr "Файлът не може да бъде декодиран."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Посоченият файл не съдържа аудио или видео потоци и изображения."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Продължителността на файла не може да бъде установена."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Изглежда клипът е във формат, който не може да бъде достъпен по "
+#~ "произволен начин"
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Прекъсване при анализиране на файл."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Анализирането на файла продължи прекалено дълго."
+
+#~ msgid "No available source handler."
+#~ msgstr "Липсва елемент за обработка на източника."
+
+#~ msgid "You do not have a GStreamer source element to handle protocol '%s'"
+#~ msgstr ""
+#~ "Нямате елемент-източник за GStreamer, който да обработва протокола „%s“"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Конвейерът не изпълнява даването НА ПАУЗА."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Възникна вътрешна грешка при анализирането на този файл: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Файлът съдържа препратка към друг клип."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "За момента PiTiVi не може да обработва файлове с пренасочване."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Конвейерът отказва да проработи при даването за ИЗПЪЛНЕНИЕ."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Вече съществува копие на %s. Подайте доклад за грешка до разработчиците "
+#~ "на http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [-r OUTPUT_FILE] [PROJECT_FILE]\n"
+#~ "      %prog -p [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [-r ИЗХОДЕН_ФАЙЛ] [ФАЙЛ_С_ПРОЕКТ]\n"
+#~ "      %prog [ФАЙЛ_С_ПРОЕКТ]\n"
+#~ "      %prog -i [-a] [МЕДИЕН_ФАЙЛ]…"
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "no project is given, %prog creates a new project.\n"
+#~ "Alternatively, when -i is specified, arguments are treated as clips to "
+#~ "be\n"
+#~ "imported into the project. If -a is specified, these clips will also be "
+#~ "added to\n"
+#~ "the end of the project timeline.\n"
+#~ "When -r is specified, the given project file is rendered without opening "
+#~ "the GUI."
+#~ msgstr ""
+#~ " Стартиране на редактора на видео клипове с възможност за зареждане на\n"
+#~ "ФАЙЛ_С_ПРОЕКТ.\n"
+#~ " Ако не е зададен проект, %prog ще създаде нов.\n"
+#~ " Ако зададете опцията „-i“, параметрите ще се обработват като клипове, "
+#~ "които ще\n"
+#~ "бъдат внесени в проекта. Ако зададете опцията „-a“, тези клипове ще "
+#~ "бъдат\n"
+#~ "добавени и в края на времевата последователност на проекта.\n"
+#~ " Ако е указана опцията „-r“, файлът с проекта ще бъде преобразуван в клип "
+#~ "без\n"
+#~ "отваряне на графичния интерфейс на програмата."
+
+#~ msgid "Import each MEDIA_FILE into the project."
+#~ msgstr "Внасяне на всеки МЕДИЕН_ФАЙЛ в проекта."
+
+#~ msgid "Add each MEDIA_FILE to timeline after importing."
+#~ msgstr ""
+#~ "Добавяне на всеки МЕДИЕН_ФАЙЛ във времевата последователност след внасяне."
+
+#~ msgid "Run pitivi in the Python Debugger"
+#~ msgstr "Стартиране на pitivi чрез дебъгера на Питон"
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Стартиране на pitivi без графичен интерфейс"
+
+#~ msgid "Render the given project file to OUTPUT_FILE with no GUI."
+#~ msgstr "Създаване на клип от файла с проект без графичен интерфейс."
+
+#~ msgid "Preview the given project file without the full UI."
+#~ msgstr "Преглед на дадения проект без пълния графичен интерфейс."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Това не е файл с проект."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Неуспех при затваряне на текущия проект"
+
+#~ msgid "No URI specified."
+#~ msgstr "Не е указан адрес."
+
+#~ msgid "New Project"
+#~ msgstr "Нов проект"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Настройки за изнасяне\n"
+
+#~ msgid "Video: "
+#~ msgstr "Видео: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Аудио: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Уплътнител (мултиплексор): "
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d час"
+#~ msgstr[1] "%d часа"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d минута"
+#~ msgstr[1] "%d минути"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d секунда"
+#~ msgstr[1] "%d секунди"
+
+#~ msgid "%s doesn't yet handle non local projects"
+#~ msgstr "%s все още не поддържа отдалечени файлове с проекти"
+
+#~ msgid "All effects"
+#~ msgstr "Всички ефекти"
+
+#~ msgid "Colors"
+#~ msgstr "Цветове"
+
+#~ msgid "Noise"
+#~ msgstr "Шум"
+
+#~ msgid "Analysis"
+#~ msgstr "Анализ"
+
+#~ msgid "Blur"
+#~ msgstr "Замъгляване"
+
+#~ msgid "Geometry"
+#~ msgstr "Геометрия"
+
+#~ msgid "Fancy"
+#~ msgstr "Разни"
+
+#~ msgid "Time"
+#~ msgstr "Време"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Некатегоризирани"
+
+#~ msgid "Video"
+#~ msgstr "Видео: "
+
+#~ msgid "Audio |audio"
+#~ msgstr "Аудио |аудио"
+
+#~ msgid "effect"
+#~ msgstr "ефект"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "Собствен формат на PiTiVi (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Списък за изпълнение"
+
+#~ msgid "Name"
+#~ msgstr "Име"
+
+#~ msgid "Description"
+#~ msgstr "Описание"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Устройство за запис на звук:"
+
+#~ msgid "No device available"
+#~ msgstr "Няма налично устройство"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Устройство за запис на видео:"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Звук:</b> %d канал с честота %d <i>Hz</i> (%d <i>бита</i>)"
+#~ msgstr[1] "<b>Звук:</b> %d канала с честота %d <i>Hz</i> (%d <i>бита</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Непознат аудио формат:</b> „%s“"
+
+#~ msgid "<b>Video:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Видео:</b> %d × %d <i>пиксела</i> с %.2f<i> кадъра в секунда</i>"
+
+#~ msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgstr "<b>Изображение:</b> %d × %d <i>пиксела</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Непознат видео формат:</b> „%s“"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Текст:</b> %s"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Настройки на %d обект"
+#~ msgstr[1] "Настройки на %d обекта"
+
+#~ msgid "No properties..."
+#~ msgstr "Няма настройки…"
+
+#~ msgid "Implement Me"
+#~ msgstr "Реализирай ме"
+
+#~ msgid "Custom"
+#~ msgstr "Потребителски"
+
+#~ msgid "Save Preset"
+#~ msgstr "Запазване на настройките"
+
+#~ msgid "Choose..."
+#~ msgstr "Избиране…"
+
+#~ msgid "Video effects"
+#~ msgstr "Видео ефекти"
+
+#~ msgid "Audio effects"
+#~ msgstr "Аудио ефекти"
+
+#~ msgid "Search:"
+#~ msgstr "Търсене:"
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Автор:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Име на приставката</b>"
+
+#~ msgid "<b>Properties</b>"
+#~ msgstr "<b>Настройки</b>"
+
+#~ msgid "Author"
+#~ msgstr "Автор"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Настройки на <element>"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Звук:</b>"
+
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Настройки</b>"
+
+#~ msgid "<b>Video:</b>"
+#~ msgstr "<b>Видео:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Избор на файл"
+
+#~ msgid "Modify"
+#~ msgstr "Промяна"
+
+#~ msgid "Output file:"
+#~ msgstr "Изходен файл:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Изберете изходен файл"
+
+#~ msgid "Render project"
+#~ msgstr "Създаване на клип от проекта"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Изберете изходен файл за създаване на клип"
+
+#~ msgid "%.0f%% rendered"
+#~ msgstr "Завършени %.0f%%"
+
+#~ msgid "About %s left"
+#~ msgstr "Остават около %s"
+
+#~ msgid "Rendering"
+#~ msgstr "Създаване на клип"
+
+#, fuzzy
+#~ msgid "0% rendered"
+#~ msgstr "Завършени 0%%"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Създаването на клип приключи"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 кадъра в секунда\n"
+#~ "23,97 кадъра в секунда\n"
+#~ "24 кадъра в секунда\n"
+#~ "25 кадъра в секунда\n"
+#~ "29,97 кадъра в секунда\n"
+#~ "30 кадъра в секунда\n"
+#~ "60 кадъра в секунда"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 бита\n"
+#~ "16 бита\n"
+#~ "24 бита\n"
+#~ "32 бита"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Аудио изход</b>"
+
+#~ msgid "<b>Export to</b>"
+#~ msgstr "<b>Изнасяне към</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Видео изход</b>"
+
+#~ msgid "Audio Codec"
+#~ msgstr "Аудио кодер"
+
+#~ msgid "Audio Codec:"
+#~ msgstr "Аудио кодер:"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Настроени аудио изходи"
+
+#~ msgid "Channels:"
+#~ msgstr "Канали:"
+
+#~ msgid "Container:"
+#~ msgstr "Контейнер:"
+
+#~ msgid "Depth:"
+#~ msgstr "Разредност:"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Честота на кадрите:"
+
+#~ msgid "Height:"
+#~ msgstr "Височина:"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Моно (1)\n"
+#~ "Стерео (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Уплътнител (мултиплексор)"
+
+#~ msgid "Rate:"
+#~ msgstr "Честота:"
+
+#~ msgid "Settings"
+#~ msgstr "Настройки"
+
+#~ msgid "Video Codec"
+#~ msgstr "Видео кодер"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Видео кодер:"
+
+#~ msgid "Video Preset"
+#~ msgstr "Настроени видео изходи"
+
+#~ msgid "Width:"
+#~ msgstr "Широчина:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p високо качество (HD)"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p много високо качество (full HD)"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320×240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640×480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800×600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024×768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Необработен видео поток"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Необработен аудио поток"
+
+#~ msgid "Export settings"
+#~ msgstr "Настройки за изнасяне"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Неизвестна причина"
+
+#~ msgid "URI:"
+#~ msgstr "АДРЕС:"
+
+#~ msgid "Problem:"
+#~ msgstr "Проблем:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Допълнителна информация:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Задаване на стандартната стойност"
+
+#~ msgid "Properties for %s"
+#~ msgstr "Настройки на %s"
+
+#~ msgid "Render"
+#~ msgstr "Създаване на клип"
+
+#~ msgid "Split"
+#~ msgstr "Разделяне"
+
+#~ msgid "Keyframe"
+#~ msgstr "Ключов кадър"
+
+#~ msgid "Unlink"
+#~ msgstr "Премахване на връзка"
+
+#~ msgid "Link"
+#~ msgstr "Създаване на връзка"
+
+#~ msgid "Ungroup"
+#~ msgstr "Премахване на група"
+
+#~ msgid "Group"
+#~ msgstr "Създаване на група"
+
+#~ msgid "Start Playback"
+#~ msgstr "Стартиране на изпълнението"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Спиране на изпълнението"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Безкрайно повтаряне на избрания район"
+
+#~ msgid "Create a new project"
+#~ msgstr "Създаване на нов проект"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Отваряне на съществуващ проект"
+
+#~ msgid "Save the current project"
+#~ msgstr "Запазване на текущия проект"
+
+#~ msgid "Reload the current project"
+#~ msgstr "Презареждане на текущия проект"
+
+#~ msgid "Project Settings"
+#~ msgstr "Настройки на проекта"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Редактиране на настройките на проекта"
+
+#~ msgid "_Render project"
+#~ msgstr "_Създаване на клип от проекта"
+
+#~ msgid "_Undo"
+#~ msgstr "_Отмяна"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Отменяне на последното действие"
+
+#~ msgid "_Redo"
+#~ msgstr "Пов_торение"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Повтаряне на последното отменено действие"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Приставки…"
+
+#~ msgid "Manage plugins"
+#~ msgstr "Управление на приставките"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Настройки"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Внасяне от у_еб камера…"
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Внасяне на потока на камера"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Запис на видео от екрана…"
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Запис на работния плот"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "Запис на _мрежов поток…"
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Запис на мрежов поток"
+
+#~ msgid "Information about %s"
+#~ msgstr "Информация относно %s"
+
+#~ msgid "_File"
+#~ msgstr "_Файл"
+
+#~ msgid "_Edit"
+#~ msgstr "_Редактиране"
+
+#~ msgid "_View"
+#~ msgstr "_Изглед"
+
+#~ msgid "_Project"
+#~ msgstr "_Проект"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Времева последователност"
+
+#~ msgid "Previe_w"
+#~ msgstr "П_реглед"
+
+#~ msgid "Loop"
+#~ msgstr "Постоянно изпълнение"
+
+#~ msgid "_Help"
+#~ msgstr "Помо_щ"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Показване на главния прозорец на цял екран"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Главна лента с инструменти"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Лента с инструменти за времевата последователност"
+
+#~ msgid "Media Library"
+#~ msgstr "Списък с видео клипове и музика"
+
+#~ msgid "Effect Library"
+#~ msgstr "Библиотека на ефектите"
+
+#~ msgid "Effects configurations"
+#~ msgstr "Настройки на ефектите"
+
+#~ msgid "Open File..."
+#~ msgstr "Отваряне на файл…"
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Всички поддържани формати"
+
+#~ msgid "Contributors:"
+#~ msgstr "Сътрудници:"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "За повече подробности вижте http://www.gnu.org/copyleft/lesser.htm"
+
+#~ msgid "Close without saving"
+#~ msgstr "Без запазване"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr ""
+#~ "Желаете ли да запазите промените по текущия проект преди да го затворите?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Ако не запазите проекта някои от промените ви ще бъдат изгубени"
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Желаете ли да презаредите текущия проект?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Връщане към запазен проект"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Всички незапазени промени ще бъдат изгубени."
+
+#~ msgid "PiTiVi is unable to load file \"%s\""
+#~ msgstr "PiTiVi не успя да зареди файла „%s“"
+
+#~ msgid "Error Loading File"
+#~ msgstr "Грешка при зареждане на файл"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Намиране на липсващия файл…"
+
+#~ msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgstr ""
+#~ "Следният файл е преместен. Укажете къде може да бъде намерен от PiTiVi."
+
+#~ msgid "Duration:"
+#~ msgstr "Продължителност:"
+
+#~ msgid "Save As..."
+#~ msgstr "Запазване като…"
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "Неозаглавен.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Автоматично разпознаване"
+
+#~ msgid "Address"
+#~ msgstr "Адрес"
+
+#~ msgid "Capture"
+#~ msgstr "Запис"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Запис на поток от адрес"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Запис на мрежов поток"
+
+#~ msgid "Close"
+#~ msgstr "Затваряне"
+
+#~ msgid "Customize:"
+#~ msgstr "Потребителски:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Видео от мрежов поток"
+
+#~ msgid "Other protocol"
+#~ msgstr "Друг протокол"
+
+#~ msgid "Port"
+#~ msgstr "Порт"
+
+#~ msgid "Preview"
+#~ msgstr "Преглед"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Преглед на потока от адрес"
+
+#~ msgid "Protocol"
+#~ msgstr "Протокол"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "всички категории"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Управление на приставките"
+
+#~ msgid "Show:"
+#~ msgstr "Показване:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Може да довлачите файловете с приставки в този списък за да ги "
+#~ "инсталирате. За да потърсите определена приставка въведете текст в полето."
+
+#~ msgid "Enabled"
+#~ msgstr "Включване"
+
+#~ msgid "Plugin"
+#~ msgstr "Приставка"
+
+#~ msgid "Category"
+#~ msgstr "Категория"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Наистина ли желаете да премахнете избраните приставки?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Потвърждаване на премахването"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Приставката „%s“ не може да се премахне"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Да се обнови ли съществуваща приставка?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Тази приставка вече е инсталирана на системата ви.\n"
+#~ "Ако се съгласите, версия %(v1)s ще бъде заменена с версия %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Намерена е повтаряща се приставка"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Неуспех при инсталиране на %s\n"
+#~ "Файлът не е приставка"
+
+#~ msgid "Preferences"
+#~ msgstr "Настройки"
+
+#~ msgid "Section"
+#~ msgstr "Раздел"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Връщане на стандартните настройки"
+
+#~ msgid "Revert"
+#~ msgstr "Връщане"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "Някой промени ще влязат в действие след като рестартирате PiTiVi"
+
+#~ msgid "Reset"
+#~ msgstr "Връщане"
+
+#~ msgid "Appearance"
+#~ msgstr "Външен вид"
+
+#~ msgid "Thumbnail Gap (pixels)"
+#~ msgstr "Празнина между миниатюрите (в пиксели)"
+
+#~ msgid "The gap between thumbnails"
+#~ msgstr "Празното пространство между миниатюрите"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Показване на миниатюри (видео)"
+
+#~ msgid "Show Thumbnails on Video Clips"
+#~ msgstr "Показване на миниатюри за видео клипове"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Показване на формата на сигнала (звук)"
+
+#~ msgid "Show Waveforms on Audio Clips"
+#~ msgstr "Показване на формата на звуковия сигнал в аудио клипове"
+
+#~ msgid "Remove effect"
+#~ msgstr "Премахване на ефекта"
+
+#~ msgid "Activated"
+#~ msgstr "Задействан"
+
+#~ msgid "Type"
+#~ msgstr "Вид"
+
+#~ msgid "Effect name"
+#~ msgstr "Име на ефекта"
+
+#~ msgid ""
+#~ "<span>You must select <b>one</b> clip on the timeline to configure its "
+#~ "associated effects</span>"
+#~ msgstr ""
+#~ "<span>Трябва да изберете <b>един</b> клип по времевата последователност, "
+#~ "за да настроите видео ефектите му</span>"
+
+#~ msgid "A short description of your project."
+#~ msgstr "Кратко описание на проекта ви."
+
+#~ msgid "Description:"
+#~ msgstr "Описание:"
+
+#~ msgid "Name:"
+#~ msgstr "Име:"
+
+#~ msgid "The name of your project."
+#~ msgstr "Името на проекта ви."
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Не са избрани обекти"
+
+#~ msgid "Screencast"
+#~ msgstr "Запис на работния плот"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Запис на работния плот"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Стартиране на Istanbul"
+
+#~ msgid "Import clips..."
+#~ msgstr "Внасяне на клипове…"
+
+#~ msgid "Remove Clip"
+#~ msgstr "Премахване на клип"
+
+#~ msgid "Play Clip"
+#~ msgstr "Изпълнение на клип"
+
+#~ msgid "Icon"
+#~ msgstr "Икона"
+
+#~ msgid "Information"
+#~ msgstr "Информация"
+
+#~ msgid "Duration"
+#~ msgstr "Продължителност"
+
+#~ msgid ""
+#~ "<span>Import your clips by dragging them here or by using the buttons "
+#~ "above.</span>"
+#~ msgstr ""
+#~ "<span>Може да внесете клиповете си като ги довлачите до тук или като "
+#~ "използвате бутоните по-горе.</span>"
+
+#~ msgid "_Import clips..."
+#~ msgstr "_Внасяне на клипове…"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Внасяне на клипове, които ще се използват в проекта"
+
+#~ msgid "Import _folder of clips..."
+#~ msgstr "Внасяне на п_апка с клипове…"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Внасяне на папка с клипове, които ще се използват в проекта"
+
+#~ msgid "_Remove from project"
+#~ msgstr "_Премахване от проекта"
+
+#~ msgid "Insert at _end of timeline"
+#~ msgstr "Внасяне в _края на времевата последователност"
+
+#~ msgid "Import a folder"
+#~ msgstr "Внасяне на папка"
+
+#~ msgid "Import a clip"
+#~ msgstr "Внасяне на клип"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Затваряне след внасяне на файловете"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Внасяне на клипове…"
+
+#~ msgid "Error(s) occurred while importing"
+#~ msgstr "Възникнаха грешки при внасяне"
+
+#~ msgid "An error occurred while importing"
+#~ msgstr "Възникна грешка при внасяне"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Грешка при анализиране на файлове"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Тези файлове не могат да бъдат използвани от PiTiVi."
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Грешка при анализиране на файл"
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Този файл не може да бъде използван от PiTiVi."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Изтриване на избраните"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Разделяне на клипа в местоположението на главата за възпроизвеждане"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Добавяне на ключов кадър"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Към предишния ключов кадър"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Към следващия ключов кадър"
+
+#~ msgid "Zoom In"
+#~ msgstr "Увеличаване"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Намаляване"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Премахване на връзките между клиповете"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Свързване на избраните клипове"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Премахване на групирането на клиповете"
+
+#~ msgid "Group clips"
+#~ msgstr "Групиране на клиповете"
+
+#~ msgid "One or more GStreamer errors has occured!"
+#~ msgstr "GStreamer приключи с една или повече грешки!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Бяха докладвани следните грешки:"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Увеличаване на времевата последователност"
+
+#~ msgid "_Prevframe"
+#~ msgstr "_Предишен"
+
+#~ msgid "_Nextframe"
+#~ msgstr "_Следващ"
+
+#~ msgid "Behavior"
+#~ msgstr "Поведение"
+
+#~ msgid "Snap Distance (pixels)"
+#~ msgstr "Разстояние за прилепване (в пиксели)"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr ""
+#~ "Прагово разстояние (в пиксели), което се използва за всички действия на "
+#~ "прилепване"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Текст:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Фон на клипа (видео)"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Цветът на фона за клипове във видео писти."
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Фон на клипа (звук)"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Цветът на фона за клипове в аудио писти."
+
+#~ msgid "Selection Color"
+#~ msgstr "Цвят на избора"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Избраните клипове ще бъдат оцветени с този цвят."
+
+#~ msgid "Clip Font"
+#~ msgstr "Шрифт на клипа"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Шрифтът, който да се използва за заглавията на клиповете"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Към началото на времевата последователност"
+
+#~ msgid "Go back one second"
+#~ msgstr "Назад 1 секунда"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Напред 1 секунда"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Към края на времевата последователност"
+
+#~ msgid "Play"
+#~ msgstr "Изпълнение"
+
+#~ msgid "Pause"
+#~ msgstr "Пауза"

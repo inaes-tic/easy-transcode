@@ -1,0 +1,1062 @@
+# Vietnamese translation for pitivi
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pitivi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2010-03-25 03:28+0000\n"
+"Last-Translator: Danh Tính <Unknown>\n"
+"Language-Team: Vietnamese <vi@li.org>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Launchpad-Export-Date: 2010-12-19 11:08+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Chưa có gì</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Mô tả:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Danh sách lỗi"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Danh sách lỗi"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Tạo ra và chỉnh sửa phim của bạn"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Trình soạn phim Pitivi"
+
+#~ msgid "%s is already running!"
+#~ msgstr "%s đang chạy rồi!"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Một bản %s đang chạy theo script này rồi."
+
+#~ msgid "Could not find the GNonLin plugins!"
+#~ msgstr "Không tìm thấy phần bổ sung GNonLin!"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Kiểm tra lại các phần bổ sung đã cài đặt chưa và có thể truy cập từ đường "
+#~ "dẫn đến các phần bổ sung của GStreamer chưa."
+
+#~ msgid "Could not find the autodetect plugins!"
+#~ msgstr "Không tìm được các phần bổ sung tự nhận ra!"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and is available in the "
+#~ "GStreamer plugin path."
+#~ msgstr ""
+#~ "Kiểm tra lại đã cài đặt gói gst-plugins-good chưa và có thể truy cập từ "
+#~ "đường dẫn đến các phần bổ sung của GStreamer chưa."
+
+#~ msgid "PyGTK doesn't have cairo support!"
+#~ msgstr "PyGTK chưa có hỗ trợ cho cairo!"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Vui lòng dùng một phiên bản GTK+ Python bindings có hỗ trợ cho cairo."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Không thể chạy trình phần bổ sung xuất video."
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)"
+#~ msgstr ""
+#~ "Hãy chắc chắn rằng bạn đã có ít nhất một đoạn phim hợp lệ tại đầu ra "
+#~ "(xvimagesink hoặc ximagesink)"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Không thể chạy trình phần bổ sung xuất audio."
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)"
+#~ msgstr ""
+#~ "Hãy chắc chắn rằng bạn đã có ít nhất một tập tin âm thanh hợp lệ tại đầu "
+#~ "ra (alsasink hoặc osssink)"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Không thể import the cairo Python bindings"
+
+#~ msgid "Make sure you have the cairo Python bindings installed"
+#~ msgstr "Phải chắc chắn rằng bạn đã cài cairo Python bindings"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Không thể import the libglade Python bindings"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr "Phải chắc chắn rằng bạn đã cài \"libglade Python bindings\""
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Không thể import the goocanvas Python bindings"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed"
+#~ msgstr "Phải đảm bảo là mình đã cài \"goocanvas Python bindings\""
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Bạn không có đủ phiên bản GTK+ Python bindings gần đây (hiện tại %s)"
+
+#~ msgid "Install a version of the GTK+ Python bindings greater or equal to %s"
+#~ msgstr "Cài phiên bản GTK+Python bindings  lớn hơn hoặc bằng %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GStreamer Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Bạn không có đủ phiên bản GStreamer Python bindings gần đây (hiện tại %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater or equal to %s"
+#~ msgstr "Cài phiên bản GStreamer Python bindings lớn hơn hoặc bằng %s"
+
+#~ msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgstr "Bạn không có đủ phiên bản GStreamer gần đây (hiện tại %s)"
+
+#~ msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgstr "Cài phiên bản GStreamer lớn hơn hoặc bằng %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Bạn không có đủ phiên bản cairo Python bindings gần đây (hiện tại %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater or equal to %s"
+#~ msgstr "Cài phiên bản cairo Python bindings lớn hơn hoặc bằng %s"
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(currently %s)"
+#~ msgstr ""
+#~ "Bạn không có đủ phiên bản phần bổ sung GStream GNonLin gần đây (hiện tại "
+#~ "%s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater or equal to %s"
+#~ msgstr "Cài phiên bản phần bổ sung GStreamer GNonLin lớn hơn hoặc bằng %s"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Không thê truy cập giao diện sử dụng của Zope"
+
+#~ msgid "Make sure you have the zope.interface module installed"
+#~ msgstr "Hãy chắc chắn rằng giao diện sử dụng của Zope đã được cài đặt"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Không thể nhập mô đun distutils"
+
+#~ msgid "Make sure you have the distutils python module installed"
+#~ msgstr "Hãy chắc chắn rằng mô đun python distutils đã được cài đặt"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Thiếu phần bổ sung:\n"
+#~ "%s"
+
+#~ msgid "Can not decode file."
+#~ msgstr "không thể giải mã được tập tin."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Tập tin đưa ra không chứa âm thanh, đoạn phim hay hình ảnh."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Không thể xác định được độ dài của tập tin."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Đinh dạng tập tin phim có vẻ không cho phép truy cập theo dạng ngẫu nhiên."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Hết thời gian để phân tích tập tin."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Phân tích tập tin quá lâu."
+
+#~ msgid "No available source handler."
+#~ msgstr "Không có sẵn trình xử lí."
+
+#~ msgid "You do not have a GStreamer source element to handle protocol '%s'"
+#~ msgstr "Bạn không có thành phần giải mã GStreamer để xử lí thủ tục '%s'"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Pipeline không muốn vào tình trạng TẠM NGỪNG."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Lỗi nội bộ khi phân tích tập tin này: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Tập tin có chỉ dẫn đến một tập tin phim khác."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "PiTiVi chưa hỗ trợ các tập tin chỉ dẫn đến tập tin khác."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Đã có trường hợp %s rồi, vui lòng báo cáo lỗi đó cho các nhà phát triển "
+#~ "tại http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+
+#~ msgid "Import each MEDIA_FILE into the project."
+#~ msgstr "Nhập mỗi MEDIA_FILE vào đề án."
+
+#~ msgid "Add each MEDIA_FILE to timeline after importing."
+#~ msgstr "Bổ sung mỗi MEDIA_FILE cho thời gian chạy đề án sau khi nhập xong."
+
+#~ msgid "Run pitivi in the Python Debugger"
+#~ msgstr "Chạy trình pitivi dùng chế độ Python Debugger"
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Chạy pitivi không dùng giao diện đồ họa"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Không phải một tập tin đề án hợp lệ."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Không đóng được đề án hiện tại"
+
+#~ msgid "No URI specified."
+#~ msgstr "Chưa xác định URI."
+
+#~ msgid "New Project"
+#~ msgstr "Đề án Mới"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Thiết lập Xuất khẩu\n"
+
+#~ msgid "Video: "
+#~ msgstr "Phim: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Âm thanh: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Bộ trộn: "
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d giờ"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d phút"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d giây"
+
+#~ msgid "%s doesn't yet handle non local projects"
+#~ msgstr "%s chưa xử lý được các đề án lưu bên ngoài"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi Native (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Định dạng danh sách chơi"
+
+#~ msgid "Name"
+#~ msgstr "Tên"
+
+#~ msgid "Description"
+#~ msgstr "Mô tả"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Thiết bị Bắt Âm thanh:"
+
+#~ msgid "No device available"
+#~ msgstr "Không có thiết bị nào"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Thiết bị Bắt Phim:"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Âm thanh:</b> %d kênh tần số %d <i>Hz</i> (%d <i>bits</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Không xác định định dạng âm thanh:</b> %s"
+
+#~ msgid "<b>Video:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Phim:</b> %d x %d <i>pixels</i> chế độ %.2f<i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgstr "<b>Hình:</b> %d x %d <i>pixels</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Không xác định định dạng phim:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Văn bản:</b> %s"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Thuộc tính Cho: vật %d"
+
+#~ msgid "No properties..."
+#~ msgstr "Không có thuộc tính..."
+
+#~ msgid "Custom"
+#~ msgstr "Tuỳ chọn"
+
+#~ msgid "Choose..."
+#~ msgstr "Chọn..."
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Tác giả:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Tên Plugin</b>"
+
+#~ msgid "<b>Properties</b>"
+#~ msgstr "<b>Thuộc tính</b>"
+
+#~ msgid "Author"
+#~ msgstr "Tác giả"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Thuộc tính cho <element>"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Âm thanh:</b>"
+
+#~ msgid "<b>Settings</b>"
+#~ msgstr "<b>Thiết lập</b>"
+
+#~ msgid "<b>Video:</b>"
+#~ msgstr "<b>Phim:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Chọn tập tin"
+
+#~ msgid "Modify"
+#~ msgstr "Sửa"
+
+#~ msgid "Output file:"
+#~ msgstr "Tập tin xuất:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Vui lòng chọn một tập tin để lưu kết quả"
+
+#~ msgid "Render project"
+#~ msgstr "Đề án diễn lại"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Chọn tập tin để diễn lại"
+
+#~ msgid "About %s left"
+#~ msgstr "Còn lại khoảng %s"
+
+#~ msgid "Rendering"
+#~ msgstr "Đang diễn lại"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Diễn lại xong"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Xuất Âm thanh</b>"
+
+#~ msgid "<b>Export to</b>"
+#~ msgstr "<b>Xuất sang</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Xuất phim</b>"
+
+#~ msgid "Audio Codec"
+#~ msgstr "Codec Âm thanh"
+
+#~ msgid "Audio Codec:"
+#~ msgstr "Codec Âm thanh:"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Âm thanh đặt sẵn"
+
+#~ msgid "Channels:"
+#~ msgstr "Kênh:"
+
+#~ msgid "Container:"
+#~ msgstr "Vỏ chứa:"
+
+#~ msgid "Depth:"
+#~ msgstr "Độ sâu :"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Tần số khung:"
+
+#~ msgid "Height:"
+#~ msgstr "Độ cao:"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Bộ trộn"
+
+#~ msgid "Rate:"
+#~ msgstr "Mức:"
+
+#~ msgid "Settings"
+#~ msgstr "Thiết lập"
+
+#~ msgid "Video Codec"
+#~ msgstr "Codec Video"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Codec Video:"
+
+#~ msgid "Video Preset"
+#~ msgstr "Video đặt sẵn"
+
+#~ msgid "Width:"
+#~ msgstr "Chiều rộng:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Video thô"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Âm thanh thô"
+
+#~ msgid "Export settings"
+#~ msgstr "Thiết lập xuất khẩu"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Lý do không rõ"
+
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "Problem:"
+#~ msgstr "Vấn đề:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Thông tin thêm:"
+
+#~ msgid "Properties for %s"
+#~ msgstr "Thuộc tính cho %s"
+
+#~ msgid "Render"
+#~ msgstr "Diễn lại"
+
+#~ msgid "Split"
+#~ msgstr "Phân tách"
+
+#~ msgid "Unlink"
+#~ msgstr "Bỏ liên kết"
+
+#~ msgid "Link"
+#~ msgstr "Liên kết"
+
+#~ msgid "Ungroup"
+#~ msgstr "Tách ra"
+
+#~ msgid "Group"
+#~ msgstr "Nhóm lại"
+
+#~ msgid "Start Playback"
+#~ msgstr "Bắt đầu phát lại"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Dừng phát"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Phát vòng lại khu đã chọn"
+
+#~ msgid "Create a new project"
+#~ msgstr "Tạo một đề án mới"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Mở đề án đã có"
+
+#~ msgid "Save the current project"
+#~ msgstr "Lưu đề án hiện có"
+
+#~ msgid "Project Settings"
+#~ msgstr "Thiết lập đề án"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Chỉnh lại thiết lập đề án"
+
+#~ msgid "_Render project"
+#~ msgstr "_Diến lại đề án"
+
+#~ msgid "_Undo"
+#~ msgstr "_Hủy bước"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Hủy thao tác cuối cùng"
+
+#~ msgid "_Redo"
+#~ msgstr "_Làm lại"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Làm lại thao tác cuối cùng đã bị hủy"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Plugin..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Quản lý phần bổ sung"
+
+#~ msgid "_Preferences"
+#~ msgstr "Tù_y chỉnh"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Nhập từ _Webcam..."
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Nhầp dòng Camera"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Tạo phim quay màn hình..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Quay chụp màn hình nền"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Bắt Luồng Mạng..."
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Quay chụp Dòng video qua Mạng"
+
+#~ msgid "Information about %s"
+#~ msgstr "Thông tin về %s"
+
+#~ msgid "_File"
+#~ msgstr "_Tập tin"
+
+#~ msgid "_Edit"
+#~ msgstr "_Sửa"
+
+#~ msgid "_View"
+#~ msgstr "_Xem"
+
+#~ msgid "_Project"
+#~ msgstr "_Dự án"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Bảng niên đại"
+
+#~ msgid "Previe_w"
+#~ msgstr "Xem _thử"
+
+#~ msgid "Loop"
+#~ msgstr "Quay vòng"
+
+#~ msgid "_Help"
+#~ msgstr "Trợ _giúp"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Xem cửa sổ chính toàn màn hình"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Thanh công cụ chính"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Thanh Bảng thời gian"
+
+#~ msgid "Open File..."
+#~ msgstr "Mở Tập tin..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Tất cả các định dạng được hỗ trợ"
+
+#~ msgid "Contributors:"
+#~ msgstr "Người đóng góp:"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Xem http://www.gnu.org/copyleft/lesser.html để tham khảo chi tiết"
+
+#~ msgid "Close without saving"
+#~ msgstr "Đóng không lưu"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Lưu các thay đổi của đề án trước khi đóng?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Nếu không lưu lại môt số thay đổi sẽ bị mất"
+
+#~ msgid "PiTiVi is unable to load file \"%s\""
+#~ msgstr "PiTiVi không nhập được tập tin \"%s\""
+
+#~ msgid "Error Loading File"
+#~ msgstr "Gặp Lỗi khi Nhập Tập tin"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Tìm tập tin bị thiếu..."
+
+#~ msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgstr ""
+#~ "Tập tin sau đây đã chuyển nơi, vui lòng cho PiTiVi biết vị trí của nó."
+
+#~ msgid "Duration:"
+#~ msgstr "Thời lượng:"
+
+#~ msgid "Save As..."
+#~ msgstr "Lưu thành..."
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "KhôngTên.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Tự động nhận dạng"
+
+#~ msgid "Address"
+#~ msgstr "Địa chỉ"
+
+#~ msgid "Capture"
+#~ msgstr "Chụp"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Chụp Dòng xuất phát từ URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Bắt luồng mạng"
+
+#~ msgid "Close"
+#~ msgstr "Đóng"
+
+#~ msgid "Customize:"
+#~ msgstr "Tùy chỉnh:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Dòng video qua mạng"
+
+#~ msgid "Other protocol"
+#~ msgstr "Giao thức khác"
+
+#~ msgid "Port"
+#~ msgstr "Cổng"
+
+#~ msgid "Preview"
+#~ msgstr "Xem trước"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Xem trước Dòng phát từ URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Giao thức"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "Mọi chủng loại"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Bộ quản lý phần bổ sung"
+
+#~ msgid "Search:"
+#~ msgstr "Tìm:"
+
+#~ msgid "Show:"
+#~ msgstr "Hiển thị:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Bạn có thể kéo thả tập tin phần bổ sung vào danh sách để cài đặt,\n"
+#~ "hoặc gõ chữ để tìm một phần bổ sung nhất định."
+
+#~ msgid "Enabled"
+#~ msgstr "Bật"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Category"
+#~ msgstr "Loại"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Có chắc chắn muốn bỏ các phần bổ sung đã chọn không?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Vui lòng khẳng định sự loại bỏ"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Không bỏ được %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Cập nhật phần bổ sung hiện tại?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Phần bổ sung này đã cài đặt rồi.\n"
+#~ "Nếu bạn đồng ý, phiên bản %(v1)s sẽ được thay thế bởi phiên bản %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Tìm thấy phần bổ sung trùng lắp"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Không cài được %s\n"
+#~ "Tập tin này không phải là một phần bổ sung hợp lệ"
+
+#~ msgid "Preferences"
+#~ msgstr "Tùy chỉnh"
+
+#~ msgid "Section"
+#~ msgstr "Phần"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Thiết lập lại theo mặc định"
+
+#~ msgid "Revert"
+#~ msgstr "Trở lại"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "Cần khởi động lại PiTiVi để kích hoạt một số thay đổi"
+
+#~ msgid "Reset"
+#~ msgstr "Đặt lại"
+
+#~ msgid "Appearance"
+#~ msgstr "Diện mạo"
+
+#~ msgid "Thumbnail Gap (pixels)"
+#~ msgstr "Khoảng cách hình nhỏ (pixels)"
+
+#~ msgid "The gap between thumbnails"
+#~ msgstr "Khoảng cách giữa các hình nhỏ"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Hiển thị hình nhỏ (Video)"
+
+#~ msgid "Show Thumbnails on Video Clips"
+#~ msgstr "Hiển thị hình nhỏ trên các Video clip"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Hiển thị Tín hiệu Âm thanh"
+
+#~ msgid "Show Waveforms on Audio Clips"
+#~ msgstr "Hiển thị Tín hiệu Âm thanh trên các Khúc Âm thanh"
+
+#~ msgid "A short description of your project."
+#~ msgstr "Sự mô tả ngắn của đề án."
+
+#~ msgid "Description:"
+#~ msgstr "Mô tả:"
+
+#~ msgid "Name:"
+#~ msgstr "Tên:"
+
+#~ msgid "The name of your project."
+#~ msgstr "Tên của đề án."
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Chưa Chọn Đồ vật"
+
+#~ msgid "Screencast"
+#~ msgstr "Quay phim Màn hình"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Quay phìm Màn hình nền"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Khởi động Istanbul"
+
+#~ msgid "Import clips..."
+#~ msgstr "Nhập clip..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Bỏ clip"
+
+#~ msgid "Play Clip"
+#~ msgstr "Phát Clip"
+
+#~ msgid "Icon"
+#~ msgstr "Biểu tượng"
+
+#~ msgid "Information"
+#~ msgstr "Thông tin"
+
+#~ msgid "Duration"
+#~ msgstr "Thời lượng"
+
+#~ msgid "_Import clips..."
+#~ msgstr "_Nhập clip..."
+
+#~ msgid "Import clips to use"
+#~ msgstr "Nhập clip để dùng"
+
+#~ msgid "Import _folder of clips..."
+#~ msgstr "Nhập thư _mục clip"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Nhập các clip trong một thư mục để dùng"
+
+#~ msgid "_Remove from project"
+#~ msgstr "_Loại bỏ từ đề án"
+
+#~ msgid "Insert at _end of timeline"
+#~ msgstr "Chèn vào _cuối bảng thời gian"
+
+#~ msgid "Import a folder"
+#~ msgstr "Nhập một thư mục"
+
+#~ msgid "Import a clip"
+#~ msgstr "Nhập một clip"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Đóng lại sau khi đã nhập các tập tin"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Đang nhập các clip..."
+
+#~ msgid "Error(s) occurred while importing"
+#~ msgstr "Đã gặp lỗi khi đang nhập tập tin"
+
+#~ msgid "An error occurred while importing"
+#~ msgstr "Đã gặp lỗi khi đang nhập tập tin"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Gặp lỗi khi đang phân tích các tập tin"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Những tập tin sau đây không dùng được với PiTiVi."
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Gặp lỗi khi đang phân tích tập tin"
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Tập tin sau đây không dùng được với PiTiVi."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Xóa sự lựa chọn"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Xén clip ở vị trí đang đọc"
+
+#~ msgid "Zoom In"
+#~ msgstr "Phóng to"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Thu nhỏ"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Bỏ nối giữa các clip"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Nối với nhau các clip"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Tách ra các clip"
+
+#~ msgid "Group clips"
+#~ msgstr "Nhóm lại các clip"
+
+#~ msgid "One or more GStreamer errors has occured!"
+#~ msgstr "Gstreamer đã gặp một hoặc nhiều lỗi sai!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Đã gặp những lỗi sai sau đây:"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Phong to Bảng thời gian"
+
+#~ msgid "Behavior"
+#~ msgstr "Cư xử"
+
+#~ msgid "Snap Distance (pixels)"
+#~ msgstr "Khoảng cách chộp lấy (pixels)"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr "Ngưỡng khoảng cách (pixels) cho các thao tác chộp lại"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Văn bản:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Màu nền cho Clip (Video)"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Màu nền cho các clip trên các đoạn phim."
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Màu nền cho Clip (Âm thanh)"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Màu nền cho các clip trên các rãnh âm thanh."
+
+#~ msgid "Selection Color"
+#~ msgstr "Màu vùng chọn"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Những clip đã chọn sẽ được nhuộm với màu này."
+
+#~ msgid "Clip Font"
+#~ msgstr "Phông cho Clip"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Phông dùng cho tên các clip"

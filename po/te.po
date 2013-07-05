@@ -1,0 +1,982 @@
+# Telugu translation for pitivi.
+# Copyright (C) 2011 pitivi's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pitivi package.
+# Praveen Illa <mail2ipn@gmail.com>, 2011, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-05-07 01:48+0530\n"
+"Last-Translator: Praveen Illa <mail2ipn@gmail.com>\n"
+"Language-Team: Telugu <indlinux-telugu@lists.sourceforge.net>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>స్థానము</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "దోష జాబితా"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "దోష జాబితా"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "పిటివి వీడియో కూర్పకము"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "మీ సొంత చలనచిత్రాలను సృష్టించండి మరియు సవరించండి"
+
+#~ msgid "Estimating..."
+#~ msgstr "అంచనావేస్తున్నది..."
+
+#~ msgid "<b>Viewer Zoom</b>"
+#~ msgstr "<b>వీక్షక జూమ్</b>"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Width:"
+#~ msgstr "వెడల్పు:"
+
+#~ msgid "Height:"
+#~ msgstr "ఎత్తు:"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>పరిమాణం</b>"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>కత్తిరించు</b>"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "తప్పిపోయిన ఆధారితత్వాలు"
+
+#~ msgid "Install"
+#~ msgstr "స్థాపించు"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "<element> కొరకు లక్షణాలు"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 fps"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 ఛానళ్ళు (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "రెండర్"
+
+#~ msgid "<b>Render Preset</b>"
+#~ msgstr "<b>రెండర్ ప్రిసెట్</b>"
+
+#~ msgid "Folder"
+#~ msgstr "సంచయం"
+
+#~ msgid "Container format"
+#~ msgstr "కలిగివుండే ఫార్మేట్"
+
+#~ msgid "Container format:"
+#~ msgstr "కలిగివుండే ఫార్మేట్:"
+
+#~ msgid "Folder:"
+#~ msgstr "సంచయం:"
+
+#~ msgid "File name:"
+#~ msgstr "ఫైల్ పేరు:"
+
+#~ msgid "File name"
+#~ msgstr "ఫైల్ పేరు"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "ఎంచుకున్న క్లిప్‌లను మాత్రమే రెండర్ చేయి"
+
+#~ msgid "General"
+#~ msgstr "సాధారణ"
+
+#~ msgid "Advanced..."
+#~ msgstr "ఉన్నత..."
+
+#~ msgid "Codec:"
+#~ msgstr "కొడెక్:"
+
+#~ msgid "Framerate"
+#~ msgstr "ఫ్రేమ్ రేటు"
+
+#~ msgid "Scale"
+#~ msgstr "కొలత"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "ఎత్తు"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "ప్రోజెక్టు అమరికలను సవరించు..."
+
+#~ msgid "Frame rate:"
+#~ msgstr "ఫ్రేమ్ రేటు:"
+
+#~ msgid "Scale:"
+#~ msgstr "కొలత:"
+
+#~ msgid "Video"
+#~ msgstr "వీడియో"
+
+#~ msgid "Number of channels:"
+#~ msgstr "చానళ్ళ సంఖ్య:"
+
+#~ msgid "Sample Rate:"
+#~ msgstr "మాదిరి రేటు:"
+
+#~ msgid "Sample Depth:"
+#~ msgstr "మాదిరి లోతు:"
+
+#~ msgid "Audio"
+#~ msgstr "ఆడియో"
+
+#~ msgid "Rendering"
+#~ msgstr "రెండరింగ్ చేస్తోంది"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "తెలియని Mib"
+
+#~ msgid "Unknown"
+#~ msgstr "తెలియదు"
+
+#~ msgid "<b>Estimated filesize:</b>"
+#~ msgstr "<b>ఫైల్ పరిమాణం అంచనా:</b>"
+
+#~ msgid "<b>Frames per second:</b>"
+#~ msgstr "<b>సెకనుకి గల ఫ్రేములు:</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "ప్రాధాన్యతలు"
+
+#~ msgid "Section"
+#~ msgstr "విభాగం"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "ఫ్యాక్టరీ అమరికలకు తిరిగి అమర్చు"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "ప్రామాణికం (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "ప్రామాణిక PAL"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 FPS"
+
+#~ msgid "Project Settings"
+#~ msgstr "ప్రోజెక్టు అమరికలు"
+
+#~ msgid "<b>Video Preset</b>"
+#~ msgstr "<b>వీడియో ప్రిసెట్</b>"
+
+#~ msgid "<b>Size (Pixels)</b>"
+#~ msgstr "<b>పరిమాణం (పిక్సెళ్ళు)</b>"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>అవస్థ నిష్పత్తి</b>"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "లింకుచేయి"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>ఫ్రేమ్ రేటు</b>"
+
+#~ msgid "<b>Audio Preset</b>"
+#~ msgstr "<b>ఆడియో ప్రిసెట్</b>"
+
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>ఫార్మేటు</b>"
+
+#~ msgid "Channels:"
+#~ msgstr "ఛానళ్ళు:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "మాదిరి రేటు:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "మాదిరి లోతు:"
+
+#~ msgid "Author:"
+#~ msgstr "మూలకర్త:"
+
+#~ msgid "Year:"
+#~ msgstr "సంవత్సరం:"
+
+#~ msgid "Project title:"
+#~ msgstr "ప్రోజెక్టు శీర్షిక:"
+
+#~ msgid "Info"
+#~ msgstr "సమాచారం"
+
+#~ msgid "Welcome"
+#~ msgstr "స్వాగతం"
+
+#~ msgid "Browse projects..."
+#~ msgstr "ప్రోజెక్టులను విహరించు..."
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "తప్పిపోయిన ఆధారితత్వాలు..."
+
+#~ msgid "Loading project..."
+#~ msgstr "పరియోజనను నింపుతోంది..."
+
+#~ msgid "Project loaded."
+#~ msgstr "పరియోజన లోడయింది."
+
+#~ msgid "Rendering..."
+#~ msgstr "రెండరింగ్ చేస్తోంది..."
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project.\n"
+#~ "    %prog PROJECT_FILE -r OUTPUT_FILE  # Render a project.\n"
+#~ "    %prog PROJECT_FILE -p              # Preview a project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # వీడియో కూర్పకాన్ని ప్రారంభించు.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # వీడియో కూర్పకాన్ని ప్రారంభించు మరియు ఒక "
+#~ "ప్రోజెక్టుని సృష్టించు.\n"
+#~ "    %prog PROJECT_FILE -r OUTPUT_FILE  # ఒక ప్రోజెక్టుని రెండర్ చేయి.\n"
+#~ "    %prog PROJECT_FILE -p              # ఒక ప్రోజెక్టుని మునుజూపు."
+
+#~ msgid "%s is already running"
+#~ msgstr "%s ఇదివరకటి నుంచే నడుస్తోంది!"
+
+#~ msgid "Additional video effects"
+#~ msgstr "అదనపు వీడియో ప్రభావాలు"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "తప్పిపోయిన ప్లగిన్‌లు:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "ఫైల్‌ని డీకోడ్ చేయుట వీలుకాదు."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "ఫైల్‌ని విశ్లేషించుట మరీ ఎక్కువ తీసుకుంటుంది."
+
+#~ msgid "File does not exist"
+#~ msgstr "ఫైల్ ఉనికిలో లేదు"
+
+#~ msgid "All effects"
+#~ msgstr "అన్ని ప్రభావాలు"
+
+#~ msgid "Colors"
+#~ msgstr "రంగులు"
+
+#~ msgid "Noise"
+#~ msgstr "రొద"
+
+#~ msgid "Analysis"
+#~ msgstr "విశ్లేషణ"
+
+#~ msgid "Blur"
+#~ msgstr "మసక"
+
+#~ msgid "Geometry"
+#~ msgstr "జ్యామితి"
+
+#~ msgid "Fancy"
+#~ msgstr "ఫ్యాన్సీ"
+
+#~ msgid "Time"
+#~ msgstr "సమయం"
+
+#~ msgid "Uncategorized"
+#~ msgstr "వర్గీకరించనివి"
+
+#~ msgid "Audio |audio"
+#~ msgstr "ఆడియో |ఆడియో"
+
+#~ msgid "effect"
+#~ msgstr "ప్రభావం"
+
+#~ msgid "Playlist format"
+#~ msgstr "ప్లేలిస్టు ఫార్మేట్"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "సరియైన ప్రోజెక్టు ఫైల్ కాదు."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "ప్రస్తుత ప్రోజెక్టు మూసివేయకూడదు"
+
+#~ msgid "No URI specified."
+#~ msgstr "ఏ URI తెలుపలేదు."
+
+#~ msgid "New Project"
+#~ msgstr "కొత్త ప్రోజెక్టు"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "అమరికలను ఎగుమతిచేయి\n"
+
+#~ msgid "Video: "
+#~ msgstr "వీడియో: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "ఆడియో: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "మక్సర్"
+
+#~ msgid "Remove effect"
+#~ msgstr "ప్రభావాన్ని తీసివేయి"
+
+#~ msgid "Activated"
+#~ msgstr "క్రియాత్మకమైంది"
+
+#~ msgid "Type"
+#~ msgstr "రకము"
+
+#~ msgid "Effect name"
+#~ msgstr "ప్రభావము పేరు"
+
+#~ msgid "Effects"
+#~ msgstr "ప్రభావాలు"
+
+#~ msgid "Transformation"
+#~ msgstr "రూపాంతరీకరణ"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>ఆడియో:</b> %d ఛానల్ %d వద్ద <i>Hz</i> (%d <i>బిట్లు</i>)"
+#~ msgstr[1] "<b>ఆడియో:</b> %d ఛానళ్ళు %d వద్ద <i>Hz</i> (%d <i>బిట్లు</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>తెలియని ఆడియో ఫార్మేటు:</b> %s"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>వీడియో:</b> %dx%d <i>పిక్సెళ్ళు</i> at %.2f<i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>బొమ్మ:</b> %dx%d <i>పిక్సెళ్ళు</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>తెలియని వీడియో ఫార్మేటు:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>పాఠ్యం:</b> %s"
+
+#~ msgid "%d fps"
+#~ msgstr "%d fps"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f fps"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f fps"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d బిట్"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 ఛానళ్ళు (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 ఛానళ్ళు (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "స్టీరియో"
+
+#~ msgid "Mono"
+#~ msgstr "మోనో"
+
+#~ msgid "Custom"
+#~ msgstr "మలచుకొనిన"
+
+#~ msgid "Save Preset"
+#~ msgstr "ప్రిసెట్ భద్రపరుచు"
+
+#~ msgid "Choose..."
+#~ msgstr "ఎన్నుకొను..."
+
+#~ msgid "Video effects"
+#~ msgstr "వీడియో ప్రభావాలు"
+
+#~ msgid "Audio effects"
+#~ msgstr "ఆడియో ప్రభావాలు"
+
+#~ msgid "Search:"
+#~ msgstr "వెతుకు:"
+
+#~ msgid "Name"
+#~ msgstr "పేరు"
+
+#~ msgid "Description"
+#~ msgstr "వివరణ"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "వీడియో ప్రభావాలను ఒక జాబితా వలె చూపించు"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "వీడియో ప్రభావాలను ప్రతీకల వలె చూపించు"
+
+#~ msgid "No preset"
+#~ msgstr "ఏ ప్రిసెట్ లేదు"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "\"%s\" ఇదివరకే ఉన్నది."
+
+#~ msgid "New preset"
+#~ msgstr "కొత్త ప్రిసెట్"
+
+#~ msgid "New preset %d"
+#~ msgstr "కొత్త ప్రిసెట్ %d"
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "%d%% రెండరయినవి"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "పిటివి ఈ ఫైలుని మునుజూపలేదు."
+
+#~ msgid "More info"
+#~ msgstr "మరింత సమాచారం"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>విభాజకత</b>: %d×%d"
+
+#~ msgid "<b>Duration</b>: %s"
+#~ msgstr "<b>నిడివి</b>: %s"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "ఒక ఫైలుని విశ్లేషిస్తున్నపుడు దోషం"
+
+#~ msgid "Unknown reason"
+#~ msgstr "తెలియని కారణం"
+
+#~ msgid "Problem:"
+#~ msgstr "సమస్య:"
+
+#~ msgid "Extra information:"
+#~ msgstr "అదనపు సమాచారం:"
+
+#~ msgid "No properties..."
+#~ msgstr "ఏ లక్షణాలు లేవు..."
+
+#~ msgid "Reset to default value"
+#~ msgstr "అప్రమేయ విలువకు తిరిగి అమర్చు"
+
+#~ msgid "Properties for %s"
+#~ msgstr "%s కొరకు లక్షణాలు"
+
+#~ msgid "Split"
+#~ msgstr "వేరుచేయుట"
+
+#~ msgid "Keyframe"
+#~ msgstr "కీఫ్రేమ్"
+
+#~ msgid "Unlink"
+#~ msgstr "అన్‌లింక్ చేయి"
+
+#~ msgid "Group"
+#~ msgstr "గుంపు"
+
+#~ msgid "Start Playback"
+#~ msgstr "ప్లేబాక్ ప్రారంభించు"
+
+#~ msgid "Create a new project"
+#~ msgstr "ఒక కొత్త ప్రోజెక్టును సృష్టించు"
+
+#~ msgid "_Open..."
+#~ msgstr "తెరువు...(O)"
+
+#~ msgid "Open an existing project"
+#~ msgstr "ఒక ఉనికిలో ఉన్న ప్రోజెక్టును తెరువు"
+
+#~ msgid "Save the current project"
+#~ msgstr "ప్రస్తుత ప్రోజెక్టుని భద్రపరుచు"
+
+#~ msgid "Save _As..."
+#~ msgstr "ఇలా భద్రపరుచు...(_A)"
+
+#~ msgid "Reload the current project"
+#~ msgstr "ప్రస్తుత ప్రోజెక్టును తిరిగినింపు"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "ప్రోజెక్టు అమరికలను సవరించు"
+
+#~ msgid "_Render..."
+#~ msgstr "రెండర్ చేయి...(_R)"
+
+#~ msgid "_Undo"
+#~ msgstr "చేసినదానిని రద్దుచేయి (_U)"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "చివరి చర్యను రద్దుచేయి"
+
+#~ msgid "_Redo"
+#~ msgstr "మళ్ళీచేయి(_R)"
+
+#~ msgid "_Preferences"
+#~ msgstr "ప్రాధాన్యతలు (_P)"
+
+#~ msgid "Information about %s"
+#~ msgstr "%s గురించిన సమాచారం"
+
+#~ msgid "User Manual"
+#~ msgstr "వాడుకరి కరదీపిక"
+
+#~ msgid "_Project"
+#~ msgstr "ప్రోజెక్టు (_P)"
+
+#~ msgid "_Edit"
+#~ msgstr "సవరణ (_E)"
+
+#~ msgid "_View"
+#~ msgstr "వీక్షణం (_V)"
+
+#~ msgid "_Library"
+#~ msgstr "లైబ్రరీ (_L)"
+
+#~ msgid "_Timeline"
+#~ msgstr "సమయపరిధి (_T)"
+
+#~ msgid "Previe_w"
+#~ msgstr "మునుజూపు (_w)"
+
+#~ msgid "Loop"
+#~ msgstr "ఆవృతం"
+
+#~ msgid "_Help"
+#~ msgstr "సహాయం (_H)"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "ప్రధాన విండోను పూర్తితెర పై చూడు"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "ప్రధాన సాధనపట్టీ"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "సమయపరిధి సాధనపట్టీ"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "వీక్షకాన్ని వేరుచేయి"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "వీక్షకాన్ని వేరే విండోలో ఉంచు"
+
+#~ msgid "Media Library"
+#~ msgstr "మీడియా లైబ్రరీ"
+
+#~ msgid "Effect Library"
+#~ msgstr "ప్రభావము లైబ్రరీ"
+
+#~ msgid "Clip configuration"
+#~ msgstr "క్లిప్ స్వరూపణం"
+
+#~ msgid "Contributors:"
+#~ msgstr "సహాయకులు:"
+
+#~ msgid "translator-credits"
+#~ msgstr "Praveen Illa <mail2ipn@gmail.com>, 2011-12"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU లెస్సర్ జనరల్ పబ్లిక్ లైసెన్సు\n"
+#~ "మరిన్ని వివరాలకు http://www.gnu.org/copyleft/lesser.html చూడండి"
+
+#~ msgid "Open File..."
+#~ msgstr "ఫైల్ తెరువు..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "సహకారము ఉన్న అన్ని ఫార్మేట్లు"
+
+#~ msgid "Close without saving"
+#~ msgstr "భద్రపరుచకుండానే మూసివేయి"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "మూసివేయబోయే ముందు మార్పులను ప్రస్తుత ప్రోజెక్టుకు భద్రపరచాలా?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "ఒకవేళ మీరు భద్రపరుచకపోయినట్లయితే మీరు చేసిన కొన్ని మార్పులు పోతాయి"
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "ప్రస్తుత ప్రోజెక్టును తిరిగి లోడుచేయాలనుకుంటున్నారా?"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "దాచని అన్ని మార్పులు కోల్పోబడతాయి."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "\"%s\" ప్రోజెక్టుని లోడుచేయలేకపోతుంది"
+
+#~ msgid "Error Loading Project"
+#~ msgstr "ప్రోజెక్టుని నింపుటలో దోషం"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "తప్పిపోయిన ఫైల్‌ని గుర్తించు..."
+
+#~ msgid "Save As..."
+#~ msgstr "ఇలా భద్రపరుచు..."
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "శీర్షికలేని.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "స్వయంచాలకంగా కనిపెట్టు"
+
+#~ msgid "Untitled project"
+#~ msgstr "శీర్షికలేని ప్రోజెక్టు"
+
+#~ msgid "Appearance"
+#~ msgstr "కనిపించువిధము"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "చిరుచిత్ర అంతరం"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "చిరుచిత్రాల మధ్య అంతరం, పిక్సెళ్ళలో"
+
+#~ msgid "Performance"
+#~ msgstr "ప్రదర్శన"
+
+#~ msgid "1/100 second"
+#~ msgstr "1/100 సెకను"
+
+#~ msgid "1/10 second"
+#~ msgstr "1/10 సెకను"
+
+#~ msgid "1/4 second"
+#~ msgstr "1/4 సెకను"
+
+#~ msgid "1/2 second"
+#~ msgstr "1/2 సెకను"
+
+#~ msgid "1 second"
+#~ msgstr "1 సెకను"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 సెకన్లు"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 సెకన్లు"
+
+#~ msgid "minute"
+#~ msgstr "నిమిషం"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "చిరుచిత్రాల మధ్య అంతరం, సెకన్లలో."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "వీడియో చిరుచిత్రాలను చేతనపరుచు"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "వీడియో క్లిప్‌లపై చిరుచిత్రాలను చూపించు"
+
+#~ msgid "Square"
+#~ msgstr "Square"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p Wide"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i Wide"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p Wide"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i Wide"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV Widescreen (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Cinema (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Cinema (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Cinema (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorphic (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorphic (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorphic (2.4)"
+
+#~ msgid "Import Files..."
+#~ msgstr "ఫైళ్ళను దిగుమతిచేయి..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "క్లిప్ తీసివేయి"
+
+#~ msgid "Play Clip"
+#~ msgstr "క్లిప్ ఆడించు"
+
+#~ msgid "Icon"
+#~ msgstr "ప్రతీక"
+
+#~ msgid "Information"
+#~ msgstr "సమాచారం"
+
+#~ msgid "Duration"
+#~ msgstr "నిడివి"
+
+#~ msgid "Hide"
+#~ msgstr "దాయి"
+
+#~ msgid "_Import Files..."
+#~ msgstr "ఫైళ్ళను దిగుమతిచేయి...(_I)"
+
+#~ msgid "Add media files to your project"
+#~ msgstr "మీ ప్రోజెక్టుకు మాధ్యమ ఫైళ్ళను జతచేయి"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "సంచయాలను దిగుమతిచేయి...(_F)"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "వాడని మాధ్యమాన్ని ఎంచుకొను"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "ప్రోజెక్టు నుండి తీసివేయి (_R)"
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "సమయపరిధి చివరన చొప్పించు (_E)"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "క్లిప్‌లను జాబితా వలె చూపించు"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "క్లిప్‌లను ప్రతీకల వలె చూపించు"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "ఒకటి లేదా మరిన్ని సంచయాలను ఎంచుకొను"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "ఒకటి లేదా మరిన్ని ఫైళ్ళను ఎంచుకొను"
+
+#~ msgid "Close after importing files"
+#~ msgstr "ఫైళ్ళను దిగుమతిచేసిన తరువాత మూసివేయి"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "దిగుమతి చేస్తున్నపుడు దోషాలు సంభవించాయి."
+
+#~ msgid "View errors"
+#~ msgstr "దోషాలను చూడు"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "దిగుమతి చేస్తుండగా ఒక దోషము సంభవించినది."
+
+#~ msgid "View error"
+#~ msgstr "దోషమును చూడు"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "ఫైళ్ళను విశ్లేషిస్తుండగా దోషము వచ్చినది"
+
+#~ msgid "Projects"
+#~ msgstr "పరియోజనలు"
+
+#~ msgid "Behavior"
+#~ msgstr "ప్రవర్తన"
+
+#~ msgid "Audio:"
+#~ msgstr "ఆడియో:"
+
+#~ msgid "Video:"
+#~ msgstr "వీడియో:"
+
+#~ msgid "Text:"
+#~ msgstr "పాఠ్యం:"
+
+#~ msgid "Delete Selected"
+#~ msgstr "ఎంచుకున్న వాటిని తీసివేయి"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "ఒక కీ ఫ్రేముని జతచేయి"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "మునుపటి కీ ఫ్రేముకి తరలించు"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "తరువాత కీ ఫ్రేముకి తరలించు"
+
+#~ msgid "Zoom In"
+#~ msgstr "జూమ్ పెంచు"
+
+#~ msgid "Zoom Out"
+#~ msgstr "జూమ్ తగ్గించు"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "సరితగిన జూమ్"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "కింద పేర్కొన్న దోషాలు నివేదించబడ్డాయి:"
+
+#~ msgid "Zoom"
+#~ msgstr "జూమ్"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "సమయపరిధిని జూమ్"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "ఒక కీ ఫ్రేముని జతచేయి"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "మునుపటి కీ ఫ్రేము (_P)"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "తరువాత కీ ఫ్రేము (_N)"
+
+#~ msgid "Color for video clips"
+#~ msgstr "వీడియో క్లిప్‌లకు రంగు"
+
+#~ msgid "Color for audio clips"
+#~ msgstr "ఆడియో క్లిప్‌లకు రంగు"
+
+#~ msgid "Selection color"
+#~ msgstr "ఎంపిక వర్ణము"
+
+#~ msgid "Clip font"
+#~ msgstr "క్లిప్ ఫాంటు"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "క్లిప్ శీర్షికలకు వాడవలసిన ఫాంటు"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "సమయపరిధి ప్రారంభానికి వెళ్ళు"
+
+#~ msgid "Go back one second"
+#~ msgstr "ఒక సెకను వెనుకకు వెళ్ళు"
+
+#~ msgid "Go forward one second"
+#~ msgstr "ఒక సెకను ముందుకు వెళ్ళు"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "సమయపరిధి చివరకు వెళ్ళు"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "వీక్షకాన్ని జోడించు"
+
+#~ msgid "Play"
+#~ msgstr "ఆడించు"
+
+#~ msgid "Pause"
+#~ msgstr "నిలిపివేయి"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d గంట"
+#~ msgstr[1] "%d గంటలు"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d నిముషం"
+#~ msgstr[1] "%d నిముషాలు"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d సెకను"
+#~ msgstr[1] "%d సెకన్లు"

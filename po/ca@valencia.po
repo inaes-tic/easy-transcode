@@ -1,0 +1,2330 @@
+# pitivi translation to Catalan.
+# Copyright © 2006 The Free Software Foundation Inc.
+# This file is distributed under the same license as the pitivi package.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2007, 2008, 2009, 2011.
+# Jordi Estrada <jordi.estrada@gmail.com>, 2010.
+# Pau Iranzo <paugnu@gmail.com>, 2010.
+# Joan Duran <jodufi@gmail.com>, 2011.
+# Pere Orga <pere@orga.cat>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-08-22 00:00+0200\n"
+"Last-Translator: Pere Orga <pere@orga.cat>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca-XV\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Encara no hi ha res</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Durada</b>: %s"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+#, fuzzy
+msgid "Video Transcoding"
+msgstr "Pista de vídeo"
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Llista d'errors"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Llista d'errors"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Editor de vídeo PiTiVi"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Creeu i editeu les vostres pel·lícules"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "S'està iniciant l'alineat automàtic"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>S'està alineant automàticament</big></b>"
+
+#~ msgid "Estimating..."
+#~ msgstr "S'està estimant..."
+
+#~ msgid "Clip Properties"
+#~ msgstr "Propietats del clip"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancel·la"
+
+#~ msgid "_Apply to project"
+#~ msgstr "_Aplica al projecte"
+
+#~ msgid "Size (pixels):"
+#~ msgstr "Mida (píxels):"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Imatges per segon:"
+
+#~ msgid "Pixel aspect ratio:"
+#~ msgstr "Relació d'aspecte del píxel:"
+
+#~ msgid "Video:"
+#~ msgstr "Vídeo:"
+
+#~ msgid "Channels:"
+#~ msgstr "Canals:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Mostres per segon:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Profunditat de la mostra:"
+
+#~ msgid "Audio:"
+#~ msgstr "Àudio:"
+
+# És el títol d'un lliscador que et permet canviar l'escala
+# d'ampliació (gforcada)
+#~ msgid "Viewer Zoom"
+#~ msgstr "Nivell d'ampliació del visor"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Position"
+#~ msgstr "Posició"
+
+#~ msgid "Width:"
+#~ msgstr "Amplada:"
+
+#~ msgid "Height:"
+#~ msgstr "Alçada:"
+
+#~ msgid "Size"
+#~ msgstr "Mida"
+
+#~ msgid "Crop"
+#~ msgstr "Escapça"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Manquen dependències"
+
+#~ msgid "Install"
+#~ msgstr "Instal·la"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Per habilitar funcionalitats addicionals cal que instal·leu els paquets "
+#~ "següents i reinicieu el PiTiVi:"
+
+#~ msgid "label"
+#~ msgstr "etiqueta"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Propietats de <element>"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferències"
+
+#~ msgid "Section"
+#~ msgstr "Secció"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr "No s'aplicaran alguns dels canvis fins que no reinicieu el PiTiVi"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Reinicieu als paràmetres de fàbrica"
+
+#~ msgid "Reset all settings to their default values"
+#~ msgstr "Restaura tots els paràmetres als seus valors per defecte"
+
+#~ msgid "Revert"
+#~ msgstr "Restaura"
+
+#~ msgid ""
+#~ "Revert all settings to the previous values (before you opened the "
+#~ "preferences dialog)"
+#~ msgstr ""
+#~ "Restaura tots els paràmetres als seus valors anteriors (als d'abans que "
+#~ "obrireu el diàleg de preferències)"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Estàndard (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "PAL estàndard"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 fps"
+
+#~ msgid "Project Settings"
+#~ msgstr "Paràmetres del projecte"
+
+#~ msgid "Video Preset"
+#~ msgstr "Valors predeterminats del vídeo"
+
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Relació d'aspecte"
+
+#~ msgid "Display aspect ratio"
+#~ msgstr "Mostra la relació d'aspecte"
+
+#~ msgid "Pixel aspect ratio"
+#~ msgstr "Relació d'aspecte del píxel"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Enllaça"
+
+#~ msgid "Frame Rate:"
+#~ msgstr "Imatges per segon:"
+
+#~ msgid "Video"
+#~ msgstr "Vídeo"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Valors predeterminats de l'àudio"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Audio"
+#~ msgstr "Àudio"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Year:"
+#~ msgstr "Any:"
+
+#~ msgid "Project title:"
+#~ msgstr "Títol del projecte:"
+
+#~ msgid "Info"
+#~ msgstr "Informació"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 fps"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 canals (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Renderitza"
+
+#~ msgid "Render Preset"
+#~ msgstr "Predefinits de renderització"
+
+#~ msgid "Folder"
+#~ msgstr "Carpeta"
+
+#~ msgid "Container format"
+#~ msgstr "Format del contenidor"
+
+#~ msgid "Container format:"
+#~ msgstr "Format del contenidor:"
+
+#~ msgid "Folder:"
+#~ msgstr "Carpeta:"
+
+#~ msgid "File name:"
+#~ msgstr "Nom del fitxer:"
+
+#~ msgid "File name"
+#~ msgstr "Nom del fitxer"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Renderitza únicament els clips seleccionats"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Esborrany (sense efectes especials, una sola passada)"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Advanced..."
+#~ msgstr "Avançat..."
+
+#~ msgid "Codec:"
+#~ msgstr "Còdec:"
+
+#~ msgid "Framerate"
+#~ msgstr "Imatges per segon"
+
+#~ msgid "Scale"
+#~ msgstr "Escala"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Alçada"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Editeu els paràmetres del projecte..."
+
+#~ msgid "Scale:"
+#~ msgstr "Escala:"
+
+#~ msgid "Enable video"
+#~ msgstr "Habilita el vídeo"
+
+#~ msgid "Enable audio"
+#~ msgstr "Habilita l'àudio"
+
+#~ msgid "Rendering"
+#~ msgstr "S'està renderitzant"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>S'està renderitzant la pel·lícula</big></b>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Es desconeix la mida"
+
+#~ msgid "Unknown"
+#~ msgstr "Desconegut"
+
+#~ msgid "Rendering first pass"
+#~ msgstr "S'està renderitzant la primera passada"
+
+#~ msgid "Estimated filesize:"
+#~ msgstr "Mida estimada del fitxer:"
+
+#~ msgid "Frames per second:"
+#~ msgstr "Fotogrames per segon:"
+
+#~ msgid "Phase:"
+#~ msgstr "Fase:"
+
+#~ msgid "Initializing..."
+#~ msgstr "S'està inicialitzant..."
+
+#~ msgid "Welcome"
+#~ msgstr "Vos donem la benvinguda"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Feu doble clic a un projecte per carregar-lo:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Navega pels projectes..."
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Manquen dependències..."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Ja hi ha una instància de %s. Informeu-ne els desenvolupadors emplenant "
+#~ "un informe d'errades a http://bugzilla.gnome.org/enter_bug.cgi?"
+#~ "product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [FITXER_DE_PROJECTE]              # Inicia l'editor de vídeo.\n"
+#~ "    %prog -i [-a] [FITXER_MULTIMÈDIA1 ...]  # Inicia l'editor i crea un "
+#~ "projecte."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Importa tots els FITXER_MULTIMÈDIA a un projecte nou."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr "Afig els FITXER_MULTIMÈDIA importats a la línia de temps."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Executa el PiTiVi en el depurador de Python."
+
+#~ msgid "-a requires -i"
+#~ msgstr "-a requereix -i"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "No es pot obrir més d'un FITXER_DE_PROJECTE"
+
+#~ msgid "%s is already running"
+#~ msgstr "Ja s'està executant el %s"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Ja s'està executant una instància de %s en este script."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "No s'han pogut trobar els connectors del GNonLin"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Assegureu-vos que els connectors estan instal·lats i que estan "
+#~ "disponibles en el camí de connectors de la GStreamer."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "No s'han pogut trobar els connectors de detecció automàtica"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Assegureu-vos que heu instal·lat el gst-plugins-good i que està "
+#~ "disponible en el camí de connectors de la GStreamer."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "El PyGTK no és compatible amb el Cairo"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Utilitzeu una versió de les vinculacions de Python per al GTK+ que "
+#~ "permeten utilitzar el Cairo."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "No s'han pogut iniciar els connectors d'eixida de vídeo"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu com a mínim una destinació d'eixida de vídeo "
+#~ "disponible (xvimagesink o ximagesink)."
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "No s'han pogut iniciar els connectors d'eixida d'àudio"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu com a mínim una destinació d'eixida d'àudio "
+#~ "disponible (alsasink o osssink)."
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "No s'han pogut importar les vinculacions de Python per al Cairo"
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lades les vinculacions de Python per al "
+#~ "Cairo."
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "No s'han pogut importar les vinculacions de Python per al goocanvas"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lades les vinculacions de Python per al "
+#~ "goocanvas."
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "No s'ha pogut importar la biblioteca de Python per al XDG"
+
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lada la biblioteca de Python per al XDG."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "La versió de les vinculacions de Python per al GTK+ que teniu és massa "
+#~ "vella (teniu la versió %s)"
+
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr ""
+#~ "Instal·leu una versió de les vinculacions de Python per al GTK+ igual o "
+#~ "superior a %s."
+
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr "La versió de la GTK+ que teniu és massa vella (teniu la versió %s)"
+
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr "Instal·leu una versió de la GTK+ igual o superior a %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "La versió de les vinculacions de Python per la GStreamer que teniu és "
+#~ "massa vella (teniu la versió %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Instal·leu una versió de les vinculacions de Python per la GStreamer "
+#~ "igual o superior a %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr ""
+#~ "La versió de la GStreamer que teniu és massa vella (teniu la versió %s)"
+
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr "Instal·leu una versió de la GStreamer igual o superior a %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "La versió de les vinculacions de Python per al Cairo que teniu és massa "
+#~ "vella (teniu la versió %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr ""
+#~ "Instal·leu una versió de les vinculacions de Python per al Cairo igual o "
+#~ "superior a %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "La versió del connector GNonLin de la GStreamer que teniu és massa vell "
+#~ "(teniu la versió %s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Instal·leu una versió del connector GNonLin de la GStreamer igual o "
+#~ "superior a %s."
+
+#~ msgid "Could not import GStreamer Editing Services "
+#~ msgstr "No s'han pogut importar els serveis d'edició del GStreamer "
+
+#~ msgid "Make sure you have GStreamer Editing Services installed."
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lats els serveis d'edició del GStreamer."
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "No s'han pogut importar els mòduls distutils"
+
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr "Assegureu-vos que teniu instal·lat el mòdul distutils de Python."
+
+#~ msgid "Enables the autoalign feature"
+#~ msgstr "Habilita la funcionalitat d'alineat automàtic"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Efectes de vídeo addicionals"
+
+#~ msgid "Additional multimedia codecs through the FFmpeg library"
+#~ msgstr "Còdecs multimèdia addicionals a través de la biblioteca FFmpeg"
+
+#~ msgid "Remove effect"
+#~ msgstr "_Suprimeix l'efecte"
+
+#~ msgid "Activated"
+#~ msgstr "Activat"
+
+#~ msgid "Type"
+#~ msgstr "Tipus"
+
+#~ msgid "Effect name"
+#~ msgstr "Nom de l'efecte"
+
+#~ msgid "Effects"
+#~ msgstr "Efectes"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Seleccioneu un clip de la línia de temps per configurar-ne els efectes "
+#~ "associats"
+
+#~ msgid "Transformation"
+#~ msgstr "Transformació"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Sense categoria"
+
+#~ msgid "All effects"
+#~ msgstr "Tots els efectes"
+
+#~ msgid "Colors"
+#~ msgstr "Colors"
+
+#~ msgid "Noise"
+#~ msgstr "Soroll"
+
+#~ msgid "Analysis"
+#~ msgstr "Anàlisi"
+
+#~ msgid "Blur"
+#~ msgstr "Difuminat"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometria"
+
+#~ msgid "Fancy"
+#~ msgstr "Fantasia"
+
+#~ msgid "Time"
+#~ msgstr "Temps"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Àudio |àudio"
+
+#~ msgid "effect"
+#~ msgstr "efecte"
+
+#~ msgid "Video effects"
+#~ msgstr "Efectes de vídeo"
+
+#~ msgid "Audio effects"
+#~ msgstr "Efectes d'àudio"
+
+#~ msgid "Search:"
+#~ msgstr "Cerca:"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "Nadiu del PiTiVi (XML)"
+
+#~ msgid "Split"
+#~ msgstr "Divideix"
+
+#~ msgid "Keyframe"
+#~ msgstr "Fotograma clau"
+
+#~ msgid "Unlink"
+#~ msgstr "Desenllaça"
+
+#~ msgid "Ungroup"
+#~ msgstr "Desagrupa"
+
+#~ msgid "Group"
+#~ msgstr "Agrupa"
+
+#~ msgid "Align"
+#~ msgstr "Alinea"
+
+#~ msgid "Create a new project"
+#~ msgstr "Crea un projecte nou"
+
+#~ msgid "_Open..."
+#~ msgstr "_Obri..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Obri un projecte existent"
+
+#~ msgid "Save the current project"
+#~ msgstr "Alça el projecte actual"
+
+#~ msgid "Save _As..."
+#~ msgstr "_Anomena i alça..."
+
+#~ msgid "Reload the current project"
+#~ msgstr "Torna a carregar el projecte actual"
+
+#~ msgid "Export as Archive..."
+#~ msgstr "Exporta com a arxiu..."
+
+#~ msgid "Export the current project"
+#~ msgstr "Exporta el projecte actual"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Edita els paràmetres del projecte"
+
+#~ msgid "_Render..."
+#~ msgstr "_Renderitza..."
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Exporta el projecte com a una pel·lícula finalitzada"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Desfés l'última operació"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Refés l'última operació que s'ha desfet"
+
+#~ msgid "Remove layer"
+#~ msgstr "Suprimeix la capa"
+
+#~ msgid "Remove the selected layer from the project"
+#~ msgstr "Suprimeix la capa seleccionada del projecte"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informació sobre %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Manual d'usuari"
+
+#~ msgid "_Project"
+#~ msgstr "_Projecte"
+
+#~ msgid "_Edit"
+#~ msgstr "_Edita"
+
+#~ msgid "_View"
+#~ msgstr "_Visualitza"
+
+#~ msgid "_Library"
+#~ msgstr "_Biblioteca"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Línia de temps"
+
+#~ msgid "Previe_w"
+#~ msgstr "Pre_visualització"
+
+#~ msgid "_Help"
+#~ msgstr "A_juda"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Visualitza la finestra principal a pantalla completa"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Barra d'eines principal"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Barra d'eines de la línia del temps"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Desacobla el visualitzador"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Posa el visualitzador en una finestra separada"
+
+#~ msgid "Media Library"
+#~ msgstr "Biblioteca multimèdia"
+
+#~ msgid "Effect Library"
+#~ msgstr "Biblioteca d'efectes"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Configuració del clip"
+
+#~ msgid "Transitions"
+#~ msgstr "Transicions"
+
+#~ msgid "PiTiVi %s is available."
+#~ msgstr "El PiTiVi %s es troba disponible."
+
+#~ msgid "Current maintainers:"
+#~ msgstr "Desenvolupadors actuals:"
+
+#~ msgid "Past maintainers:"
+#~ msgstr "Desenvolupadors anteriors:"
+
+#~ msgid "Contributors:\n"
+#~ msgstr "Col·laboradors:\n"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Gil Forcada <gilforcada@guifi.net>, 2006-2011\n"
+#~ "Jordi Estrada <jordi.estrada@gmail.com>, 2010\n"
+#~ "Pau Iranzo <paugnu@gmail.com>, 2010\n"
+#~ "Joan Duran <jodufi@gmail.com>, 2011, 2012\n"
+#~ "Pere Orga <pere@orga.cat>, 2012"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "Llicència Pública General Limitada de GNU\n"
+#~ "Per a més detalls vegeu http://www.gnu.org/copyleft/lesser.html"
+
+#~ msgid "Open File..."
+#~ msgstr "Obri un fitxer..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Tots els formats compatibles"
+
+#~ msgid "Unable to save project \"%s\""
+#~ msgstr "No s'ha pogut alçar el projecte «%s»"
+
+#~ msgid "Error Saving Project"
+#~ msgstr "S'ha produït un error en alçar el projecte"
+
+#~ msgid "Close without saving"
+#~ msgstr "Tanca sense alçar"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Voleu alçar els canvis del projecte actual abans de tancar?"
+
+#~ msgid "If you don't save, the changes from the last %s will be lost."
+#~ msgstr "Perdreu els canvis dels últims %s si no els alceu."
+
+#~ msgid "If you don't save, your changes will be lost."
+#~ msgstr "Perdreu els canvis si no els alceu."
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Voleu tornar a carregar el projecte actual?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Torna al projecte alçat"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Perdreu tots els canvis sense alçar."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "No s'ha pogut carregar el projecte «%s»"
+
+#~ msgid "Error Loading Project"
+#~ msgstr "S'ha produït un error en carregar el projecte"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Ubiqueu el fitxer que manca..."
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "S'ha mogut el fitxer següent: «<b>%s</b>»\n"
+#~ "Especifiqueu la seua ubicació actual:"
+
+#~ msgid ""
+#~ "No replacement file was provided for \"<i>%s</i>\".\n"
+#~ "\n"
+#~ "PiTiVi does not currently support partial projects."
+#~ msgstr ""
+#~ "No s'ha proporcionat cap fitxer per substituir «<i>%s</i>».\n"
+#~ "\n"
+#~ "El PiTiVi no admet projectes parcials."
+
+#~ msgid "Export To..."
+#~ msgstr "Exporta a..."
+
+#~ msgid "Untitled"
+#~ msgstr "Sense nom"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Detecta automàticament"
+
+#~ msgid "Save As..."
+#~ msgstr "Anomena i alça..."
+
+#~ msgid "Preview - click outside to close"
+#~ msgstr "Previsualització - feu clic a fora per tancar"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "El PiTiVi no pot previsualitzar este fitxer."
+
+#~ msgid "More info"
+#~ msgstr "Més informació"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Resolució</b>: %dx%d"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "S'ha produït un error en analitzar un fitxer"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "_Suprimeix del projecte"
+
+#~ msgid "_Preview Clip"
+#~ msgstr "_Previsualitza el clip"
+
+#~ msgid "_Clip Properties..."
+#~ msgstr "Propietats del _clip..."
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Insereix-lo al _final de la línia del temps"
+
+#~ msgid "Icon"
+#~ msgstr "Icona"
+
+#~ msgid "Information"
+#~ msgstr "Informació"
+
+#~ msgid "Duration"
+#~ msgstr "Durada"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Afig fitxers multimèdia al projecte arrossegant fitxers i carpetes ací o "
+#~ "utilitzant el botó «Importa fitxers...»."
+
+#~ msgid "Hide"
+#~ msgstr "Amaga"
+
+#~ msgid "_Import Files..."
+#~ msgstr "_Importa fitxers..."
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Afig fitxers multimèdia al projecte"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "Importa _directoris..."
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Afig el contingut d'una carpeta com a clips al projecte"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Selecciona els fitxers multimèdia sense utilitzar"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Selecciona els clips que no s'hagen utilitzat al projecte"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Mostra els clips com una llista"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Mostra els clips com icones"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Selecciona una o més carpetes"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Selecciona un o més fitxers"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Tanca després d'importar els fitxers"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "S'està important el clip %(current_clip)d de %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "S'han produït errors durant la importació."
+
+#~ msgid "View errors"
+#~ msgstr "Mostra els errors"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "S'ha produït un error durant la importació."
+
+#~ msgid "View error"
+#~ msgstr "Mostra l'error"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "S'ha produït un error en analitzar els fitxers"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Els fitxers següents no es poden utilitzar amb el PiTiVi."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "El fitxer següent no es pot utilitzar amb el PiTiVi."
+
+#~ msgid "No preset"
+#~ msgstr "Sense predefinit"
+
+#~ msgid "Ignore backup"
+#~ msgstr "Ignora la còpia de seguretat"
+
+#~ msgid "Restore from backup"
+#~ msgstr "Recupera des de la còpia de seguretat"
+
+#~ msgid ""
+#~ "An autosaved version of your project file was found. It is %s newer than "
+#~ "the saved project.\n"
+#~ "\n"
+#~ "Would you like to load it instead?"
+#~ msgstr ""
+#~ "S'ha trobat una versió alçada automàticament del fitxer de projecte. És "
+#~ "%s més nova que el projecte alçat.\n"
+#~ "\n"
+#~ "Voleu carregar-lo?"
+
+#~ msgid "You do not have permissions to write to this folder."
+#~ msgstr "No teniu permís d'escriptura en esta carpeta."
+
+#~ msgid "Cannot save with this file format."
+#~ msgstr "No es pot alçar en este format de fitxer."
+
+#~ msgid "New Project"
+#~ msgstr "Projecte nou"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "«%s» ja existeix."
+
+#~ msgid "New preset"
+#~ msgstr "Predefinit nou"
+
+#~ msgid "New preset %d"
+#~ msgstr "Predefinit nou %d"
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "%d%% renderitzat"
+
+#~ msgid "About %s left"
+#~ msgstr "Manca %s"
+
+#~ msgid "Currently rendering"
+#~ msgstr "S'està renderitzant"
+
+#~ msgid "A file name is required."
+#~ msgstr "Cal un nom de fitxer."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Ja existeix el fitxer.\n"
+#~ "Si no voleu sobreescriure'l, trieu un nom de fitxer o carpeta diferent."
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Loop"
+#~ msgstr "Bucle"
+
+#~ msgid "Reverse direction"
+#~ msgstr "Inverteix la direcció"
+
+#~ msgid ""
+#~ "Create a transition by overlapping two adjacent clips on the same layer. "
+#~ "Click the transition on the timeline to change the transition type."
+#~ msgstr ""
+#~ "Per crear una transició feu que dos clips adjacents de la mateixa capa "
+#~ "estiguen superposats. Feu clic a la transició en la línia del temps per "
+#~ "canviar-ne el tipus de transició."
+
+#~ msgid "Slow"
+#~ msgstr "Lenta"
+
+#~ msgid "Fast"
+#~ msgstr "Ràpida"
+
+#~ msgid "Epileptic"
+#~ msgstr "Epilèptica"
+
+#~ msgid "Sharp"
+#~ msgstr "Forta"
+
+#~ msgid "Smooth"
+#~ msgstr "Suau"
+
+#~ msgid "Currently playing"
+#~ msgstr "S'està reproduint"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Vés al principi de la línia de temps"
+
+#~ msgid "Go back one second"
+#~ msgstr "Retrocedeix un segon"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Avança un segon"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Vés al final de la línia de temps"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Acobla el visualitzador"
+
+#~ msgid "Play"
+#~ msgstr "Reprodueix"
+
+#~ msgid "Pause"
+#~ msgstr "Para"
+
+#~ msgid "Set a personalized name for this layer"
+#~ msgstr "Establiu un nom personalitzat per a esta capa"
+
+#~ msgid "<b>Solo mode</b>\n"
+#~ msgstr "<b>Mode Solo</b>\n"
+
+#~ msgid "<b>Enable or disable this layer</b>\n"
+#~ msgstr "<b>Activa o desactiva esta capa</b>\n"
+
+#~ msgid "_Delete layer"
+#~ msgstr "_Suprimeix la capa"
+
+#~ msgid "Move layer up"
+#~ msgstr "Mou la capa cap amunt"
+
+#~ msgid "Move layer down"
+#~ msgstr "Mou la capa cap avall"
+
+#~ msgid "Move layer to top"
+#~ msgstr "Mou la capa a la part superior"
+
+#~ msgid "Move layer to bottom"
+#~ msgstr "Mou la capa a la part inferior"
+
+#~ msgid "Make layer invisible"
+#~ msgstr "Fes la capa invisible"
+
+#~ msgid "Make layer visible"
+#~ msgstr "Fes la capa visible"
+
+#~ msgid "Opacity:"
+#~ msgstr "Opacitat:"
+
+#~ msgid "Change video opacity"
+#~ msgstr "Canvia l'opacitat del vídeo"
+
+#~ msgid "Vol:"
+#~ msgstr "Vol:"
+
+#~ msgid "Pan:"
+#~ msgstr "Dis:"
+
+#~ msgid "Change audio panning"
+#~ msgstr "Canvieu la distribució de l'àudio"
+
+#~ msgid "Frame #%d"
+#~ msgstr "Fotograma #%d"
+
+#~ msgid "Appearance"
+#~ msgstr "Aparença"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Espai entre miniatures"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "L'espai entre miniatures, en píxels"
+
+#~ msgid "Performance"
+#~ msgstr "Rendiment"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Miniatures cada"
+
+#~ msgid "1/100 second"
+#~ msgstr "1/100 segon"
+
+#~ msgid "1/10 second"
+#~ msgstr "1/10 segon"
+
+#~ msgid "1/4 second"
+#~ msgstr "1/4 segon"
+
+#~ msgid "1/2 second"
+#~ msgstr "1/2 segon"
+
+#~ msgid "1 second"
+#~ msgstr "1 segon"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 segons"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 segons"
+
+#~ msgid "minute"
+#~ msgstr "minut"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "L'interval, en segons, entre miniatures."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Habilita les miniatures de vídeo"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Mostra miniatures en els clips de vídeo"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Habilita les formes d'ona de l'àudio"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Mostra les formes d'ona en els clips d'àudio"
+
+#~ msgid "Behavior"
+#~ msgstr "Comportament"
+
+#~ msgid "Snap distance"
+#~ msgstr "Distància de desplaçament"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Llindar (en píxels) en el què dos clips s'ajuntaran en arrossegar-los o "
+#~ "retallar-los."
+
+#~ msgid "Image clip duration"
+#~ msgstr "Durada del clip d'imatge"
+
+#~ msgid ""
+#~ "Default clip length (in miliseconds) of images when inserting on the "
+#~ "timeline."
+#~ msgstr ""
+#~ "Durada (en mil·lisegons) per defecte dels clips d'imatges quan "
+#~ "s'inserisquen en la línia de temps."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Suprimeix els seleccionats"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Divideix el clip a la posició del cap lector"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Afig un fotograma clau"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Mou-te al fotograma clau anterior"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Mou-te al fotograma clau següent"
+
+#~ msgid "Zoom In"
+#~ msgstr "Amplia"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Redueix"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Ajusta"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Trenca els enllaços entre els clips"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Enllaça clips aleatoris"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Desagrupa els clips"
+
+#~ msgid "Group clips"
+#~ msgstr "Agrupa els clips"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Alinea els clips en funció de les seues bandes sonores"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "S'han produït un o més errors de la GStreamer."
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "S'ha informat dels errors següents:"
+
+#~ msgid "Zoom"
+#~ msgstr "Amplia"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Amplia la línia de temps"
+
+#~ msgid "Export current frame..."
+#~ msgstr "Exporta el fotograma actual..."
+
+#~ msgid "Export the frame at the current playhead position as an image file."
+#~ msgstr ""
+#~ "Exporta el fotograma de la posició actual del cap lector com un fitxer "
+#~ "d'imatge."
+
+#~ msgid "Start Playback"
+#~ msgstr "Inicia la reproducció"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Afig un fotograma clau"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "Fotograma clau _anterior"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "Fotograma clau _següent"
+
+#~ msgid "PNG image"
+#~ msgstr "Imatge PNG"
+
+#~ msgid "JPEG image"
+#~ msgstr "Imatge JPEG"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Color per als clips de vídeo"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "El color de fons dels clips en les pistes de vídeo."
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Color per als clips d'àudio"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Color de fons dels clips en les pistes d'àudio."
+
+#~ msgid "Selection color"
+#~ msgstr "Color de selecció"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Es tenyiran amb este color els clips seleccionats."
+
+#~ msgid "Clip font"
+#~ msgstr "Tipus de lletra del clip"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "El tipus de lletra per als títols dels clips"
+
+#~ msgid "Image:"
+#~ msgstr "Imatge:"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Motiu desconegut"
+
+#~ msgid "Problem:"
+#~ msgstr "Problema:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Informació extra:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Reinicia als valor predeterminats"
+
+#~ msgid "Projects"
+#~ msgstr "Projectes"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "El %s encara no pot gestionar projectes que no siguen locals"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Àudio:</b> %d canal a %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[1] "<b>Àudio:</b> %d canals a %d <i>Hz</i> (%d <i>bits</i>)"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.3f <i>fps</i>"
+#~ msgstr "<b>Vídeo:</b> %dx%d <i>píxels</i> a %.3f <i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Imatge:</b> %dx%d <i>píxels</i>"
+
+#~ msgid "Subtitles"
+#~ msgstr "Subtítols"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d hora"
+#~ msgstr[1] "%d hores"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minut"
+#~ msgstr[1] "%d minuts"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d segon"
+#~ msgstr[1] "%d segons"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d dia"
+#~ msgstr[1] "%d dies"
+
+#~ msgid "%d fps"
+#~ msgstr "%d fps"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f fps"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f fps"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bit"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 canals (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 canals (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Estèreo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Square"
+#~ msgstr "Quadrat"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p ampla"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i ampla"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p ampla"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i ampla"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV pantalla ampla (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Cinema (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Cinema (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Cinema (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamòrfic (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamòrfic (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamòrfic (2.4)"
+
+#~ msgid "Implement Me"
+#~ msgstr "Implementa'm"
+
+#~ msgid "Custom"
+#~ msgstr "Personalitza"
+
+#~ msgid "Save Preset"
+#~ msgstr "Alça els predefinits"
+
+#~ msgid "Choose..."
+#~ msgstr "Tria..."
+
+#~ msgid "No properties."
+#~ msgstr "Sense propietats."
+
+#~ msgid "Properties for %s"
+#~ msgstr "Propietats de %s"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Escapça</b>"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Nombre de canals:"
+
+#~ msgid "Sample Rate:"
+#~ msgstr "Mostres per segon:"
+
+#~ msgid "Sample Depth:"
+#~ msgstr "Profunditat de la mostra:"
+
+#~ msgid "<b>Video Preset</b>"
+#~ msgstr "<b>Predefinits de vídeo</b>"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Relació d'aspecte</b>"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Imatges per segon</b>"
+
+#~ msgid "<b>Audio Preset</b>"
+#~ msgstr "<b>Predefinits d'àudio</b>"
+
+#~ msgid "Loading project..."
+#~ msgstr "S'està carregant el projecte..."
+
+#~ msgid "Project loaded."
+#~ msgstr "S'ha carregat el projecte."
+
+#~ msgid "Rendering..."
+#~ msgstr "S'està renderitzant..."
+
+#~ msgid "Render the specified project to OUTPUT_FILE with no GUI."
+#~ msgstr ""
+#~ "Renderitza el projecte especificat al FITXER_DE_SORTIDA sense la "
+#~ "interfície gràfica."
+
+#~ msgid "Preview the specified project file without the full UI."
+#~ msgstr ""
+#~ "Previsualitza el fitxer de projecte especificat sense la interfície "
+#~ "d'usuari completa."
+
+#~ msgid "-p and -r cannot be used simultaneously"
+#~ msgstr "-p i -r no es poden utilitzar a la vegada"
+
+#~ msgid "-r or -p and -i are incompatible"
+#~ msgstr "-r o -p i -i no són compatibles"
+
+#~ msgid "-r requires exactly one PROJECT_FILE"
+#~ msgstr "-r requereix exactament un FITXER_DE_PROJECTE"
+
+#~ msgid "-p requires exactly one PROJECT_FILE"
+#~ msgstr "-p requereix exactament un FITXER_DE_PROJECTE"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "No s'ha pogut importar el mòdul d'interfície Zope"
+
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Assegureu-vos que teniu instal·lat el mòdul zope.interface."
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Manquen els connectors:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "No es pot descodificar el fitxer."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "El fitxer no conté ni àudio, ni vídeo ni fluxos d'imatges."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "No s'ha pogut determinar la durada del fitxer."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Sembla que aquest clip és d'un format al qual no es pot accedir de manera "
+#~ "aleatòria."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "S'ha acabat el temps d'espera mentre s'analitzava el fitxer."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "S'ha tardat massa en analitzar el fitxer."
+
+#~ msgid "No available source handler."
+#~ msgstr "No hi ha cap gestor de font."
+
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr ""
+#~ "No teniu cap element font de la GStreamer per a gestionar el protocol «%s»"
+
+#~ msgid "File does not exist"
+#~ msgstr "No existeix el fitxer."
+
+#~ msgid "File not readable by current user"
+#~ msgstr "L'usuari actual no pot llegir el fitxer"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "El conducte no volia anar a PAUSAT."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "S'ha produït un error intern en analitzar aquest fitxer: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "El fitxer conté una redirecció a un altre clip."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "El PiTiVi encara no sap gestionar les redireccions de fitxers."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "El conducte no vol anar a EN REPRODUCCIÓ."
+
+#~ msgid "Playlist format"
+#~ msgstr "Format de llista de reproducció"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr "El projecte conté efectes que no estan disponibles en el sistema."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "No s'ha pogut carregar %(uri)s."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "No és un fitxer de projecte vàlid."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "No s'ha pogut tancar el projecte actual"
+
+#~ msgid "No URI specified."
+#~ msgstr "No s'ha especificat cap URI."
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Exporta els paràmetres\n"
+
+#~ msgid "Video: "
+#~ msgstr "Vídeo: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Àudio: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Multiplexor: "
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Format d'àudio desconegut:</b> %s"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Format de vídeo desconegut:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Text:</b> %s"
+
+#~ msgid "Name"
+#~ msgstr "Nom"
+
+#~ msgid "Description"
+#~ msgstr "Descripció"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Mostra els efectes de vídeo com una llista"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Mostra els efectes de vídeo com icones"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Reprodueix cíclicament l'àrea seleccionada"
+
+#~ msgid "_Undo"
+#~ msgstr "_Desfés"
+
+#~ msgid "_Redo"
+#~ msgstr "_Refés"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Preferències"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "S'ha mogut el fitxer següent: «<b>%s</b>» (durada: %s)\n"
+#~ "Especifiqueu la seva ubicació actual:"
+
+#~ msgid "Untitled project"
+#~ msgstr "Projecte sense títol"
+
+#~ msgid "Import Files..."
+#~ msgstr "Importa fitxers..."
+
+#~ msgid "Play Clip"
+#~ msgstr "Reprodueix el clip"
+
+#~ msgid "Text:"
+#~ msgstr "Text:"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Atura la reproducció"
+
+#~ msgid "_Render Project..."
+#~ msgstr "_Renderitza el projecte..."
+
+#~ msgid "Reset"
+#~ msgstr "Reinicia"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Mostra miniatures (vídeo)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Mostra les formes d'ona (àudio)"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr ""
+#~ "Distància llindar (en píxels) que s'utilitzarà per a totes les operacions "
+#~ "de desplaçament"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Fons del clip (vídeo)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Fons del clip (àudio)"
+
+#~ msgid "15 fps"
+#~ msgstr "15 fps"
+
+#~ msgid "20 fps"
+#~ msgstr "20 fps"
+
+#~ msgid "23,976 fps"
+#~ msgstr "23,976 fps"
+
+#~ msgid "24 fps"
+#~ msgstr "24 fps"
+
+#~ msgid "25 fps"
+#~ msgstr "25 fps"
+
+#~ msgid "29,97 fps"
+#~ msgstr "29,97 fps"
+
+#~ msgid "50 fps"
+#~ msgstr "50 fps"
+
+#~ msgid "59,94 fps"
+#~ msgstr "59,94 fps"
+
+#~ msgid "60 fps"
+#~ msgstr "60 fps"
+
+#~ msgid "120 fps"
+#~ msgstr "120 fps"
+
+#~ msgid "11 kHz"
+#~ msgstr "11 kHz"
+
+#~ msgid "22 kHz"
+#~ msgstr "22 kHz"
+
+#~ msgid "48 kHz"
+#~ msgstr "48 kHz"
+
+#~ msgid "96 kHz"
+#~ msgstr "96 kHz"
+
+#~ msgid "16 bit"
+#~ msgstr "16 bit"
+
+#~ msgid "24 bit"
+#~ msgstr "24 bit"
+
+#~ msgid "32 bit"
+#~ msgstr "32 bit"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Propietats per a: %d objecte"
+#~ msgstr[1] "Propietats per a: %d objectes"
+
+#~ msgid "<b>Width/Height</b>: %dx%d"
+#~ msgstr "<b>Amplada/Alçada</b>: %dx%d"
+
+#~ msgid "_Render project"
+#~ msgstr "_Renderitza el projecte"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Connectors..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Gestiona els connectors"
+
+#~ msgid "_File"
+#~ msgstr "_Fitxer"
+
+#~ msgid "Plugin"
+#~ msgstr "Connector"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "All categories"
+#~ msgstr "Totes les categories"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Segur que voleu suprimir els connectors seleccionats?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Confirmeu l'operació de supressió"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "No s'ha pogut suprimir %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Voleu actualitzar el connector existent?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Ja teniu instal·lat aquest connector en el sistema.\n"
+#~ "Si hi esteu d'acord, s'actualitzarà de la versió %(v1)s a la %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "S'ha trobat un connector duplicat"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "No s'ha pogut instal·lar %s\n"
+#~ "El fitxer no és un connector vàlid"
+
+#~ msgid "No Objects Selected"
+#~ msgstr "No hi ha cap objecte seleccionat"
+
+#~ msgid ""
+#~ "<span>Import your clips by dragging them here or by using the buttons "
+#~ "above.</span>"
+#~ msgstr ""
+#~ "<span>Importeu els clips de vídeo arrossegant-los aquí o bé utilitzant "
+#~ "els botons d'aquí sobre.</span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Importa clips per a utilitzar"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Importa un directori de clips a utilitzar"
+
+#~ msgid "Import a folder"
+#~ msgstr "Importa un directori"
+
+#~ msgid "Import a clip"
+#~ msgstr "Importa un clip"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Text:</b>"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr ""
+#~ "No s'han pogut importar les vinculacions de Python per a la libglade"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lades les vinculacions de Python per a la "
+#~ "libglade"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Dispositiu de captura d'àudio:"
+
+#~ msgid "No device available"
+#~ msgstr "No hi ha cap dispositiu disponible"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Dispositiu de captura de vídeo:"
+
+#~ msgid "<b>Properties For Plugin</b>"
+#~ msgstr "<b>Propietats del connector</b>"
+
+#~ msgid "Sample rate"
+#~ msgstr "Mostres per segon"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Importa des de la càmera _web..."
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Importa el flux de càmera"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Fes un screencast..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Captura l'escriptori"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Captura un flux de xarxa..."
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Captura un flux de xarxa"
+
+#~ msgid "Address"
+#~ msgstr "Adreça"
+
+#~ msgid "Capture"
+#~ msgstr "Captura"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Captura el flux de l'URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Captura el flux de xarxa"
+
+#~ msgid "Close"
+#~ msgstr "Tanca"
+
+#~ msgid "Customize:"
+#~ msgstr "Personalitza:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Flux de vídeo de xarxa"
+
+#~ msgid "Other protocol"
+#~ msgstr "Un altre protocol"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Previsualitza el flux de l'URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Protocol"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Gestor de connectors"
+
+#~ msgid "Show:"
+#~ msgstr "Mostra:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Podeu arrossegar fitxers de connectors en aquesta llista per a \n"
+#~ "instal·lar-los, o escriviu per a cercar un connector en concret."
+
+#~ msgid "Screencast"
+#~ msgstr "Screencast"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Screencast de l'escriptori"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Inicia l'Istanbul"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [-r OUTPUT_FILE] [PROJECT_FILE]\n"
+#~ "      %prog -p [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [-r FITXER_DE_SORTIDA] [FITXER_DE_PROJECTE]\n"
+#~ "      %prog -p [FITXER_DE_PROJECTE]\n"
+#~ "      %prog -i [-a] [FITXER_MULTIMÈDIA]..."
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "no project is given, %prog creates a new project.\n"
+#~ "Alternatively, when -i is specified, arguments are treated as clips to "
+#~ "be\n"
+#~ "imported into the project. If -a is specified, these clips will also be "
+#~ "added to\n"
+#~ "the end of the project timeline.\n"
+#~ "When -r is specified, the given project file is rendered without opening "
+#~ "the GUI."
+#~ msgstr ""
+#~ "Inicia l'editor de vídeo, si s'indica carrega el FITXER_DE_PROJECTE.\n"
+#~ "Si no s'indica cap projecte, el %prog crea un projecte nou.\n"
+#~ "Si s'indica l'argument -i, es consideraran els arguments com a clips "
+#~ "que \n"
+#~ "s'importaran al projecte. Si a més s'especifica l'argument -a, \n"
+#~ "s'afegiran els clips al final de la línia de temps del projecte.\n"
+#~ "Si s'indica l'argument -r, el fitxer de projecte es renderitzarà sense "
+#~ "obrir la interfície gràfica."
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Executa el PiTiVi sense la interfície gràfica"
+
+#~ msgid "%(width)d x %(height)d pixels at %(framerate).2f fps"
+#~ msgstr "%(width)d x %(height)d píxels a %(framerate).2f fps"
+
+#~ msgid "%(channels)d channels at %(frequency)d Hz (%(depth)d bits)"
+#~ msgstr "%(channels)d canals a %(frequency)d Hz (%(depth)d bits)"
+
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgstr "El fitxer següent s'ha mogut, indiqueu al PiTiVi on trobar-lo."
+
+#~ msgid "Duration:"
+#~ msgstr "Durada:"
+
+#~ msgid "Importing clips..."
+#~ msgstr "S'estan important els clips..."
+
+#~| msgid "_Help"
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#~ msgid "Skip"
+#~ msgstr "Omet"
+
+#~ msgid "Startup Wizard"
+#~ msgstr "Auxiliar d'inici"
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Autor:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Nom del connector</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Escolliu un fitxer"
+
+#~ msgid "Modify"
+#~ msgstr "Modifica"
+
+#~ msgid "Output file:"
+#~ msgstr "Fitxer de sortida:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Escolliu un fitxer de sortida"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Escolliu el fitxer a renderitzar per"
+
+#~ msgid "0% rendered"
+#~ msgstr "0% renderitzat"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "S'ha completat la renderització"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Sortida d'àudio</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Sortida de vídeo</b>"
+
+#~ msgid "Audio Codec"
+#~ msgstr "Còdec d'àudio"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Estèreo (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Multiplexor"
+
+#~ msgid "Rate:"
+#~ msgstr "Velocitat:"
+
+#~ msgid "Settings"
+#~ msgstr "Paràmetres"
+
+#~ msgid "Video Codec"
+#~ msgstr "Còdec de vídeo"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Còdec de vídeo:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Vídeo sense processar"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Àudio sense processar"
+
+#~ msgid "Export settings"
+#~ msgstr "Paràmetres d'exportació"
+
+#~ msgid "Description:"
+#~ msgstr "Descripció:"
+
+#~ msgid "Name:"
+#~ msgstr "Nom:"
+
+#~ msgid "Please locate the missing file, '%s'"
+#~ msgstr "Ubiqueu el fitxer que manca, «%s»"
+
+#~ msgid "Add Clips..."
+#~ msgstr "Afegeix clips..."
+
+#~ msgid "Razor"
+#~ msgstr "Fulla d'afaitar"
+
+#~ msgid "Undo %s"
+#~ msgstr "Desfés %s"
+
+#~ msgid "Undo"
+#~ msgstr "Desfés"
+
+#~ msgid "Redo %s"
+#~ msgstr "Torna a fer %s"
+
+#~ msgid "Redo"
+#~ msgstr "Torna a fer"
+
+#~ msgid "No streams found"
+#~ msgstr "No s'ha trobat cap flux"
+
+#~ msgid "No location given."
+#~ msgstr "No s'ha donat cap ubicació."
+
+#~ msgid "There was an error loading the file."
+#~ msgstr "S'ha produït un error en carregar el fitxer."
+
+#~ msgid ""
+#~ "Open project file specified by PROJECT instead of creating a\n"
+#~ "new project."
+#~ msgstr ""
+#~ "Obre el fitxer de projecte especificat per PROJECTE en comptes\n"
+#~ "de crear un projecte nou."
+
+#~ msgid "The project has unsaved changes. Do you wish to close the project?"
+#~ msgstr "El projecte té canvis sense desar. El voleu tancar?"
+
+#~ msgid "http / https"
+#~ msgstr "http / https"
+
+#~ msgid "rtsp"
+#~ msgstr "rtsp"
+
+#~ msgid "udp / rtp"
+#~ msgstr "udp / rtp"
+
+#~ msgid "Could not import the Python bindings for libglade"
+#~ msgstr "No s'han pogut importar les vinculacions de Python per a libglade"
+
+#~ msgid "Make sure you have the Python bindings for libglade installed"
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lades les vinculacions de Python per a "
+#~ "libglade"
+
+#~ msgid "Could not import the Python bindings for goocanvas"
+#~ msgstr "No s'han pogut importar les vinculacions de Python per al goocanvas"
+
+#~ msgid "Make sure you have the Python bindings for goocanvas installed"
+#~ msgstr ""
+#~ "Assegureu-vos que teniu instal·lades les vinculacions de Python per al "
+#~ "goocanvas"
+
+#~ msgid "Couldn't construct pipeline."
+#~ msgstr "No s'ha pogut construir el conducte."
+
+#~ msgid ""
+#~ "GStreamer does not have an element to handle files coming from this type "
+#~ "of file system."
+#~ msgstr ""
+#~ "El GStreamer no té cap element per a gestionar els fitxers que vinguin "
+#~ "d'aquest tipus de sistema de fitxers."
+
+#~ msgid "Got unknown stream type : %s"
+#~ msgstr "S'ha obtingut un tipus de flux desconegut: %s"
+
+#~ msgid "You are missing an element to handle this media type."
+#~ msgstr "Us falta algun element per a gestionar aquest tipus de medi."
+
+#~ msgid "<b>%s</b><small>"
+#~ msgstr "<b>%s</b><small>"
+
+#~ msgid "<b>%s</b> (%s)"
+#~ msgstr "<b>%s</b> (%s)"
+
+#~ msgid "<small><b>File:</b> %s"
+#~ msgstr "<small><b>Fitxer:</b> %s"
+
+#~ msgid "Video output is busy"
+#~ msgstr "La sortida de vídeo està ocupada"
+
+#~ msgid ""
+#~ "Please check that your video output device isn't already used by another "
+#~ "application"
+#~ msgstr ""
+#~ "Comproveu que cap altra aplicació no estigui utilitzant el dispositiu de "
+#~ "sortida de vídeo"
+
+#~ msgid "Video output problem"
+#~ msgstr "Problema amb la sortida de vídeo"
+
+#~ msgid "There is a problem with your video output device"
+#~ msgstr "Hi ha un problema amb el dispositiu de sortida de vídeo"
+
+#~ msgid "Audio output device is busy"
+#~ msgstr "El dispositiu de sortida d'àudio està ocupat"
+
+#~ msgid ""
+#~ "Please check that your audio output device isn't already used by another "
+#~ "application."
+#~ msgstr ""
+#~ "Comproveu que cap altra aplicació no estigui utilitzant el dispositiu de "
+#~ "sortida d'àudio.altra aplicació."
+
+#~ msgid "Audio output problem"
+#~ msgstr "Problema amb la sortida d'àudio"
+
+#~ msgid "There is a problem with your audio output device"
+#~ msgstr "Hi ha problemes amb el vostre dispositiu de sortida d'àudio"
+
+#~ msgid " <i>(%s)</i>"
+#~ msgstr " <i>(%s)</i>"
+
+#~ msgid "Project settings"
+#~ msgstr "Paràmetres del projecte"
+
+#~ msgid "Do you wish to overwrite existing file \"%s\"?"
+#~ msgstr "Voleu sobreescriure el fitxer «%s»?"
+
+#~ msgid "Overwrite Existing File?"
+#~ msgstr "Sobreescriure el fitxer?"
+
+#~ msgid "Finished in %dm%ds"
+#~ msgstr "S'ha acabat en %dm%ds"
+
+#~ msgid "This plugin is already installed in your system.\n"
+#~ msgstr "El connector ja està instal·lat al sistema.\n"
+
+#~ msgid "Cannot install %s\n"
+#~ msgstr "No s'ha pogut instal·lar %s\n"
+
+#~ msgid "Audio Track"
+#~ msgstr "Pista d'àudio"
+
+#~ msgid "Empty"
+#~ msgstr "Buit"
+
+#~ msgid "Switch to advanced view"
+#~ msgstr "Canvia a la visualització avançada"
+
+#~ msgid "Clips"
+#~ msgstr "Clips"
+
+#~ msgid "Done"
+#~ msgstr "Acaba"
+
+#~ msgid "Start"
+#~ msgstr "Inici"
+
+#~ msgid "End"
+#~ msgstr "Fi"
+
+#~ msgid "Edit"
+#~ msgstr "Edita"
+
+#~ msgid "Sound"
+#~ msgstr "So"
+
+#~ msgid "Cut"
+#~ msgstr "Retalla"
+
+#~ msgid ""
+#~ "<span size='x-large'>Add clips to the timeline by dragging them here.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Importeu els clips a la línia de temps arrossegant-"
+#~ "los aquí.</span>"
+
+#~ msgid "Add Folder of Sources..."
+#~ msgstr "Afegeix un directori de fonts..."
+
+#~ msgid "Remove Sources..."
+#~ msgstr "Suprimeix les fonts..."
+
+#~ msgid "The following files weren't discovered properly."
+#~ msgstr "Els fitxers següents no s'han descobert correctament."
+
+#~ msgid "Start working with your project by dragging clips here"
+#~ msgstr "Comenceu a treballar amb el vostre projecte arrossegant vídeos aquí"
+
+#~ msgid "Settings:"
+#~ msgstr "Paràmetres:"

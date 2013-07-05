@@ -1,0 +1,625 @@
+# Esperanto translation for pitivi
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the pitivi package.
+# Aisano < >, 2010.
+# Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2011-04-29 18:57+0200\n"
+"Last-Translator: Kristjan SCHMIDT <kristjan.schmidt@googlemail.com>\n"
+"Language-Team: Esperanto <ubuntu-l10n-eo@lists.launchpad.net>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Launchpad-Export-Date: 2011-04-27 19:00+0000\n"
+"X-Generator: Launchpad (build 12915)\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Priskribo:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Erarlisto"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Erarlisto"
+
+#~ msgid "%s is already running!"
+#~ msgstr "%s jam ruliĝas!"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Ekzemplero de %s jam ruliĝas en tiu ĉi skripto."
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)"
+#~ msgstr ""
+#~ "Certigu, ke disponeblas almenaŭ unu valida son-eligilo (alsasink aŭ "
+#~ "osssink)."
+
+#~ msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgstr "Vi ne havas sufiĉe novan version de GStreamer (nuna: %s)"
+
+#~ msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgstr "Instalu almenaŭ version %s de GStreamer"
+
+#~ msgid "Make sure you have the zope.interface module installed"
+#~ msgstr "Certigu, ke la bloko zope.interface estas instalite"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Enporto de la 'distutils'-moduloj malsukcesis"
+
+#~ msgid "Make sure you have the distutils python module installed"
+#~ msgstr "Certigu, ke la pitona modulo \"distutils\" estas instalite"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Krei kaj redakti proprajn filmojn"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Video-redaktilo Pitivio"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kromprogramoj mankas:\n"
+#~ "%s"
+
+#~ msgid "Can not decode file."
+#~ msgstr "Ne eblas malkodi la dosieron."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "La donita dosiero enhavas nek sonan, nek videoan, nek bildan fluon."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Ne eblis trovi la daŭron de la dosiero."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Limtempo elĉerpiĝis dum analizo de la dosiero."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Analizo de la dosiero daŭris tro longe."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Interna eraro okazis dum la analizo de la dosiero %s"
+
+#~ msgid "All effects"
+#~ msgstr "Ĉiuj efektoj"
+
+#~ msgid "Colors"
+#~ msgstr "Koloroj"
+
+#~ msgid "Noise"
+#~ msgstr "Bruo"
+
+#~ msgid "Analysis"
+#~ msgstr "Analizo"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometrio"
+
+#~ msgid "Time"
+#~ msgstr "Tempo"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Nekategorigite"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "effect"
+#~ msgstr "efekto"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Ne estas valida projektdosiero."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Ne eblis fermi aktualan projekton"
+
+#~ msgid "New Project"
+#~ msgstr "Nova projekto"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Elporti agordojn\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Sono: "
+
+#~ msgid "Name"
+#~ msgstr "Nomo"
+
+#~ msgid "Description"
+#~ msgstr "Priskribo"
+
+#~ msgid "No device available"
+#~ msgstr "Neniu aparato disponeblas"
+
+#~ msgid "Remove effect"
+#~ msgstr "Forigi efekton"
+
+#~ msgid "Activated"
+#~ msgstr "Aktivigite"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Effect name"
+#~ msgstr "Efektnomo"
+
+#~ msgid "<b>Video:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Video:</b> %d x %d <i>bilderoj</i> at %.2f<i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgstr "<b>Bildo:</b> %d x %d <i>bilderoj</i>"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Teksto:</b> %s"
+
+#~ msgid "8 kHz"
+#~ msgstr "8 kHz"
+
+#~ msgid "11 kHz"
+#~ msgstr "11 kHz"
+
+#~ msgid "22 kHz"
+#~ msgstr "22 kHz"
+
+#~ msgid "44.1 kHz"
+#~ msgstr "44.1 kHz"
+
+#~ msgid "48 kHz"
+#~ msgstr "48 kHz"
+
+#~ msgid "96 kHz"
+#~ msgstr "96 kHz"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 kanaloj (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 kanaloj (4.0)"
+
+#~ msgid "Custom"
+#~ msgstr "Personigite"
+
+#~ msgid "Choose..."
+#~ msgstr "Elekti..."
+
+#~ msgid "Video effects"
+#~ msgstr "Videoefektoj"
+
+#~ msgid "Audio effects"
+#~ msgstr "Sonefektoj"
+
+#~ msgid "Search:"
+#~ msgstr "Serĉi:"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Audio"
+#~ msgstr "Sono"
+
+#~ msgid "Codec:"
+#~ msgstr "Kodeko:"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Redakti la projektagordojn..."
+
+#~ msgid "File name"
+#~ msgstr "Dosiernomo"
+
+#~ msgid "File name:"
+#~ msgstr "Dosiernomo:"
+
+#~ msgid "Folder"
+#~ msgstr "Dosierujo"
+
+#~ msgid "Folder:"
+#~ msgstr "Dosierujo:"
+
+#~ msgid "General"
+#~ msgstr "Ĝenerale"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "Height"
+#~ msgstr "Alto"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "Render"
+#~ msgstr "Bildigi"
+
+#~ msgid "Scale"
+#~ msgstr "Skalo"
+
+#~ msgid "Scale:"
+#~ msgstr "Skalo:"
+
+#~ msgid "Summary"
+#~ msgstr "Resumo"
+
+#~ msgid "Rendering"
+#~ msgstr "Bildigo"
+
+#~ msgid "Unknown"
+#~ msgstr "Nekonate"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Nekonata kialo"
+
+#~ msgid "Problem:"
+#~ msgstr "Problemo:"
+
+#~ msgid "Split"
+#~ msgstr "Dividi"
+
+#~ msgid "Unlink"
+#~ msgstr "Malligi"
+
+#~ msgid "Link"
+#~ msgstr "Ligi"
+
+#~ msgid "Ungroup"
+#~ msgstr "Malgrupigi"
+
+#~ msgid "Group"
+#~ msgstr "Grupigi"
+
+#~ msgid "Create a new project"
+#~ msgstr "Krei novan projekton"
+
+#~ msgid "_Open..."
+#~ msgstr "_Malfermi..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Malfermi malnovan projekton"
+
+#~ msgid "Save the current project"
+#~ msgstr "Konservi la aktualan projekton"
+
+#~ msgid "Save _As..."
+#~ msgstr "Konservi _kiel…"
+
+#~ msgid "Reload the current project"
+#~ msgstr "Reŝargi la aktualan projekton"
+
+#~ msgid "Project Settings"
+#~ msgstr "Projektagordoj"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Redakti la rojektagordojn"
+
+#~ msgid "Render project..."
+#~ msgstr "Bildigi la projekton..."
+
+#~ msgid "_Undo"
+#~ msgstr "_Malfari"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Malfari la lastan agon"
+
+#~ msgid "_Redo"
+#~ msgstr "_Refari"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Refari la lastan agadon kiu estis malfarite"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Kromprogramoj..."
+
+#~ msgid "_Preferences"
+#~ msgstr "_Agordoj"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informoj pri %s"
+
+#~ msgid "_File"
+#~ msgstr "_Dosiero"
+
+#~ msgid "_Edit"
+#~ msgstr "R_edakti"
+
+#~ msgid "_View"
+#~ msgstr "_Vido"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekto"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Kronologio"
+
+#~ msgid "Previe_w"
+#~ msgstr "_Antaŭrigardo"
+
+#~ msgid "Loop"
+#~ msgstr "Iteracio"
+
+#~ msgid "_Help"
+#~ msgstr "_Helpo"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Ĉefa ilobreto"
+
+#~ msgid "Contributors:"
+#~ msgstr "Kontribuintoj:"
+
+#~ msgid "Open File..."
+#~ msgstr "Malfermi dosieron..."
+
+#~ msgid "Close without saving"
+#~ msgstr "Fermi sen konservado"
+
+#~ msgid "Duration:"
+#~ msgstr "Daŭro:"
+
+#~ msgid "Save As..."
+#~ msgstr "Konservi kiel..."
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Ekkoni aŭtomate"
+
+#~ msgid "Address"
+#~ msgstr "Adreso"
+
+#~ msgid "Capture"
+#~ msgstr "Kapti"
+
+#~ msgid "Close"
+#~ msgstr "Fermi"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Other protocol"
+#~ msgstr "Alia protokolo"
+
+#~ msgid "Port"
+#~ msgstr "Pordo"
+
+#~ msgid "Preview"
+#~ msgstr "Antaŭrigardo"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokolo"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "Ĉiuj kategorioj"
+
+#~ msgid "Show:"
+#~ msgstr "Montri:"
+
+#~ msgid "Enabled"
+#~ msgstr "Enŝaltite"
+
+#~ msgid "Plugin"
+#~ msgstr "Kromprogramo"
+
+#~ msgid "Category"
+#~ msgstr "Kategorio"
+
+#~ msgid "Preferences"
+#~ msgstr "Agordoj"
+
+#~ msgid "Section"
+#~ msgstr "Sekcio"
+
+#~ msgid "Revert"
+#~ msgstr "Malfari"
+
+#~ msgid "Reset"
+#~ msgstr "Reagordi"
+
+#~ msgid "Appearance"
+#~ msgstr "Aspekto"
+
+#~ msgid "<b>Size (Pixels)</b>"
+#~ msgstr "<b>Grando (bilderoj)</b>"
+
+#~ msgid "Author:"
+#~ msgstr "Aŭtoro:"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanaloj:"
+
+#~ msgid "Info"
+#~ msgstr "Informo"
+
+#~ msgid "Project title:"
+#~ msgstr "Projekttitolo:"
+
+#~ msgid "Year:"
+#~ msgstr "Jaro:"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Icon"
+#~ msgstr "Piktogramo"
+
+#~ msgid "Information"
+#~ msgstr "Informo"
+
+#~ msgid "Duration"
+#~ msgstr "Daŭro"
+
+#~ msgid "Hide"
+#~ msgstr "Kaŝi"
+
+#~ msgid "Import a folder"
+#~ msgstr "enporti dosierujon"
+
+#~ msgid "Welcome"
+#~ msgstr "Bonvenon"
+
+#~ msgid "Behavior"
+#~ msgstr "Konduto"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Sono:</b>"
+
+#~ msgid "<b>Video:</b>"
+#~ msgstr "<b>Video:</b>"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Teksto:</b>"
+
+#~ msgid "Zoom In"
+#~ msgstr "Enzomi"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Elzomi"
+
+#~ msgid "Zoom"
+#~ msgstr "Zomi"
+
+#~ msgid "Play"
+#~ msgstr "Ludi"
+
+#~ msgid "Pause"
+#~ msgstr "Paŭzigi"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d horo"
+#~ msgstr[1] "%d horoj"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minuto"
+#~ msgstr[1] "%d minutoj"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d sekundo"
+#~ msgstr[1] "%d sekundoj"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [PROJEKTA_DOSIERO]\n"
+#~ "      %prog -i [-a] [DATENA_DOSIERO]..."
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Aŭtoro:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Kromprograma nomo</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Elekti dosieron"
+
+#~ msgid "Modify"
+#~ msgstr "Modifi"
+
+#~ msgid "Output file:"
+#~ msgstr "Eligdosiero:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Bonvole elektu eligdosieron"
+
+#~ msgid "About %s left"
+#~ msgstr "Preskaŭ %s restas"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Soneligo</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Videoeligo</b>"
+
+#~ msgid "Settings"
+#~ msgstr "Agordoj"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Videokodeko:"
+
+#~ msgid "Width:"
+#~ msgstr "Larĝo:"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Export settings"
+#~ msgstr "Elporti agordojn"
+
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "Description:"
+#~ msgstr "Priskribo:"
+
+#~ msgid "Name:"
+#~ msgstr "Nomo:"

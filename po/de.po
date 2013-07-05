@@ -1,0 +1,1855 @@
+# German translation of pitivi.
+# Copyright (C) 2007 The Free Software Foundation Inc.
+# This file is distributed under the same license as the pitivi package.
+# Andreas Volz <andreas.volz@tux-style.de>, 2007.
+# Mario Blättermann <mariobl@freenet.de>, 2008-2011.
+# Daniel Winzen <d@winzen4.de>, 2012.
+# Christian Kirbach <Christian.Kirbach@googlemail.com>, 2009, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-07-15 14:38+0200\n"
+"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+"Language-Team: Deutsch <gnome-de@gnome.org>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.5\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Project-Style: gnome\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid "<b>Drop something on me !</b>"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Dauer</b>: %s"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Fehlerliste"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Fehlerliste"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Pitivi Video-Editor"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Erstellen und bearbeiten Sie Ihre eigenen Filme"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Automatisches Ausrichten beginnt"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>Automatische Ausrichtung wird ausgeführt</big></b>"
+
+#~ msgid "Estimating..."
+#~ msgstr "Schätzung …"
+
+#~ msgid "Clip Properties"
+#~ msgstr "Clip-Eigenschaften"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Abbrechen"
+
+#~ msgid "_Apply to project"
+#~ msgstr "Auf Projekt _anwenden"
+
+#~ msgid "Size (pixels):"
+#~ msgstr "Größe (Pixel):"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Bildrate:"
+
+#~ msgid "Pixel aspect ratio:"
+#~ msgstr "Seitenverhältnis in Pixel:"
+
+#~ msgid "Video:"
+#~ msgstr "Video:"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanäle:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Samplingrate:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Abtasttiefe:"
+
+#~ msgid "Audio:"
+#~ msgstr "Audio:"
+
+#~ msgid "Viewer Zoom"
+#~ msgstr "Betrachter-Vergrößerungsstufe"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "Width:"
+#~ msgstr "Breite:"
+
+#~ msgid "Height:"
+#~ msgstr "Höhe:"
+
+#~ msgid "Size"
+#~ msgstr "Größe"
+
+#~ msgid "Crop"
+#~ msgstr "Zuschneiden"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Fehlende Abhängigkeiten"
+
+#~ msgid "Install"
+#~ msgstr "Installieren"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Um zusätzliche Funktionsmerkmale zu aktivieren, installieren Sie bitte "
+#~ "die folgenden Pakete und starten Sie PiTiVi neu:"
+
+#~ msgid "label"
+#~ msgstr "Beschriftung"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Eigenschaften für <element>"
+
+#~ msgid "Preferences"
+#~ msgstr "Einstellungen"
+
+#~ msgid "Section"
+#~ msgstr "Abschnitt"
+
+#~ msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgstr ""
+#~ "Einige Einstellungen werden erst nach einem Neustart von PiTiVi wirksam"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Auf Werkseinstellungen zurücksetzen"
+
+#~ msgid "Revert"
+#~ msgstr "Rückgängig"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Standard (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "Standard PAL"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 FPS"
+
+#~ msgid "Project Settings"
+#~ msgstr "Projekteinstellungen"
+
+#~ msgid "Video Preset"
+#~ msgstr "Video-Voreinstellung"
+
+#~ msgid "Aspect Ratio:"
+#~ msgstr "Seitenverhältnis:"
+
+#~ msgid "Display aspect ratio"
+#~ msgstr "Seitenverhältnis anzeigen"
+
+#~ msgid "Pixel aspect ratio"
+#~ msgstr "Seitenverhältnis in Pixel"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Verknüpfen"
+
+#~ msgid "Frame Rate:"
+#~ msgstr "Bildwiederholungsrate:"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Audio Preset"
+#~ msgstr "Audio-Voreinstellung"
+
+#~ msgid "Format"
+#~ msgstr "Format"
+
+#~ msgid "Audio"
+#~ msgstr "Audio"
+
+#~ msgid "Author:"
+#~ msgstr "Autor:"
+
+#~ msgid "Year:"
+#~ msgstr "Jahr:"
+
+#~ msgid "Project title:"
+#~ msgstr "Projektname:"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 fps"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 Kanäle (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Erstellen"
+
+#, fuzzy
+#~| msgid "<b>Render Preset</b>"
+#~ msgid "Render Preset"
+#~ msgstr "Erstellung-Voreinstellung"
+
+#~ msgid "Folder"
+#~ msgstr "Ordner"
+
+#~ msgid "Container format"
+#~ msgstr "Containerformat"
+
+#~ msgid "Container format:"
+#~ msgstr "Containerformat:"
+
+#~ msgid "Folder:"
+#~ msgstr "Ordner:"
+
+#~ msgid "File name:"
+#~ msgstr "Dateiname:"
+
+#~ msgid "File name"
+#~ msgstr "Dateiname"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Nur ausgewählte Clips erstellen"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Probelauf (keine Spezialeffekte, ein Durchlauf)"
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Advanced..."
+#~ msgstr "Erweitert …"
+
+#~ msgid "Codec:"
+#~ msgstr "Codec:"
+
+#~ msgid "Framerate"
+#~ msgstr "Bildrate"
+
+#~ msgid "Scale"
+#~ msgstr "Skalieren"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Höhe"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Projekteinstellungen bearbeiten …"
+
+#~ msgid "Scale:"
+#~ msgstr "Skalieren:"
+
+#~ msgid "Enable video"
+#~ msgstr "Video aktivieren"
+
+#~ msgid "Enable audio"
+#~ msgstr "Audio aktivieren"
+
+#~ msgid "Rendering"
+#~ msgstr "Wird erstellt"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>Film wird erstellt</big></b>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Unbekannte Größe"
+
+#~ msgid "Unknown"
+#~ msgstr "Unbekannt"
+
+#~ msgid "Rendering first pass"
+#~ msgstr "Erster Durchlauf des Erstellen"
+
+#~ msgid "Estimated filesize:"
+#~ msgstr "Geschätzte Dateigröße:"
+
+#~ msgid "Frames per second:"
+#~ msgstr "Einzelbilder pro Sekunde:"
+
+#~ msgid "Phase:"
+#~ msgstr "Phase:"
+
+#~ msgid "Initializing..."
+#~ msgstr "Initialisierung …"
+
+#~ msgid "Welcome"
+#~ msgstr "Willkommen"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Doppelklicken Sie auf eines der Projekte, um es zu laden:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Projekte durchsuchen …"
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Fehlende Abhängigkeiten …"
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Es existiert bereits eine Instanz von %s. Bitte informieren Sie die "
+#~ "Entwickler auf http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [PROJEKTDATEI]                # Den Videoeditor starten.\n"
+#~ "    %prog -i [-a] [MEDIENDATEI1 …]      # Den Editor starten und ein "
+#~ "Projekt erstellen."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Jede MEDIENDATEI in ein neues Projekt importieren."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr ""
+#~ "Jede MEDIENDATEI nach dem Importieren ans Ende der Zeitlinie anhängen."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Pitivi in einem Python-Debugger ausführen."
+
+#~ msgid "-a requires -i"
+#~ msgstr "-a benötigt -i"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Mehrere PROJEKTDATEIEN können nicht gleichzeitig geöffnet werden"
+
+#~ msgid "%s is already running"
+#~ msgstr "%s läuft bereits"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Eine Instanz von %s läuft bereits in diesem Skript."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "Die GNonLin-Plugins konnten nicht gefunden werden"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass die Plugins installiert wurden und im GStreamer-"
+#~ "Pfad verfügbar sind."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Die Autodetect-Plugins konnten nicht gefunden werden"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass das Paket »gst-plugins-good« installiert wurde "
+#~ "und im Plugin-Pfad von GStreamer verfügbar ist."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "PyGTK verfügt nicht über Cairo-Unterstützung"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Bitte verwenden Sie eine Version der GTK+-Python-Bindings, die Cairo-"
+#~ "Unterstützung bietet."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Video-Ausgabeplugins konnten nicht initialisiert werden"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass mindestens ein gültiges Video-Ausgabeziel "
+#~ "verfügbar ist (xvimagesink oder ximagesink)."
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Audio-Ausgabeplugins konnten nicht initialisiert werden"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass mindestens ein gültiges Audio-Ausgabeziel "
+#~ "verfügbar ist (alsasink oder osssink)."
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Python-Bindings für Cairo konnten nicht importiert werden."
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass die Python-Bindings für Cairo installiert sind."
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Python-Bindings für goocanvas konnten nicht importiert werden."
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass die Python-Bindings für goocanvas installiert "
+#~ "sind."
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Die Python-xdg-Bibliothek konnte nicht importiert werden."
+
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr "Stellen Sie sicher, dass die Python-xdg-Bibliothek installiert ist."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "Die installierte Version der GTK+-Python-Bindings ist zu alt (gegenwärtig "
+#~ "%s)."
+
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr ""
+#~ "Installieren Sie eine Version %s der GTK+-Python-Bindings oder neuer."
+
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr "Die installierte Version von GTK+ ist zu alt (gegenwärtig %s)."
+
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr "Installieren Sie eine GTK+-Version %s oder neuer."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Die installierte Version der GStreamer-Python-Bindings ist zu alt "
+#~ "(gegenwärtig %s)."
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Installieren Sie eine Version %s der GStreamer-Python-Bindings oder neuer."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr "Die installierte Version von GStreamer ist zu alt (gegenwärtig %s)."
+
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr "Installieren Sie eine GStreamer-Version %s oder neuer."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Die installierte Version der Cairo-Python-Bindings ist zu alt "
+#~ "(gegenwärtig %s)."
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr ""
+#~ "Installieren Sie eine Version %s der Cairo-Python-Bindings oder neuer."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Die installierte Version des GNonLin-GStreamer-Plugins ist zu alt "
+#~ "(gegenwärtig %s)."
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Installieren Sie eine Version %s des GNonLin-GStreamer-Plugins oder neuer."
+
+#~ msgid "Could not import GStreamer Editing Services "
+#~ msgstr "Die GStreamer-Bearbeitungsdienste konnten nicht importiert werden"
+
+#~ msgid "Make sure you have GStreamer Editing Services installed."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass die GStreamer-Bearbeitungsdienste installiert "
+#~ "sind."
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Das Zope-Schnittstellenmodul konnte nicht importiert werden"
+
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Stellen Sie sicher, dass das Modul zope.interface installiert ist."
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Die distutils-Module konnten nicht importiert werden"
+
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass das Python-Modul distutils installiert ist."
+
+#~ msgid "Enables the autoalign feature"
+#~ msgstr "Das Funktionsmerkmal zum automatischen Ausrichten aktivieren"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Zusätzliche Video-Effekte"
+
+#~ msgid "Additional multimedia codecs through the FFmpeg library"
+#~ msgstr "Zusätzliche Multimedia-Codecs der FFmpeg-Bibliothek"
+
+#~ msgid "Remove effect"
+#~ msgstr "Effekt entfernen"
+
+#~ msgid "Activated"
+#~ msgstr "Aktiviert"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Effect name"
+#~ msgstr "Effektname"
+
+#~ msgid "Effects"
+#~ msgstr "Effekte"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Einen Clip in der Zeitlinie auswählen, um dessen Effekte zu konfigurieren"
+
+#~ msgid "Transformation"
+#~ msgstr "Transformation"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Nicht kategorisiert"
+
+#~ msgid "All effects"
+#~ msgstr "Alle Effekte"
+
+#~ msgid "Colors"
+#~ msgstr "Farben"
+
+#~ msgid "Noise"
+#~ msgstr "Rauschen"
+
+#~ msgid "Analysis"
+#~ msgstr "Analyse"
+
+#~ msgid "Blur"
+#~ msgstr "Weichzeichnen"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometrie"
+
+#~ msgid "Fancy"
+#~ msgstr "Dekorativ"
+
+#~ msgid "Time"
+#~ msgstr "Zeit"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Audio |audio"
+
+#~ msgid "effect"
+#~ msgstr "Effekt"
+
+#~ msgid "Video effects"
+#~ msgstr "Video-Effekte"
+
+#~ msgid "Audio effects"
+#~ msgstr "Audio-Effekte"
+
+#~ msgid "Search:"
+#~ msgstr "Suchen:"
+
+#~ msgid "Name"
+#~ msgstr "Name"
+
+#~ msgid "Description"
+#~ msgstr "Beschreibung"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Videoeffekte als Liste anzeigen"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Videoeffekte als Symbole anzeigen"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "Natives PiTiVi-Format (XML)"
+
+#~ msgid "Split"
+#~ msgstr "Teilen"
+
+#~ msgid "Keyframe"
+#~ msgstr "Schlüsselbild"
+
+#~ msgid "Unlink"
+#~ msgstr "Verknüpfung lösen"
+
+#~ msgid "Ungroup"
+#~ msgstr "Gruppierung lösen"
+
+#~ msgid "Group"
+#~ msgstr "Gruppieren"
+
+#~ msgid "Align"
+#~ msgstr "Ausrichten"
+
+#~ msgid "Create a new project"
+#~ msgstr "Ein neues Projekt erstellen"
+
+#~ msgid "_Open..."
+#~ msgstr "Ö_ffnen …"
+
+#~ msgid "Open an existing project"
+#~ msgstr "Ein existierendes Projekt öffnen"
+
+#~ msgid "Save the current project"
+#~ msgstr "Das aktuelle Projekt speichern"
+
+#~ msgid "Save _As..."
+#~ msgstr "Speichern _unter …"
+
+#~ msgid "Reload the current project"
+#~ msgstr "Das aktuelle Projekt neu laden"
+
+#~ msgid "Export as Archive..."
+#~ msgstr "Als Archiv exportieren …"
+
+#~ msgid "Export the current project"
+#~ msgstr "Das aktuelle Projekt exportieren"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Projekteinstellungen bearbeiten"
+
+#~ msgid "_Render..."
+#~ msgstr "E_rstellen …"
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Ihr Projekt als wiedergabefähigen Film exportieren"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Die letzte Operation rückgängig machen"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Die letzte rückgängig gemachte Operation wiederholen"
+
+#, fuzzy
+#~| msgid "Remove Clip"
+#~ msgid "Remove layer"
+#~ msgstr "Clip entfernen"
+
+#~ msgid "Information about %s"
+#~ msgstr "Informationen über %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Benutzerhandbuch"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekt"
+
+#~ msgid "_Edit"
+#~ msgstr "_Bearbeiten"
+
+#~ msgid "_View"
+#~ msgstr "_Ansicht"
+
+#~ msgid "_Library"
+#~ msgstr "Medienbib_liothek"
+
+#~ msgid "_Timeline"
+#~ msgstr "Zei_tlinie"
+
+#~ msgid "Previe_w"
+#~ msgstr "_Vorschau"
+
+#~ msgid "_Help"
+#~ msgstr "_Hilfe"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Das Hauptfenster Bildschirm füllend anzeigen"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Hauptwerkzeugleiste"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Zeitlinien-Werkzeugleiste"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Betrachter lösen"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Den Betrachter in ein separates Fenster verschieben"
+
+#~ msgid "Media Library"
+#~ msgstr "Medienbibliothek"
+
+#~ msgid "Effect Library"
+#~ msgstr "Effekt-Bibliothek"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Clip-Konfiguration"
+
+#~ msgid "Transitions"
+#~ msgstr "Übergänge"
+
+#~ msgid "PiTiVi %s is available."
+#~ msgstr "PiTiVi %s ist verfügbar."
+
+#~ msgid "Contributors:"
+#~ msgstr "Mitwirkende:"
+
+#~ msgid "translator-credits"
+#~ msgstr ""
+#~ "Andreas Volz <andreas.volz@tux-style.de>\n"
+#~ "Mario Blättermann <mariobl@freenet.de>\n"
+#~ "Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+#~ "Daniel Winzen <d@winzen4.de>"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Siehe http://www.gnu.org/copyleft/lesser.html für nähere Informationen."
+
+#~ msgid "Open File..."
+#~ msgstr "Datei öffnen …"
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Alle unterstützten Formate"
+
+#~ msgid "Close without saving"
+#~ msgstr "Schließen, ohne zu speichern"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Aktuelle Änderungen vor dem Schließen des Projekts speichern?"
+
+#~ msgid "If you don't save, the changes from the last %s will be lost."
+#~ msgstr ""
+#~ "Falls Sie nicht speichern, werden Ihre Änderungen von der letzten %s "
+#~ "verloren gehen."
+
+#~ msgid "If you don't save, your changes will be lost."
+#~ msgstr "Falls Sie nicht speichern, werden Ihre Änderungen verloren gehen."
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Wollen Sie das aktuelle Projekt neu laden?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Auf das gespeicherte Projekt zurücksetzen"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Alle ungespeicherten Änderungen werden verloren gehen."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Projekt »%s« konnte nicht geladen werden"
+
+#~ msgid "Error Loading Project"
+#~ msgstr "Fehler beim Laden des Projekts"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Fehlende Datei suchen …"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Die folgende Datei wurde verschoben: »<b>%s</b>«\n"
+#~ "Bitte geben Sie den neuen Ort an:"
+
+#~ msgid "Export To..."
+#~ msgstr "Exportieren nach …"
+
+#~ msgid "Untitled"
+#~ msgstr "Unbenannt"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Automatisch erkennen"
+
+#~ msgid "Save As..."
+#~ msgstr "Speichern unter …"
+
+#~ msgid "Preview - click outside to close"
+#~ msgstr "Vorschau - klicken Sie außerhalb, um zu schließen"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "PiTiVi kann für diese Datei keine Vorschau anzeigen."
+
+#~ msgid "More info"
+#~ msgstr "Weitere Informationen"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Auflösung</b>: %d×%d"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Fehler beim Analysieren einer Datei"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "Aus dem Projekt entfe_rnen"
+
+#~ msgid "_Preview Clip"
+#~ msgstr "Clip-Vorschau _anzeigen"
+
+#~ msgid "_Clip Properties..."
+#~ msgstr "_Clip-Eigenschaften …"
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Ans _Ende der Zeitlinie anhängen"
+
+#~ msgid "Icon"
+#~ msgstr "Symbol"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "Duration"
+#~ msgstr "Dauer"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Fügen Sie Medien zu Ihrem Projekt hinzu, indem Sie Dateien und Ordner mit "
+#~ "Hilfe des »Dateien importieren«-Knopfes hier ablegen."
+
+#~ msgid "Hide"
+#~ msgstr "Verbergen"
+
+#~ msgid "_Import Files..."
+#~ msgstr "Dateien _importieren …"
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Mediendateien zu Ihrem Projekt hinzufügen"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "_Ordner importieren …"
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Den Inhalt eines Ordners als Clips zu Ihrem Projekt hinzufügen"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Unbenutzte Medien auswählen"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Clips auswählen, die im Projekt noch nicht verwendet wurden"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Clips als Liste anzeigen"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Clips als Symbole anzeigen"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Eine oder mehrere Ordner auswählen"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Eine oder mehrere Dateien auswählen"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Nach dem Importieren von Dateien schließen"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Clip %(current_clip)d von %(total)d wird importiert"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Mehrere Fehler sind beim Importieren aufgetreten."
+
+#~ msgid "View errors"
+#~ msgstr "Fehler betrachten"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "Ein Fehler ist beim Importieren aufgetreten."
+
+#~ msgid "View error"
+#~ msgstr "Fehler betrachten"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Fehler beim Analysieren von Dateien"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Die folgenden Dateien können von PiTiVi nicht verarbeitet werden."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Die folgende Datei kann von PiTiVi nicht verarbeitet werden."
+
+#~ msgid "No preset"
+#~ msgstr "Keine Voreinstellung"
+
+#~ msgid "Ignore backup"
+#~ msgstr "Sicherung ignorieren"
+
+#~ msgid "Restore from backup"
+#~ msgstr "Von Sicherung wiederherstellen"
+
+#~ msgid ""
+#~ "An autosaved version of your project file was found. It is %s newer than "
+#~ "the saved project.\n"
+#~ "\n"
+#~ "Would you like to load it instead?"
+#~ msgstr ""
+#~ "Eine automatisch gespeicherte Projektdatei wurde gefunden. Sie ist %s "
+#~ "neuer als das gespeicherte Projekt.\n"
+#~ "\n"
+#~ "Möchten Sie stattdessen diese Datei laden?"
+
+#~ msgid "New Project"
+#~ msgstr "Neues Projekt"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "»%s« existiert bereits"
+
+#~ msgid "New preset"
+#~ msgstr "Neue Voreinstellung"
+
+#~ msgid "New preset %d"
+#~ msgstr "Neue Voreinstellung %d"
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "%d%% Erstellt"
+
+#~ msgid "About %s left"
+#~ msgstr "Ungefähr %s verbleibend"
+
+#~ msgid "Currently rendering"
+#~ msgstr "Erstellen läuft"
+
+#~ msgid "A file name is required."
+#~ msgstr "Ein Dateiname wird benötigt."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Diese Datei existiert bereits.\n"
+#~ "Falls Sie sie nicht überschreiben wollen, wählen Sie einen anderen Datei- "
+#~ "oder Ordnernamen."
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Loop"
+#~ msgstr "Endlosschleife"
+
+#~ msgid "Reverse direction"
+#~ msgstr "Umgekehrte Richtung"
+
+#~ msgid "Slow"
+#~ msgstr "Langsam"
+
+#~ msgid "Fast"
+#~ msgstr "Schnell"
+
+#~ msgid "Sharp"
+#~ msgstr "Scharf"
+
+#~ msgid "Smooth"
+#~ msgstr "Weich"
+
+#~ msgid "Currently playing"
+#~ msgstr "Wiedergabe läuft"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "An den Anfang der Zeitlinie gehen"
+
+#~ msgid "Go back one second"
+#~ msgstr "Eine Sekunde rückwärts gehen"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Eine Sekunde vorwärts gehen"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Ans Ende der Zeitlinie gehen"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Betrachter andocken"
+
+#~ msgid "Play"
+#~ msgstr "Wiedergeben"
+
+#~ msgid "Pause"
+#~ msgstr "Pause"
+
+#, fuzzy
+#~| msgid "<b>Size</b>"
+#~ msgid "<b>Solo mode</b>\n"
+#~ msgstr "<b>Größe</b>"
+
+#, fuzzy
+#~| msgid "Delete Selected"
+#~ msgid "_Delete layer"
+#~ msgstr "Auswahl entfernen"
+
+#~ msgid "Frame #%d"
+#~ msgstr "Einzelbild #%d"
+
+#~ msgid "Appearance"
+#~ msgstr "Erscheinungsbild"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Abstand der Vorschaubilder"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Abstand zwischen Vorschaubildern in Pixel"
+
+#~ msgid "Performance"
+#~ msgstr "Leistung"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Vorschaubild alle"
+
+#~ msgid "1/100 second"
+#~ msgstr "1/100 Sekunde"
+
+#~ msgid "1/10 second"
+#~ msgstr "1/10 Sekunde"
+
+#~ msgid "1/4 second"
+#~ msgstr "1/4 Sekunde"
+
+#~ msgid "1/2 second"
+#~ msgstr "1/2 Sekunde"
+
+#~ msgid "1 second"
+#~ msgstr "1 Sekunde"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 Sekunden"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 Sekunden"
+
+#~ msgid "minute"
+#~ msgstr "Minute"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Abstand in Sekunden zwischen den Vorschaubildern."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Video-Vorschaubilder aktivieren"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Vorschauen für Videoclips anzeigen"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Audio-Wellenform anzeigen"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Wellenform für Audioclips anzeigen"
+
+#~ msgid "Behavior"
+#~ msgstr "Verhalten"
+
+#~ msgid "Snap distance"
+#~ msgstr "Abstand für Einrasten"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Abstand (in Pixel) zum Einrasten zweier Clips aneinander beim Ziehen oder "
+#~ "Anpassen."
+
+#~ msgid "Delete Selected"
+#~ msgstr "Auswahl entfernen"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Clip an der Zeitlinienposition schneiden"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Ein Schlüsselbild hinzufügen"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Zum vorherigen Schlüsselbild springen"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Zum nächsten Schlüsselbild springen"
+
+#~ msgid "Zoom In"
+#~ msgstr "Vergrößern"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Verkleinern"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Auf Größe einpassen"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Verknüpfungen zwischen Clips löschen"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Clips willkürlich verknüpfen"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Gruppierung lösen"
+
+#~ msgid "Group clips"
+#~ msgstr "Clips gruppieren"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Clips anhand ihrer Audiospuren ausrichten"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "Ein oder mehrere GStreamer-Fehler sind aufgetreten!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Die folgenden Fehler wurden gemeldet:"
+
+#~ msgid "Zoom"
+#~ msgstr "Vergrößerung"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Größe der Zeitlinie verändern"
+
+#~ msgid "Export current frame..."
+#~ msgstr "Aktuelles Bild exportieren …"
+
+#~ msgid "Export the frame at the current playhead position as an image file."
+#~ msgstr ""
+#~ "Das aktuelle Einzelbild an der aktuellen Abspielposition als Bild "
+#~ "speichern."
+
+#~ msgid "Start Playback"
+#~ msgstr "Wiedergabe starten"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Ein Schlüsselbild hinzufügen"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "_Vorheriges Schlüsselbild"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "_Nächstes Schlüsselbild"
+
+#~ msgid "PNG image"
+#~ msgstr "PNG-Bild"
+
+#~ msgid "JPEG image"
+#~ msgstr "JPEG-Bild"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Farbe für Videoclips"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Die Hintergrundfarbe für Clips in Videotracks."
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Farbe für Audioclips anzeigen"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Die Hintergrundfarbe für Clips in Audiotracks."
+
+#~ msgid "Selection color"
+#~ msgstr "Farbauswahl"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Ausgewählte Clips werden mit dieser Farbe versehen."
+
+#~ msgid "Clip font"
+#~ msgstr "Clip-Schrift"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Die für die Titel von Clips zu verwendende Schrift"
+
+#~ msgid "Image:"
+#~ msgstr "Bild:"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Unbekannter Grund"
+
+#~ msgid "Problem:"
+#~ msgstr "Problem:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Zusätzliche Information:"
+
+#~ msgid "Reset to default value"
+#~ msgstr "Auf den Standardwert zurücksetzen"
+
+#~ msgid "Projects"
+#~ msgstr "Projekte"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s behandelt bisher keine nicht lokal gespeicherten Projekte"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Audio:</b> %d Kanal mit %d <i>Hz</i> (%d <i>Bits</i>)"
+#~ msgstr[1] "<b>Audio:</b> %d Kanäle mit %d <i>Hz</i> (%d <i>Bits</i>)"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.3f <i>fps</i>"
+#~ msgstr "<b>Video:</b> %d×%d <i>Pixel</i> mit %.3f <i>fps</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Bild:</b> %d×%d <i>Pixel</i>"
+
+#~ msgid "Subtitles"
+#~ msgstr "Untertitel"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d Stunde"
+#~ msgstr[1] "%d Stunden"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d Minute"
+#~ msgstr[1] "%d Minuten"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d Sekunde"
+#~ msgstr[1] "%d Sekunden"
+
+#~ msgid "%d day"
+#~ msgid_plural "%d days"
+#~ msgstr[0] "%d Tag"
+#~ msgstr[1] "%d Tage"
+
+#~ msgid "%d fps"
+#~ msgstr "%d fps"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f fps"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f fps"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bit"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 Kanäle (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 Kanäle (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Square"
+#~ msgstr "Quadratisch"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p Breitbild"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i Breitbild"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p Breitbild"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i Breitbild"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV Breitbild (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Cinema (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Cinema (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Cinema (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorph (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorph (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorph (2.4)"
+
+#~ msgid "Implement Me"
+#~ msgstr "Noch nicht implementiert"
+
+#~ msgid "Custom"
+#~ msgstr "Anpassen"
+
+#~ msgid "Save Preset"
+#~ msgstr "Voreinstellung speichern"
+
+#~ msgid "Choose..."
+#~ msgstr "Wählen …"
+
+#~ msgid "No properties."
+#~ msgstr "Keine Eigenschaften."
+
+#~ msgid "Properties for %s"
+#~ msgstr "Eigenschaften für %s"
+
+#~ msgid "Text:"
+#~ msgstr "Text:"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Zuschneiden</b>"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Anzahl der Kanäle:"
+
+#~ msgid "Sample Rate:"
+#~ msgstr "Samplingrate:"
+
+#~ msgid "Sample Depth:"
+#~ msgstr "Abtasttiefe:"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Seitenverhältnis</b>"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Bildrate</b>"
+
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>Format</b>"
+
+#~ msgid "Loading project..."
+#~ msgstr "Projekt wird geladen …"
+
+#~ msgid "Project loaded."
+#~ msgstr "Projekt wurde geladen."
+
+#~ msgid "Rendering..."
+#~ msgstr "Rendern …"
+
+#~ msgid "Render the specified project to OUTPUT_FILE with no GUI."
+#~ msgstr ""
+#~ "Die gegebene Projektdatei zu AUSGABEDATEI verarbeiten, ohne die grafische "
+#~ "Oberfläche zu öffnen."
+
+#~ msgid "Preview the specified project file without the full UI."
+#~ msgstr ""
+#~ "Vorschau auf die angegebene Projektdatei, ohne die vollständige grafische "
+#~ "Oberfläche zu öffnen."
+
+#~ msgid "-p and -r cannot be used simultaneously"
+#~ msgstr "-p und -r können nicht gleichzeitig verwendet werden"
+
+#~ msgid "-r or -p and -i are incompatible"
+#~ msgstr "Die Optionen -n oder -p und -i schließen sich gegenseitig aus."
+
+#~ msgid "-r requires exactly one PROJECT_FILE"
+#~ msgstr "-r benötigt genau eine PROJEKTDATEI"
+
+#~ msgid "-p requires exactly one PROJECT_FILE"
+#~ msgstr "-p benötigt genau eine PROJEKTDATEI"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Fehlende Plugins:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "Datei kann nicht dekodiert werden."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Die angegebene Datei enthält keine Audio-, Video- oder Bildströme."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Die Spieldauer der Datei konnte nicht ermittelt werden."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Das Format dieses Clips kann nicht im Zufallsmodus verarbeitet werden."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Zeitüberschreitung beim Analysieren der Datei."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Analysieren der Datei dauerte zu lange."
+
+#~ msgid "No available source handler."
+#~ msgstr "Kein Quellen-Handler verfügbar."
+
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr "Es gibt kein GStreamer-Quellelement für das Protokoll »%s«"
+
+#~ msgid "File does not exist"
+#~ msgstr "Datei existiert nicht"
+
+#~ msgid "File not readable by current user"
+#~ msgstr "Datei ist für aktuellen Benutzer nicht lesbar"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Die Pipeline kann nicht auf PAUSED gesetzt werden."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr ""
+#~ "Ein interner Fehler ist beim Analysieren dieser Datei aufgetreten: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Die Datei enthält einen Verknüpfung zu einem anderen Clip."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr ""
+#~ "PiTiVi kann derzeit nicht mit Verknüpfungen zu anderen Dateien umgehen."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Die Pipeline kann nicht auf PLAYING gesetzt werden."
+
+#~ msgid "Playlist format"
+#~ msgstr "Wiedergabelistenformat"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr ""
+#~ "Das Projekt enthält Effekte, die auf Ihrem System nicht verfügbar sind."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "%(uri)s konnte nicht geladen werden."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Keine gültige Projektdatei."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Das aktuelle Projekt konnte nicht geschlossen werden"
+
+#~ msgid "No URI specified."
+#~ msgstr "Keine Adresse angegeben."
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Einstellungen exportieren\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Audio:"
+
+# CHECK: Vielleicht besser Multiplexer?
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muxer:"
+
+#~ msgid "%d%% Analyzed"
+#~ msgstr "%d%% analysiert"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Unbekanntes Audioformat:</b> %s"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Unbekanntes Videoformat:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Text:</b> %s"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Endlosschleife im markierten Bereich"
+
+#~ msgid "_Undo"
+#~ msgstr "_Rückgängig"
+
+#~ msgid "_Redo"
+#~ msgstr "_Wiederholen"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Einstellungen"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Die folgende Datei wurde verschoben: »<b>%s</b>« (Dauer: %s)\n"
+#~ "Bitte geben Sie den neuen Ort an:"
+
+#~ msgid "Untitled project"
+#~ msgstr "Unbenanntes Projekt"
+
+#~ msgid "Import Files..."
+#~ msgstr "Dateien importieren …"
+
+#~ msgid "Play Clip"
+#~ msgstr "Clip wiedergeben"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Wiedergabe anhalten"
+
+#~ msgid "_Render Project..."
+#~ msgstr "Projekt e_rstellen …"
+
+#~ msgid "Reset"
+#~ msgstr "Zurücksetzen"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Vorschauen anzeigen (Video)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Wellenform anzeigen (Audio)"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr "Abstand in Pixel für alle Einrastvorgänge"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Clip-Hintergrund (Video)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Clip-Hintergrund (Audio)"
+
+#~ msgid "15 fps"
+#~ msgstr "15 fps"
+
+#~ msgid "20 fps"
+#~ msgstr "20 fps"
+
+#~ msgid "23,976 fps"
+#~ msgstr "23,976 fps"
+
+#~ msgid "24 fps"
+#~ msgstr "24 fps"
+
+#~ msgid "25 fps"
+#~ msgstr "25 fps"
+
+#~ msgid "29,97 fps"
+#~ msgstr "29,97 fps"
+
+#~ msgid "50 fps"
+#~ msgstr "50 fps"
+
+#~ msgid "59,94 fps"
+#~ msgstr "59,94 fps"
+
+#~ msgid "60 fps"
+#~ msgstr "60 fps"
+
+#~ msgid "120 fps"
+#~ msgstr "120 fps"
+
+#~ msgid "11 kHz"
+#~ msgstr "11 kHz"
+
+#~ msgid "22 kHz"
+#~ msgstr "22 kHz"
+
+#~ msgid "48 kHz"
+#~ msgstr "48 kHz"
+
+#~ msgid "96 kHz"
+#~ msgstr "96 kHz"
+
+#~ msgid "16 bit"
+#~ msgstr "16 bit"
+
+#~ msgid "24 bit"
+#~ msgstr "24 bit"
+
+#~ msgid "32 bit"
+#~ msgstr "32 bit"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Eigenschaften für: %d Objekt"
+#~ msgstr[1] "Eigenschaften für: %d Objekte"
+
+#~ msgid "<b>Width/Height</b>: %dx%d"
+#~ msgstr "<b>Breite/Höhe</b>: %dx%d"
+
+#~ msgid "_Render project"
+#~ msgstr "Projekt _erzeugen"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Plugins …"
+
+#~ msgid "Manage plugins"
+#~ msgstr "Plugins verwalten"
+
+#~ msgid "_File"
+#~ msgstr "_Datei"
+
+#~ msgid "Plugin"
+#~ msgstr "Plugin"
+
+#~ msgid "Category"
+#~ msgstr "Kategorie"
+
+#~ msgid "All categories"
+#~ msgstr "Alle Kategorien"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Sind Sie sicher, dass Sie die ausgewählten Plugins löschen wollen?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Löschvorgang bestätigen"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "%s kann nicht gelöscht werden"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Soll das vorhandene Plugin aktualisiert werden?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Dieses Plugin ist in Ihrem System bereits installiert.\n"
+#~ "Falls Sie zustimmen, wird %(v1)s ersetzt durch Version %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Doppelt vorhandenes Plugin gefunden"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "%s kann nicht installiert werden.\n"
+#~ "Diese Datei ist kein gültiges Plugin."
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Keine Objekte ausgewählt"
+
+#~ msgid ""
+#~ "<span>Import your clips by dragging them here or by using the buttons "
+#~ "above.</span>"
+#~ msgstr ""
+#~ "<span>Importieren Sie Ihre Clips, indem Sie sie hier ablegen, oder "
+#~ "benutzen Sie die Knöpfe oben.</span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Zu verwendende Clips importieren"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Einen Clips enthaltenden Ordner importieren"
+
+#~ msgid "Import a folder"
+#~ msgstr "Einen Ordner importieren"
+
+#~ msgid "Import a clip"
+#~ msgstr "Einen Clip importieren"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Text:</b>"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Python-Bindings für Libglade konnten nicht importiert werden."
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr ""
+#~ "Stellen Sie sicher, dass die Python-Bindings für Libglade installiert "
+#~ "sind."
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Audio-Aufnahmegerät :"
+
+#~ msgid "No device available"
+#~ msgstr "Kein Gerät verfügbar"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Video-Aufnahmegerät :"
+
+#~ msgid "<b>Properties For Plugin</b>"
+#~ msgstr "<b>Plugin-Eigenschaften</b>"
+
+#~ msgid "Sample rate"
+#~ msgstr "Samplingrate"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Von _Webcam importieren …"
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Datenstrom der Kamera importieren"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Bildschirmaufzeichnung erstellen …"
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Den Inhalt des Desktops aufzeichnen"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Netzwerk-Datenstrom aufzeichnen …"
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Netzwerk-Datenstrom aufzeichnen"
+
+#~ msgid "Address"
+#~ msgstr "Adresse"
+
+#~ msgid "Capture"
+#~ msgstr "Aufzeichnen"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Datenstrom von URI aufzeichnen"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Netzwerk-Datenstrom aufzeichnen"
+
+#~ msgid "Close"
+#~ msgstr "Schließen"
+
+#~ msgid "Customize:"
+#~ msgstr "Anpassen:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Netzwerk-Videostrom"
+
+#~ msgid "Other protocol"
+#~ msgstr "Anderes Protokoll"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Datenstrom-Vorschau von Adresse"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokoll"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Plugin-Verwaltung"
+
+#~ msgid "Show:"
+#~ msgstr "Anzeigen:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Sie können Dateien in die Liste ziehen, um sie zu installieren,\n"
+#~ "oder Sie geben Text ein, um nach einem bestimmten Plugin zu suchen."
+
+#~ msgid "Screencast"
+#~ msgstr "Bildschirmaufzeichnung"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Die Arbeitsfläche aufzeichnen"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Istanbul starten"
+
+#~ msgid "%(width)d x %(height)d pixels at %(framerate).2f fps"
+#~ msgstr "%(width)d x %(height)d Pixel mit %(framerate).2f fps"
+
+#~ msgid "%(channels)d channel at %(frequency)d Hz (%(depth)d bits)"
+#~ msgid_plural "%(channels)d channels at %(frequency)d Hz (%(depth)d bits)"
+#~ msgstr[0] "%(channels)d Kanal mit %(frequency)d Hz (%(depth)d Bit)"
+#~ msgstr[1] "%(channels)d Kanäle mit %(frequency)d Hz (%(depth)d Bit)"
+
+#~ msgid "Summary"
+#~ msgstr "Zusammenfassung"
+
+#~ msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgstr ""
+#~ "Die folgende Datei wurde verschoben, bitte informieren Sie PiTiVi, wo sie "
+#~ "zu finden ist."
+
+#~ msgid "Duration:"
+#~ msgstr "Dauer:"

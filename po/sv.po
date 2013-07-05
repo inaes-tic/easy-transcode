@@ -1,0 +1,2242 @@
+# Swedish messages for pitivi.
+# Copyright (C) 2006-2012 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2006.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+#
+# $Id: sv.po,v 1.9 2006/12/26 13:09:16 dnylande Exp $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2012-02-28 22:07+0100\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Ingenting ännu</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Position</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+#, fuzzy
+msgid "Video Transcoding"
+msgstr "Videospår"
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Fellista"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Fellista"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Videoredigeraren Pitivi"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Skapa och redigera dina egna filmer"
+
+#~ msgid "Auto-Alignment Starting"
+#~ msgstr "Automatisk justering startar"
+
+#~ msgid "<b><big>Performing Auto-Alignment</big></b>"
+#~ msgstr "<b><big>Genomför automatisk justering</big></b>"
+
+#~ msgid "Estimating..."
+#~ msgstr "Uppskattar..."
+
+#~ msgid "<b>Viewer Zoom</b>"
+#~ msgstr "<b>Visningszoom</b>"
+
+#~ msgid "X:"
+#~ msgstr "X:"
+
+#~ msgid "Y:"
+#~ msgstr "Y:"
+
+#~ msgid "Width:"
+#~ msgstr "Bredd:"
+
+#~ msgid "Height:"
+#~ msgstr "Höjd:"
+
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Storlek</b>"
+
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Beskär</b>"
+
+#~ msgid "Missing Dependencies"
+#~ msgstr "Saknade beroenden"
+
+#~ msgid "Install"
+#~ msgstr "Installera"
+
+#~ msgid ""
+#~ "To enable additional features, please install the following packages and "
+#~ "restart PiTiVi:"
+#~ msgstr ""
+#~ "Installera följande paket och starta om PiTiVi för att aktivera "
+#~ "ytterligare funktioner:"
+
+#~ msgid "label"
+#~ msgstr "etikett"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Egenskaper för <element>"
+
+#~ msgid "MP4"
+#~ msgstr "MP4"
+
+#~ msgid "H.264"
+#~ msgstr "H.264"
+
+#~ msgid "29.97 fps"
+#~ msgstr "29.97 bilder/s"
+
+#~ msgid "AC-3"
+#~ msgstr "AC-3"
+
+#~ msgid "AAC"
+#~ msgstr "AAC"
+
+#~ msgid "6 channels (5.1)"
+#~ msgstr "6 kanaler (5.1)"
+
+#~ msgid "Render"
+#~ msgstr "Rendera"
+
+#~ msgid "<b>Render Preset</b>"
+#~ msgstr "<b>Renderingsförval</b>"
+
+#~ msgid "Folder"
+#~ msgstr "Mapp"
+
+#~ msgid "Container format"
+#~ msgstr "Behållarformat"
+
+#~ msgid "Container format:"
+#~ msgstr "Behållarformat:"
+
+#~ msgid "Folder:"
+#~ msgstr "Mapp:"
+
+#~ msgid "File name:"
+#~ msgstr "Filnamn:"
+
+#~ msgid "File name"
+#~ msgstr "Filnamn"
+
+#~ msgid "Render only the selected clips"
+#~ msgstr "Rendera endast markerade klipp"
+
+#~ msgid "Draft (no special effects, single pass)"
+#~ msgstr "Utdrag (inga specialeffekter, ett pass)"
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "Advanced..."
+#~ msgstr "Avancerat..."
+
+#~ msgid "Codec:"
+#~ msgstr "Kodek:"
+
+#~ msgid "Framerate"
+#~ msgstr "Bildfrekvens"
+
+#~ msgid "Scale"
+#~ msgstr "Skala"
+
+#~ msgid "1000 x 1000"
+#~ msgstr "1000 x 1000"
+
+#~ msgid "Height"
+#~ msgstr "Höjd"
+
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Redigera projektinställningar..."
+
+#~ msgid "Frame rate:"
+#~ msgstr "Bildfrekvens:"
+
+#~ msgid "Scale:"
+#~ msgstr "Skala:"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Number of channels:"
+#~ msgstr "Antal kanaler:"
+
+#~ msgid "Sample Rate:"
+#~ msgstr "Samplingsfrekvens:"
+
+#~ msgid "Sample Depth:"
+#~ msgstr "Samplingsdjup:"
+
+#~ msgid "Audio"
+#~ msgstr "Ljud"
+
+#~ msgid "Rendering"
+#~ msgstr "Rendering"
+
+#~ msgid "<b><big>Rendering movie</big></b>"
+#~ msgstr "<b><big>Renderar film</big></b>"
+
+#~ msgid "Unknown Mib"
+#~ msgstr "Okänd Mib"
+
+#~ msgid "Unknown"
+#~ msgstr "Okänd"
+
+#~ msgid "Encoding first pass"
+#~ msgstr "Kodningens första pass"
+
+#~ msgid "<b>Estimated filesize:</b>"
+#~ msgstr "<b>Beräknad filstorlek:</b>"
+
+#~ msgid "<b>Frames per second:</b>"
+#~ msgstr "<b>Bilder per sekund:</b>"
+
+#~ msgid "<b>Phase:</b>"
+#~ msgstr "<b>Fas:</b>"
+
+#~ msgid "Preferences"
+#~ msgstr "Inställningar"
+
+#~ msgid "Section"
+#~ msgstr "Sektion"
+
+#~ msgid "<b>Some changes will not take effect until you restart PiTiVi</b>"
+#~ msgstr ""
+#~ "<b>Vissa ändringar kommer inte bli aktiva förrän du startar om PiTiVi</b>"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Återställ till ursprungsinställningar"
+
+#~ msgid "Revert"
+#~ msgstr "Återställ"
+
+#~ msgid "Standard (4:3)"
+#~ msgstr "Standard (4:3)"
+
+#~ msgid "Standard PAL"
+#~ msgstr "Standard PAL"
+
+#~ msgid "25 FPS"
+#~ msgstr "25 bilder/s"
+
+#~ msgid "Project Settings"
+#~ msgstr "Projektinställningar"
+
+#~ msgid "<b>Video Preset</b>"
+#~ msgstr "<b>Videoförval</b>"
+
+#~ msgid "<b>Size (Pixels)</b>"
+#~ msgstr "<b>Storlek (bildpunkter)</b>"
+
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Bildförhållande</b>"
+
+#~ msgid "Display Aspect Ratio"
+#~ msgstr "Visa bildförhållande"
+
+#~ msgid "Pixel Aspect Ratio"
+#~ msgstr "Bildförhållande (bildpunkter)"
+
+#~ msgid "x"
+#~ msgstr "x"
+
+#~ msgid "Link"
+#~ msgstr "Länka"
+
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Bildfrekvens</b>"
+
+#~ msgid "<b>Audio Preset</b>"
+#~ msgstr "<b>Ljudförval</b>"
+
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>Format</b>"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanaler:"
+
+#~ msgid "Sample rate:"
+#~ msgstr "Samplingsfrekvens:"
+
+#~ msgid "Sample depth:"
+#~ msgstr "Samplingsdjup:"
+
+#~ msgid "Author:"
+#~ msgstr "Författare:"
+
+#~ msgid "Year:"
+#~ msgstr "År:"
+
+#~ msgid "Project title:"
+#~ msgstr "Projekttitel:"
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Welcome"
+#~ msgstr "Välkommen"
+
+#~ msgid "Double-click a project below to load it:"
+#~ msgstr "Dubbelklicka på ett projekt nedan för att läsa in det:"
+
+#~ msgid "Browse projects..."
+#~ msgstr "Bläddra projekt..."
+
+#~ msgid "Missing dependencies..."
+#~ msgstr "Saknade beroenden..."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Det finns redan en instans av %s. Informera gärna utvecklarna genom att "
+#~ "skicka in en felrapport på http://bugzilla.gnome.org/enter_bug.cgi?"
+#~ "product=pitivi"
+
+#~ msgid "Loading project..."
+#~ msgstr "Läser in projekt..."
+
+#~ msgid "Project loaded."
+#~ msgstr "Projektet inläst."
+
+#~ msgid "Rendering..."
+#~ msgstr "Renderar..."
+
+#~ msgid ""
+#~ "\n"
+#~ "    %prog [PROJECT_FILE]               # Start the video editor.\n"
+#~ "    %prog -i [-a] [MEDIA_FILE1 ...]    # Start the editor and create a "
+#~ "project.\n"
+#~ "    %prog PROJECT_FILE -r OUTPUT_FILE  # Render a project.\n"
+#~ "    %prog PROJECT_FILE -p              # Preview a project."
+#~ msgstr ""
+#~ "\n"
+#~ "    %prog [PROJEKTFIL]                 # Starta videoredigeraren.\n"
+#~ "    %prog -i [-a] [MEDIAFIL1 ...]      # Starta redigeraren och skapa ett "
+#~ "projekt.\n"
+#~ "    %prog PROJEKTFIL -r UTDATAFIL    # Rendera ett projekt.\n"
+#~ "    %prog PROJEKTFIL -p                # Förhandsgranska ett projekt."
+
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Importera varje MEDIAFIL till ett nytt projekt."
+
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr "Lägg till varje importerad MEDIAFIL till tidslinjen."
+
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "Kör Pitivi i Python-felsökaren."
+
+#~ msgid "Render the specified project to OUTPUT_FILE with no GUI."
+#~ msgstr ""
+#~ "Rendera det angivna projektet till UTDATAFIL utan grafiskt gränssnitt."
+
+#~ msgid "Preview the specified project file without the full UI."
+#~ msgstr "Förhandsvisa angivna projektfilen utan grafiskt gränssnitt."
+
+#~ msgid "-p and -r cannot be used simultaneously"
+#~ msgstr "-p och -r kan inte användas samtidigt"
+
+#~ msgid "-r or -p and -i are incompatible"
+#~ msgstr "-r eller -p och -i är inte kompatibla"
+
+#~ msgid "-a requires -i"
+#~ msgstr "-a kräver -i"
+
+#~ msgid "-r requires exactly one PROJECT_FILE"
+#~ msgstr "-r kräver exakt en PROJEKTFIL"
+
+#~ msgid "-p requires exactly one PROJECT_FILE"
+#~ msgstr "-p kräver exakt en PROJEKTFIL"
+
+#~ msgid "Cannot open more than one PROJECT_FILE"
+#~ msgstr "Kan inte öppna fler än en PROJEKTFIL"
+
+#~ msgid "%s is already running"
+#~ msgstr "%s är redan igång"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "En instans av %s kör redan i det här skriptet."
+
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "Kunde inte hitta GNonLin-insticksmodulerna"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Kontrollera att insticksmodulerna blev installerade och finns "
+#~ "tillgängliga i sökvägen för GStreamer-insticksmodulerna."
+
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Kunde inte hitta insticksmodulerna för automatisk identifiering"
+
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "Försäkra dig om att du har installerat gst-plugins-good och att den finns "
+#~ "tillgänglig i sökvägen för GStreamer-insticksmodulerna."
+
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "PyGTK har inte stöd för cairo"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Använd en version av Python-bindningar för GTK+ byggda med cairo-stöd."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Kunde inte initiera insticksmoduler för videoutmatning"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "Försäkra dig om att du har åtminstone ett giltigt videoutmatningssink "
+#~ "tillgängligt (xvimagesink eller ximagesink)."
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Kunde inte initiera insticksmoduler för ljudutmatning"
+
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "Försäkra dig om att du har åtminstone ett giltig ljudutmatningssink "
+#~ "tillgängligt (alsasink eller osssink)."
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Kunde inte importera Python-bindningar för cairo"
+
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr "Försäkra dig om att du har Python-bindningar för cairo installerat."
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Kunde inte importera Python-bindningar för goocanvas"
+
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr ""
+#~ "Försäkra dig om att du har Python-bindningar för goocanvas installerat."
+
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Kunde inte importera xdg Python-biblioteket"
+
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr "Försäkra dig om att du har xdg Python-biblioteket installerat."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "Du har inte en tillräckligt ny version av Python-bindningar för GTK+  "
+#~ "(din version är %s)"
+
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr ""
+#~ "Installera en version av GTK+ Python-bindningar som är senare eller samma "
+#~ "som %s."
+
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr "Du har inte en tillräckligt ny version av GTK+ (din version är %s)"
+
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr "Installera en version av GTK+ som är senare eller samma som %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Du har inte en tillräckligt ny version av Python-bindningar för GStreamer "
+#~ "(din version är %s)"
+
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Installera en version av GStreamer Python-bindningar som är senare eller "
+#~ "samma som %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr ""
+#~ "Du har inte en tillräckligt ny version av GStreamer (din version är %s)"
+
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr ""
+#~ "Installera en version av GStreamer som är senare eller samma som %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Du har inte en tillräckligt ny version av Python-bindningar för cairo "
+#~ "(din version är %s)"
+
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr ""
+#~ "Installera en version av cairo Python-bindningar som är senare eller "
+#~ "samma som %s."
+
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr ""
+#~ "Du har inte en tillräckligt ny version av GStreamer-insticksmodulen "
+#~ "GNonLin (din version är %s)"
+
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "Installera en version av GNonLin GStreamer-instick som är senare eller "
+#~ "samma som %s."
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Kunde inte importera Zope-gränssnittsmodulen"
+
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Kontrollera att du har modulen zope.interface installerad."
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Kunde inte importera distutils-modulerna"
+
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr "Kontrollera att du har Python-modulen distutils installerad."
+
+#~ msgid "Enables the autoalign feature"
+#~ msgstr "Aktiverar automatisk justering"
+
+#~ msgid "Additional video effects"
+#~ msgstr "Ytterligare videoeffekter"
+
+#~ msgid "Additional multimedia codecs through the FFmpeg library"
+#~ msgstr "Ytterligare kodekar för multimedia via FFmpeg-biblioteket"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Saknade insticksmoduler:\n"
+#~ "%s"
+
+#~ msgid "Cannot decode file."
+#~ msgstr "Kan inte avkoda filen."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Angiven fil innehåller inga strömmar för ljud, video eller bilder."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Kunde inte fastställa längden på filen."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr ""
+#~ "Det här videoklippet verkar vara i ett format som inte kan kommas åt på "
+#~ "ett vanligt sätt."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Tidsgränsen överstegs vid analys av filen."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Analys av filen tog för lång tid."
+
+#~ msgid "No available source handler."
+#~ msgstr "Ingen tillgänglig källhanterare."
+
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr ""
+#~ "Du har inte ett GStreamer-källelement för att hantera protokollet \"%s\""
+
+#~ msgid "File does not exist"
+#~ msgstr "Filen finns inte"
+
+#~ msgid "File not readable by current user"
+#~ msgstr "Filen är inte läsbar av den aktuella användaren"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Rörledningen ville inte gå till PAUSED."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Ett internt fel inträffade vid analysering av filen: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Filen innehåller en omdirigering till ett annat videoklipp."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "PiTiVi kan för närvarande inte hantera omdirigeringsfiler."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Rörledningen ville inte gå till PLAYING."
+
+#~ msgid "All effects"
+#~ msgstr "Alla effekter"
+
+#~ msgid "Colors"
+#~ msgstr "Färger"
+
+#~ msgid "Noise"
+#~ msgstr "Brus"
+
+#~ msgid "Analysis"
+#~ msgstr "Analys"
+
+#~ msgid "Blur"
+#~ msgstr "Suddig"
+
+#~ msgid "Geometry"
+#~ msgstr "Geometri"
+
+#~ msgid "Fancy"
+#~ msgstr "Vacker"
+
+#~ msgid "Time"
+#~ msgstr "Tid"
+
+#~ msgid "Uncategorized"
+#~ msgstr "Inte kategoriserad"
+
+#~ msgid "Audio |audio"
+#~ msgstr "Ljud"
+
+#~ msgid "effect"
+#~ msgstr "effekt"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Spellistformat"
+
+#~ msgid "The project contains effects which are not available on the system."
+#~ msgstr ""
+#~ "Projektet innehåller effekter som inte finns tillgängliga på systemet."
+
+#~ msgid "Failed loading %(uri)s."
+#~ msgstr "Misslyckades med att läsa in %(uri)s."
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Inte en giltig projektfil."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Kunde inte stänga aktuellt projekt"
+
+#~ msgid "No URI specified."
+#~ msgstr "Ingen URI angiven."
+
+#~ msgid "New Project"
+#~ msgstr "Nytt projekt"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Exportera inställningar\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Ljud: "
+
+# Bra ord på svenska sökes
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muxer: "
+
+#~ msgid "%d%% Analyzed"
+#~ msgstr "%d%% analyserat"
+
+#~ msgid "About %s left"
+#~ msgstr "Ungefär %s kvar"
+
+#~ msgid "Remove effect"
+#~ msgstr "Ta bort effekt"
+
+#~ msgid "Activated"
+#~ msgstr "Aktiverad"
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Effect name"
+#~ msgstr "Effektnamn"
+
+#~ msgid "Effects"
+#~ msgstr "Effekter"
+
+#~ msgid "Select a clip on the timeline to configure its associated effects"
+#~ msgstr ""
+#~ "Välj ett klipp i tidslinjen för att konfigurera dess associerade effekter"
+
+#~ msgid "Transformation"
+#~ msgstr "Transformering"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Ljud:</b> %d kanal i %d <i>Hz</i> (%d <i>bitar</i>)"
+#~ msgstr[1] "<b>Ljud:</b> %d kanaler i %d <i>Hz</i> (%d <i>bitar</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Okänt ljudformat:</b> %s"
+
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Video:</b> %d×%d <i>bildpunkter</i> med %.2f<i>bilder/s</i>"
+
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Bild:</b> %d×%d <i>bildpunkter</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Okänt videoformat:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Text:</b> %s"
+
+#~ msgid "%d fps"
+#~ msgstr "%d bilder/s"
+
+#~ msgid "%.3f fps"
+#~ msgstr "%.3f bilder/s"
+
+#~ msgid "%.2f fps"
+#~ msgstr "%.2f bilder/s"
+
+#~ msgid "%d kHz"
+#~ msgstr "%d kHz"
+
+#~ msgid "%.1f kHz"
+#~ msgstr "%.1f kHz"
+
+#~ msgid "%d bit"
+#~ msgstr "%d bitar"
+
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "6 kanaler (5.1)"
+
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "4 kanaler (4.0)"
+
+#~ msgid "Stereo"
+#~ msgstr "Stereo"
+
+#~ msgid "Mono"
+#~ msgstr "Mono"
+
+#~ msgid "Implement Me"
+#~ msgstr "Implementera mig"
+
+#~ msgid "Custom"
+#~ msgstr "Anpassad"
+
+#~ msgid "Save Preset"
+#~ msgstr "Spara förval"
+
+#~ msgid "Choose..."
+#~ msgstr "Välj..."
+
+#~ msgid "Video effects"
+#~ msgstr "Videoeffekter"
+
+#~ msgid "Audio effects"
+#~ msgstr "Ljudeffekter"
+
+#~ msgid "Search:"
+#~ msgstr "Sök:"
+
+#~ msgid "Name"
+#~ msgstr "Namn"
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
+
+#~ msgid "Show Video Effects as a List"
+#~ msgstr "Visa videoeffekter som en lista"
+
+#~ msgid "Show Video Effects as Icons"
+#~ msgstr "Visa videoeffekter som ikoner"
+
+#~ msgid "No preset"
+#~ msgstr "Inget förval"
+
+#~ msgid "\"%s\" already exists."
+#~ msgstr "\"%s\" finns redan."
+
+#~ msgid "New preset"
+#~ msgstr "Nytt förval"
+
+#~ msgid "New preset %d"
+#~ msgstr "Nytt förval %d"
+
+#~ msgid "A file name is required."
+#~ msgstr "Ett filnamn krävs."
+
+#~ msgid ""
+#~ "This file already exists.\n"
+#~ "If you don't want to overwrite it, choose a different file name or folder."
+#~ msgstr ""
+#~ "Denna fil finns redan.\n"
+#~ "Välj ett annat filnamn eller mapp om du inte vill skriva över den."
+
+#~ msgid "%d%% Rendered"
+#~ msgstr "%d%% renderat"
+
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "PiTiVi kan inte förhandsvisa denna fil."
+
+#~ msgid "More info"
+#~ msgstr "Mer info"
+
+#~ msgid "<b>Resolution</b>: %d×%d"
+#~ msgstr "<b>Upplösning</b>: %d×%d"
+
+#~ msgid "<b>Duration</b>: %s"
+#~ msgstr "<b>Längd</b>: %s"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Fel vid analysering av en fil"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Okänd anledning"
+
+#~ msgid "Problem:"
+#~ msgstr "Problem:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Extra information:"
+
+#~ msgid "No properties..."
+#~ msgstr "Inga egenskaper..."
+
+#~ msgid "Reset to default value"
+#~ msgstr "Återställ till standardvärde"
+
+#~ msgid "Properties for %s"
+#~ msgstr "Egenskaper för %s"
+
+#~ msgid "Split"
+#~ msgstr "Dela upp"
+
+#~ msgid "Keyframe"
+#~ msgstr "Nyckelruta"
+
+#~ msgid "Unlink"
+#~ msgstr "Avlänka"
+
+#~ msgid "Ungroup"
+#~ msgstr "Avgruppera"
+
+#~ msgid "Group"
+#~ msgstr "Gruppera"
+
+#~ msgid "Align"
+#~ msgstr "Justera"
+
+#~ msgid "Start Playback"
+#~ msgstr "Starta uppspelning"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Upprepa över markerat område"
+
+#~ msgid "Create a new project"
+#~ msgstr "Skapa ett nytt projekt"
+
+#~ msgid "_Open..."
+#~ msgstr "_Öppna..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Öppna ett befintligt projekt"
+
+#~ msgid "Save the current project"
+#~ msgstr "Spara aktuellt projekt"
+
+#~ msgid "Save _As..."
+#~ msgstr "Spara so_m..."
+
+#~ msgid "Reload the current project"
+#~ msgstr "Uppdatera aktuellt projekt"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Redigera projektinställningarna"
+
+#~ msgid "_Render..."
+#~ msgstr "_Rendera..."
+
+#~ msgid "Export your project as a finished movie"
+#~ msgstr "Exportera ditt projekt som en färdig film"
+
+#~ msgid "_Undo"
+#~ msgstr "_Ångra"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Ångra senaste åtgärden"
+
+#~ msgid "_Redo"
+#~ msgstr "_Gör om"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Gör om senaste åtgärden som ångrades"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Inställningar"
+
+#~ msgid "Information about %s"
+#~ msgstr "Information om %s"
+
+#~ msgid "User Manual"
+#~ msgstr "Användarhandbok"
+
+#~ msgid "_Project"
+#~ msgstr "_Projekt"
+
+#~ msgid "_Edit"
+#~ msgstr "R_edigera"
+
+#~ msgid "_View"
+#~ msgstr "_Visa"
+
+#~ msgid "_Library"
+#~ msgstr "_Bibliotek"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Tidslinje"
+
+#~ msgid "Previe_w"
+#~ msgstr "Förhandsgrans_kning"
+
+#~ msgid "Loop"
+#~ msgstr "Upprepa"
+
+#~ msgid "_Help"
+#~ msgstr "_Hjälp"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Visa huvudfönstret på hela skärmen"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Huvudverktygsrad"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Tidslinjesverktygsrad"
+
+#~ msgid "Undock Viewer"
+#~ msgstr "Avdocka visare"
+
+#~ msgid "Put the viewer in a separate window"
+#~ msgstr "Lägg visaren i ett separat fönster"
+
+#~ msgid "Media Library"
+#~ msgstr "Mediabibliotek"
+
+#~ msgid "Effect Library"
+#~ msgstr "Effektbibliotek"
+
+#~ msgid "Clip configuration"
+#~ msgstr "Konfiguration för klipp"
+
+# Bra ord på svenska sökes
+#~ msgid "Contributors:"
+#~ msgstr "Bidragsgivare:"
+
+#~ msgid "translator-credits"
+#~ msgstr "Daniel Nylander <po@danielnylander.se>"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser General Public License\n"
+#~ "Se http://www.gnu.org/copyleft/lesser.html för mer detaljer"
+
+#~ msgid "Open File..."
+#~ msgstr "Öppna fil..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Alla format som stöds"
+
+#~ msgid "Close without saving"
+#~ msgstr "Stäng utan att spara"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Spara ändringar till det aktuella projektet innan stängning?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Om du inte sparar så kommer dina ändringar att gå förlorade"
+
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Vill du läsa in aktuellt projekt igen?"
+
+#~ msgid "Revert to saved project"
+#~ msgstr "Återgå till sparat projekt"
+
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Alla osparade ändringar kommer att gå förlorade."
+
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "Kunde inte läsa in projektet \"%s\""
+
+#~ msgid "Error Loading Project"
+#~ msgstr "Fel vid inläsning av projekt"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Leta upp saknad fil..."
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Följande fil har flyttats: \"<b>%s</b>\"\n"
+#~ "Ange dess nya plats:"
+
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\" (duration: %s)\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Följande fil har flyttats: \"<b>%s</b>\" (längd: %s)\n"
+#~ "Ange dess nya plats:"
+
+#~ msgid "Save As..."
+#~ msgstr "Spara som..."
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "Namnlös.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Identifiera automatiskt"
+
+#~ msgid "Untitled project"
+#~ msgstr "Namnlöst projekt"
+
+#~ msgid "Appearance"
+#~ msgstr "Utseende"
+
+#~ msgid "Thumbnail gap"
+#~ msgstr "Utrymme för miniatyrbilder"
+
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Utrymme mellan miniatyrbilder, i bildpunkter"
+
+#~ msgid "Performance"
+#~ msgstr "Prestanda"
+
+#~ msgid "Thumbnail every"
+#~ msgstr "Miniatyrbild var"
+
+#~ msgid "1/100 second"
+#~ msgstr "1/100 sekund"
+
+#~ msgid "1/10 second"
+#~ msgstr "1/10 sekund"
+
+#~ msgid "1/4 second"
+#~ msgstr "1/4 sekund"
+
+#~ msgid "1/2 second"
+#~ msgstr "1/2 sekund"
+
+#~ msgid "1 second"
+#~ msgstr "1 sekund"
+
+#~ msgid "5 seconds"
+#~ msgstr "5 sekunder"
+
+#~ msgid "10 seconds"
+#~ msgstr "10 sekunder"
+
+#~ msgid "minute"
+#~ msgstr "minut"
+
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Intervallet, i sekunder, mellan miniatyrbilder."
+
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Aktivera miniatyrbilder för video"
+
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Visa miniatyrbilder för videoklipp"
+
+#~ msgid "Enable audio waveforms"
+#~ msgstr "Aktivera vågformer för ljud"
+
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Visa vågformer för ljudklipp"
+
+#~ msgid "Square"
+#~ msgstr "Fyrkant"
+
+#~ msgid "480p"
+#~ msgstr "480p"
+
+#~ msgid "480i"
+#~ msgstr "480i"
+
+#~ msgid "480p Wide"
+#~ msgstr "480p bred"
+
+#~ msgid "480i Wide"
+#~ msgstr "480i bred"
+
+#~ msgid "576p"
+#~ msgstr "576p"
+
+#~ msgid "576i"
+#~ msgstr "576i"
+
+#~ msgid "576p Wide"
+#~ msgstr "576p bred"
+
+#~ msgid "576i Wide"
+#~ msgstr "576i bred"
+
+#~ msgid "DV (15:11)"
+#~ msgstr "DV (15:11)"
+
+#~ msgid "DV Widescreen (16:9)"
+#~ msgstr "DV bredbild (16:9)"
+
+#~ msgid "Cinema (1.37)"
+#~ msgstr "Biograf (1.37)"
+
+#~ msgid "Cinema (1.66)"
+#~ msgstr "Biograf (1.66)"
+
+#~ msgid "Cinema (1.85)"
+#~ msgstr "Biograf (1.85)"
+
+#~ msgid "Anamorphic (2.35)"
+#~ msgstr "Anamorfisk (2.35)"
+
+#~ msgid "Anamorphic (2.39)"
+#~ msgstr "Anamorfisk (2.39)"
+
+#~ msgid "Anamorphic (2.4)"
+#~ msgstr "Anamorfisk (2.4)"
+
+#~ msgid "Import Files..."
+#~ msgstr "Importera filer..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Ta bort videoklipp"
+
+#~ msgid "Play Clip"
+#~ msgstr "Spela upp videoklipp"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Information"
+#~ msgstr "Information"
+
+#~ msgid "Duration"
+#~ msgstr "Speltid"
+
+#~ msgid ""
+#~ "Add media to your project by dragging files and folders here or by using "
+#~ "the \"Import Files...\" button."
+#~ msgstr ""
+#~ "Lägg till media till ditt projekt genom att dra filer och mappar hit "
+#~ "eller genom att använda knappen \"Importera filer...\"."
+
+#~ msgid "Hide"
+#~ msgstr "Dölj"
+
+#~ msgid "_Import Files..."
+#~ msgstr "_Importera filer..."
+
+#~ msgid "Add media files to your project"
+#~ msgstr "Lägg till mediafiler till ditt projekt"
+
+#~ msgid "Import _Folders..."
+#~ msgstr "Importera ma_ppar..."
+
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Lägg till innehållet i en mapp som klipp i ditt projekt"
+
+#~ msgid "Select Unused Media"
+#~ msgstr "Markera oanvänt media"
+
+#~ msgid "Select clips that have not been used in the project"
+#~ msgstr "Markera klipp som inte har använts i projektet"
+
+#~ msgid "_Remove from Project"
+#~ msgstr "_Ta bort från projekt"
+
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Infoga på _slutet av tidslinje"
+
+#~ msgid "Show Clips as a List"
+#~ msgstr "Visa klipp som en lista"
+
+#~ msgid "Show Clips as Icons"
+#~ msgstr "Visa klipp som ikoner"
+
+#~ msgid "Select One or More Folders"
+#~ msgstr "Välj en eller flera mappar"
+
+#~ msgid "Select One or More Files"
+#~ msgstr "Välj en eller flera filer"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Stäng efter importering av filer"
+
+#~ msgid "Importing clip %(current_clip)d of %(total)d"
+#~ msgstr "Importerar klipp %(current_clip)d av %(total)d"
+
+#~ msgid "Errors occurred while importing."
+#~ msgstr "Fel inträffade vid importering."
+
+#~ msgid "View errors"
+#~ msgstr "Visa fel"
+
+#~ msgid "An error occurred while importing."
+#~ msgstr "Ett fel inträffade vid importering."
+
+#~ msgid "View error"
+#~ msgstr "Visa fel"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Fel vid analysering av filerna"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Följande filer kan inte användas med PiTiVi."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Följande fil kan inte användas med PiTiVi."
+
+#~ msgid "Projects"
+#~ msgstr "Projekt"
+
+#~ msgid "Behavior"
+#~ msgstr "Beteende"
+
+#~ msgid "Snap distance"
+#~ msgstr "Fästavstånd"
+
+#~ msgid ""
+#~ "Threshold (in pixels) at which two clips will snap together when dragging "
+#~ "or trimming."
+#~ msgstr ""
+#~ "Tröskelvärde (i bildpunkter) med vilket två klipp ska fästas tillsammans "
+#~ "när de dras eller finjusteras."
+
+#~ msgid "Audio:"
+#~ msgstr "Ljud:"
+
+#~ msgid "Video:"
+#~ msgstr "Video:"
+
+#~ msgid "Text:"
+#~ msgstr "Text:"
+
+#~ msgid "Delete Selected"
+#~ msgstr "Ta bort markerade"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Dela upp klipp vid spelposition"
+
+#~ msgid "Add a keyframe"
+#~ msgstr "Lägg till en nyckelruta"
+
+#~ msgid "Move to the previous keyframe"
+#~ msgstr "Flytta till föregående nyckelruta"
+
+#~ msgid "Move to the next keyframe"
+#~ msgstr "Flytta till nästa nyckelruta"
+
+#~ msgid "Zoom In"
+#~ msgstr "Zooma in"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Zooma ut"
+
+#~ msgid "Zoom Fit"
+#~ msgstr "Anpassad zoom"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Bryt länkar mellan videoklipp"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Länka samman godtyckliga videoklipp"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Avgruppera videoklipp"
+
+#~ msgid "Group clips"
+#~ msgstr "Gruppera videoklipp"
+
+#~ msgid "Align clips based on their soundtracks"
+#~ msgstr "Justera klipp baserat på deras ljudspår"
+
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "Ett eller flera GStreamer-fel inträffade!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Följande fel har rapporterats:"
+
+#~ msgid "Zoom"
+#~ msgstr "Zooma"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Zooma tidslinje"
+
+#~ msgid "Add a Keyframe"
+#~ msgstr "Lägg till en nyckelruta"
+
+#~ msgid "_Previous Keyframe"
+#~ msgstr "_Föregående nyckelruta"
+
+#~ msgid "_Next Keyframe"
+#~ msgstr "_Nästa nyckelruta"
+
+#~ msgid "Color for video clips"
+#~ msgstr "Färg för videoklipp"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Bakgrundsfärgen för klipp i videospår."
+
+#~ msgid "Color for audio clips"
+#~ msgstr "Färg för ljudklipp"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Bakgrundsfärgen för klipp i ljudspår."
+
+#~ msgid "Selection color"
+#~ msgstr "Markeringsfärg"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Markerade klipp kommer att färgas med denna färg."
+
+#~ msgid "Clip font"
+#~ msgstr "Typsnitt för klipp"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Typsnittet att används för klippens titlar"
+
+#~ msgid "Go to the beginning of the timeline"
+#~ msgstr "Gå till början av tidslinjen"
+
+#~ msgid "Go back one second"
+#~ msgstr "Gå bakåt en sekund"
+
+#~ msgid "Go forward one second"
+#~ msgstr "Gå framåt en sekund"
+
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Gå till slutet av tidslinjen"
+
+#~ msgid "Dock Viewer"
+#~ msgstr "Docka visare"
+
+#~ msgid "Play"
+#~ msgstr "Spela upp"
+
+#~ msgid "Pause"
+#~ msgstr "Paus"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d timme"
+#~ msgstr[1] "%d timmar"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d minut"
+#~ msgstr[1] "%d minuter"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d sekund"
+#~ msgstr[1] "%d sekunder"
+
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s kan ännu inte hantera icke-lokala projekt"
+
+#~ msgid "%s seconds"
+#~ msgstr "%s sekunder"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Kunde inte importera Python-bindningar för libglade"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr "Kontrollera att du har Python-bindningar för libglade installerade"
+
+#~ msgid "%(width)d x %(height)d pixels at %(framerate).2f fps"
+#~ msgstr "%(width)d x %(height)d bildpunkter i %(framerate).2f bilder/s"
+
+#~ msgid "%(channels)d channels at %(frequency)d Hz (%(depth)d bits)"
+#~ msgstr "%(channels)d kanaler i %(frequency)d Hz (%(depth)d bitar)"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Enhet för ljudfångst:"
+
+#~ msgid "No device available"
+#~ msgstr "Ingen enhet tillgänglig"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Enhet för videofångst:"
+
+#~ msgid "15 fps"
+#~ msgstr "15 bilder/s"
+
+#~ msgid "20 fps"
+#~ msgstr "20 bilder/s"
+
+#~ msgid "23,976 fps"
+#~ msgstr "23,976 bilder/s"
+
+#~ msgid "24 fps"
+#~ msgstr "24 bilder/s"
+
+#~ msgid "25 fps"
+#~ msgstr "25 bilder/s"
+
+#~ msgid "29,97 fps"
+#~ msgstr "29,97 bilder/s"
+
+#~ msgid "59,94 fps"
+#~ msgstr "59,94 bilder/s"
+
+#~ msgid "60 fps"
+#~ msgstr "60 bilder/s"
+
+#~ msgid "120 fps"
+#~ msgstr "120 bilder/s"
+
+#~ msgid "11 kHz"
+#~ msgstr "11 kHz"
+
+#~ msgid "22 kHz"
+#~ msgstr "22 kHz"
+
+#~ msgid "48 kHz"
+#~ msgstr "48 kHz"
+
+#~ msgid "96 kHz"
+#~ msgstr "96 kHz"
+
+#~ msgid "16 bit"
+#~ msgstr "16 bitar"
+
+#~ msgid "24 bit"
+#~ msgstr "24 bitar"
+
+#~ msgid "32 bit"
+#~ msgstr "32 bitar"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Egenskaper för: %d objekt"
+#~ msgstr[1] "Egenskaper för: %d objekt"
+
+#~ msgid "<b>Properties For Plugin</b>"
+#~ msgstr "<b>Egenskaper för instick</b>"
+
+#~ msgid "Sample rate"
+#~ msgstr "Samplingsfrekvens"
+
+#~ msgid "Summary"
+#~ msgstr "Sammandrag"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Stoppa uppspelning"
+
+#~ msgid "_Render project"
+#~ msgstr "_Rendera projekt"
+
+#~ msgid "Render project..."
+#~ msgstr "Rendera projekt..."
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Insticksmoduler..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Hantera insticksmoduler"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "Importera från _webbkamera..."
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Importera kameraström"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "Skapa skär_minspelning..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Fånga skrivbordet"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "_Fånga nätverksström..."
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Fånga nätverksström"
+
+#~ msgid "_File"
+#~ msgstr "_Arkiv"
+
+#~ msgid "Duration:"
+#~ msgstr "Speltid:"
+
+#~ msgid "Address"
+#~ msgstr "Adress"
+
+#~ msgid "Capture"
+#~ msgstr "Fånga"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "Fånga ström från URI"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Fånga nätverksström"
+
+#~ msgid "Close"
+#~ msgstr "Stäng"
+
+#~ msgid "Customize:"
+#~ msgstr "Anpassa:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Nätverksströmvideo"
+
+#~ msgid "Other protocol"
+#~ msgstr "Annat protokoll"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Preview"
+#~ msgstr "Förhandsgranskning"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "Förhandsgranska ström från URI"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokoll"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "All categories"
+#~ msgstr "Alla kategorier"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Hantera insticksmoduler"
+
+#~ msgid "Show:"
+#~ msgstr "Visa:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Du kan dra insticksmodulfiler till listan för att installera\n"
+#~ "dem, eller ange text för att söka efter en specifik modul."
+
+#~ msgid "Enabled"
+#~ msgstr "Aktiverad"
+
+#~ msgid "Plugin"
+#~ msgstr "Insticksmodul"
+
+#~ msgid "Category"
+#~ msgstr "Kategori"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Är du säker på att du vill ta bort de markerade insticksmodulerna?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Bekräfta borttagningsåtgärd"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Kan inte ta bort %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Uppdatera den befintliga insticksmodulen?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Denna insticksmodul är redan installerad på ditt system.\n"
+#~ "Om du godkänner så kommer version %(v1)s att ersättas med version %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Dubblett av insticksmodul hittades"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Kan inte installera %s\n"
+#~ "Filen är inte en giltig insticksmodul"
+
+#~ msgid "Reset"
+#~ msgstr "Återställ"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Visa miniatyrbilder (Video)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Visa vågformer (Ljud)"
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Inga objekt har markerats"
+
+#~ msgid "Screencast"
+#~ msgstr "Skärminspelning"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Spela in skrivbordet"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Starta Istanbul"
+
+#~ msgid ""
+#~ "<span>Import your clips by dragging them here or by using the buttons "
+#~ "above.</span>"
+#~ msgstr ""
+#~ "<span>Importera dina videoklipp genom att dra dem hit eller med "
+#~ "ovanstående knappar.</span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Importera videoklipp att använda"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Importera mapp med videoklipp att använda"
+
+#~ msgid "Import a folder"
+#~ msgstr "Importera en mapp"
+
+#~ msgid "Import a clip"
+#~ msgstr "Importera ett videoklipp"
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr "Tröskelavstånd (i bildpunkter) som används för alla fäståtgärder"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Ljud:</b>"
+
+#~ msgid "<b>Text:</b>"
+#~ msgstr "<b>Text:</b>"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Bakgrund för klipp (Video)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Bakgrund för klipp (Ljud)"
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [-r OUTPUT_FILE] [PROJECT_FILE]\n"
+#~ "      %prog -p [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [PROJEKTFIL]\n"
+#~ "      %prog -i [-a] [MEDIAFIL]..."
+
+#, fuzzy
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "no project is given, %prog creates a new project.\n"
+#~ "Alternatively, when -i is specified, arguments are treated as clips to "
+#~ "be\n"
+#~ "imported into the project. If -a is specified, these clips will also be "
+#~ "added to\n"
+#~ "the end of the project timeline.\n"
+#~ "When -r is specified, the given project file is rendered without opening "
+#~ "the GUI."
+#~ msgstr ""
+#~ "Startar videoredigeraren, valfritt även läsa in PROJEKTFIL. Om\n"
+#~ "inget projekt har angivits kommer %prog att skapa ett nytt\n"
+#~ "projekt. Alternativt, när -i anges, behandlas argument som klipp att\n"
+#~ "importeras in i projektet. Om -a anges kommer dessa klipp även att\n"
+#~ "läggas till i slutet av projektets tidslinje."
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Kör pitivi utan grafiskt gränssnitt"
+
+#~ msgid "URI:"
+#~ msgstr "URI:"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Importerar videoklipp..."
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "_Hjälp"
+
+#, fuzzy
+#~ msgid "Skip"
+#~ msgstr "Hoppa till"
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Upphovsman:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Namn på insticksmodul</b>"
+
+#~ msgid "Author"
+#~ msgstr "Författare"
+
+#~ msgid "Choose File"
+#~ msgstr "Välj fil"
+
+#~ msgid "Modify"
+#~ msgstr "Ändra"
+
+#~ msgid "Output file:"
+#~ msgstr "Utdatafil:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Välj en utdatafil"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "Välj fil att rendera till"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "Rendering färdig"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 bilder/s\n"
+#~ "23,97 bilder/s\n"
+#~ "24 bilder/s\n"
+#~ "25 bilder/s\n"
+#~ "29,97 bilder/s\n"
+#~ "30 bilder/s\n"
+#~ "60 bilder/s"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bitar\n"
+#~ "16 bitar\n"
+#~ "24 bitar\n"
+#~ "32 bitar"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Ljudutmatning</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Videoutmatning</b>"
+
+#~ msgid "Audio Codec:"
+#~ msgstr "Ljudkodek:"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+
+# Bra ord på svenska sökes
+#~ msgid "Muxer"
+#~ msgstr "Muxer"
+
+#~ msgid "Rate:"
+#~ msgstr "Frekvens:"
+
+#~ msgid "Settings"
+#~ msgstr "Inställningar"
+
+#~ msgid "Video Codec"
+#~ msgstr "Videokodek"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Videokodek:"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Råvideo"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Råljud"
+
+#~ msgid "Export settings"
+#~ msgstr "Exportera inställningar"
+
+#~ msgid "Description:"
+#~ msgstr "Beskrivning:"
+
+#~ msgid "Name:"
+#~ msgstr "Namn:"
+
+#~ msgid "Add Clips..."
+#~ msgstr "Lägg till videoklipp..."
+
+#~ msgid "Please locate the missing file, '%s'"
+#~ msgstr "Leta upp den saknade filen, \"%s\""
+
+#~ msgid "Razor"
+#~ msgstr "Sax"
+
+#~ msgid "Undo %s"
+#~ msgstr "Ångra %s"
+
+#~ msgid "Undo"
+#~ msgstr "Ångra"
+
+#~ msgid "Redo %s"
+#~ msgstr "Gör om %s"
+
+#~ msgid "Redo"
+#~ msgstr "Gör om"
+
+#, fuzzy
+#~ msgid "No streams found"
+#~ msgstr "Nätverksströmvideo"
+
+#~ msgid "see above"
+#~ msgstr "se ovan"
+
+#~ msgid "No location given."
+#~ msgstr "Ingen plats angiven."
+
+#~ msgid "There was an error loading the file."
+#~ msgstr "Det inträffade ett fel vid inläsning av filen."
+
+#~ msgid "Finished in %dm%ds"
+#~ msgstr "Färdig om %d min %d s"
+
+#~ msgid "Forward one frame"
+#~ msgstr "Framåt en bildruta"
+
+#~ msgid "Fast Forward"
+#~ msgstr "Snabbspola"
+
+#~ msgid "Back one frame"
+#~ msgstr "Bakåt en bildruta"
+
+#~ msgid "Frame Forward"
+#~ msgstr "Bildruta framåt"
+
+#~ msgid "Frame Backward"
+#~ msgstr "Bildruta bakåt"
+
+#~ msgid "1 Second Forward"
+#~ msgstr "1 sekund framåt"
+
+#~ msgid "1 Second Backward"
+#~ msgstr "1 sekund bakåt"
+
+#~ msgid "The project has unsaved changes. Do you wish to close the project?"
+#~ msgstr "Projektet innehåller osparade ändringar. Vill du stänga projektet?"
+
+#~ msgid "http / https"
+#~ msgstr "http / https"
+
+#~ msgid "rtsp"
+#~ msgstr "rtsp"
+
+#~ msgid "udp / rtp"
+#~ msgstr "udp / rtp"
+
+#~ msgid "Could not import the Python bindings for libglade"
+#~ msgstr "Kunde inte importera Python-bindningarna för libglade"
+
+#~ msgid "Make sure you have the Python bindings for libglade installed"
+#~ msgstr "Kontrollera att du har Python-bindningar för libglade installerade"
+
+#~ msgid "Could not import the Python bindings for goocanvas"
+#~ msgstr "Kunde inte importera Python-bindningarna för goocanvas"
+
+#~ msgid "Make sure you have the Python bindings for goocanvas installed"
+#~ msgstr "Kontrollera att du har Python-bindningar för goocanvas installerade"
+
+#~ msgid "Couldn't construct pipeline."
+#~ msgstr "Kunde inte konstruera rörledning."
+
+#~ msgid ""
+#~ "GStreamer does not have an element to handle files coming from this type "
+#~ "of file system."
+#~ msgstr ""
+#~ "GStreamer saknar ett element för att hantera filer som kommer från den "
+#~ "här typen av filsystem."
+
+#~ msgid "Video output is busy"
+#~ msgstr "Videoutmatning är upptagen"
+
+#~ msgid ""
+#~ "Please check that your video output device isn't already used by another "
+#~ "application"
+#~ msgstr ""
+#~ "Kontrollera att din videoutmatningsenhet inte redan används av ett annat "
+#~ "program."
+
+#~ msgid "Video output problem"
+#~ msgstr "Videoutmatningsproblem"
+
+#~ msgid "There is a problem with your video output device"
+#~ msgstr "Det inträffade ett problem med din videoutmatningsenhet"
+
+#~ msgid "Audio output device is busy"
+#~ msgstr "Ljudutmatningsenheten är upptagen"
+
+#~ msgid ""
+#~ "Please check that your audio output device isn't already used by another "
+#~ "application."
+#~ msgstr ""
+#~ "Kontrollera att din ljudutmatningsenhet inte redan används av ett annat "
+#~ "program."
+
+#~ msgid "Audio output problem"
+#~ msgstr "Ljudutmatningsproblem"
+
+#~ msgid "There is a problem with your audio output device"
+#~ msgstr "Det inträffade ett problem med din ljudutmatningsenhet"
+
+#~ msgid "No device available\t"
+#~ msgstr "Ingen enhet tillgänglig\t"
+
+#~ msgid "gtk-close"
+#~ msgstr "Stäng"
+
+#~ msgid "gtk-media-record"
+#~ msgstr "Spela in"
+
+#~ msgid "Project settings"
+#~ msgstr "Projektinställningar"
+
+#~ msgid "Do you wish to overwrite existing file \"%s\"?"
+#~ msgstr "Vill du skriva över befintliga filen \"%s\"?"
+
+#~ msgid "Overwrite Existing File?"
+#~ msgstr "Skriv över befintlig fil?"
+
+#~ msgid "Couldn't start rendering"
+#~ msgstr "Kunde inte påbörja rendering"
+
+#~ msgid "This plugin is already installed in your system.\n"
+#~ msgstr "Denna insticksmodul finns redan installerad på ditt system.\n"
+
+#~ msgid "Cannot install %s\n"
+#~ msgstr "Kan inte installera %s\n"
+
+#~ msgid "Got unknown stream type : %s"
+#~ msgstr "Fick okänd strömtyp : %s"
+
+#~ msgid "You are missing an element to handle this media type."
+#~ msgstr "Du saknar ett element för att hantera den här mediatypen."
+
+#~ msgid "<b>%s</b><small>"
+#~ msgstr "<b>%s</b><small>"
+
+#~ msgid "<b>%s</b> (%s)"
+#~ msgstr "<b>%s</b> (%s)"
+
+#~ msgid "<small><b>File:</b> %s"
+#~ msgstr "<small><b>Fil:</b> %s"
+
+#~ msgid " <i>(%s)</i>"
+#~ msgstr " <i>(%s)</i>"
+
+#, fuzzy
+#~ msgid "Properties"
+#~ msgstr "Egenskaper för "
+
+#~ msgid "Clips"
+#~ msgstr "Videoklipp"
+
+#~ msgid "Audio Track"
+#~ msgstr "Ljudspår"
+
+#~ msgid "Empty"
+#~ msgstr "Tom"
+
+#~ msgid "Switch to advanced view"
+#~ msgstr "Växla till avancerad vy"
+
+#~ msgid "Done"
+#~ msgstr "Färdig"
+
+#~ msgid "Cancel"
+#~ msgstr "Avbryt"
+
+#~ msgid "Start"
+#~ msgstr "Start"
+
+#~ msgid "Trim"
+#~ msgstr "Justera"
+
+#~ msgid "End"
+#~ msgstr "Slut"
+
+#~ msgid "Edit"
+#~ msgstr "Redigera"
+
+#~ msgid "Sound"
+#~ msgstr "Ljud"
+
+#~ msgid "Cut"
+#~ msgstr "Klipp ut"
+
+#~ msgid ""
+#~ "<span size='x-large'>Add clips to the timeline by dragging them here.</"
+#~ "span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Lägg till videoklipp till tidsaxeln genom att dra "
+#~ "dem hit.</span>"
+
+#~ msgid "gtk-about"
+#~ msgstr "Om"
+
+#~ msgid "gtk-delete"
+#~ msgstr "Ta bort"
+
+#~ msgid "Reason"
+#~ msgstr "Anledning"
+
+#~ msgid "Add Folder of Sources..."
+#~ msgstr "Lägg till mapp med källor..."
+
+#~ msgid "Remove Sources..."
+#~ msgstr "Ta bort källor..."
+
+#~ msgid "The following files weren't discovered properly."
+#~ msgstr "Följande filer blev inte identifierade korrekt."
+
+#~ msgid "Start working with your project by dragging clips here"
+#~ msgstr "Börja arbeta med ditt projekt genom att dra videoklipp hit"
+
+#~ msgid "Settings:"
+#~ msgstr "Inställningar:"
+
+#~ msgid "Export to"
+#~ msgstr "Exportera till"
+
+#~ msgid "Move Down"
+#~ msgstr "Flytta ned"
+
+#~ msgid "Move Up"
+#~ msgstr "Flytta upp"
+
+#~ msgid "_Copy Location"
+#~ msgstr "_Kopiera plats"
+
+#~ msgid "Next chapter or movie"
+#~ msgstr "Nästa kapitel eller film"
+
+#~ msgid "Play / Pa_use"
+#~ msgstr "Spela upp / Gör pa_us"
+
+#~ msgid "Play or pause the movie"
+#~ msgstr "Spela upp eller gör paus i filmen"
+
+#~ msgid "Previous chapter or movie"
+#~ msgstr "Föregående kapitel eller film"
+
+#~ msgid "Show _Controls"
+#~ msgstr "Visa _kontroller"
+
+#~ msgid "Show controls"
+#~ msgstr "Visa kontroller"
+
+#~ msgid "Skip backwards"
+#~ msgstr "Hoppa bakåt"
+
+#~ msgid "Skip forward"
+#~ msgstr "Hoppa framåt"
+
+#~ msgid "Volume Down"
+#~ msgstr "Volym ned"
+
+#~ msgid "Volume Up"
+#~ msgstr "Volym upp"
+
+#~ msgid "Volume up"
+#~ msgstr "Volym upp"
+
+#~ msgid "_Next Chapter/Movie"
+#~ msgstr "_Nästa kapitel/film"
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "0 kbps"
+#~ msgstr "0 kb/s"
+
+#~ msgid "Album:"
+#~ msgstr "Album:"
+
+#~ msgid "Artist:"
+#~ msgstr "Artist:"
+
+#~ msgid "Bitrate:"
+#~ msgstr "Bitfrekvens:"
+
+#~ msgid "Dimensions:"
+#~ msgstr "Dimensioner:"
+
+#~ msgid "N/A"
+#~ msgstr "-"
+
+#~ msgid "*"
+#~ msgstr "*"
+
+#~ msgid "Save screenshot to _file:"
+#~ msgstr "Spara skärmdump i _filen:"
+
+#~ msgid "_Skip to:"
+#~ msgstr "_Hoppa till:"
+
+#~ msgid "Movie Player"
+#~ msgstr "Filmuppspelare"
+
+#~ msgid "Play movies and songs"
+#~ msgstr "Spela upp filmer och låtar"
+
+#~ msgid ""
+#~ "14.4 Kbps Modem\n"
+#~ "19.2 Kbps Modem\n"
+#~ "28.8 Kbps Modem\n"
+#~ "33.6 Kbps Modem\n"
+#~ "34.4 Kbps Modem\n"
+#~ "56 Kbps Modem/ISDN\n"
+#~ "112 Kbps Dual ISDN/DSL\n"
+#~ "256 Kbps DSL/Cable\n"
+#~ "384 Kbps DSL/Cable\n"
+#~ "512 Kbps DSL/Cable\n"
+#~ "1.5 Mbps T1/Intranet/LAN\n"
+#~ "Intranet/LAN"
+#~ msgstr ""
+#~ "14,4 kbit/s-modem\n"
+#~ "19,2 kbit/s-modem\n"
+#~ "28,8 kbit/s-modem\n"
+#~ "33,6 kbit/s-modem\n"
+#~ "34,4 kbit/s-modem\n"
+#~ "56 kbit/s modem/ISDN\n"
+#~ "112 kbit/s dubbel ISDN/DSL\n"
+#~ "256 kbit/s DSL/kabelmodem\n"
+#~ "384 kbit/s DSL/kabelmodem\n"
+#~ "512 kbit/s DSL/kabelmodem\n"
+#~ "1,5 Mbit/s T1/Intranet/Lokalt nätverk\n"
+#~ "Intranet/Lokalt nätverk"
+
+#~ msgid "2.11:1 (DVB)"
+#~ msgstr "2,11:1 (DVB)"
+
+#~ msgid "4:3 (TV)"
+#~ msgstr "4:3 (TV)"
+
+#~ msgid "<b>Color balance</b>"
+#~ msgstr "<b>Färgbalans</b>"

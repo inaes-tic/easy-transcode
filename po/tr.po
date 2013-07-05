@@ -1,0 +1,1567 @@
+# Turkish translation of pitivi.
+# Copyright (C) 2010 The Free Software Foundation.
+# This file is distributed under the same license as the pitivi package.
+# Server Acim <serveracim@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pitivi.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"PO-Revision-Date: 2011-12-27 23:19+0200\n"
+"Last-Translator: Server Acim <serveracim@gmail.com>\n"
+"Language-Team: TURKISH <gnome-turk@gnome.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+#, fuzzy
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Henüz hazır değil</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "Processing"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid "Success"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:4
+msgid "Failed"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:1
+msgid "Easy Transcode Tool"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr ""
+
+#: ../data/ui/simple.ui.h:3
+#, fuzzy
+msgid "<b>Destination:</b>"
+msgstr "<b>Tanım:</b>"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr ""
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr ""
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr ""
+
+#: ../lib/MBC.py:94
+#, fuzzy
+msgid "Error: "
+msgstr "Hata Raporu"
+
+#: ../lib/MBC.py:100
+#, fuzzy
+msgid "Error Log"
+msgstr "Hata Raporu"
+
+#~ msgid "Create and edit your own movies"
+#~ msgstr "Kendi filminizi yaratın ve düzenleyin"
+
+#~ msgid "Pitivi Video Editor"
+#~ msgstr "Pitivi Vidyo Düzenleyici"
+
+#, fuzzy
+#~| msgid "<b>Properties</b>"
+#~ msgid "<b>Crop</b>"
+#~ msgstr "<b>Özellikler</b>"
+
+#, fuzzy
+#~| msgid "<b>Video:</b>"
+#~ msgid "<b>Size</b>"
+#~ msgstr "<b>Vidyo:</b>"
+
+#, fuzzy
+#~| msgid "<b>Video:</b>"
+#~ msgid "<b>Viewer Zoom</b>"
+#~ msgstr "<b>Vidyo:</b>"
+
+#~ msgid "Height:"
+#~ msgstr "Yükseklik:"
+
+#~ msgid "Width:"
+#~ msgstr "Genişlik:"
+
+#~ msgid "Properties for <element>"
+#~ msgstr "Özelleikler şunun için <element>"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "Audio: "
+#~ msgid "Audio"
+#~ msgstr ""
+#~ "\n"
+#~ "Ses: "
+
+#, fuzzy
+#~| msgid "Audio Codec:"
+#~ msgid "Codec:"
+#~ msgstr "Ses Kodlaması:"
+
+#, fuzzy
+#~| msgid "Container:"
+#~ msgid "Container format"
+#~ msgstr "İçerik:"
+
+#, fuzzy
+#~| msgid "Container:"
+#~ msgid "Container format:"
+#~ msgstr "İçerik:"
+
+#, fuzzy
+#~| msgid "Project Settings"
+#~ msgid "Edit Project Settings..."
+#~ msgstr "Proje Ayarları"
+
+#~ msgid "Frame rate:"
+#~ msgstr "Çerçeve oranı:"
+
+#, fuzzy
+#~| msgid "Frame rate:"
+#~ msgid "Framerate"
+#~ msgstr "Çerçeve oranı:"
+
+#, fuzzy
+#~| msgid "Render"
+#~ msgid "General"
+#~ msgstr "İşle"
+
+#, fuzzy
+#~| msgid "Height:"
+#~ msgid "Height"
+#~ msgstr "Yükseklik:"
+
+#~ msgid "Render"
+#~ msgstr "İşle"
+
+#, fuzzy
+#~| msgid "Depth:"
+#~ msgid "Sample Depth:"
+#~ msgstr "Derinlik:"
+
+#, fuzzy
+#~| msgid "Frame rate:"
+#~ msgid "Sample Rate:"
+#~ msgstr "Çerçeve oranı:"
+
+#, fuzzy
+#~| msgid "Video: "
+#~ msgid "Video"
+#~ msgstr "Video:"
+
+#, fuzzy
+#~| msgid "<b>Text:</b>"
+#~ msgid "<b>Phase:</b>"
+#~ msgstr "<b>Metin:</b>"
+
+#~ msgid "Rendering"
+#~ msgstr "İşliyor"
+
+#, fuzzy
+#~| msgid "Unknown reason"
+#~ msgid "Unknown"
+#~ msgstr "Bilinmeyen sebep"
+
+#, fuzzy
+#~| msgid "Unknown reason"
+#~ msgid "Unknown Mib"
+#~ msgstr "Bilinmeyen sebep"
+
+#, fuzzy
+#~| msgid "Some changes will not take effect until you restart PiTiVi"
+#~ msgid "<b>Some changes will not take effect until you restart PiTiVi</b>"
+#~ msgstr ""
+#~ "Bazı değişiklikler PiTiVi'yi yeniden başlatana kadar geçerli olmayacak"
+
+#~ msgid "Preferences"
+#~ msgstr "Tercihler"
+
+#~ msgid "Reset to Factory Settings"
+#~ msgstr "Fabrika Ayarlarına Dön"
+
+#~ msgid "Revert"
+#~ msgstr "Tersine Çevir"
+
+#~ msgid "Section"
+#~ msgstr "Bölüm"
+
+#, fuzzy
+#~| msgid "<b>Export to</b>"
+#~ msgid "<b>Aspect Ratio</b>"
+#~ msgstr "<b>Şuraya Dışarı AktarExport to</b>"
+
+#, fuzzy
+#~| msgid "Audio Preset"
+#~ msgid "<b>Audio Preset</b>"
+#~ msgstr "Ses Şablonu"
+
+#, fuzzy
+#~| msgid "<b>Export to</b>"
+#~ msgid "<b>Format</b>"
+#~ msgstr "<b>Şuraya Dışarı AktarExport to</b>"
+
+#, fuzzy
+#~| msgid "<b>Properties</b>"
+#~ msgid "<b>Frame Rate</b>"
+#~ msgstr "<b>Özellikler</b>"
+
+#, fuzzy
+#~| msgid "<b>Settings</b>"
+#~ msgid "<b>Size (Pixels)</b>"
+#~ msgstr "<b>Ayarlar</b>"
+
+#, fuzzy
+#~| msgid "Video Preset"
+#~ msgid "<b>Video Preset</b>"
+#~ msgstr "Vidyo Şablonu"
+
+#, fuzzy
+#~| msgid "Author"
+#~ msgid "Author:"
+#~ msgstr "Yazar"
+
+#~ msgid "Channels:"
+#~ msgstr "Kanallar:"
+
+#~ msgid "Link"
+#~ msgstr "Bağlantı ver"
+
+#~ msgid "Project Settings"
+#~ msgstr "Proje Ayarları"
+
+#, fuzzy
+#~| msgid "Project Settings"
+#~ msgid "Project title:"
+#~ msgstr "Proje Ayarları"
+
+#, fuzzy
+#~| msgid "Frame rate:"
+#~ msgid "Sample rate:"
+#~ msgstr "Çerçeve oranı:"
+
+#, fuzzy
+#~| msgid "Search:"
+#~ msgid "Year:"
+#~ msgstr "Ara:"
+
+#, fuzzy
+#~| msgid "No properties..."
+#~ msgid "Browse projects..."
+#~ msgstr "Özellik yok..."
+
+#~ msgid ""
+#~ "There is already a %s instance, please inform the developers by filing a "
+#~ "bug at http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+#~ msgstr ""
+#~ "Bu bir %s durumudur, lütfen geliştiricileri şu adrese hata raporu girerek "
+#~ "bilgilendiriniz http://bugzilla.gnome.org/enter_bug.cgi?product=pitivi"
+
+#, fuzzy
+#~| msgid "_Project"
+#~ msgid "Project loaded."
+#~ msgstr "_Proje"
+
+#, fuzzy
+#~| msgid "Rendering"
+#~ msgid "Rendering..."
+#~ msgstr "İşliyor"
+
+#, fuzzy
+#~| msgid "Import each MEDIA_FILE into the project."
+#~ msgid "Import each MEDIA_FILE into a new project."
+#~ msgstr "Projeye her bir MEDYA_DOSYASI'nı aktar."
+
+#, fuzzy
+#~| msgid "Add each MEDIA_FILE to timeline after importing."
+#~ msgid "Add each imported MEDIA_FILE to the timeline."
+#~ msgstr ""
+#~ "İçeri aktardıktan sonra her bir ÇOKLUORTAM_DOSYASI'na zaman çizgisi ekle."
+
+#, fuzzy
+#~| msgid "Run pitivi in the Python Debugger"
+#~ msgid "Run Pitivi in the Python Debugger."
+#~ msgstr "PiTiVi'yi Python Debugger içinde çalıştır"
+
+#, fuzzy
+#~| msgid "%s is already running!"
+#~ msgid "%s is already running"
+#~ msgstr "%s zaten çalışıyor!"
+
+#~ msgid "An instance of %s is already running in this script."
+#~ msgstr "Durum %s bu betikte zaten devam ediyor."
+
+#, fuzzy
+#~| msgid "Could not find the GNonLin plugins!"
+#~ msgid "Could not find the GNonLin plugins"
+#~ msgstr "GNonLin eklentileri bulunamadı!"
+
+#~ msgid ""
+#~ "Make sure the plugins were installed and are available in the GStreamer "
+#~ "plugins path."
+#~ msgstr ""
+#~ "Eklentilerin kurulu olduğundan ve GStreamer eklentiler yolunda "
+#~ "etkinleştirildiğinden emin olunuz."
+
+#, fuzzy
+#~| msgid "Could not find the autodetect plugins!"
+#~ msgid "Could not find the autodetect plugins"
+#~ msgstr "Otomatik algıla eklentilerini bulamıyor!"
+
+#, fuzzy
+#~| msgid ""
+#~| "Make sure you have installed gst-plugins-good and is available in the "
+#~| "GStreamer plugin path."
+#~ msgid ""
+#~ "Make sure you have installed gst-plugins-good and that it's available in "
+#~ "the GStreamer plugin path."
+#~ msgstr ""
+#~ "GStreamer eklenti yolunun çalışmakta olduğunu ve gst-plugins-good'un "
+#~ "kurulu olduğunu denetleyin."
+
+#, fuzzy
+#~| msgid "PyGTK doesn't have cairo support!"
+#~ msgid "PyGTK doesn't have cairo support"
+#~ msgstr "PyGTK cairo desteği bulunmuyor!"
+
+#~ msgid ""
+#~ "Please use a version of the GTK+ Python bindings built with cairo support."
+#~ msgstr ""
+#~ "Lütfen cairo desteği üzerine inşa edilen GTK+ Python bağlarını kullanın."
+
+#~ msgid "Could not initiate the video output plugins"
+#~ msgstr "Vidyo çıkış eklentileri başlatılamıyor"
+
+#, fuzzy
+#~| msgid ""
+#~| "Make sure you have at least one valid video output sink available "
+#~| "(xvimagesink or ximagesink)"
+#~ msgid ""
+#~ "Make sure you have at least one valid video output sink available "
+#~ "(xvimagesink or ximagesink)."
+#~ msgstr ""
+#~ "En az bir adet uygun vidyo çıkışı kullandığınızdan emin olunuz "
+#~ "(xvimagesink veya ximagesink)"
+
+#~ msgid "Could not initiate the audio output plugins"
+#~ msgstr "Ses çıkış eklentileri başlatılamıyor"
+
+#, fuzzy
+#~| msgid ""
+#~| "Make sure you have at least one valid audio output sink available "
+#~| "(alsasink or osssink)"
+#~ msgid ""
+#~ "Make sure you have at least one valid audio output sink available "
+#~ "(alsasink or osssink)."
+#~ msgstr ""
+#~ "En az bir adet geçerli ses çıkışı kullandığınızdan emin olun (alsasink "
+#~ "veya osssink)"
+
+#~ msgid "Could not import the cairo Python bindings"
+#~ msgstr "Cairo Python bağlarını içeri aktaramıyor"
+
+#, fuzzy
+#~| msgid "Make sure you have the cairo Python bindings installed"
+#~ msgid "Make sure you have the cairo Python bindings installed."
+#~ msgstr "Cairo Python bağlarının kurulu olduğundan emin olunuz"
+
+#~ msgid "Could not import the goocanvas Python bindings"
+#~ msgstr "Goocanvas Python bağlarını içeri aktaramıyor"
+
+#, fuzzy
+#~| msgid "Make sure you have the goocanvas Python bindings installed"
+#~ msgid "Make sure you have the goocanvas Python bindings installed."
+#~ msgstr "Goocanvas Python bağlarının kurulu olduğundan emin olunuz"
+
+#, fuzzy
+#~| msgid "Could not import the cairo Python bindings"
+#~ msgid "Could not import the xdg Python library"
+#~ msgstr "Cairo Python bağlarını içeri aktaramıyor"
+
+#, fuzzy
+#~| msgid "Make sure you have the cairo Python bindings installed"
+#~ msgid "Make sure you have the xdg Python library installed."
+#~ msgstr "Cairo Python bağlarının kurulu olduğundan emin olunuz"
+
+#, fuzzy
+#~| msgid ""
+#~| "You do not have a recent enough version of the GTK+ Python bindings "
+#~| "(currently %s)"
+#~ msgid ""
+#~ "You do not have a recent enough version of the GTK+ Python bindings (your "
+#~ "version %s)"
+#~ msgstr ""
+#~ "GTK+ Python bağları sürümü yeterince güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Install a version of the GTK+ Python bindings greater or equal to %s"
+#~ msgid ""
+#~ "Install a version of the GTK+ Python bindings greater than or equal to %s."
+#~ msgstr ""
+#~ "GTK+ Python bağlarının bundan veya buna eşit %s bir sürümünü kurunuz"
+
+#, fuzzy
+#~| msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgid "You do not have a recent enough version of GTK+ (your version %s)"
+#~ msgstr "GStreamer sürümü güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgid "Install a version of GTK+ greater than or equal to %s."
+#~ msgstr ""
+#~ "GStreamer sürümünün bundan büyük veya buna eşit olan %s sürümünü kurunuz"
+
+#, fuzzy
+#~| msgid ""
+#~| "You do not have a recent enough version of the GStreamer Python bindings "
+#~| "(currently %s)"
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer Python bindings "
+#~ "(your version %s)"
+#~ msgstr "GStreamer Python bağlarının sürümü güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Install a version of the GStreamer Python bindings greater or equal to %s"
+#~ msgid ""
+#~ "Install a version of the GStreamer Python bindings greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "GStreamer Python bağlarının bundan büyük veya buna eşit sürümünü %s "
+#~ "kurunuz"
+
+#, fuzzy
+#~| msgid "You do not have a recent enough version of GStreamer (currently %s)"
+#~ msgid ""
+#~ "You do not have a recent enough version of GStreamer (your version %s)"
+#~ msgstr "GStreamer sürümü güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid "Install a version of the GStreamer greater or equal to %s"
+#~ msgid "Install a version of the GStreamer greater than or equal to %s."
+#~ msgstr ""
+#~ "GStreamer sürümünün bundan büyük veya buna eşit olan %s sürümünü kurunuz"
+
+#, fuzzy
+#~| msgid ""
+#~| "You do not have a recent enough version of the cairo Python bindings "
+#~| "(currently %s)"
+#~ msgid ""
+#~ "You do not have a recent enough version of the cairo Python bindings "
+#~ "(your version %s)"
+#~ msgstr "Cairo Python bağlarının sürümü güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Install a version of the cairo Python bindings greater or equal to %s"
+#~ msgid ""
+#~ "Install a version of the cairo Python bindings greater than or equal to "
+#~ "%s."
+#~ msgstr ""
+#~ "Cairo Python bağlarının bundan büyük veya buna eşit sürümünü %s kurunuz"
+
+#, fuzzy
+#~| msgid ""
+#~| "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~| "(currently %s)"
+#~ msgid ""
+#~ "You do not have a recent enough version of the GNonLin GStreamer plugin "
+#~ "(your version %s)"
+#~ msgstr "GNonLin GStreamer eklentisi güncel değil (şu anki sürüm %s)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Install a version of the GNonLin GStreamer plugin greater or equal to %s"
+#~ msgid ""
+#~ "Install a version of the GNonLin GStreamer plugin greater than or equal "
+#~ "to %s."
+#~ msgstr ""
+#~ "GNonLin GStreamer eklentisinin bundan büyük veya buna eşit sürümünü %s "
+#~ "kurunuz"
+
+#~ msgid "Could not import the Zope interface module"
+#~ msgstr "Zope arayüz modülünü içeri aktaramıyor"
+
+#, fuzzy
+#~| msgid "Make sure you have the zope.interface module installed"
+#~ msgid "Make sure you have the zope.interface module installed."
+#~ msgstr "Zope arayüz modülünün kurulu olduğundan emin olunuz"
+
+#~ msgid "Could not import the distutils modules"
+#~ msgstr "Disutils modüllerini içeri aktaramıyor"
+
+#, fuzzy
+#~| msgid "Make sure you have the distutils python module installed"
+#~ msgid "Make sure you have the distutils Python module installed."
+#~ msgstr "Distutils python modülünün kurulu olduğundan emin olunuz"
+
+#~ msgid ""
+#~ "Missing plugins:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kayıp eklentiler:\n"
+#~ "%s"
+
+#, fuzzy
+#~| msgid "Can not decode file."
+#~ msgid "Cannot decode file."
+#~ msgstr "Dosya çözümlenemiyor."
+
+#~ msgid "The given file does not contain audio, video or picture streams."
+#~ msgstr "Bu dosya ses, vidyo veya resim akışlarını içermiyor."
+
+#~ msgid "Could not establish the duration of the file."
+#~ msgstr "Dosyanın süresini belirleyemiyor."
+
+#~ msgid ""
+#~ "This clip seems to be in a format which cannot be accessed in a random "
+#~ "fashion."
+#~ msgstr "Klip formatı kullanılabilir yapıda değildir."
+
+#~ msgid "Timeout while analyzing file."
+#~ msgstr "Dosyayı incelerken zaman aşımı."
+
+#~ msgid "Analyzing the file took too long."
+#~ msgstr "Dosyayı incelemek çok zaman aldı."
+
+#~ msgid "No available source handler."
+#~ msgstr "Geçerli kaynak bulunamıyor."
+
+#, fuzzy
+#~| msgid "You do not have a GStreamer source element to handle protocol '%s'"
+#~ msgid ""
+#~ "You do not have a GStreamer source element to handle the \"%s\" protocol"
+#~ msgstr ""
+#~ "'%s' protokulunu başarıyla uygulayabilecek GStreamer kaynak unsurunuz yok"
+
+#~ msgid "Pipeline didn't want to go to PAUSED."
+#~ msgstr "Akış DURAKSATILMAK istemiyor."
+
+#~ msgid "An internal error occurred while analyzing this file: %s"
+#~ msgstr "Bu dosya analiz edilirken bir iç hata oluştu: %s"
+
+#~ msgid "File contains a redirection to another clip."
+#~ msgstr "Dosya başka bir klibe yönlendiriliyor."
+
+#~ msgid "PiTiVi currently does not handle redirection files."
+#~ msgstr "PiTiVi şu anda dosyaları yeniden yönlendiremiyor."
+
+#~ msgid "Pipeline didn't want to go to PLAYING."
+#~ msgstr "Akış ÇALMA işlemini gerçekleştiremiyor."
+
+#, fuzzy
+#~| msgid "Close"
+#~ msgid "Colors"
+#~ msgstr "Kapat"
+
+#, fuzzy
+#~| msgid "Close"
+#~ msgid "Noise"
+#~ msgstr "Kapat"
+
+#, fuzzy
+#~| msgid "_Timeline"
+#~ msgid "Time"
+#~ msgstr "_Zaman çizgisi"
+
+#, fuzzy
+#~| msgid "All categories"
+#~ msgid "Uncategorized"
+#~ msgstr "Tüm kategoriler"
+
+#, fuzzy
+#~| msgid "Audio Codec"
+#~ msgid "Audio |audio"
+#~ msgstr "Ses Kodlaması"
+
+#~ msgid "PiTiVi Native (XML)"
+#~ msgstr "PiTiVi Native (XML)"
+
+#~ msgid "Playlist format"
+#~ msgstr "Çalma kipi"
+
+#~ msgid "Not a valid project file."
+#~ msgstr "Geçerli bir proje dosyası değil."
+
+#~ msgid "Couldn't close current project"
+#~ msgstr "Şu anki projeyi kapayamıyor"
+
+#~ msgid "No URI specified."
+#~ msgstr "Hiç bir URI belirtilmedi."
+
+#~ msgid "New Project"
+#~ msgstr "Yeni Proje"
+
+#~ msgid "Export Settings\n"
+#~ msgstr "Ayarları İçeri Aktar\n"
+
+#~ msgid "Video: "
+#~ msgstr "Video:"
+
+#~ msgid ""
+#~ "\n"
+#~ "Audio: "
+#~ msgstr ""
+#~ "\n"
+#~ "Ses: "
+
+#~ msgid ""
+#~ "\n"
+#~ "Muxer: "
+#~ msgstr ""
+#~ "\n"
+#~ "Muxer: "
+
+#, fuzzy
+#~| msgid "_Remove from project"
+#~ msgid "Remove effect"
+#~ msgstr "_Projeden çıkart"
+
+#, fuzzy
+#~| msgid "Information"
+#~ msgid "Transformation"
+#~ msgstr "Bilgi"
+
+#~ msgid "<b>Audio:</b> %d channel at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgid_plural "<b>Audio:</b> %d channels at %d <i>Hz</i> (%d <i>bits</i>)"
+#~ msgstr[0] "<b>Ses:</b> %d kanalı %d <i>Hz</i> (%d <i>bits</i>)"
+
+#~ msgid "<b>Unknown Audio format:</b> %s"
+#~ msgstr "<b>Bilinmeyen Ses Kipi:</b> %s"
+
+#, fuzzy
+#~| msgid "<b>Video:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgid "<b>Video:</b> %d×%d <i>pixels</i> at %.2f<i>fps</i>"
+#~ msgstr "<b>Vidyo:</b> %d x %d <i>pixels</i> at %.2f<i>fps</i>"
+
+#, fuzzy
+#~| msgid "<b>Image:</b> %d x %d <i>pixels</i>"
+#~ msgid "<b>Image:</b> %d×%d <i>pixels</i>"
+#~ msgstr "<b>Resim:</b> %d x %d <i>pixels</i>"
+
+#~ msgid "<b>Unknown Video format:</b> %s"
+#~ msgstr "<b>Bilinmeyen Vidyo Kipi:</b> %s"
+
+#~ msgid "<b>Text:</b> %s"
+#~ msgstr "<b>Metin:</b> %s"
+
+#, fuzzy
+#~| msgid "%d minute"
+#~| msgid_plural "%d minutes"
+#~ msgid "%d bit"
+#~ msgstr "%d dakika"
+
+#, fuzzy
+#~| msgid "Channels:"
+#~ msgid "6 Channels (5.1)"
+#~ msgstr "Kanallar:"
+
+#, fuzzy
+#~| msgid "Channels:"
+#~ msgid "4 Channels (4.0)"
+#~ msgstr "Kanallar:"
+
+#~ msgid "Implement Me"
+#~ msgstr "Beni Tamamla"
+
+#~ msgid "Custom"
+#~ msgstr "Özel"
+
+#, fuzzy
+#~| msgid "Video Preset"
+#~ msgid "Save Preset"
+#~ msgstr "Vidyo Şablonu"
+
+#~ msgid "Choose..."
+#~ msgstr "Seç..."
+
+#, fuzzy
+#~| msgid "Video Preset"
+#~ msgid "Video effects"
+#~ msgstr "Vidyo Şablonu"
+
+#, fuzzy
+#~| msgid "Audio Preset"
+#~ msgid "Audio effects"
+#~ msgstr "Ses Şablonu"
+
+#~ msgid "Search:"
+#~ msgstr "Ara:"
+
+#~ msgid "Name"
+#~ msgstr "İsim"
+
+#~ msgid "Description"
+#~ msgstr "Tanım"
+
+#, fuzzy
+#~| msgid "Audio Preset"
+#~ msgid "No preset"
+#~ msgstr "Ses Şablonu"
+
+#, fuzzy
+#~| msgid "New Project"
+#~ msgid "New preset"
+#~ msgstr "Yeni Proje"
+
+#, fuzzy
+#~| msgid "PiTiVi currently does not handle redirection files."
+#~ msgid "PiTiVi can not preview this file."
+#~ msgstr "PiTiVi şu anda dosyaları yeniden yönlendiremiyor."
+
+#, fuzzy
+#~| msgid "<b>Description:</b>"
+#~ msgid "<b>Duration</b>: %s"
+#~ msgstr "<b>Tanım:</b>"
+
+#~ msgid "Error while analyzing a file"
+#~ msgstr "Bir dosyayı analiz ederdek hata oluştu"
+
+#~ msgid "Unknown reason"
+#~ msgstr "Bilinmeyen sebep"
+
+#~ msgid "Problem:"
+#~ msgstr "Sorun:"
+
+#~ msgid "Extra information:"
+#~ msgstr "Ekstra bilgi:"
+
+#~ msgid "No properties..."
+#~ msgstr "Özellik yok..."
+
+#~ msgid "Properties for %s"
+#~ msgstr "%s için özellikle"
+
+#~ msgid "Split"
+#~ msgstr "Ayır"
+
+#~ msgid "Unlink"
+#~ msgstr "Bağlantı kaldır"
+
+#~ msgid "Ungroup"
+#~ msgstr "Gruplamayı kaldır"
+
+#~ msgid "Group"
+#~ msgstr "Grupla"
+
+#~ msgid "Start Playback"
+#~ msgstr "Çalmaya Başla"
+
+#~ msgid "Loop over selected area"
+#~ msgstr "Seçili alanda döngü oluştur"
+
+#~ msgid "Create a new project"
+#~ msgstr "Yeni bir proje oluştur"
+
+#, fuzzy
+#~| msgid "Open File..."
+#~ msgid "_Open..."
+#~ msgstr "Dosya Aç..."
+
+#~ msgid "Open an existing project"
+#~ msgstr "Bir proje dosyası aç"
+
+#~ msgid "Save the current project"
+#~ msgstr "Bu projeji kaydet"
+
+#, fuzzy
+#~| msgid "Save As..."
+#~ msgid "Save _As..."
+#~ msgstr "Farklı Kaydet..."
+
+#, fuzzy
+#~| msgid "Save the current project"
+#~ msgid "Reload the current project"
+#~ msgstr "Bu projeji kaydet"
+
+#~ msgid "Edit the project settings"
+#~ msgstr "Proje ayarlarını düzenle"
+
+#, fuzzy
+#~| msgid "Render"
+#~ msgid "_Render..."
+#~ msgstr "İşle"
+
+#~ msgid "_Undo"
+#~ msgstr "_Geri Al"
+
+#~ msgid "Undo the last operation"
+#~ msgstr "Son eylemi geri al"
+
+#~ msgid "_Redo"
+#~ msgstr "_Yeniden Yap"
+
+#~ msgid "Redo the last operation that was undone"
+#~ msgstr "Geri alınan işlemi yenile"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Tercihler"
+
+#~ msgid "Information about %s"
+#~ msgstr "Bunun hakkındaki bilgi %s"
+
+#~ msgid "_Project"
+#~ msgstr "_Proje"
+
+#~ msgid "_Edit"
+#~ msgstr "_Düzenle"
+
+#~ msgid "_View"
+#~ msgstr "_Görünüm"
+
+#, fuzzy
+#~| msgid "Media Library"
+#~ msgid "_Library"
+#~ msgstr "Ortam Kütüphanesi"
+
+#~ msgid "_Timeline"
+#~ msgstr "_Zaman çizgisi"
+
+#~ msgid "Previe_w"
+#~ msgstr "Öniz_leme"
+
+#~ msgid "Loop"
+#~ msgstr "Döngüle"
+
+#~ msgid "_Help"
+#~ msgstr "_Yardım"
+
+#~ msgid "View the main window on the whole screen"
+#~ msgstr "Ana pencereyi tüm ekranda görüntüle"
+
+#~ msgid "Main Toolbar"
+#~ msgstr "Ana Araç Çubuğu"
+
+#~ msgid "Timeline Toolbar"
+#~ msgstr "Zaman Çizgisi Araç Çubuğu"
+
+#~ msgid "Media Library"
+#~ msgstr "Ortam Kütüphanesi"
+
+#, fuzzy
+#~| msgid "Media Library"
+#~ msgid "Effect Library"
+#~ msgstr "Ortam Kütüphanesi"
+
+#~ msgid "Contributors:"
+#~ msgstr "Katkıcılar:"
+
+#~ msgid ""
+#~ "GNU Lesser General Public License\n"
+#~ "See http://www.gnu.org/copyleft/lesser.html for more details"
+#~ msgstr ""
+#~ "GNU Lesser Genel Kamu Lisansı\n"
+#~ "Daha fazla bilgi için http://www.gnu.org/copyleft/lesser.html adresine "
+#~ "tıklayınız"
+
+#~ msgid "Open File..."
+#~ msgstr "Dosya Aç..."
+
+#~ msgid "All Supported Formats"
+#~ msgstr "Desteklenen Tüm Formatlar"
+
+#~ msgid "Close without saving"
+#~ msgstr "Kayetmeden kapat"
+
+#~ msgid "Save changes to the current project before closing?"
+#~ msgstr "Bu projei kapatmadan önce değişiklikleri kaydedeyim mi?"
+
+#~ msgid "If you don't save some of your changes will be lost"
+#~ msgstr "Eğer kaydetmezseniz değişiklikler kaybedilecektir"
+
+#, fuzzy
+#~| msgid "Couldn't close current project"
+#~ msgid "Do you want to reload current project?"
+#~ msgstr "Şu anki projeyi kapayamıyor"
+
+#, fuzzy
+#~| msgid "_Remove from project"
+#~ msgid "Revert to saved project"
+#~ msgstr "_Projeden çıkart"
+
+#, fuzzy
+#~| msgid "If you don't save some of your changes will be lost"
+#~ msgid "All unsaved changes will be lost."
+#~ msgstr "Eğer kaydetmezseniz değişiklikler kaybedilecektir"
+
+#, fuzzy
+#~| msgid "PiTiVi is unable to load file \"%s\""
+#~ msgid "Unable to load project \"%s\""
+#~ msgstr "PiTiVi dosyayı yükleyemiyor \"%s\""
+
+#, fuzzy
+#~| msgid "Error Loading File"
+#~ msgid "Error Loading Project"
+#~ msgstr "Dosya Yüklerken Hata"
+
+#~ msgid "Locate missing file..."
+#~ msgstr "Kayıt dosyayı bul..."
+
+#, fuzzy
+#~| msgid "The following file has moved, please tell PiTiVi where to find it."
+#~ msgid ""
+#~ "The following file has moved: \"<b>%s</b>\"\n"
+#~ "Please specify its new location:"
+#~ msgstr ""
+#~ "Aşağıdaki dosyanın yeri değişmiş, lütfen PiTiVi'ye onu nerede bulacağını "
+#~ "söyleyin."
+
+#~ msgid "Save As..."
+#~ msgstr "Farklı Kaydet..."
+
+#~ msgid "Untitled.xptv"
+#~ msgstr "isimsiz.xptv"
+
+#~ msgid "Detect Automatically"
+#~ msgstr "Otomatik Tanı"
+
+#, fuzzy
+#~| msgid "Untitled.xptv"
+#~ msgid "Untitled project"
+#~ msgstr "isimsiz.xptv"
+
+#~ msgid "Appearance"
+#~ msgstr "Gürünüm"
+
+#, fuzzy
+#~| msgid "Thumbnail Gap (pixels)"
+#~ msgid "Thumbnail gap"
+#~ msgstr "Küçük Resim Boşluğu (piksel oranında)"
+
+#, fuzzy
+#~| msgid "The gap between thumbnails"
+#~ msgid "The spacing between thumbnails, in pixels"
+#~ msgstr "Küçük resimler arasındaki boşluk"
+
+#, fuzzy
+#~| msgid "Preferences"
+#~ msgid "Performance"
+#~ msgstr "Tercihler"
+
+#, fuzzy
+#~| msgid "%d second"
+#~| msgid_plural "%d seconds"
+#~ msgid "%s second"
+#~ msgstr "%d saniye"
+
+#, fuzzy
+#~| msgid "%d second"
+#~| msgid_plural "%d seconds"
+#~ msgid "%s seconds"
+#~ msgstr "%d saniye"
+
+#, fuzzy
+#~| msgid "%d minute"
+#~| msgid_plural "%d minutes"
+#~ msgid "minute"
+#~ msgstr "%d dakika"
+
+#, fuzzy
+#~| msgid "The gap between thumbnails"
+#~ msgid "The interval, in seconds, between thumbnails."
+#~ msgstr "Küçük resimler arasındaki boşluk"
+
+#, fuzzy
+#~| msgid "The gap between thumbnails"
+#~ msgid "Enable video thumbnails"
+#~ msgstr "Küçük resimler arasındaki boşluk"
+
+#, fuzzy
+#~| msgid "Show Thumbnails on Video Clips"
+#~ msgid "Show thumbnails on video clips"
+#~ msgstr "Video Kliplerde Küçük Resim Göster"
+
+#, fuzzy
+#~| msgid "Show Waveforms on Audio Clips"
+#~ msgid "Show waveforms on audio clips"
+#~ msgstr "Ses kliplerindeki Dalgabiçimlerini Göster"
+
+#, fuzzy
+#~| msgid "Import clips..."
+#~ msgid "Import Files..."
+#~ msgstr "Klipleri İçeri Aktar..."
+
+#~ msgid "Remove Clip"
+#~ msgstr "Klibi Kaldır"
+
+#~ msgid "Play Clip"
+#~ msgstr "Klibi Çal"
+
+#~ msgid "Icon"
+#~ msgstr "Simge"
+
+#~ msgid "Information"
+#~ msgstr "Bilgi"
+
+#~ msgid "Duration"
+#~ msgstr "Süre"
+
+#, fuzzy
+#~| msgid "_Import clips..."
+#~ msgid "_Import Files..."
+#~ msgstr "Klipleri iç_eri aktar..."
+
+#, fuzzy
+#~| msgid "The name of your project."
+#~ msgid "Add media files to your project"
+#~ msgstr "Projenizin ismi."
+
+#, fuzzy
+#~| msgid "Import _folder of clips..."
+#~ msgid "Import _Folders..."
+#~ msgstr "Klipleri _dizin olarak içeri aktar..."
+
+#, fuzzy
+#~| msgid "A short description of your project."
+#~ msgid "Add the contents of a folder as clips in your project"
+#~ msgstr "Projenizin kısa tanımı."
+
+#, fuzzy
+#~| msgid "_Remove from project"
+#~ msgid "_Remove from Project"
+#~ msgstr "_Projeden çıkart"
+
+#, fuzzy
+#~| msgid "Insert at _end of timeline"
+#~ msgid "Insert at _End of Timeline"
+#~ msgstr "Zaman çizelgesinin _sonuna ekle"
+
+#~ msgid "Close after importing files"
+#~ msgstr "Dosyaları içeri aktardıktan sonra kapat"
+
+#, fuzzy
+#~| msgid "Error(s) occurred while importing"
+#~ msgid "Errors occurred while importing."
+#~ msgstr "İçeri aktarırken hata(lar) oluştu"
+
+#, fuzzy
+#~| msgid "An error occurred while importing"
+#~ msgid "An error occurred while importing."
+#~ msgstr "Dışarı aktarırken bir hata oluştu"
+
+#~ msgid "Error while analyzing files"
+#~ msgstr "Dosyaları analiz ederken hata oluştu"
+
+#~ msgid "The following files can not be used with PiTiVi."
+#~ msgstr "Aşağıdaki dosyalar PiTiVi ile kullanılamaz durumda."
+
+#~ msgid "The following file can not be used with PiTiVi."
+#~ msgstr "Aşağıdaki dosya PiTiVi ile kullanılamaz."
+
+#~ msgid "Behavior"
+#~ msgstr "Davranış"
+
+#, fuzzy
+#~| msgid "Snap Distance (pixels)"
+#~ msgid "Snap distance"
+#~ msgstr "Şipşak Mesafesi (piksel oranında)"
+
+#, fuzzy
+#~| msgid ""
+#~| "\n"
+#~| "Audio: "
+#~ msgid "Audio:"
+#~ msgstr ""
+#~ "\n"
+#~ "Ses: "
+
+#, fuzzy
+#~| msgid "Video: "
+#~ msgid "Video:"
+#~ msgstr "Video:"
+
+#~ msgid "Delete Selected"
+#~ msgstr "Seçileni Sil"
+
+#~ msgid "Split clip at playhead position"
+#~ msgstr "Klibi çalma noktasından ayır"
+
+#~ msgid "Zoom In"
+#~ msgstr "Yakınlaş"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Uzaklaş"
+
+#, fuzzy
+#~| msgid "Zoom Out"
+#~ msgid "Zoom Fit"
+#~ msgstr "Uzaklaş"
+
+#~ msgid "Break links between clips"
+#~ msgstr "Klipler arasındaki bağlantıları ayır"
+
+#~ msgid "Link together arbitrary clips"
+#~ msgstr "Dağınık klipleri birbirine bağla"
+
+#~ msgid "Ungroup clips"
+#~ msgstr "Klipleri Gruplama"
+
+#~ msgid "Group clips"
+#~ msgstr "Klipleri Grupla"
+
+#, fuzzy
+#~| msgid "One or more GStreamer errors has occured!"
+#~ msgid "One or more GStreamer errors occured!"
+#~ msgstr "Bir veya birden fazla GStreamer hatası oluştu!"
+
+#~ msgid "The following errors have been reported:"
+#~ msgstr "Aşağıdaki hatalar raporlandı:"
+
+#, fuzzy
+#~| msgid "Zoom In"
+#~ msgid "Zoom"
+#~ msgstr "Yakınlaş"
+
+#~ msgid "Zoom Timeline"
+#~ msgstr "Zumlama Zaman Çizgisi"
+
+#~ msgid "The background color for clips in video tracks."
+#~ msgstr "Vidyo izlerindeki klipler için arkaplan rengi."
+
+#, fuzzy
+#~| msgid "Show Waveforms on Audio Clips"
+#~ msgid "Color for audio clips"
+#~ msgstr "Ses kliplerindeki Dalgabiçimlerini Göster"
+
+#~ msgid "The background color for clips in audio tracks."
+#~ msgstr "Ses izlerindeki klipler için arkaplan rengi."
+
+#, fuzzy
+#~| msgid "Selection Color"
+#~ msgid "Selection color"
+#~ msgstr "Renk Seçimi"
+
+#~ msgid "Selected clips will be tinted with this color."
+#~ msgstr "Seçilmiş olan klipler bu renk ile boyanacak."
+
+#, fuzzy
+#~| msgid "Clip Font"
+#~ msgid "Clip font"
+#~ msgstr "Klip Fontu"
+
+#~ msgid "The font to use for clip titles"
+#~ msgstr "Clip başlıkları için kullanılacak font"
+
+#, fuzzy
+#~| msgid "Insert at _end of timeline"
+#~ msgid "Go to the end of the timeline"
+#~ msgstr "Zaman çizelgesinin _sonuna ekle"
+
+#, fuzzy
+#~| msgid "Play Clip"
+#~ msgid "Play"
+#~ msgstr "Klibi Çal"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "%d saat"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "%d dakika"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "%d saniye"
+
+#, fuzzy
+#~| msgid "%s doesn't yet handle non local projects"
+#~ msgid "%s doesn't yet handle non-local projects"
+#~ msgstr "%s yerel olmayan projeleri henüz başarımlayamıyor"
+
+#~ msgid "Could not import the libglade Python bindings"
+#~ msgstr "Libglade Python bağlarını içeri aktaramıyor"
+
+#~ msgid "Make sure you have the libglade Python bindings installed"
+#~ msgstr "Libglade Python bağlarının kurulu olduğundan emin olunuz"
+
+#~ msgid ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+#~ msgstr ""
+#~ "\n"
+#~ "      %prog [PROJECT_FILE]\n"
+#~ "      %prog -i [-a] [MEDIA_FILE]..."
+
+#~ msgid ""
+#~ "Starts the video editor, optionally loading PROJECT_FILE. If\n"
+#~ "    no project is given, %prog creates a new project.\n"
+#~ "    Alternatively, when -i is specified, arguments are treated as clips "
+#~ "to be\n"
+#~ "    imported into the project. If -a is specified, these clips will also "
+#~ "be added to\n"
+#~ "    the end of the project timeline."
+#~ msgstr ""
+#~ "Vidyo düzenleyici başlyıro, opsiyonel olarak PROJECT_DOSYASI yükleniyor. "
+#~ "Eğer\n"
+#~ "    proje seçilmemişse, %prog yeni proje oluşturur.\n"
+#~ "    Alternatif olarak, -i eklendiğinde, değişkenler klipler içeri "
+#~ "aktarılmış\n"
+#~ "    gibi davranıcaktır. Eğer -a eklenirse, bu klipler ayrıca\n"
+#~ "    proje zaman çizgisinin sonuna eklenecektir."
+
+#~ msgid "Run pitivi with no gui"
+#~ msgstr "Pitivi'yi grafik arayüz olmadan çalıştır"
+
+#~ msgid "Audio Capture Device:"
+#~ msgstr "Ses Yakalama Aygıtı:"
+
+#~ msgid "No device available"
+#~ msgstr "Hiç bir aygıt yok"
+
+#~ msgid "Video Capture Device:"
+#~ msgstr "Vidyo Yakalama Aygıtı:"
+
+#~ msgid "Properties For: %d object"
+#~ msgid_plural "Properties For: %d objects"
+#~ msgstr[0] "Özellikler: %d nesneleri için "
+
+#~ msgid "<b>Author:</b>"
+#~ msgstr "<b>Yazar:</b>"
+
+#~ msgid "<b>Plugin Name</b>"
+#~ msgstr "<b>Eklenti Adı</b>"
+
+#~ msgid "<b>Audio:</b>"
+#~ msgstr "<b>Ses:</b>"
+
+#~ msgid "Choose File"
+#~ msgstr "Dosya seç"
+
+#~ msgid "Modify"
+#~ msgstr "Değiştir"
+
+#~ msgid "Output file:"
+#~ msgstr "Çıkış dosyası:"
+
+#~ msgid "Please choose an output file"
+#~ msgstr "Lütfen bir çıkış dosyası seçiniz"
+
+#~ msgid "Render project"
+#~ msgstr "Projeyi işle"
+
+#~ msgid "Choose file to render to"
+#~ msgstr "İşlenecek dosyayı seçin"
+
+#~ msgid "About %s left"
+#~ msgstr "Şunu hakkında %s sol"
+
+#~ msgid "Rendering Complete"
+#~ msgstr "İşleme Tamamlandı"
+
+#~ msgid ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+#~ msgstr ""
+#~ "12 fps\n"
+#~ "23.97 fps\n"
+#~ "24 fps\n"
+#~ "25 fps\n"
+#~ "29.97 fps\n"
+#~ "30 fps\n"
+#~ "60 fps"
+
+#~ msgid ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+#~ msgstr ""
+#~ "8 bit\n"
+#~ "16 bit\n"
+#~ "24 bit\n"
+#~ "32 bit"
+
+#~ msgid ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+#~ msgstr ""
+#~ "8000 Hz\n"
+#~ "11025 Hz\n"
+#~ "22050 Hz\n"
+#~ "44100 Hz\n"
+#~ "48000 Hz\n"
+#~ "96000 Hz"
+
+#~ msgid "<b>Audio Output</b>"
+#~ msgstr "<b>Ses Çıkışı</b>"
+
+#~ msgid "<b>Video Output</b>"
+#~ msgstr "<b>Vidyo Çıkışı</b>"
+
+#~ msgid ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+#~ msgstr ""
+#~ "Mono (1)\n"
+#~ "Stereo (2)"
+
+#~ msgid "Muxer"
+#~ msgstr "Muxer"
+
+#~ msgid "Rate:"
+#~ msgstr "Hız:"
+
+#~ msgid "Settings"
+#~ msgstr "Ayarlar"
+
+#~ msgid "Video Codec"
+#~ msgstr "Vidyo Kodlaması"
+
+#~ msgid "Video Codec:"
+#~ msgstr "Vidyo Kodlaması"
+
+#~ msgid "576p (PAL DV/DVD)"
+#~ msgstr "576p (PAL DV/DVD)"
+
+#~ msgid "480p (NTSC DV/DVD)"
+#~ msgstr "480p (NTSC DV/DVD)"
+
+#~ msgid "720p HD"
+#~ msgstr "720p HD"
+
+#~ msgid "1080p full HD"
+#~ msgstr "1080p full HD"
+
+#~ msgid "QVGA (320x240)"
+#~ msgstr "QVGA (320x240)"
+
+#~ msgid "VGA (640x480)"
+#~ msgstr "VGA (640x480)"
+
+#~ msgid "SVGA (800x600)"
+#~ msgstr "SVGA (800x600)"
+
+#~ msgid "XGA (1024x768)"
+#~ msgstr "XGA (1024x768)"
+
+#~ msgid "Raw Video"
+#~ msgstr "Ham Vidyo"
+
+#~ msgid "Raw Audio"
+#~ msgstr "Ham Ses"
+
+#~ msgid "Export settings"
+#~ msgstr "Ayarları dışarı aktar"
+
+#~ msgid "URI:"
+#~ msgstr "Dış bağlantı:"
+
+#~ msgid "Stop Playback"
+#~ msgstr "Çalmayı Durdur"
+
+#~ msgid "_Render project"
+#~ msgstr "_Projeyi oluştur"
+
+#~ msgid "_Plugins..."
+#~ msgstr "_Eklentiler..."
+
+#~ msgid "Manage plugins"
+#~ msgstr "Eklentileri yönet"
+
+#~ msgid "Import from _Webcam..."
+#~ msgstr "_Web kamerasından içeri aktar"
+
+#~ msgid "Import Camera stream"
+#~ msgstr "Kamera Akımını İçeri aktar"
+
+#~ msgid "_Make screencast..."
+#~ msgstr "_Ekran yayını oluştur..."
+
+#~ msgid "Capture the desktop"
+#~ msgstr "Masaüstü ekran görüntüsü al"
+
+#~ msgid "_Capture Network Stream..."
+#~ msgstr "Ağ Akımını _Yakala"
+
+#~ msgid "Capture Network Stream"
+#~ msgstr "Ağ Akımını Yakala"
+
+#~ msgid "_File"
+#~ msgstr "_Dosya"
+
+#~ msgid "Duration:"
+#~ msgstr "Süre:"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "Capture"
+#~ msgstr "Yakala"
+
+#~ msgid "Capture Stream from URI"
+#~ msgstr "URI akışını yakala"
+
+#~ msgid "Capture network stream"
+#~ msgstr "Ağ akışını yakala"
+
+#~ msgid "Customize:"
+#~ msgstr "Özelleştir:"
+
+#~ msgid "HTTP / HTTPS"
+#~ msgstr "HTTP / HTTPS"
+
+#~ msgid "Network stream video"
+#~ msgstr "Ağ vidyo akışı"
+
+#~ msgid "Other protocol"
+#~ msgstr "Diğer protokol"
+
+#~ msgid "Port"
+#~ msgstr "Port"
+
+#~ msgid "Preview"
+#~ msgstr "Önizle"
+
+#~ msgid "Preview Stream from URI"
+#~ msgstr "URI adresinden Yayını Önizle"
+
+#~ msgid "Protocol"
+#~ msgstr "Protokol"
+
+#~ msgid "RTSP"
+#~ msgstr "RTSP"
+
+#~ msgid "UDP / RDP"
+#~ msgstr "UDP / RDP"
+
+#~ msgid "http://"
+#~ msgstr "http://"
+
+#~ msgid "Plugin manager"
+#~ msgstr "Eklenti yöneticisi"
+
+#~ msgid "Show:"
+#~ msgstr "Göster:"
+
+#~ msgid ""
+#~ "You may drag plugin files into the list to install them,\n"
+#~ "or type text to search for a specific plugin."
+#~ msgstr ""
+#~ "Kurmak için eklenti dosyalarını listeye sürükleyebilirsiniz,\n"
+#~ "veya özel bir eklenti aramak için metin yazabilrsiniz."
+
+#~ msgid "Enabled"
+#~ msgstr "Etkinleştirildi"
+
+#~ msgid "Plugin"
+#~ msgstr "Eklenti"
+
+#~ msgid "Category"
+#~ msgstr "Kategori"
+
+#~ msgid "Are you sure you want to remove the selected plugins?"
+#~ msgstr "Seçili eklentileri kaldırmak istediğinize emin misiniz?"
+
+#~ msgid "Confirm remove operation"
+#~ msgstr "Kaldırma işlemini onayla"
+
+#~ msgid "Cannot remove %s"
+#~ msgstr "Kaldırılamıyor %s"
+
+#~ msgid "Update the existing plugin?"
+#~ msgstr "Bu eklenti güncellensin mi?"
+
+#~ msgid ""
+#~ "This plugin is already installed in your system.\n"
+#~ "If you agree, version %(v1)s will be replaced with version %(v2)s"
+#~ msgstr ""
+#~ "Bu eklenti bilgisayarına kurulu.\n"
+#~ "Eğer kabul ederseniz, sürüm %(v1)s bu sürüm ile değiştirilecek %(v2)s"
+
+#~ msgid "Duplicate plugin found"
+#~ msgstr "Çiftleme eklentisi bulundu"
+
+#~ msgid ""
+#~ "Cannot install %s\n"
+#~ "The file is not a valid plugin"
+#~ msgstr ""
+#~ "Kurulamıyor %s\n"
+#~ "Dosya geçerli bir eklenti değil"
+
+#~ msgid "Reset"
+#~ msgstr "Sıfırlar"
+
+#~ msgid "Show Thumbnails (Video)"
+#~ msgstr "Küçük Resim Göster (Vidyo)"
+
+#~ msgid "Show Waveforms (Audio)"
+#~ msgstr "Dalgabiçimlerini Göster (Ses)"
+
+#~ msgid "Description:"
+#~ msgstr "Tanım:"
+
+#~ msgid "Name:"
+#~ msgstr "İsim:"
+
+#~ msgid "No Objects Selected"
+#~ msgstr "Hiçbir Nesne Seçilmedi"
+
+#~ msgid "Screencast"
+#~ msgstr "Ekrar Yayını"
+
+#~ msgid "Screencast Desktop"
+#~ msgstr "Masaüstü Ekran Yayını"
+
+#~ msgid "Start Istanbul"
+#~ msgstr "Istanbul'u Başlat"
+
+#~ msgid ""
+#~ "<span size='x-large'>Import your clips by dragging them here or by using "
+#~ "the buttons above.</span>"
+#~ msgstr ""
+#~ "<span size='x-large'>Klipleri buraya sürükleyerek veya yukarıdaki "
+#~ "düğmeleri kullanarak içeri aktar.</span>"
+
+#~ msgid "Import clips to use"
+#~ msgstr "Klipleri kullanmak üzere içeri aktar"
+
+#~ msgid "Import folder of clips to use"
+#~ msgstr "Klasörü klipte kullanmak üzere içeri aktar"
+
+#~ msgid "Import a folder"
+#~ msgstr "Bir klasör içeri aktar"
+
+#~ msgid "Import a clip"
+#~ msgstr "Bir klip içeri aktar"
+
+#~ msgid "Importing clips..."
+#~ msgstr "Klipleri İçeri Aktarıyor..."
+
+#~ msgid "Threshold distance (in pixels) used for all snapping operations"
+#~ msgstr "Tüm şipşak eylemlerinde kullanılan eşik mesafasi (piksel oranında)"
+
+#~ msgid "Clip Background (Video)"
+#~ msgstr "Klip Arkaplanı (Vidyo)"
+
+#~ msgid "Clip Background (Audio)"
+#~ msgstr "Klip Arkaplanı (Ses)"
