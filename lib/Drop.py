@@ -19,6 +19,7 @@ class Widget (XA.Animatable, Gtk.Box):
         XA.Animatable.__init__(self)
 
         self.builder = Gtk.Builder()
+        self.builder.set_translation_domain ('mbc-zumo')
         self.motion = False
         self.fraction = 0
 
@@ -156,6 +157,7 @@ class Window (Gtk.Box, XA.Animatable):
         Gtk.Box.__init__(self, orientation=Gtk.Orientation.VERTICAL)
 
         self.builder = Gtk.Builder()
+        self.builder.set_translation_domain ('mbc-zumo')
         self.motion = False
 
         self.builder.add_from_file (configure.get_ui_dir() + '/dropwindow.ui')

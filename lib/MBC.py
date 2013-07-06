@@ -26,6 +26,7 @@ def xdg_open (f):
 class Transcoder (Gtk.Builder):
     def __init__(self, ui):
         Gtk.Builder.__init__(self)
+        self.set_translation_domain ('mbc-zumo')
         self.fail = False
         self.melt = None
 
