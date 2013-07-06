@@ -1,5 +1,16 @@
 #!/usr/bin/env python
-import sys
+
+import locale, gettext, sys, os
+# setup translation support
+(lang_code, encoding) = locale.getlocale()
+LOCALE_DOMAIN = 'mbc-zumo'
+LOCALE_DIR = os.path.join(sys.prefix, 'local', 'share', 'locale')
+
+gettext.bindtextdomain(LOCALE_DOMAIN, LOCALE_DIR)
+gettext.textdomain(LOCALE_DOMAIN)
+gettext.install(LOCALE_DOMAIN)
+
+sys.path.append(os.path.join(sys.prefix, 'mbc-zumo', 'python', 'mbc-zumo'))
 sys.path.append('lib')
 
 CONFIGURED_PYTHONPATH = '@CONFIGURED_PYTHONPATH@'
