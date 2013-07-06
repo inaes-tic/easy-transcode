@@ -18,12 +18,6 @@ class Transcode(GObject.GObject):
         'start-video': (GObject.SIGNAL_RUN_FIRST, None, ())
     }
 
-    def do_finished (self, a, b):
-        print "transcode finished"
-
-    def do_status (self, a):
-        print "transcode status"
-
     def __init__(self, src, dst=None, destdir=None):
         GObject.GObject.__init__(self)
 
@@ -73,10 +67,8 @@ class Transcode(GObject.GObject):
 
     def check_fail (self, nxt):
         if not self.fail:
-            print "nxt"
             nxt()
         else:
-            print "in failed state"
             self.emit('finished', self.src, self.dst)
 
     def do_pass1 (self):
@@ -91,7 +83,6 @@ class Transcode(GObject.GObject):
         p.connect ('exit', lambda o, r: self.check_fail(self.do_pass2))
 
     def do_pass2 (self):
-        print "pass2", self.src, self.mlt, self.dst
         prog = ['melt','-progress', self.mlt.strip(),
                 '-consumer', 'avformat:' + self.dst.strip(),
                 'properties=H.264', 'strict=experimental', 'progressive=1']
@@ -102,7 +93,6 @@ class Transcode(GObject.GObject):
         p.connect ('exit', lambda o, r: self.check_fail(self.alldone))
 
     def alldone (self):
-        print "transcode complete", self.src
         dst = self.dst
         if self.mlt:
             os.remove (self.mlt)

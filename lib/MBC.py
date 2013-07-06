@@ -8,9 +8,6 @@ import subprocess
 import Melt
 import Drop
 
-import i18n
-_ = i18n.language.ugettext #use ugettext instead of getttext to avoid unicode errors
-
 try:
     print "got melt from environ: " + os.environ['MELT_BINARY']
 except:
@@ -79,7 +76,6 @@ class Transcoder (Gtk.Builder):
         self.drop_area.pstore.remove(self.drop_area.pstore.get_iter_first())
 
     def convert_success_cb (self, o, d):
-        print "success", d
         self.drop_area.sstore.append ([d])
 
     def convert_error_cb (self, o, d):
@@ -115,9 +111,6 @@ class Transcoder (Gtk.Builder):
         except:
             print "could not find the melt binary:", melt
             raise "ENOENT"
-
-    def on_file_set (self, chooser, data=None):
-        print 'file ' + chooser.get_filename()
 
     def get_dest_dir (self):
         return self.filechooser.get_filename()

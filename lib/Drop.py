@@ -206,12 +206,9 @@ class Window (Gtk.Box, XA.Animatable):
         self.drag_dest_add_text_targets()
 
     def on_drag_data_received(self, widget, drag_context, x, y, data, info, time):
-        print "drag received", drag_context, data, info
         if info == TARGET_ENTRY_TEXT:
             text = data.get_text().splitlines()
-            print "text", text
             for u in text:
-                print "adding:", u
                 self.qstore.append([u])
         else:
             print "Received something I can't handle"
@@ -228,7 +225,6 @@ class Window (Gtk.Box, XA.Animatable):
         self.drop_widget.queue_draw()
 
     def check_hide (self, tree, path=None, iter=None):
-        print 'check_hide', tree, path, iter
         model = tree.get_model()
         if not len(model):
             return tree.hide()
@@ -240,7 +236,6 @@ class Window (Gtk.Box, XA.Animatable):
 
     def row_changed_cb (self, store, pos, ite=None):
         length = len(store)
-        print "row added", length
         if length <= 1:
             self.queuetree.show()
             self.pos = self.paned.get_position()
