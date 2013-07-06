@@ -1,14 +1,14 @@
-Source: mbc-transcode
+Source: mbc-zumo
 Section: x11
 Priority: extra
 Maintainer: Niv Sardi <xaiki@debian.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 Homepage: http://mbc-playout.com.ar
-Vcs-Git: git://github.com/inaes-tic/easytranscode
+Vcs-Git: git://github.com/inaes-tic/mbc-zumo
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/mbc-transcode.git;a=summary
 
-Package: mbc-transcode
+Package: mbc-zumo
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, melt
 Description: Easy transcode utility, one format out

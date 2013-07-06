@@ -1,0 +1,122 @@
+# translation of mbc-zumo to Spanish
+# Copyright (C) 2008 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2006.
+# Jesse Aviles <jesseaviles@gmail.com>, 2008, 2009, 2010.
+# Jesse Avilés <jesseaviles@gmail.com>, 2011.
+# Jorge González <jorgegonz@svn.gnome.org>, 2007, 2009, 2010, 2011.
+# Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2012.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mbc-zumo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-06 02:29-0300\n"
+"PO-Revision-Date: 2013-05-22 12:13+0200\n"
+"Last-Translator: Niv Sardi <xaiki@inaes.gob.ar>\n"
+"Language: espanol\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: GNU/Emacs 24\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../data/ui/dropwidget.ui.h:1
+msgid ""
+"Drop <b>video</b> files to be processed here.\n"
+"They will automatically be converted to <b>M4V,\n"
+"H264/AAC</b> and their audio normalized."
+msgstr ""
+"Arrastre aca los archivos de <b>video</b> que quiera convertir.\n"
+"Seran automaticamente convertidos a <b>M4V,\n"
+"H264/AAC</b> y su audio normalisado."
+
+#: ../data/ui/dropwidget.ui.h:4
+msgid "<b>Drop something on me !</b>"
+msgstr "<b>Tirate un he... tirate un archivo.</b>"
+
+#: ../data/ui/dropwindow.ui.h:1
+msgid "This file is currently beeing processed"
+msgstr "Este archivo esta en curso de processo"
+
+#: ../data/ui/dropwindow.ui.h:2
+msgid "Processing"
+msgstr "Procesando"
+
+#: ../data/ui/dropwindow.ui.h:3
+msgid ""
+"These files are waiting to be processed,\n"
+"they get processed one by one from the top.\n"
+"Click to remove."
+msgstr ""
+"Estos archivos estan esperando que se los processe,\n"
+"se los trata uno por uno por arriba.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:6
+msgid "Queue"
+msgstr "Lista de Espera"
+
+#: ../data/ui/dropwindow.ui.h:7
+msgid ""
+"These Files have succesfully been processed,\n"
+"here we list the resulting files.\n"
+"Click to remove."
+msgstr ""
+"Estos archios han sido procesados con exito,\n"
+"aca ve los archivos resultantes.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:10
+msgid "Success"
+msgstr "Sucesso"
+
+#: ../data/ui/dropwindow.ui.h:11
+msgid ""
+"These are the errors gathered during processing.\n"
+"Click to remove."
+msgstr ""
+"Estos son los errors encontrados durante el tratamiento.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:13
+msgid "Failed"
+msgstr "Fallido"
+
+#: ../data/ui/simple.ui.h:1
+msgid "MBC Zumo: Easy Transcode Tool"
+msgstr "MBC Zumo: Herramienta de Transcoding Facil"
+
+#: ../data/ui/simple.ui.h:2
+msgid "Where the files end up"
+msgstr "Donde van los archivos procesados"
+
+#: ../data/ui/simple.ui.h:3
+msgid "<b>Destination:</b>"
+msgstr "<b>Destino:</b>"
+
+#: ../data/ui/simple.ui.h:4
+msgid "Select the destination folder"
+msgstr "Selecione la carpeta de destino"
+
+#: ../lib/MBC.py:64
+msgid "Audio Normalization"
+msgstr "Normalizacion de Audio"
+
+#: ../lib/MBC.py:66
+msgid "Video Transcoding"
+msgstr "Convercion de Video"
+
+#: ../lib/MBC.py:89
+msgid "Success: "
+msgstr "Succeso: "
+
+#: ../lib/MBC.py:94
+msgid "Error: "
+msgstr "Error: "
+
+#: ../lib/MBC.py:100
+msgid "Error Log"
+msgstr "Lista de errores"
