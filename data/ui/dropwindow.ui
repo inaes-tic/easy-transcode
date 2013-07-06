@@ -52,6 +52,7 @@
                 <property name="sensitive">False</property>
                 <property name="can_focus">False</property>
                 <property name="no_show_all">True</property>
+                <property name="tooltip_text" translatable="yes">This file is currently beeing processed</property>
                 <property name="model">pstore</property>
                 <property name="rules_hint">True</property>
                 <property name="search_column">0</property>
@@ -85,6 +86,9 @@
               <object class="GtkTreeView" id="qview">
                 <property name="can_focus">True</property>
                 <property name="no_show_all">True</property>
+                <property name="tooltip_text" translatable="yes">These files are waiting to be processed,
+they get processed one by one from the top.
+Click to remove.</property>
                 <property name="model">qstore</property>
                 <property name="reorderable">True</property>
                 <property name="rules_hint">True</property>
@@ -118,6 +122,9 @@
               <object class="GtkTreeView" id="sview">
                 <property name="can_focus">True</property>
                 <property name="no_show_all">True</property>
+                <property name="tooltip_markup" translatable="yes">These Files have succesfully been processed,
+here we list the resulting files.
+Click to remove.</property>
                 <property name="model">sstore</property>
                 <property name="reorderable">True</property>
                 <property name="rules_hint">True</property>
@@ -155,6 +162,8 @@
               <object class="GtkTreeView" id="fview">
                 <property name="can_focus">True</property>
                 <property name="no_show_all">True</property>
+                <property name="tooltip_markup" translatable="yes">These are the errors gathered during processing.
+Click to remove.</property>
                 <property name="model">fstore</property>
                 <property name="reorderable">True</property>
                 <property name="rules_hint">True</property>

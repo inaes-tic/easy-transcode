@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mbc-zumo\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-06 01:28-0300\n"
+"POT-Creation-Date: 2013-07-06 01:42-0300\n"
 "PO-Revision-Date: 2013-05-22 12:13+0200\n"
 "Last-Translator: Niv Sardi <xaiki@inaes.gob.ar>\n"
 "Language: espanol\n"
@@ -24,28 +24,70 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 
 #: ../data/ui/dropwidget.ui.h:1
+msgid ""
+"Drop <b>video</b> files to be processed here.\n"
+"They will automatically be converted to <b>M4V,\n"
+"H264/AAC</b> and their audio normalized."
+msgstr ""
+"Arrastre aca los archivos de <b>video</b> que quiera convertir.\n"
+"Seran automaticamente convertidos a <b>M4V,\n"
+"H264/AAC</b> y su audio normalisado."
+
+#: ../data/ui/dropwidget.ui.h:4
 msgid "<b>Drop something on me !</b>"
 msgstr "<b>Tirate un he... tirate un archivo.</b>"
 
 #: ../data/ui/dropwindow.ui.h:1
+msgid "This file is currently beeing processed"
+msgstr "Este archivo esta en curso de processo"
+
+#: ../data/ui/dropwindow.ui.h:2
 msgid "Processing"
 msgstr "Procesando"
 
-#: ../data/ui/dropwindow.ui.h:2
+#: ../data/ui/dropwindow.ui.h:3
+msgid ""
+"These files are waiting to be processed,\n"
+"they get processed one by one from the top.\n"
+"Click to remove."
+msgstr ""
+"Estos archivos estan esperando que se los processe,\n"
+"se los trata uno por uno por arriba.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:6
 msgid "Queue"
 msgstr "Lista de Espera"
 
-#: ../data/ui/dropwindow.ui.h:3
+#: ../data/ui/dropwindow.ui.h:7
+msgid ""
+"These Files have succesfully been processed,\n"
+"here we list the resulting files.\n"
+"Click to remove."
+msgstr ""
+"Estos archios han sido procesados con exito,\n"
+"aca ve los archivos resultantes.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:10
 msgid "Success"
 msgstr "Sucesso"
 
-#: ../data/ui/dropwindow.ui.h:4
+#: ../data/ui/dropwindow.ui.h:11
+msgid ""
+"These are the errors gathered during processing.\n"
+"Click to remove."
+msgstr ""
+"Estos son los errors encontrados durante el tratamiento.\n"
+"Haga Click para descartarlos."
+
+#: ../data/ui/dropwindow.ui.h:13
 msgid "Failed"
 msgstr "Fallido"
 
 #: ../data/ui/simple.ui.h:1
-msgid "Easy Transcode Tool"
-msgstr "Herramienta de Transcoding Facil"
+msgid "MBC Zumo: Easy Transcode Tool"
+msgstr "MBC Zumo: Herramienta de Transcoding Facil"
 
 #: ../data/ui/simple.ui.h:2
 msgid "Where the files end up"
@@ -54,6 +96,10 @@ msgstr "Donde van los archivos procesados"
 #: ../data/ui/simple.ui.h:3
 msgid "<b>Destination:</b>"
 msgstr "<b>Destino:</b>"
+
+#: ../data/ui/simple.ui.h:4
+msgid "Select the destination folder"
+msgstr "Selecione la carpeta de destino"
 
 #: ../lib/MBC.py:64
 msgid "Audio Normalization"

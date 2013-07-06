@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pitivi\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-05 20:08-0300\n"
+"POT-Creation-Date: 2013-07-06 01:42-0300\n"
 "PO-Revision-Date: 2012-01-07 13:37+0200\n"
 "Last-Translator: Timo Jyrinki <timo.jyrinki@iki.fi>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
@@ -18,28 +18,59 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/ui/dropwidget.ui.h:1
+msgid ""
+"Drop <b>video</b> files to be processed here.\n"
+"They will automatically be converted to <b>M4V,\n"
+"H264/AAC</b> and their audio normalized."
+msgstr ""
+
+#: ../data/ui/dropwidget.ui.h:4
 #, fuzzy
 msgid "<b>Drop something on me !</b>"
 msgstr "<b>Ei vielä mitään</b>"
 
 #: ../data/ui/dropwindow.ui.h:1
-msgid "Processing"
+msgid "This file is currently beeing processed"
 msgstr ""
 
 #: ../data/ui/dropwindow.ui.h:2
-msgid "Queue"
+msgid "Processing"
 msgstr ""
 
 #: ../data/ui/dropwindow.ui.h:3
+msgid ""
+"These files are waiting to be processed,\n"
+"they get processed one by one from the top.\n"
+"Click to remove."
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:6
+msgid "Queue"
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:7
+msgid ""
+"These Files have succesfully been processed,\n"
+"here we list the resulting files.\n"
+"Click to remove."
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:10
 msgid "Success"
 msgstr ""
 
-#: ../data/ui/dropwindow.ui.h:4
+#: ../data/ui/dropwindow.ui.h:11
+msgid ""
+"These are the errors gathered during processing.\n"
+"Click to remove."
+msgstr ""
+
+#: ../data/ui/dropwindow.ui.h:13
 msgid "Failed"
 msgstr ""
 
 #: ../data/ui/simple.ui.h:1
-msgid "Easy Transcode Tool"
+msgid "MBC Zumo: Easy Transcode Tool"
 msgstr ""
 
 #: ../data/ui/simple.ui.h:2
@@ -50,6 +81,10 @@ msgstr ""
 #, fuzzy
 msgid "<b>Destination:</b>"
 msgstr "<b>Sijainti</b>"
+
+#: ../data/ui/simple.ui.h:4
+msgid "Select the destination folder"
+msgstr ""
 
 #: ../lib/MBC.py:64
 msgid "Audio Normalization"
