@@ -1,1 +1,3 @@
-autoreconf -vif
+intltoolize --force
+autoreconf
+echo "now run ./configure"
